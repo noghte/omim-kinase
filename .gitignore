@@ -1,0 +1,13 @@
+*.log
+.env
+.vercel_build_output
+.svelte-kit
+.cloudflare
+.pnpm-debug.log
+.netlify
+.turbo
+.vercel
+.test-tmp
+symlink-from
+*.bin
+__pycache__/
