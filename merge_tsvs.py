@@ -3,10 +3,26 @@ import csv
 
 # Define the paths
 allelic_variants_dir = './data/allelic_variants/'
+omim_ids_csv_path = './data/omim_ids.csv'
+kinase_list_csv_path = './data/kinase_list.csv'
 output_file_path = './data/merged_allelic_variants.tsv'
 
 # Define the output file headers
-headers = ['OMIM_ID', 'Kinase_Name', 'Number', 'Phenotype', 'Mutation', 'SNP', 'gnomAD_SNP', 'ClinVar']
+headers = ['OMIM_ID', 'Kinase_Description', 'Uniprot_ID', 'Gene', 'Number', 'Phenotype', 'Mutation', 'SNP', 'gnomAD_SNP', 'ClinVar']
+
+# Read the OMIM IDs and gene information
+omim_id_to_gene = {}
+with open(omim_ids_csv_path, 'r') as csvfile:
+    reader = csv.DictReader(csvfile)
+    for row in reader:
+        omim_id_to_gene[row['mimNumber']] = row['gene']
+
+# Read the kinase list and uniprot ID information
+gene_to_uniprot_id = {}
+with open(kinase_list_csv_path, 'r') as csvfile:
+    reader = csv.DictReader(csvfile)
+    for row in reader:
+        gene_to_uniprot_id[row['gene']] = row['uniprot_id']
 
 # Function to parse a single TSV file
 def parse_tsv_file(tsv_path):
@@ -17,12 +33,15 @@ def parse_tsv_file(tsv_path):
 
         omim_id = lines[0].split("-")[1].strip()
         
-        # Find the kinase_name
-        kinase_name = ""
+        # Find the kinase_description
+        kinase_desc = ""
         for i, line in enumerate(lines):
             if line.startswith("Allelic Variants ("):
-                kinase_name = lines[i-1].strip()
+                kinase_desc = lines[i-1].strip()
                 break
+        
+        gene = omim_id_to_gene.get(omim_id, "Unknown")
+        uniprot_id = gene_to_uniprot_id.get(gene, "Unknown")
         
         variants = []
         
@@ -33,7 +52,7 @@ def parse_tsv_file(tsv_path):
                 parts = line.strip().split('\t')
                 if len(parts) == 6:
                     number, phenotype, mutation, snp, gnomad_snp, clinvar = parts
-                    variants.append([omim_id, kinase_name, number, phenotype, mutation, snp, gnomad_snp, clinvar])
+                    variants.append([omim_id, kinase_desc, uniprot_id, gene, number, phenotype, mutation, snp, gnomad_snp, clinvar])
         
         return variants
 

@@ -7,7 +7,7 @@ with open('./data/av.json', 'r') as f:
         row = (value["UniProt_ID"],key)
         rows.append(row)
 
-with open('./data/kinase_list.csv', 'w') as f:
+with open('./data/kinase_list2.csv', 'w') as f:
     f.write('uniprot_id,gene\n')
     for row in rows:
         f.write(f'{row[0]},{row[1]}\n')
