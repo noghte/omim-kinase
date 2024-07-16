@@ -15,6 +15,8 @@ def parse_fasta_file(fasta_file_path):
                     clean_sequence = sequence.replace('(', '').replace(')', '').replace('-', '')
                     flanking_positions = []
                     kinase_domain = ""
+                    kinase_start = -1
+                    kinase_end = -1
                     pos = 1
                     in_flanking = False
                     start_pos = -1
@@ -23,21 +25,32 @@ def parse_fasta_file(fasta_file_path):
                             in_flanking = True
                             start_pos = pos
                             if kinase_domain:
-                                kinase_domain += "-"
+                                kinase_end = pos - 1
                         elif char == ')':
                             in_flanking = False
                             flanking_positions.append({"start": start_pos, "end": pos-1})
+                            if kinase_start == -1:
+                                kinase_start = pos
                         elif char != '-':
                             if in_flanking:
                                 pos += 1
                             else:
+                                if kinase_start == -1:
+                                    kinase_start = pos
                                 kinase_domain += char
+                                pos += 1
+                    if kinase_end == -1:  # If no flanking regions or at the end
+                        kinase_end = pos - 1
                     uniprot_info[current_id] = {
                         "uniprot_id": current_id,
                         "sequence": sequence,
                         "substitutions": [],
                         "flanking_positions": flanking_positions,
-                        "kinase_domain": kinase_domain.replace("-", ""),
+                        "kinase_domain": {
+                            "sequence": kinase_domain.replace("-", ""),
+                            "start": kinase_start,
+                            "end": kinase_end
+                        },
                         "kinase_motifs": [
                             {"name": "", "start": -1, "end": -1}
                         ]
