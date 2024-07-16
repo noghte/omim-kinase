@@ -14,6 +14,7 @@ def parse_fasta_file(fasta_file_path):
                     sequence = sequence[sequence.index("{")+1:sequence.index("}")]
                     clean_sequence = sequence.replace('(', '').replace(')', '').replace('-', '')
                     flanking_positions = []
+                    kinase_domain = ""
                     pos = 1
                     in_flanking = False
                     start_pos = -1
@@ -21,17 +22,22 @@ def parse_fasta_file(fasta_file_path):
                         if char == '(':
                             in_flanking = True
                             start_pos = pos
+                            if kinase_domain:
+                                kinase_domain += "-"
                         elif char == ')':
                             in_flanking = False
                             flanking_positions.append({"start": start_pos, "end": pos-1})
                         elif char != '-':
                             if in_flanking:
                                 pos += 1
+                            else:
+                                kinase_domain += char
                     uniprot_info[current_id] = {
                         "uniprot_id": current_id,
                         "sequence": sequence,
                         "substitutions": [],
                         "flanking_positions": flanking_positions,
+                        "kinase_domain": kinase_domain.replace("-", ""),
                         "kinase_motifs": [
                             {"name": "", "start": -1, "end": -1}
                         ]
