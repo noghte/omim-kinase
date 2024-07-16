@@ -1,0 +1,58 @@
+import json
+
+def parse_fasta_file(fasta_file_path):
+    uniprot_info = {}
+    with open(fasta_file_path, 'r') as file:
+        current_id = None
+        for line in file:
+            line = line.strip()
+            if line.startswith('>'):
+                parts = line.split('|')
+                if len(parts) > 1:
+                    current_id = parts[1]
+                    sequence = next(file).strip()
+                    sequence = sequence[sequence.index("{")+1:sequence.index("}")-1]
+                    uniprot_info[current_id] = {
+                        "uniprot_id": current_id,
+                        "sequence": sequence,
+                        "substitutions": [],
+                        "kinase_motifs": [
+                            {"name": "", "start": -1, "end": -1}
+                        ]
+                    }
+    return uniprot_info
+
+def parse_subs_file(subs_file_path, uniprot_info):
+    with open(subs_file_path, 'r') as file:
+        next(file)  # Skip header
+        for line in file:
+            line = line.strip()
+            if not line:
+                continue
+            parts = line.split()
+            if len(parts) == 4:
+                uniprot_id, from_aa, pos, to_aa = parts
+                pos = int(pos)
+                if uniprot_id in uniprot_info:
+                    uniprot_info[uniprot_id]["substitutions"].append({
+                        "pos": pos,
+                        "from": from_aa,
+                        "to": to_aa
+                    })
+    return uniprot_info
+
+def write_json(output_file_path, uniprot_info):
+    with open(output_file_path, 'w') as json_file:
+        json.dump(list(uniprot_info.values()), json_file, indent=4)
+
+def main():
+    fasta_file_path = './kinsnps/kinsnps_subs.mma'
+    subs_file_path = './kinsnps/kinsnps_uid_subs_split.txt'
+    output_file_path = 'kinsnps_allinfo.json'
+
+    uniprot_info = parse_fasta_file(fasta_file_path)
+    uniprot_info = parse_subs_file(subs_file_path, uniprot_info)
+    write_json(output_file_path, uniprot_info)
+
+if __name__ == "__main__":
+    main()
