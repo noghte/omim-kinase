@@ -8,7 +8,7 @@
                 "alignment_pos": 101,
                 "from": "HIS",
                 "to": "TYR",
-                "matched": "AFYAAEIAI",
+                "matched": "DPRNKHKFR",
                 "location": "flanking_region"
             },
             {
@@ -16,7 +16,7 @@
                 "alignment_pos": 119,
                 "from": "SER",
                 "to": "PRO",
-                "matched": "IIYRDLKLD",
+                "matched": "CDHCGSLLY",
                 "location": "flanking_region"
             },
             {
@@ -24,7 +24,7 @@
                 "alignment_pos": 128,
                 "from": "GLY",
                 "to": "ASP",
-                "matched": "NVMLDAEGH",
+                "matched": "GLVHQGMKC",
                 "location": "flanking_region"
             },
             {
@@ -32,7 +32,7 @@
                 "alignment_pos": 127,
                 "from": "GLN",
                 "to": "ARG",
-                "matched": "DNVMLDAEG",
+                "matched": "YGLVHQGMK",
                 "location": "flanking_region"
             },
             {
@@ -40,7 +40,7 @@
                 "alignment_pos": 643,
                 "from": "PHE",
                 "to": "LEU",
-                "matched": "",
+                "matched": "RLVLASIDQ",
                 "location": "flanking_region"
             },
             {
@@ -56,7 +56,7 @@
                 "alignment_pos": 101,
                 "from": "HIS",
                 "to": "GLN",
-                "matched": "AFYAAEIAI",
+                "matched": "DPRNKHKFR",
                 "location": "flanking_region"
             },
             {
@@ -119,7 +119,7 @@
                 "alignment_pos": 614,
                 "from": "ARG",
                 "to": "TRP",
-                "matched": "",
+                "matched": "RPKVKSPRD",
                 "location": "flanking_region"
             },
             {
@@ -276,7 +276,7 @@
                 "alignment_pos": 689,
                 "from": "GLN",
                 "to": "TER",
-                "matched": "",
+                "matched": "AMAATYSAL",
                 "location": "flanking_region"
             },
             {
@@ -292,7 +292,7 @@
                 "alignment_pos": 383,
                 "from": "ARG",
                 "to": "TRP",
-                "matched": "",
+                "matched": "SQAMQTVGV",
                 "location": "flanking_region"
             },
             {
@@ -355,7 +355,7 @@
                 "alignment_pos": 17,
                 "from": "GLU",
                 "to": "LYS",
-                "matched": "GKVILVREK",
+                "matched": "VQKRGEYIK",
                 "location": "flanking_region"
             },
             {
@@ -363,7 +363,7 @@
                 "alignment_pos": 17,
                 "from": "GLU",
                 "to": "LYS",
-                "matched": "GKVILVREK",
+                "matched": "VQKRGEYIK",
                 "location": "flanking_region"
             },
             {
@@ -371,7 +371,7 @@
                 "alignment_pos": 465,
                 "from": "ARG",
                 "to": "TRP",
-                "matched": "",
+                "matched": "ASGRE)",
                 "location": "flanking_region"
             },
             {
@@ -387,7 +387,7 @@
                 "alignment_pos": 17,
                 "from": "GLU",
                 "to": "LYS",
-                "matched": "GKVILVREK",
+                "matched": "VQKRGEYIK",
                 "location": "flanking_region"
             }
         ],
@@ -426,7 +426,7 @@
                 "alignment_pos": 25,
                 "from": "ARG",
                 "to": "CYS",
-                "matched": "KATGRYYAM",
+                "matched": "KTWRPRYFL",
                 "location": "flanking_region"
             },
             {
@@ -434,7 +434,7 @@
                 "alignment_pos": 435,
                 "from": "THR",
                 "to": "PRO",
-                "matched": "",
+                "matched": "MITITPPDQ",
                 "location": "flanking_region"
             }
         ],
@@ -583,7 +583,7 @@
                 "alignment_pos": 867,
                 "from": "ARG",
                 "to": "CYS",
-                "matched": "",
+                "matched": "IRAKQLVQE",
                 "location": "flanking_region"
             },
             {
@@ -591,7 +591,7 @@
                 "alignment_pos": 876,
                 "from": "ARG",
                 "to": "TRP",
-                "matched": "",
+                "matched": "ELRKVKDAN",
                 "location": "flanking_region"
             },
             {
@@ -599,7 +599,7 @@
                 "alignment_pos": 764,
                 "from": "ARG",
                 "to": "TER",
-                "matched": "",
+                "matched": "CSFVDKLTA",
                 "location": "flanking_region"
             },
             {
@@ -607,7 +607,7 @@
                 "alignment_pos": 671,
                 "from": "ARG",
                 "to": "GLN",
-                "matched": "",
+                "matched": "EKKVLFYEE",
                 "location": "flanking_region"
             }
         ],
@@ -983,7 +983,7 @@
                 "alignment_pos": 177,
                 "from": "ARG",
                 "to": "GLN",
-                "matched": "ADYWSLGIL",
+                "matched": "LYNCTRTAT",
                 "location": "flanking_region"
             }
         ],
@@ -1061,7 +1061,7 @@
                 "alignment_pos": 379,
                 "from": "ARG",
                 "to": "GLN",
-                "matched": "",
+                "matched": "QCLKETCEK",
                 "location": "flanking_region"
             },
             {
@@ -1069,7 +1069,7 @@
                 "alignment_pos": 442,
                 "from": "ARG",
                 "to": "GLN",
-                "matched": "",
+                "matched": "HFLKIKGKL",
                 "location": "flanking_region"
             },
             {
@@ -1077,7 +1077,7 @@
                 "alignment_pos": 420,
                 "from": "ARG",
                 "to": "LYS",
-                "matched": "",
+                "matched": "EMDDKILVD",
                 "location": "flanking_region"
             }
         ],
@@ -1116,7 +1116,7 @@
                 "alignment_pos": 570,
                 "from": "ARG",
                 "to": "GLY",
-                "matched": "",
+                "matched": "TATYNGPPA",
                 "location": "flanking_region"
             }
         ],
@@ -1155,7 +1155,7 @@
                 "alignment_pos": 287,
                 "from": "PRO",
                 "to": "THR",
-                "matched": "",
+                "matched": "AFSAHSYTS",
                 "location": "flanking_region"
             },
             {
@@ -1163,7 +1163,7 @@
                 "alignment_pos": 347,
                 "from": "GLU",
                 "to": "TER",
-                "matched": "",
+                "matched": "AQCARPGPA",
                 "location": "flanking_region"
             },
             {
@@ -1171,7 +1171,7 @@
                 "alignment_pos": 614,
                 "from": "GLN",
                 "to": "TER",
-                "matched": "",
+                "matched": "SRASRGGLS",
                 "location": "flanking_region"
             },
             {
@@ -1179,7 +1179,7 @@
                 "alignment_pos": 633,
                 "from": "GLN",
                 "to": "TER",
-                "matched": "",
+                "matched": "LHGGAAGSR",
                 "location": "flanking_region"
             },
             {
@@ -1187,7 +1187,7 @@
                 "alignment_pos": 636,
                 "from": "GLY",
                 "to": "SER",
-                "matched": "",
+                "matched": "GAAGSREGW",
                 "location": "flanking_region"
             }
         ],
@@ -1304,7 +1304,7 @@
                 "alignment_pos": 394,
                 "from": "ARG",
                 "to": "TER",
-                "matched": "",
+                "matched": "AEIVKQVIE",
                 "location": "flanking_region"
             },
             {
@@ -1359,7 +1359,7 @@
                 "alignment_pos": 292,
                 "from": "ARG",
                 "to": "PRO",
-                "matched": "",
+                "matched": "AILTTMLVS",
                 "location": "flanking_region"
             },
             {
@@ -1438,7 +1438,7 @@
                 "alignment_pos": 301,
                 "from": "LYS",
                 "to": "GLU",
-                "matched": "",
+                "matched": "RNFSVGRQT",
                 "location": "flanking_region"
             },
             {
@@ -1454,7 +1454,7 @@
                 "alignment_pos": 284,
                 "from": "ARG",
                 "to": "SER",
-                "matched": "",
+                "matched": "NARRKLKGA",
                 "location": "flanking_region"
             }
         ],
@@ -1517,7 +1517,7 @@
                 "alignment_pos": 282,
                 "from": "HIS",
                 "to": "ARG",
-                "matched": "",
+                "matched": "FNARRKLKG",
                 "location": "flanking_region"
             },
             {
@@ -1525,7 +1525,7 @@
                 "alignment_pos": 286,
                 "from": "THR",
                 "to": "PRO",
-                "matched": "",
+                "matched": "RKLKGAILT",
                 "location": "flanking_region"
             },
             {
@@ -1588,7 +1588,7 @@
                 "alignment_pos": 639,
                 "from": "ARG",
                 "to": "TER",
-                "matched": "",
+                "matched": "WQGKLENSK",
                 "location": "flanking_region"
             },
             {
@@ -1612,7 +1612,7 @@
                 "alignment_pos": 710,
                 "from": "ASP",
                 "to": "GLY",
-                "matched": "",
+                "matched": "YEEVVKLPA",
                 "location": "flanking_region"
             },
             {
@@ -1628,7 +1628,7 @@
                 "alignment_pos": 396,
                 "from": "PRO",
                 "to": "SER",
-                "matched": "",
+                "matched": "EEISCYPEN",
                 "location": "flanking_region"
             },
             {
@@ -1636,7 +1636,7 @@
                 "alignment_pos": 728,
                 "from": "TYR",
                 "to": "CYS",
-                "matched": "",
+                "matched": "GAHGVGRRH",
                 "location": "flanking_region"
             },
             {
@@ -1652,7 +1652,7 @@
                 "alignment_pos": 547,
                 "from": "GLN",
                 "to": "TER",
-                "matched": "",
+                "matched": "FKIVPSYRT",
                 "location": "flanking_region"
             },
             {
@@ -1668,7 +1668,7 @@
                 "alignment_pos": 475,
                 "from": "SER",
                 "to": "ILE",
-                "matched": "",
+                "matched": "FQKNTDEPM",
                 "location": "flanking_region"
             },
             {
@@ -1771,7 +1771,7 @@
                 "alignment_pos": 36,
                 "from": "TYR",
                 "to": "TER",
-                "matched": "LKKKKNGEA",
+                "matched": "STEVIYQPR",
                 "location": "flanking_region"
             },
             {
@@ -1819,7 +1819,7 @@
                 "alignment_pos": 354,
                 "from": "PHE",
                 "to": "LEU",
-                "matched": "",
+                "matched": "PGQVPEEEA",
                 "location": "flanking_region"
             }
         ],
@@ -1858,7 +1858,7 @@
                 "alignment_pos": 1759,
                 "from": "SER",
                 "to": "PRO",
-                "matched": "",
+                "matched": "LSGRKSSTG",
                 "location": "flanking_region"
             },
             {
@@ -1913,7 +1913,7 @@
                 "alignment_pos": 87,
                 "from": "ALA",
                 "to": "VAL",
-                "matched": "IVDEYLTEV",
+                "matched": "RGGGPAEGS",
                 "location": "flanking_region"
             },
             {
@@ -1921,7 +1921,7 @@
                 "alignment_pos": 95,
                 "from": "ALA",
                 "to": "GLU",
-                "matched": "VDTMVFVRQ",
+                "matched": "SAGPPAALP",
                 "location": "flanking_region"
             }
         ],
@@ -2000,7 +2000,7 @@
                 "alignment_pos": 309,
                 "from": "ARG",
                 "to": "GLN",
-                "matched": "",
+                "matched": "RPLTKNALL",
                 "location": "flanking_region"
             }
         ],
@@ -2055,7 +2055,7 @@
                 "alignment_pos": 299,
                 "from": "LEU",
                 "to": "TRP",
-                "matched": "",
+                "matched": "LFRQGLQCK",
                 "location": "flanking_region"
             }
         ],
@@ -2094,7 +2094,7 @@
                 "alignment_pos": 157,
                 "from": "ILE",
                 "to": "THR",
-                "matched": "CGTPTYLAP",
+                "matched": "PKNSYIAYI",
                 "location": "flanking_region"
             },
             {
@@ -2102,7 +2102,7 @@
                 "alignment_pos": 145,
                 "from": "ARG",
                 "to": "TRP",
-                "matched": "KILGETSLM",
+                "matched": "SKKHFRIFR",
                 "location": "flanking_region"
             },
             {
@@ -2110,7 +2110,7 @@
                 "alignment_pos": 85,
                 "from": "PRO",
                 "to": "LEU",
-                "matched": "LFDKVVGNR",
+                "matched": "PEDQEPEEP",
                 "location": "flanking_region"
             },
             {
@@ -2118,7 +2118,7 @@
                 "alignment_pos": 17,
                 "from": "ALA",
                 "to": "SER",
-                "matched": "GEVKLAFER",
+                "matched": "SHGSSACSQ",
                 "location": "flanking_region"
             },
             {
@@ -2126,7 +2126,7 @@
                 "alignment_pos": 180,
                 "from": "ARG",
                 "to": "HIS",
-                "matched": "WSLGVILFI",
+                "matched": "VGKGKRRPL",
                 "location": "flanking_region"
             },
             {
@@ -2134,7 +2134,7 @@
                 "alignment_pos": 181,
                 "from": "ARG",
                 "to": "CYS",
-                "matched": "SLGVILFIC",
+                "matched": "GKGKRRPLN",
                 "location": "flanking_region"
             },
             {
@@ -2142,7 +2142,7 @@
                 "alignment_pos": 181,
                 "from": "ARG",
                 "to": "HIS",
-                "matched": "SLGVILFIC",
+                "matched": "GKGKRRPLN",
                 "location": "flanking_region"
             },
             {
@@ -2205,7 +2205,7 @@
                 "alignment_pos": 2233,
                 "from": "GLN",
                 "to": "TER",
-                "matched": "",
+                "matched": "PAPPPQALQ",
                 "location": "flanking_region"
             },
             {
@@ -2213,7 +2213,7 @@
                 "alignment_pos": 1426,
                 "from": "ARG",
                 "to": "TER",
-                "matched": "",
+                "matched": "VWRSCRGAL",
                 "location": "flanking_region"
             },
             {
@@ -2221,7 +2221,7 @@
                 "alignment_pos": 2757,
                 "from": "GLY",
                 "to": "VAL",
-                "matched": "",
+                "matched": "NRAGQGPFS",
                 "location": "flanking_region"
             }
         ],
@@ -2260,7 +2260,7 @@
                 "alignment_pos": 347,
                 "from": "ARG",
                 "to": "TER",
-                "matched": "",
+                "matched": "LRLFEQDAE",
                 "location": "flanking_region"
             },
             {
@@ -2268,7 +2268,7 @@
                 "alignment_pos": 581,
                 "from": "GLN",
                 "to": "TER",
-                "matched": "",
+                "matched": "QQVLDWIEN",
                 "location": "flanking_region"
             },
             {
@@ -2276,7 +2276,7 @@
                 "alignment_pos": 297,
                 "from": "GLN",
                 "to": "TER",
-                "matched": "",
+                "matched": "FPKKNSGSG",
                 "location": "flanking_region"
             },
             {
@@ -2284,7 +2284,7 @@
                 "alignment_pos": 788,
                 "from": "ARG",
                 "to": "TER",
-                "matched": "",
+                "matched": "ELFLQLRIF",
                 "location": "flanking_region"
             },
             {
@@ -2292,7 +2292,7 @@
                 "alignment_pos": 1068,
                 "from": "ARG",
                 "to": "TER",
-                "matched": "",
+                "matched": "HLEQKEAFL",
                 "location": "flanking_region"
             },
             {
@@ -2300,7 +2300,7 @@
                 "alignment_pos": 1117,
                 "from": "ARG",
                 "to": "TER",
-                "matched": "",
+                "matched": "ILNELFQRE",
                 "location": "flanking_region"
             }
         ],
@@ -2339,7 +2339,7 @@
                 "alignment_pos": 1215,
                 "from": "THR",
                 "to": "LYS",
-                "matched": "",
+                "matched": "RKWVTTVDK",
                 "location": "flanking_region"
             }
         ],
@@ -2378,7 +2378,7 @@
                 "alignment_pos": 5410,
                 "from": "CYS",
                 "to": "TER",
-                "matched": "",
+                "matched": "LREEAERGV",
                 "location": "flanking_region"
             },
             {
@@ -2386,7 +2386,7 @@
                 "alignment_pos": 2034,
                 "from": "TRP",
                 "to": "TER",
-                "matched": "",
+                "matched": "PGKNVEIHA",
                 "location": "flanking_region"
             },
             {
@@ -2394,7 +2394,7 @@
                 "alignment_pos": 4940,
                 "from": "ARG",
                 "to": "TER",
-                "matched": "",
+                "matched": "GVELTDGRH",
                 "location": "flanking_region"
             }
         ],
@@ -2921,7 +2921,7 @@
                 "alignment_pos": 102,
                 "from": "ARG",
                 "to": "CYS",
-                "matched": "LAQQLCTAL",
+                "matched": "HDYIVRSGE",
                 "location": "flanking_region"
             },
             {
@@ -2929,7 +2929,7 @@
                 "alignment_pos": 90,
                 "from": "HIS",
                 "to": "PRO",
-                "matched": "RNRGVSLNL",
+                "matched": "KKVLNHGYD",
                 "location": "flanking_region"
             }
         ],
@@ -3047,7 +3047,7 @@
                 "alignment_pos": 834,
                 "from": "GLN",
                 "to": "TER",
-                "matched": "",
+                "matched": "EIRIHPLSQ",
                 "location": "flanking_region"
             },
             {
@@ -3166,7 +3166,7 @@
                 "alignment_pos": 1,
                 "from": "MET",
                 "to": "VAL",
-                "matched": "YQLVR",
+                "matched": "(MSGP",
                 "location": "flanking_region"
             }
         ],
@@ -3213,7 +3213,7 @@
                 "alignment_pos": 305,
                 "from": "LYS",
                 "to": "THR",
-                "matched": "",
+                "matched": "ASQPPLHLT",
                 "location": "flanking_region"
             },
             {
@@ -3418,7 +3418,7 @@
                 "alignment_pos": 1036,
                 "from": "SER",
                 "to": "TER",
-                "matched": "",
+                "matched": "NNPKMLRTC",
                 "location": "flanking_region"
             },
             {
@@ -3426,7 +3426,7 @@
                 "alignment_pos": 812,
                 "from": "ARG",
                 "to": "TER",
-                "matched": "",
+                "matched": "ELQLQTELL",
                 "location": "flanking_region"
             },
             {
@@ -3434,7 +3434,7 @@
                 "alignment_pos": 261,
                 "from": "ARG",
                 "to": "HIS",
-                "matched": "",
+                "matched": "PQLIAEEFC",
                 "location": "flanking_region"
             },
             {
@@ -3442,7 +3442,7 @@
                 "alignment_pos": 550,
                 "from": "ARG",
                 "to": "TER",
-                "matched": "",
+                "matched": "YLARLRQIR",
                 "location": "flanking_region"
             },
             {
@@ -3458,12 +3458,12 @@
                 "alignment_pos": 1036,
                 "from": "SER",
                 "to": "TER",
-                "matched": "",
+                "matched": "NNPKMLRTC",
                 "location": "flanking_region"
             },
             {
                 "full_sequence_pos": 1277,
-                "alignment_pos": 1274,
+                "alignment_pos": 274,
                 "from": "ASP",
                 "to": "ALA",
                 "matched": "",
@@ -3505,7 +3505,7 @@
                 "alignment_pos": 425,
                 "from": "HIS",
                 "to": "TYR",
-                "matched": "",
+                "matched": "SQPTIVEAL",
                 "location": "flanking_region"
             },
             {
@@ -3513,7 +3513,7 @@
                 "alignment_pos": 599,
                 "from": "ARG",
                 "to": "TER",
-                "matched": "",
+                "matched": "KVQGLEGIK",
                 "location": "flanking_region"
             },
             {
@@ -3521,7 +3521,7 @@
                 "alignment_pos": 467,
                 "from": "TRP",
                 "to": "TER",
-                "matched": "",
+                "matched": "RLGLGTRES",
                 "location": "flanking_region"
             },
             {
@@ -3529,7 +3529,7 @@
                 "alignment_pos": 348,
                 "from": "THR",
                 "to": "MET",
-                "matched": "",
+                "matched": "LWEAPPLGA",
                 "location": "flanking_region"
             },
             {
@@ -3545,7 +3545,7 @@
                 "alignment_pos": 602,
                 "from": "ARG",
                 "to": "TRP",
-                "matched": "",
+                "matched": "GLEGIKMAM",
                 "location": "flanking_region"
             },
             {
@@ -3553,7 +3553,7 @@
                 "alignment_pos": 580,
                 "from": "GLY",
                 "to": "SER",
-                "matched": "",
+                "matched": "SNQHGQLGT",
                 "location": "flanking_region"
             },
             {
@@ -3561,7 +3561,7 @@
                 "alignment_pos": 462,
                 "from": "ARG",
                 "to": "TER",
-                "matched": "",
+                "matched": "RGDSGRLGL",
                 "location": "flanking_region"
             }
         ],
@@ -3600,7 +3600,7 @@
                 "alignment_pos": 497,
                 "from": "ARG",
                 "to": "TER",
-                "matched": "",
+                "matched": "CGEYGRLGL",
                 "location": "flanking_region"
             },
             {
@@ -3608,7 +3608,7 @@
                 "alignment_pos": 497,
                 "from": "ARG",
                 "to": "TER",
-                "matched": "",
+                "matched": "CGEYGRLGL",
                 "location": "flanking_region"
             },
             {
@@ -3616,7 +3616,7 @@
                 "alignment_pos": 681,
                 "from": "ARG",
                 "to": "HIS",
-                "matched": "",
+                "matched": "PHGSDICTS",
                 "location": "flanking_region"
             },
             {
@@ -3624,7 +3624,7 @@
                 "alignment_pos": 572,
                 "from": "GLY",
                 "to": "VAL",
-                "matched": "",
+                "matched": "EVPYTTSFT",
                 "location": "flanking_region"
             },
             {
@@ -3632,7 +3632,7 @@
                 "alignment_pos": 573,
                 "from": "ILE",
                 "to": "THR",
-                "matched": "",
+                "matched": "VPYTTSFTL",
                 "location": "flanking_region"
             },
             {
@@ -3679,7 +3679,7 @@
                 "alignment_pos": 1268,
                 "from": "GLN",
                 "to": "TER",
-                "matched": "",
+                "matched": "NLGLVYKVQ",
                 "location": "flanking_region"
             },
             {
@@ -3687,7 +3687,7 @@
                 "alignment_pos": 1136,
                 "from": "ARG",
                 "to": "TER",
-                "matched": "",
+                "matched": "YEIIQEFPA",
                 "location": "flanking_region"
             },
             {
@@ -3695,7 +3695,7 @@
                 "alignment_pos": 585,
                 "from": "ARG",
                 "to": "GLN",
-                "matched": "",
+                "matched": "RRIKGEVTL",
                 "location": "flanking_region"
             },
             {
@@ -3711,7 +3711,7 @@
                 "alignment_pos": 1256,
                 "from": "ARG",
                 "to": "TER",
-                "matched": "",
+                "matched": "LKKLGIKLQ",
                 "location": "flanking_region"
             },
             {
@@ -3719,7 +3719,7 @@
                 "alignment_pos": 1150,
                 "from": "ARG",
                 "to": "TER",
-                "matched": "",
+                "matched": "YSIYLNHTM",
                 "location": "flanking_region"
             }
         ],
@@ -3797,7 +3797,7 @@
                 "alignment_pos": 587,
                 "from": "ARG",
                 "to": "GLN",
-                "matched": "",
+                "matched": "NSGYISRYL",
                 "location": "flanking_region"
             },
             {
@@ -3805,7 +3805,7 @@
                 "alignment_pos": 331,
                 "from": "GLU",
                 "to": "TER",
-                "matched": "",
+                "matched": "GGHLEWEYQ",
                 "location": "flanking_region"
             }
         ],
@@ -3844,7 +3844,7 @@
                 "alignment_pos": 11,
                 "from": "MET",
                 "to": "LEU",
-                "matched": "IGSGGFGQV",
+                "matched": "SAGFFMEEL",
                 "location": "flanking_region"
             },
             {
@@ -3852,7 +3852,7 @@
                 "alignment_pos": 133,
                 "from": "TYR",
                 "to": "PHE",
-                "matched": "QVKIGDFGL",
+                "matched": "PEGFHYKCK",
                 "location": "flanking_region"
             },
             {
@@ -3868,7 +3868,7 @@
                 "alignment_pos": 109,
                 "from": "ALA",
                 "to": "SER",
-                "matched": "DYIHSKKLI",
+                "matched": "LINRIAQKK",
                 "location": "flanking_region"
             },
             {
@@ -3876,7 +3876,7 @@
                 "alignment_pos": 32,
                 "from": "ASN",
                 "to": "SER",
-                "matched": "VIKRVKYNN",
+                "matched": "YQELPNSGP",
                 "location": "flanking_region"
             },
             {
@@ -3884,7 +3884,7 @@
                 "alignment_pos": 130,
                 "from": "GLY",
                 "to": "ARG",
-                "matched": "DTKQVKIGD",
+                "matched": "VHGPEGFHY",
                 "location": "flanking_region"
             },
             {
@@ -3892,7 +3892,7 @@
                 "alignment_pos": 32,
                 "from": "ASN",
                 "to": "THR",
-                "matched": "VIKRVKYNN",
+                "matched": "YQELPNSGP",
                 "location": "flanking_region"
             },
             {
@@ -3900,7 +3900,7 @@
                 "alignment_pos": 130,
                 "from": "GLY",
                 "to": "ARG",
-                "matched": "DTKQVKIGD",
+                "matched": "VHGPEGFHY",
                 "location": "flanking_region"
             }
         ],
@@ -3947,7 +3947,7 @@
                 "alignment_pos": 345,
                 "from": "VAL",
                 "to": "MET",
-                "matched": "",
+                "matched": "ALQGSVSSG",
                 "location": "flanking_region"
             }
         ],
@@ -4033,7 +4033,7 @@
                 "alignment_pos": 1043,
                 "from": "TYR",
                 "to": "TER",
-                "matched": "",
+                "matched": "ACVRAFLCS",
                 "location": "flanking_region"
             },
             {
@@ -4041,7 +4041,7 @@
                 "alignment_pos": 697,
                 "from": "LEU",
                 "to": "TRP",
-                "matched": "",
+                "matched": "IFGFENFKK",
                 "location": "flanking_region"
             },
             {
@@ -4088,7 +4088,7 @@
                 "alignment_pos": 131,
                 "from": "TYR",
                 "to": "CYS",
-                "matched": "MDGSVKLTD",
+                "matched": "DVLEFYNSK",
                 "location": "flanking_region"
             },
             {
@@ -4182,7 +4182,7 @@
                 "alignment_pos": 67,
                 "from": "ARG",
                 "to": "CYS",
-                "matched": "LVGDELWVV",
+                "matched": "KKEKERPEI",
                 "location": "flanking_region"
             },
             {
@@ -4331,7 +4331,7 @@
                 "alignment_pos": 548,
                 "from": "LEU",
                 "to": "PRO",
-                "matched": "",
+                "matched": "EYKLRKEQL",
                 "location": "flanking_region"
             }
         ],
@@ -4370,7 +4370,7 @@
                 "alignment_pos": 57,
                 "from": "PHE",
                 "to": "CYS",
-                "matched": "SPYIVGFYG",
+                "matched": "KRLEAFLTQ",
                 "location": "flanking_region"
             },
             {
@@ -4378,7 +4378,7 @@
                 "alignment_pos": 57,
                 "from": "PHE",
                 "to": "VAL",
-                "matched": "SPYIVGFYG",
+                "matched": "KRLEAFLTQ",
                 "location": "flanking_region"
             },
             {
@@ -4441,7 +4441,7 @@
                 "alignment_pos": 53,
                 "from": "PHE",
                 "to": "SER",
-                "matched": "HECNSPYIV",
+                "matched": "KRLEAFLTQ",
                 "location": "flanking_region"
             },
             {
@@ -4473,7 +4473,7 @@
                 "alignment_pos": 56,
                 "from": "GLN",
                 "to": "PRO",
-                "matched": "NSPYIVGFY",
+                "matched": "EAFLTQKQK",
                 "location": "flanking_region"
             },
             {
@@ -4481,7 +4481,7 @@
                 "alignment_pos": 57,
                 "from": "LYS",
                 "to": "ASN",
-                "matched": "SPYIVGFYG",
+                "matched": "AFLTQKQKV",
                 "location": "flanking_region"
             },
             {
@@ -4489,7 +4489,7 @@
                 "alignment_pos": 57,
                 "from": "LYS",
                 "to": "GLU",
-                "matched": "SPYIVGFYG",
+                "matched": "AFLTQKQKV",
                 "location": "flanking_region"
             }
         ],
@@ -4528,7 +4528,7 @@
                 "alignment_pos": 342,
                 "from": "CYS",
                 "to": "TYR",
-                "matched": "",
+                "matched": "AGEYTCLAG",
                 "location": "flanking_region"
             },
             {
@@ -4536,7 +4536,7 @@
                 "alignment_pos": 342,
                 "from": "CYS",
                 "to": "ARG",
-                "matched": "",
+                "matched": "AGEYTCLAG",
                 "location": "flanking_region"
             },
             {
@@ -4544,7 +4544,7 @@
                 "alignment_pos": 342,
                 "from": "CYS",
                 "to": "SER",
-                "matched": "",
+                "matched": "AGEYTCLAG",
                 "location": "flanking_region"
             },
             {
@@ -4552,7 +4552,7 @@
                 "alignment_pos": 340,
                 "from": "TYR",
                 "to": "HIS",
-                "matched": "",
+                "matched": "EDAGEYTCL",
                 "location": "flanking_region"
             },
             {
@@ -4560,7 +4560,7 @@
                 "alignment_pos": 354,
                 "from": "SER",
                 "to": "CYS",
-                "matched": "",
+                "matched": "GISFHSAWL",
                 "location": "flanking_region"
             },
             {
@@ -4568,7 +4568,7 @@
                 "alignment_pos": 344,
                 "from": "ALA",
                 "to": "ALA",
-                "matched": "",
+                "matched": "EYTCLAGNS",
                 "location": "flanking_region"
             },
             {
@@ -4576,7 +4576,7 @@
                 "alignment_pos": 344,
                 "from": "ALA",
                 "to": "GLY",
-                "matched": "",
+                "matched": "EYTCLAGNS",
                 "location": "flanking_region"
             },
             {
@@ -4584,7 +4584,7 @@
                 "alignment_pos": 328,
                 "from": "TYR",
                 "to": "CYS",
-                "matched": "",
+                "matched": "EIEVLYIRN",
                 "location": "flanking_region"
             },
             {
@@ -4592,7 +4592,7 @@
                 "alignment_pos": 347,
                 "from": "SER",
                 "to": "CYS",
-                "matched": "",
+                "matched": "CLAGNSIGI",
                 "location": "flanking_region"
             },
             {
@@ -4600,7 +4600,7 @@
                 "alignment_pos": 252,
                 "from": "SER",
                 "to": "TRP",
-                "matched": "",
+                "matched": "DVVERSPHR",
                 "location": "flanking_region"
             },
             {
@@ -4608,7 +4608,7 @@
                 "alignment_pos": 253,
                 "from": "PRO",
                 "to": "ARG",
-                "matched": "",
+                "matched": "VVERSPHRP",
                 "location": "flanking_region"
             },
             {
@@ -4616,7 +4616,7 @@
                 "alignment_pos": 341,
                 "from": "THR",
                 "to": "PRO",
-                "matched": "",
+                "matched": "DAGEYTCLA",
                 "location": "flanking_region"
             },
             {
@@ -4624,7 +4624,7 @@
                 "alignment_pos": 342,
                 "from": "CYS",
                 "to": "TRP",
-                "matched": "",
+                "matched": "AGEYTCLAG",
                 "location": "flanking_region"
             },
             {
@@ -4632,7 +4632,7 @@
                 "alignment_pos": 289,
                 "from": "GLN",
                 "to": "PRO",
-                "matched": "",
+                "matched": "AQPHIQWIK",
                 "location": "flanking_region"
             },
             {
@@ -4640,7 +4640,7 @@
                 "alignment_pos": 375,
                 "from": "TYR",
                 "to": "CYS",
-                "matched": "",
+                "matched": "TASPDYLEI",
                 "location": "flanking_region"
             },
             {
@@ -4648,7 +4648,7 @@
                 "alignment_pos": 372,
                 "from": "SER",
                 "to": "CYS",
-                "matched": "",
+                "matched": "KEITASPDY",
                 "location": "flanking_region"
             },
             {
@@ -4656,7 +4656,7 @@
                 "alignment_pos": 252,
                 "from": "SER",
                 "to": "PHE",
-                "matched": "",
+                "matched": "DVVERSPHR",
                 "location": "flanking_region"
             },
             {
@@ -4664,7 +4664,7 @@
                 "alignment_pos": 252,
                 "from": "SER",
                 "to": "PHE",
-                "matched": "",
+                "matched": "DVVERSPHR",
                 "location": "flanking_region"
             },
             {
@@ -4672,7 +4672,7 @@
                 "alignment_pos": 253,
                 "from": "PRO",
                 "to": "SER",
-                "matched": "",
+                "matched": "VVERSPHRP",
                 "location": "flanking_region"
             },
             {
@@ -4680,7 +4680,7 @@
                 "alignment_pos": 290,
                 "from": "TRP",
                 "to": "CYS",
-                "matched": "",
+                "matched": "QPHIQWIKH",
                 "location": "flanking_region"
             },
             {
@@ -4688,7 +4688,7 @@
                 "alignment_pos": 292,
                 "from": "LYS",
                 "to": "GLU",
-                "matched": "",
+                "matched": "HIQWIKHVE",
                 "location": "flanking_region"
             },
             {
@@ -4696,7 +4696,7 @@
                 "alignment_pos": 290,
                 "from": "TRP",
                 "to": "ARG",
-                "matched": "",
+                "matched": "QPHIQWIKH",
                 "location": "flanking_region"
             },
             {
@@ -4704,7 +4704,7 @@
                 "alignment_pos": 290,
                 "from": "TRP",
                 "to": "GLY",
-                "matched": "",
+                "matched": "QPHIQWIKH",
                 "location": "flanking_region"
             },
             {
@@ -4712,7 +4712,7 @@
                 "alignment_pos": 351,
                 "from": "SER",
                 "to": "CYS",
-                "matched": "",
+                "matched": "NSIGISFHS",
                 "location": "flanking_region"
             },
             {
@@ -4720,7 +4720,7 @@
                 "alignment_pos": 315,
                 "from": "ALA",
                 "to": "SER",
-                "matched": "",
+                "matched": "KVLKAAGVN",
                 "location": "flanking_region"
             },
             {
@@ -4728,7 +4728,7 @@
                 "alignment_pos": 267,
                 "from": "SER",
                 "to": "PRO",
-                "matched": "",
+                "matched": "LPANASTVV",
                 "location": "flanking_region"
             },
             {
@@ -4736,7 +4736,7 @@
                 "alignment_pos": 290,
                 "from": "TRP",
                 "to": "CYS",
-                "matched": "",
+                "matched": "QPHIQWIKH",
                 "location": "flanking_region"
             },
             {
@@ -4776,7 +4776,7 @@
                 "alignment_pos": 321,
                 "from": "ASP",
                 "to": "ALA",
-                "matched": "",
+                "matched": "GVNTTDKEI",
                 "location": "flanking_region"
             },
             {
@@ -4784,7 +4784,7 @@
                 "alignment_pos": 337,
                 "from": "ALA",
                 "to": "PRO",
-                "matched": "",
+                "matched": "VTFEDAGEY",
                 "location": "flanking_region"
             },
             {
@@ -4792,7 +4792,7 @@
                 "alignment_pos": 337,
                 "from": "ALA",
                 "to": "THR",
-                "matched": "",
+                "matched": "VTFEDAGEY",
                 "location": "flanking_region"
             },
             {
@@ -4800,7 +4800,7 @@
                 "alignment_pos": 391,
                 "from": "MET",
                 "to": "ARG",
-                "matched": "",
+                "matched": "FLIACMVVT",
                 "location": "flanking_region"
             },
             {
@@ -4808,7 +4808,7 @@
                 "alignment_pos": 381,
                 "from": "TYR",
                 "to": "ASP",
-                "matched": "",
+                "matched": "LEIAIYCIG",
                 "location": "flanking_region"
             }
         ],
@@ -4847,7 +4847,7 @@
                 "alignment_pos": 252,
                 "from": "PRO",
                 "to": "ARG",
-                "matched": "",
+                "matched": "VVERSPHRP",
                 "location": "flanking_region"
             },
             {
@@ -4879,7 +4879,7 @@
                 "alignment_pos": 167,
                 "from": "ALA",
                 "to": "SER",
-                "matched": "LFDRIYTHQ",
+                "matched": "EKKLHAVPA",
                 "location": "flanking_region"
             },
             {
@@ -4887,7 +4887,7 @@
                 "alignment_pos": 372,
                 "from": "TYR",
                 "to": "CYS",
-                "matched": "",
+                "matched": "AVMTSPLYL",
                 "location": "flanking_region"
             },
             {
@@ -4895,7 +4895,7 @@
                 "alignment_pos": 330,
                 "from": "ASN",
                 "to": "ILE",
-                "matched": "",
+                "matched": "VLHLRNVSF",
                 "location": "flanking_region"
             },
             {
@@ -4903,7 +4903,7 @@
                 "alignment_pos": 379,
                 "from": "CYS",
                 "to": "ARG",
-                "matched": "",
+                "matched": "YLEIIIYCT",
                 "location": "flanking_region"
             },
             {
@@ -4911,7 +4911,7 @@
                 "alignment_pos": 300,
                 "from": "ILE",
                 "to": "THR",
-                "matched": "",
+                "matched": "VNGSKIGPD",
                 "location": "flanking_region"
             },
             {
@@ -4919,7 +4919,7 @@
                 "alignment_pos": 381,
                 "from": "CYS",
                 "to": "ARG",
-                "matched": "",
+                "matched": "EIIIYCTGA",
                 "location": "flanking_region"
             },
             {
@@ -4927,7 +4927,7 @@
                 "alignment_pos": 237,
                 "from": "GLY",
                 "to": "SER",
-                "matched": "LVEDLDR",
+                "matched": "VENEYGSIN",
                 "location": "flanking_region"
             },
             {
@@ -4959,7 +4959,7 @@
                 "alignment_pos": 470,
                 "from": "ARG",
                 "to": "LEU",
-                "matched": "",
+                "matched": "LPEDPRWEL",
                 "location": "flanking_region"
             },
             {
@@ -4967,7 +4967,7 @@
                 "alignment_pos": 342,
                 "from": "LEU",
                 "to": "SER",
-                "matched": "",
+                "matched": "GEYTCLAGN",
                 "location": "flanking_region"
             },
             {
@@ -4983,7 +4983,7 @@
                 "alignment_pos": 48,
                 "from": "GLY",
                 "to": "SER",
-                "matched": "SEMEMMKMG",
+                "matched": "FLVHPGDLL",
                 "location": "flanking_region"
             },
             {
@@ -4991,7 +4991,7 @@
                 "alignment_pos": 366,
                 "from": "PRO",
                 "to": "LEU",
-                "matched": "",
+                "matched": "ALEERPAVM",
                 "location": "flanking_region"
             },
             {
@@ -5007,7 +5007,7 @@
                 "alignment_pos": 764,
                 "from": "GLN",
                 "to": "HIS",
-                "matched": "",
+                "matched": "SHEPLPEEP",
                 "location": "flanking_region"
             },
             {
@@ -5015,7 +5015,7 @@
                 "alignment_pos": 768,
                 "from": "ASP",
                 "to": "TYR",
-                "matched": "",
+                "matched": "LPEEPCLPR",
                 "location": "flanking_region"
             },
             {
@@ -5023,7 +5023,7 @@
                 "alignment_pos": 250,
                 "from": "ARG",
                 "to": "GLN",
-                "matched": "",
+                "matched": "LDVVERSPH",
                 "location": "flanking_region"
             },
             {
@@ -5031,7 +5031,7 @@
                 "alignment_pos": 348,
                 "from": "GLY",
                 "to": "ARG",
-                "matched": "",
+                "matched": "AGNSIGLSH",
                 "location": "flanking_region"
             },
             {
@@ -5071,7 +5071,7 @@
                 "alignment_pos": 165,
                 "from": "LEU",
                 "to": "SER",
-                "matched": "EALFDRIYT",
+                "matched": "KMEKKLHAV",
                 "location": "flanking_region"
             },
             {
@@ -5134,7 +5134,7 @@
                 "alignment_pos": 380,
                 "from": "GLY",
                 "to": "ARG",
-                "matched": "",
+                "matched": "GILSYGVGF",
                 "location": "flanking_region"
             },
             {
@@ -5142,7 +5142,7 @@
                 "alignment_pos": 380,
                 "from": "GLY",
                 "to": "ARG",
-                "matched": "",
+                "matched": "GILSYGVGF",
                 "location": "flanking_region"
             },
             {
@@ -5150,7 +5150,7 @@
                 "alignment_pos": 375,
                 "from": "GLY",
                 "to": "CYS",
-                "matched": "",
+                "matched": "GSVYAGILS",
                 "location": "flanking_region"
             },
             {
@@ -5166,7 +5166,7 @@
                 "alignment_pos": 248,
                 "from": "ARG",
                 "to": "CYS",
-                "matched": "",
+                "matched": "LDVLERSPH",
                 "location": "flanking_region"
             },
             {
@@ -5174,12 +5174,12 @@
                 "alignment_pos": 371,
                 "from": "SER",
                 "to": "CYS",
-                "matched": "",
+                "matched": "ADEAGSVYA",
                 "location": "flanking_region"
             },
             {
                 "full_sequence_pos": 807,
-                "alignment_pos": 336,
+                "alignment_pos": 280,
                 "from": "TER",
                 "to": "GLY",
                 "matched": "",
@@ -5187,7 +5187,7 @@
             },
             {
                 "full_sequence_pos": 807,
-                "alignment_pos": 336,
+                "alignment_pos": 280,
                 "from": "TER",
                 "to": "ARG",
                 "matched": "",
@@ -5195,7 +5195,7 @@
             },
             {
                 "full_sequence_pos": 807,
-                "alignment_pos": 336,
+                "alignment_pos": 280,
                 "from": "TER",
                 "to": "CYS",
                 "matched": "",
@@ -5214,7 +5214,7 @@
                 "alignment_pos": 391,
                 "from": "ALA",
                 "to": "GLU",
-                "matched": "",
+                "matched": "FILVVAAVT",
                 "location": "flanking_region"
             },
             {
@@ -5230,7 +5230,7 @@
                 "alignment_pos": 249,
                 "from": "SER",
                 "to": "CYS",
-                "matched": "",
+                "matched": "DVLERSPHR",
                 "location": "flanking_region"
             },
             {
@@ -5238,7 +5238,7 @@
                 "alignment_pos": 250,
                 "from": "PRO",
                 "to": "ARG",
-                "matched": "",
+                "matched": "VLERSPHRP",
                 "location": "flanking_region"
             },
             {
@@ -5254,7 +5254,7 @@
                 "alignment_pos": 373,
                 "from": "TYR",
                 "to": "CYS",
-                "matched": "",
+                "matched": "EAGSVYAGI",
                 "location": "flanking_region"
             },
             {
@@ -5310,7 +5310,7 @@
                 "alignment_pos": 322,
                 "from": "GLU",
                 "to": "LYS",
-                "matched": "",
+                "matched": "TDKELEVLS",
                 "location": "flanking_region"
             },
             {
@@ -5318,7 +5318,7 @@
                 "alignment_pos": 380,
                 "from": "GLY",
                 "to": "ARG",
-                "matched": "",
+                "matched": "GILSYGVGF",
                 "location": "flanking_region"
             },
             {
@@ -5326,7 +5326,7 @@
                 "alignment_pos": 377,
                 "from": "LEU",
                 "to": "ARG",
-                "matched": "",
+                "matched": "VYAGILSYG",
                 "location": "flanking_region"
             },
             {
@@ -5350,7 +5350,7 @@
                 "alignment_pos": 279,
                 "from": "SER",
                 "to": "CYS",
-                "matched": "",
+                "matched": "HCKVYSDAQ",
                 "location": "flanking_region"
             },
             {
@@ -5358,7 +5358,7 @@
                 "alignment_pos": 278,
                 "from": "TYR",
                 "to": "CYS",
-                "matched": "",
+                "matched": "FHCKVYSDA",
                 "location": "flanking_region"
             },
             {
@@ -5366,7 +5366,7 @@
                 "alignment_pos": 84,
                 "from": "SER",
                 "to": "LEU",
-                "matched": "NLREFLRAR",
+                "matched": "TGLVPSERV",
                 "location": "flanking_region"
             },
             {
@@ -5374,7 +5374,7 @@
                 "alignment_pos": 370,
                 "from": "GLY",
                 "to": "CYS",
-                "matched": "",
+                "matched": "EADEAGSVY",
                 "location": "flanking_region"
             },
             {
@@ -5398,7 +5398,7 @@
                 "alignment_pos": 334,
                 "from": "ALA",
                 "to": "THR",
-                "matched": "",
+                "matched": "VTFEDAGEY",
                 "location": "flanking_region"
             },
             {
@@ -5406,7 +5406,7 @@
                 "alignment_pos": 342,
                 "from": "GLY",
                 "to": "CYS",
-                "matched": "",
+                "matched": "YTCLAGNSI",
                 "location": "flanking_region"
             },
             {
@@ -5461,7 +5461,7 @@
                 "alignment_pos": 388,
                 "from": "GLY",
                 "to": "ARG",
-                "matched": "",
+                "matched": "LLLLAGLYR",
                 "location": "flanking_region"
             }
         ],
@@ -5579,7 +5579,7 @@
                 "alignment_pos": 584,
                 "from": "PHE",
                 "to": "LEU",
-                "matched": "",
+                "matched": "DHKWEFPRN",
                 "location": "flanking_region"
             },
             {
@@ -5587,7 +5587,7 @@
                 "alignment_pos": 583,
                 "from": "GLU",
                 "to": "LYS",
-                "matched": "",
+                "matched": "YDHKWEFPR",
                 "location": "flanking_region"
             },
             {
@@ -5611,7 +5611,7 @@
                 "alignment_pos": 559,
                 "from": "VAL",
                 "to": "ASP",
-                "matched": "",
+                "matched": "EVQWKVVEE",
                 "location": "flanking_region"
             },
             {
@@ -5659,7 +5659,7 @@
                 "alignment_pos": 584,
                 "from": "PHE",
                 "to": "CYS",
-                "matched": "",
+                "matched": "DHKWEFPRN",
                 "location": "flanking_region"
             },
             {
@@ -5667,7 +5667,7 @@
                 "alignment_pos": 559,
                 "from": "VAL",
                 "to": "ALA",
-                "matched": "",
+                "matched": "EVQWKVVEE",
                 "location": "flanking_region"
             },
             {
@@ -5691,7 +5691,7 @@
                 "alignment_pos": 533,
                 "from": "ALA",
                 "to": "ASP",
-                "matched": "",
+                "matched": "GFVIVAGMM",
                 "location": "flanking_region"
             },
             {
@@ -5746,7 +5746,7 @@
                 "alignment_pos": 561,
                 "from": "VAL",
                 "to": "ASP",
-                "matched": "",
+                "matched": "EIRWRVIES",
                 "location": "flanking_region"
             },
             {
@@ -5770,7 +5770,7 @@
                 "alignment_pos": 555,
                 "from": "TYR",
                 "to": "CYS",
-                "matched": "",
+                "matched": "KQKPRYEIR",
                 "location": "flanking_region"
             },
             {
@@ -5778,7 +5778,7 @@
                 "alignment_pos": 401,
                 "from": "ALA",
                 "to": "ASP",
-                "matched": "",
+                "matched": "AQNEDAVKS",
                 "location": "flanking_region"
             },
             {
@@ -5786,7 +5786,7 @@
                 "alignment_pos": 544,
                 "from": "VAL",
                 "to": "ALA",
-                "matched": "",
+                "matched": "IISLIVLVV",
                 "location": "flanking_region"
             },
             {
@@ -5857,7 +5857,7 @@
                 "alignment_pos": 987,
                 "from": "ARG",
                 "to": "TRP",
-                "matched": "",
+                "matched": "EDSFL)",
                 "location": "flanking_region"
             },
             {
@@ -5865,7 +5865,7 @@
                 "alignment_pos": 561,
                 "from": "ARG",
                 "to": "CYS",
-                "matched": "",
+                "matched": "WQKKPRYEI",
                 "location": "flanking_region"
             },
             {
@@ -5881,7 +5881,7 @@
                 "alignment_pos": 584,
                 "from": "PRO",
                 "to": "ARG",
-                "matched": "",
+                "matched": "YIYVDPMQL",
                 "location": "flanking_region"
             },
             {
@@ -5897,7 +5897,7 @@
                 "alignment_pos": 566,
                 "from": "TRP",
                 "to": "ARG",
-                "matched": "",
+                "matched": "RYEIRWKVI",
                 "location": "flanking_region"
             },
             {
@@ -5992,7 +5992,7 @@
                 "alignment_pos": 132,
                 "from": "PRO",
                 "to": "LEU",
-                "matched": "NGHVAKIGD",
+                "matched": "CLLTDPVLE",
                 "location": "flanking_region"
             },
             {
@@ -6000,7 +6000,7 @@
                 "alignment_pos": 481,
                 "from": "GLN",
                 "to": "TER",
-                "matched": "",
+                "matched": "TLEHNQTYE",
                 "location": "flanking_region"
             },
             {
@@ -6055,7 +6055,7 @@
                 "alignment_pos": 482,
                 "from": "CYS",
                 "to": "ARG",
-                "matched": "",
+                "matched": "TNPYPCEEW",
                 "location": "flanking_region"
             }
         ],
@@ -6174,7 +6174,7 @@
                 "alignment_pos": 361,
                 "from": "TYR",
                 "to": "TER",
-                "matched": "",
+                "matched": "VKLAAYPPP",
                 "location": "flanking_region"
             },
             {
@@ -6182,7 +6182,7 @@
                 "alignment_pos": 1192,
                 "from": "GLN",
                 "to": "TER",
-                "matched": "",
+                "matched": "TDSGMVLAS",
                 "location": "flanking_region"
             }
         ],
@@ -6221,7 +6221,7 @@
                 "alignment_pos": 118,
                 "from": "ARG",
                 "to": "TRP",
-                "matched": "IHRDLRAAN",
+                "matched": "DWWEARSLS",
                 "location": "flanking_region"
             },
             {
@@ -6276,7 +6276,7 @@
                 "alignment_pos": 527,
                 "from": "GLU",
                 "to": "LYS",
-                "matched": "",
+                "matched": "ENL)",
                 "location": "flanking_region"
             }
         ],
@@ -6378,7 +6378,7 @@
                 "alignment_pos": 515,
                 "from": "TYR",
                 "to": "TER",
-                "matched": "",
+                "matched": "YQQQP)",
                 "location": "flanking_region"
             }
         ],
@@ -6417,7 +6417,7 @@
                 "alignment_pos": 71,
                 "from": "ALA",
                 "to": "THR",
-                "matched": "PIYIVTEYM",
+                "matched": "LYDYTAMND",
                 "location": "flanking_region"
             },
             {
@@ -6425,7 +6425,7 @@
                 "alignment_pos": 3,
                 "from": "LEU",
                 "to": "PRO",
-                "matched": "LRLVRKL",
+                "matched": "(MGLVSS",
                 "location": "flanking_region"
             }
         ],
@@ -6646,7 +6646,7 @@
                 "alignment_pos": 136,
                 "from": "THR",
                 "to": "MET",
-                "matched": "LVKVADFGL",
+                "matched": "PVSRNAAEY",
                 "location": "flanking_region"
             },
             {
@@ -6662,7 +6662,7 @@
                 "alignment_pos": 525,
                 "from": "VAL",
                 "to": "MET",
-                "matched": "",
+                "matched": "TRTSRRAAE",
                 "location": "flanking_region"
             },
             {
@@ -6670,7 +6670,7 @@
                 "alignment_pos": 530,
                 "from": "GLY",
                 "to": "ARG",
-                "matched": "",
+                "matched": "RAAEHRDTT",
                 "location": "flanking_region"
             }
         ],
@@ -6709,7 +6709,7 @@
                 "alignment_pos": 716,
                 "from": "VAL",
                 "to": "MET",
-                "matched": "",
+                "matched": "GGDDKPQVP",
                 "location": "flanking_region"
             }
         ],
@@ -6819,7 +6819,7 @@
                 "alignment_pos": 113,
                 "from": "GLU",
                 "to": "LYS",
-                "matched": "YLSSLNFVH",
+                "matched": "GGHGIEFAP",
                 "location": "flanking_region"
             },
             {
@@ -6937,7 +6937,7 @@
                 "alignment_pos": 1275,
                 "from": "ARG",
                 "to": "TRP",
-                "matched": "",
+                "matched": "SLKPGTVLP",
                 "location": "flanking_region"
             }
         ],
@@ -6976,7 +6976,7 @@
                 "alignment_pos": 655,
                 "from": "VAL",
                 "to": "ILE",
-                "matched": "",
+                "matched": "PLTSIISAV",
                 "location": "flanking_region"
             },
             {
@@ -6984,7 +6984,7 @@
                 "alignment_pos": 654,
                 "from": "VAL",
                 "to": "ILE",
-                "matched": "",
+                "matched": "SPLTSIISA",
                 "location": "flanking_region"
             },
             {
@@ -7024,7 +7024,7 @@
                 "alignment_pos": 710,
                 "from": "ALA",
                 "to": "VAL",
-                "matched": "",
+                "matched": "AMPNQAQMR",
                 "location": "flanking_region"
             }
         ],
@@ -7095,7 +7095,7 @@
                 "alignment_pos": 428,
                 "from": "GLY",
                 "to": "ASP",
-                "matched": "",
+                "matched": "LEIIRGRTK",
                 "location": "flanking_region"
             }
         ],
@@ -7134,7 +7134,7 @@
                 "alignment_pos": 948,
                 "from": "GLY",
                 "to": "TRP",
-                "matched": "",
+                "matched": "LGLKDQVNT",
                 "location": "flanking_region"
             },
             {
@@ -7142,7 +7142,7 @@
                 "alignment_pos": 940,
                 "from": "THR",
                 "to": "ILE",
-                "matched": "",
+                "matched": "QKRIAYSLL",
                 "location": "flanking_region"
             },
             {
@@ -7213,7 +7213,7 @@
                 "alignment_pos": 268,
                 "from": "CYS",
                 "to": "ARG",
-                "matched": "",
+                "matched": "EGNTKCRAC",
                 "location": "flanking_region"
             },
             {
@@ -7229,7 +7229,7 @@
                 "alignment_pos": 107,
                 "from": "CYS",
                 "to": "ARG",
-                "matched": "IASGMRYLA",
+                "matched": "RAGRSCKET",
                 "location": "flanking_region"
             }
         ],
@@ -7276,7 +7276,7 @@
                 "alignment_pos": 279,
                 "from": "ALA",
                 "to": "SER",
-                "matched": "",
+                "matched": "SGTFKANQG",
                 "location": "flanking_region"
             },
             {
@@ -7292,7 +7292,7 @@
                 "alignment_pos": 1019,
                 "from": "LYS",
                 "to": "TER",
-                "matched": "",
+                "matched": "IQGIFFKED",
                 "location": "flanking_region"
             },
             {
@@ -7347,7 +7347,7 @@
                 "alignment_pos": 487,
                 "from": "LYS",
                 "to": "GLU",
-                "matched": "",
+                "matched": "NDIALKTNG",
                 "location": "flanking_region"
             },
             {
@@ -7355,7 +7355,7 @@
                 "alignment_pos": 699,
                 "from": "GLN",
                 "to": "TER",
-                "matched": "",
+                "matched": "SQKHNQSEY",
                 "location": "flanking_region"
             },
             {
@@ -7363,7 +7363,7 @@
                 "alignment_pos": 762,
                 "from": "ARG",
                 "to": "SER",
-                "matched": "",
+                "matched": "PSRKRRSLG",
                 "location": "flanking_region"
             },
             {
@@ -7379,7 +7379,7 @@
                 "alignment_pos": 924,
                 "from": "ARG",
                 "to": "TER",
-                "matched": "",
+                "matched": "GNYSVRIRA",
                 "location": "flanking_region"
             },
             {
@@ -7395,7 +7395,7 @@
                 "alignment_pos": 260,
                 "from": "LEU",
                 "to": "PRO",
-                "matched": "",
+                "matched": "CRNFYLDGR",
                 "location": "flanking_region"
             },
             {
@@ -7403,7 +7403,7 @@
                 "alignment_pos": 409,
                 "from": "PHE",
                 "to": "VAL",
-                "matched": "",
+                "matched": "VSLSFFRKL",
                 "location": "flanking_region"
             },
             {
@@ -7411,7 +7411,7 @@
                 "alignment_pos": 42,
                 "from": "ASN",
                 "to": "LYS",
-                "matched": "ERIEFLNEA",
+                "matched": "GMDIRNNLT",
                 "location": "flanking_region"
             },
             {
@@ -7427,7 +7427,7 @@
                 "alignment_pos": 236,
                 "from": "HIS",
                 "to": "ARG",
-                "matched": "LEIVNLLKD",
+                "matched": "EGLCCHSEC",
                 "location": "flanking_region"
             },
             {
@@ -7435,7 +7435,7 @@
                 "alignment_pos": 160,
                 "from": "TRP",
                 "to": "TER",
-                "matched": "PRWMAPESL",
+                "matched": "LATIDWSRI",
                 "location": "flanking_region"
             },
             {
@@ -7443,7 +7443,7 @@
                 "alignment_pos": 489,
                 "from": "ASN",
                 "to": "SER",
-                "matched": "",
+                "matched": "IALKTNGDQ",
                 "location": "flanking_region"
             },
             {
@@ -7451,7 +7451,7 @@
                 "alignment_pos": 1020,
                 "from": "ARG",
                 "to": "GLN",
-                "matched": "",
+                "matched": "EWEVSREK)",
                 "location": "flanking_region"
             },
             {
@@ -7459,7 +7459,7 @@
                 "alignment_pos": 58,
                 "from": "GLY",
                 "to": "ARG",
-                "matched": "CHHVVRLLG",
+                "matched": "CSVIEGHLQ",
                 "location": "flanking_region"
             },
             {
@@ -7475,7 +7475,7 @@
                 "alignment_pos": 399,
                 "from": "ARG",
                 "to": "TER",
-                "matched": "",
+                "matched": "YLKIRRSYA",
                 "location": "flanking_region"
             },
             {
@@ -7483,7 +7483,7 @@
                 "alignment_pos": 55,
                 "from": "VAL",
                 "to": "ALA",
-                "matched": "GFTCHHVVR",
+                "matched": "LENCSVIEG",
                 "location": "flanking_region"
             },
             {
@@ -7491,7 +7491,7 @@
                 "alignment_pos": 393,
                 "from": "GLY",
                 "to": "ARG",
-                "matched": "",
+                "matched": "IEEISGYLK",
                 "location": "flanking_region"
             },
             {
@@ -7499,7 +7499,7 @@
                 "alignment_pos": 113,
                 "from": "ARG",
                 "to": "PRO",
-                "matched": "YLNAKKFVH",
+                "matched": "VIRGSRLFF",
                 "location": "flanking_region"
             },
             {
@@ -7515,7 +7515,7 @@
                 "alignment_pos": 148,
                 "from": "LYS",
                 "to": "TER",
-                "matched": "IYDYRKGGK",
+                "matched": "SVRIEKNNE",
                 "location": "flanking_region"
             },
             {
@@ -7523,7 +7523,7 @@
                 "alignment_pos": 1012,
                 "from": "VAL",
                 "to": "MET",
-                "matched": "",
+                "matched": "PCSVYVPDE",
                 "location": "flanking_region"
             },
             {
@@ -7547,7 +7547,7 @@
                 "alignment_pos": 439,
                 "from": "TRP",
                 "to": "SER",
-                "matched": "",
+                "matched": "NLRQLWDWS",
                 "location": "flanking_region"
             },
             {
@@ -7555,7 +7555,7 @@
                 "alignment_pos": 146,
                 "from": "ILE",
                 "to": "MET",
-                "matched": "RDIYDYRKG",
+                "matched": "RGSVRIEKN",
                 "location": "flanking_region"
             },
             {
@@ -7563,7 +7563,7 @@
                 "alignment_pos": 458,
                 "from": "ASN",
                 "to": "ASP",
-                "matched": "",
+                "matched": "LFFHYNPKL",
                 "location": "flanking_region"
             }
         ],
@@ -7602,7 +7602,7 @@
                 "alignment_pos": 108,
                 "from": "ARG",
                 "to": "GLN",
-                "matched": "ADGMAYLNA",
+                "matched": "LTVIRGWKL",
                 "location": "flanking_region"
             },
             {
@@ -7610,7 +7610,7 @@
                 "alignment_pos": 115,
                 "from": "LYS",
                 "to": "ASN",
-                "matched": "NANKFVHRD",
+                "matched": "KLFYNYALV",
                 "location": "flanking_region"
             },
             {
@@ -7618,7 +7618,7 @@
                 "alignment_pos": 59,
                 "from": "ARG",
                 "to": "TER",
-                "matched": "HHVVRLLGV",
+                "matched": "VIEGYLHIL",
                 "location": "flanking_region"
             },
             {
@@ -7626,7 +7626,7 @@
                 "alignment_pos": 709,
                 "from": "ARG",
                 "to": "GLN",
-                "matched": "",
+                "matched": "KTEAEKQAE",
                 "location": "flanking_region"
             },
             {
@@ -7634,7 +7634,7 @@
                 "alignment_pos": 481,
                 "from": "ARG",
                 "to": "GLN",
-                "matched": "",
+                "matched": "DINTRNNGE",
                 "location": "flanking_region"
             },
             {
@@ -7642,7 +7642,7 @@
                 "alignment_pos": 121,
                 "from": "GLU",
                 "to": "LYS",
-                "matched": "HRDLAARNC",
+                "matched": "ALVIFEMTN",
                 "location": "flanking_region"
             },
             {
@@ -7650,7 +7650,7 @@
                 "alignment_pos": 234,
                 "from": "GLU",
                 "to": "LYS",
-                "matched": "SFLEIISSI",
+                "matched": "ECCHPECLG",
                 "location": "flanking_region"
             },
             {
@@ -7658,7 +7658,7 @@
                 "alignment_pos": 10,
                 "from": "ARG",
                 "to": "LEU",
-                "matched": "ELGQGSFGM",
+                "matched": "SGGGSPTSL",
                 "location": "flanking_region"
             }
         ],
@@ -7697,7 +7697,7 @@
                 "alignment_pos": 154,
                 "from": "GLU",
                 "to": "TER",
-                "matched": "RPWLAPECL",
+                "matched": "FEYLFEQGK",
                 "location": "flanking_region"
             },
             {
@@ -7713,7 +7713,7 @@
                 "alignment_pos": 1104,
                 "from": "PRO",
                 "to": "ALA",
-                "matched": "",
+                "matched": "TEASFRPTF",
                 "location": "flanking_region"
             },
             {
@@ -7729,7 +7729,7 @@
                 "alignment_pos": 1014,
                 "from": "LEU",
                 "to": "PRO",
-                "matched": "",
+                "matched": "PVFWYAPEC",
                 "location": "flanking_region"
             },
             {
@@ -7737,7 +7737,7 @@
                 "alignment_pos": 418,
                 "from": "SER",
                 "to": "TER",
-                "matched": "",
+                "matched": "ALSFVSLVD",
                 "location": "flanking_region"
             },
             {
@@ -7800,7 +7800,7 @@
                 "alignment_pos": 539,
                 "from": "LYS",
                 "to": "LEU",
-                "matched": "",
+                "matched": "QMVFHKIRN",
                 "location": "flanking_region"
             },
             {
@@ -7918,7 +7918,7 @@
                 "alignment_pos": 100,
                 "from": "TYR",
                 "to": "CYS",
-                "matched": "VVKQLAYAL",
+                "matched": "TQVLLYRIR",
                 "location": "flanking_region"
             },
             {
@@ -7934,7 +7934,7 @@
                 "alignment_pos": 445,
                 "from": "ARG",
                 "to": "TER",
-                "matched": "",
+                "matched": "LVGLSRPHS",
                 "location": "flanking_region"
             },
             {
@@ -7942,7 +7942,7 @@
                 "alignment_pos": 169,
                 "from": "ASP",
                 "to": "GLU",
-                "matched": "LEADKWGFG",
+                "matched": "SLAVLDLAR",
                 "location": "flanking_region"
             }
         ],
@@ -7981,7 +7981,7 @@
                 "alignment_pos": 306,
                 "from": "ARG",
                 "to": "HIS",
-                "matched": "",
+                "matched": "RFAPKRRRR",
                 "location": "flanking_region"
             }
         ],
@@ -8100,7 +8100,7 @@
                 "alignment_pos": 841,
                 "from": "PHE",
                 "to": "VAL",
-                "matched": "",
+                "matched": "VHNPVFKPF",
                 "location": "flanking_region"
             },
             {
@@ -8155,7 +8155,7 @@
                 "alignment_pos": 344,
                 "from": "PRO",
                 "to": "ARG",
-                "matched": "",
+                "matched": "TSYADPEEA",
                 "location": "flanking_region"
             },
             {
@@ -8218,7 +8218,7 @@
                 "alignment_pos": 618,
                 "from": "CYS",
                 "to": "GLY",
-                "matched": "",
+                "matched": "PEEEKCFCE",
                 "location": "flanking_region"
             },
             {
@@ -8226,7 +8226,7 @@
                 "alignment_pos": 378,
                 "from": "GLU",
                 "to": "ASP",
-                "matched": "",
+                "matched": "AVLVNDSDF",
                 "location": "flanking_region"
             },
             {
@@ -8234,7 +8234,7 @@
                 "alignment_pos": 379,
                 "from": "LEU",
                 "to": "VAL",
-                "matched": "",
+                "matched": "VLVNDSDFQ",
                 "location": "flanking_region"
             },
             {
@@ -8242,7 +8242,7 @@
                 "alignment_pos": 380,
                 "from": "CYS",
                 "to": "ARG",
-                "matched": "",
+                "matched": "LVNDSDFQG",
                 "location": "flanking_region"
             },
             {
@@ -8250,7 +8250,7 @@
                 "alignment_pos": 634,
                 "from": "CYS",
                 "to": "GLY",
-                "matched": "",
+                "matched": "LCDELCRTV",
                 "location": "flanking_region"
             },
             {
@@ -8258,7 +8258,7 @@
                 "alignment_pos": 634,
                 "from": "CYS",
                 "to": "TYR",
-                "matched": "",
+                "matched": "LCDELCRTV",
                 "location": "flanking_region"
             },
             {
@@ -8266,7 +8266,7 @@
                 "alignment_pos": 634,
                 "from": "CYS",
                 "to": "SER",
-                "matched": "",
+                "matched": "LCDELCRTV",
                 "location": "flanking_region"
             },
             {
@@ -8274,7 +8274,7 @@
                 "alignment_pos": 634,
                 "from": "CYS",
                 "to": "PHE",
-                "matched": "",
+                "matched": "LCDELCRTV",
                 "location": "flanking_region"
             },
             {
@@ -8282,7 +8282,7 @@
                 "alignment_pos": 611,
                 "from": "CYS",
                 "to": "TRP",
-                "matched": "",
+                "matched": "YGTCNCFPE",
                 "location": "flanking_region"
             },
             {
@@ -8290,7 +8290,7 @@
                 "alignment_pos": 618,
                 "from": "CYS",
                 "to": "SER",
-                "matched": "",
+                "matched": "PEEEKCFCE",
                 "location": "flanking_region"
             },
             {
@@ -8298,7 +8298,7 @@
                 "alignment_pos": 620,
                 "from": "CYS",
                 "to": "ARG",
-                "matched": "",
+                "matched": "EEKCFCEPE",
                 "location": "flanking_region"
             },
             {
@@ -8306,7 +8306,7 @@
                 "alignment_pos": 620,
                 "from": "CYS",
                 "to": "TYR",
-                "matched": "",
+                "matched": "EEKCFCEPE",
                 "location": "flanking_region"
             },
             {
@@ -8314,7 +8314,7 @@
                 "alignment_pos": 634,
                 "from": "CYS",
                 "to": "ARG",
-                "matched": "",
+                "matched": "LCDELCRTV",
                 "location": "flanking_region"
             },
             {
@@ -8322,7 +8322,7 @@
                 "alignment_pos": 634,
                 "from": "CYS",
                 "to": "TRP",
-                "matched": "",
+                "matched": "LCDELCRTV",
                 "location": "flanking_region"
             },
             {
@@ -8362,7 +8362,7 @@
                 "alignment_pos": 32,
                 "from": "SER",
                 "to": "LEU",
-                "matched": "AVKMLKENA",
+                "matched": "LGLYFSRDA",
                 "location": "flanking_region"
             },
             {
@@ -8370,7 +8370,7 @@
                 "alignment_pos": 64,
                 "from": "PRO",
                 "to": "LEU",
-                "matched": "LYGACSQGP",
+                "matched": "APEEVPSFR",
                 "location": "flanking_region"
             },
             {
@@ -8378,7 +8378,7 @@
                 "alignment_pos": 136,
                 "from": "GLU",
                 "to": "TER",
-                "matched": "MKISDFGLS",
+                "matched": "SLREGECQW",
                 "location": "flanking_region"
             },
             {
@@ -8386,7 +8386,7 @@
                 "alignment_pos": 330,
                 "from": "ARG",
                 "to": "GLN",
-                "matched": "",
+                "matched": "AQQTFRVEH",
                 "location": "flanking_region"
             },
             {
@@ -8394,7 +8394,7 @@
                 "alignment_pos": 393,
                 "from": "PHE",
                 "to": "LEU",
-                "matched": "",
+                "matched": "VLLLHFNVS",
                 "location": "flanking_region"
             },
             {
@@ -8402,7 +8402,7 @@
                 "alignment_pos": 620,
                 "from": "CYS",
                 "to": "PHE",
-                "matched": "",
+                "matched": "EEKCFCEPE",
                 "location": "flanking_region"
             },
             {
@@ -8410,7 +8410,7 @@
                 "alignment_pos": 618,
                 "from": "CYS",
                 "to": "ARG",
-                "matched": "",
+                "matched": "PEEEKCFCE",
                 "location": "flanking_region"
             },
             {
@@ -8426,7 +8426,7 @@
                 "alignment_pos": 313,
                 "from": "ARG",
                 "to": "GLN",
-                "matched": "",
+                "matched": "GELVRRYTS",
                 "location": "flanking_region"
             },
             {
@@ -8434,7 +8434,7 @@
                 "alignment_pos": 609,
                 "from": "CYS",
                 "to": "TYR",
-                "matched": "",
+                "matched": "AGYGTCNCF",
                 "location": "flanking_region"
             },
             {
@@ -8442,7 +8442,7 @@
                 "alignment_pos": 620,
                 "from": "CYS",
                 "to": "TRP",
-                "matched": "",
+                "matched": "EEKCFCEPE",
                 "location": "flanking_region"
             },
             {
@@ -8466,7 +8466,7 @@
                 "alignment_pos": 231,
                 "from": "ARG",
                 "to": "HIS",
-                "matched": "RPVFADISK",
+                "matched": "RWALDREQR",
                 "location": "flanking_region"
             },
             {
@@ -8482,7 +8482,7 @@
                 "alignment_pos": 647,
                 "from": "ILE",
                 "to": "ILE",
-                "matched": "",
+                "matched": "VLFSFIVSV",
                 "location": "flanking_region"
             },
             {
@@ -8490,7 +8490,7 @@
                 "alignment_pos": 45,
                 "from": "ALA",
                 "to": "ALA",
-                "matched": "DLLSEFNVL",
+                "matched": "LYVDQAAGT",
                 "location": "flanking_region"
             },
             {
@@ -8498,7 +8498,7 @@
                 "alignment_pos": 640,
                 "from": "ALA",
                 "to": "GLY",
-                "matched": "",
+                "matched": "RTVIAAAVL",
                 "location": "flanking_region"
             },
             {
@@ -8506,7 +8506,7 @@
                 "alignment_pos": 620,
                 "from": "CYS",
                 "to": "SER",
-                "matched": "",
+                "matched": "EEKCFCEPE",
                 "location": "flanking_region"
             },
             {
@@ -8514,7 +8514,7 @@
                 "alignment_pos": 609,
                 "from": "CYS",
                 "to": "ARG",
-                "matched": "",
+                "matched": "AGYGTCNCF",
                 "location": "flanking_region"
             },
             {
@@ -8546,7 +8546,7 @@
                 "alignment_pos": 114,
                 "from": "ARG",
                 "to": "HIS",
-                "matched": "AEMKLVHRD",
+                "matched": "LSVRNRGFP",
                 "location": "flanking_region"
             },
             {
@@ -8554,7 +8554,7 @@
                 "alignment_pos": 1039,
                 "from": "PRO",
                 "to": "LEU",
-                "matched": "",
+                "matched": "LTRADGTNT",
                 "location": "flanking_region"
             },
             {
@@ -8562,7 +8562,7 @@
                 "alignment_pos": 648,
                 "from": "VAL",
                 "to": "ILE",
-                "matched": "",
+                "matched": "LFSFIVSVL",
                 "location": "flanking_region"
             },
             {
@@ -8570,7 +8570,7 @@
                 "alignment_pos": 533,
                 "from": "GLY",
                 "to": "CYS",
-                "matched": "",
+                "matched": "CEECGGLGS",
                 "location": "flanking_region"
             },
             {
@@ -8602,7 +8602,7 @@
                 "alignment_pos": 198,
                 "from": "PRO",
                 "to": "THR",
-                "matched": "IPPERLFNL",
+                "matched": "VQFLCPNIS",
                 "location": "flanking_region"
             }
         ],
@@ -8641,7 +8641,7 @@
                 "alignment_pos": 755,
                 "from": "TYR",
                 "to": "TER",
-                "matched": "",
+                "matched": "ARYVGPKQK",
                 "location": "flanking_region"
             },
             {
@@ -8649,7 +8649,7 @@
                 "alignment_pos": 749,
                 "from": "TRP",
                 "to": "TER",
-                "matched": "",
+                "matched": "VSNVSNARY",
                 "location": "flanking_region"
             },
             {
@@ -8665,7 +8665,7 @@
                 "alignment_pos": 184,
                 "from": "ARG",
                 "to": "CYS",
-                "matched": "VVLWEVFSG",
+                "matched": "GIACARFIG",
                 "location": "flanking_region"
             },
             {
@@ -8681,7 +8681,7 @@
                 "alignment_pos": 205,
                 "from": "ARG",
                 "to": "TER",
-                "matched": "VEMIRNDDC",
+                "matched": "GEIENRITA",
                 "location": "flanking_region"
             },
             {
@@ -8689,7 +8689,7 @@
                 "alignment_pos": 119,
                 "from": "ARG",
                 "to": "TER",
-                "matched": "VVHKDLATR",
+                "matched": "TEYGSRLRI",
                 "location": "flanking_region"
             },
             {
@@ -8697,7 +8697,7 @@
                 "alignment_pos": 441,
                 "from": "ARG",
                 "to": "TER",
-                "matched": "",
+                "matched": "ASTPQRRQL",
                 "location": "flanking_region"
             }
         ],
@@ -8791,7 +8791,7 @@
                 "alignment_pos": 342,
                 "from": "PRO",
                 "to": "THR",
-                "matched": "",
+                "matched": "QREALPMDT",
                 "location": "flanking_region"
             }
         ],
@@ -8846,7 +8846,7 @@
                 "alignment_pos": 192,
                 "from": "ARG",
                 "to": "TRP",
-                "matched": "QKPYKKMKG",
+                "matched": "FLLRPRKEQ",
                 "location": "flanking_region"
             },
             {
@@ -8909,7 +8909,7 @@
                 "alignment_pos": 361,
                 "from": "TYR",
                 "to": "CYS",
-                "matched": "",
+                "matched": "PELINYHQH",
                 "location": "flanking_region"
             },
             {
@@ -8917,7 +8917,7 @@
                 "alignment_pos": 28,
                 "from": "ARG",
                 "to": "HIS",
-                "matched": "YDVAIKMIK",
+                "matched": "LNFKKRLFL",
                 "location": "flanking_region"
             },
             {
@@ -8925,7 +8925,7 @@
                 "alignment_pos": 1,
                 "from": "MET",
                 "to": "THR",
-                "matched": "LTFLK",
+                "matched": "(MAAV",
                 "location": "flanking_region"
             },
             {
@@ -8933,7 +8933,7 @@
                 "alignment_pos": 13,
                 "from": "ARG",
                 "to": "TER",
-                "matched": "TGQFGVVKY",
+                "matched": "SIFLKRSQQ",
                 "location": "flanking_region"
             },
             {
@@ -8941,7 +8941,7 @@
                 "alignment_pos": 15,
                 "from": "GLN",
                 "to": "TER",
-                "matched": "QFGVVKYGK",
+                "matched": "FLKRSQQKK",
                 "location": "flanking_region"
             },
             {
@@ -8949,7 +8949,7 @@
                 "alignment_pos": 33,
                 "from": "THR",
                 "to": "PRO",
-                "matched": "KMIKEGSMS",
+                "matched": "RLFLLTVHK",
                 "location": "flanking_region"
             },
             {
@@ -8957,7 +8957,7 @@
                 "alignment_pos": 113,
                 "from": "VAL",
                 "to": "ASP",
-                "matched": "LESKQFLHR",
+                "matched": "EGPLYVFSP",
                 "location": "flanking_region"
             },
             {
@@ -8965,7 +8965,7 @@
                 "alignment_pos": 240,
                 "from": "GLU",
                 "to": "TER",
-                "matched": "NILD",
+                "matched": "LRKGDEYFI",
                 "location": "flanking_region"
             },
             {
@@ -8973,7 +8973,7 @@
                 "alignment_pos": 252,
                 "from": "TRP",
                 "to": "TER",
-                "matched": "",
+                "matched": "SNLPWWRAR",
                 "location": "flanking_region"
             },
             {
@@ -8981,7 +8981,7 @@
                 "alignment_pos": 255,
                 "from": "ARG",
                 "to": "TER",
-                "matched": "",
+                "matched": "PWWRARDKN",
                 "location": "flanking_region"
             },
             {
@@ -8989,7 +8989,7 @@
                 "alignment_pos": 288,
                 "from": "ARG",
                 "to": "TRP",
-                "matched": "",
+                "matched": "SKHMTRSQA",
                 "location": "flanking_region"
             },
             {
@@ -8997,7 +8997,7 @@
                 "alignment_pos": 307,
                 "from": "ARG",
                 "to": "GLY",
-                "matched": "",
+                "matched": "GGFIVRDSS",
                 "location": "flanking_region"
             },
             {
@@ -9005,7 +9005,7 @@
                 "alignment_pos": 334,
                 "from": "TYR",
                 "to": "SER",
-                "matched": "",
+                "matched": "GVIRHYVVC",
                 "location": "flanking_region"
             },
             {
@@ -9013,7 +9013,7 @@
                 "alignment_pos": 375,
                 "from": "TYR",
                 "to": "TER",
-                "matched": "",
+                "matched": "ISRLKYPVS",
                 "location": "flanking_region"
             },
             {
@@ -9188,7 +9188,7 @@
                 "alignment_pos": 335,
                 "from": "ARG",
                 "to": "TRP",
-                "matched": "",
+                "matched": "LVTRLRYPV",
                 "location": "flanking_region"
             },
             {
@@ -9204,7 +9204,7 @@
                 "alignment_pos": 29,
                 "from": "ARG",
                 "to": "HIS",
-                "matched": "KVAIKTIRE",
+                "matched": "SNFKVRFFV",
                 "location": "flanking_region"
             }
         ],
@@ -9243,7 +9243,7 @@
                 "alignment_pos": 436,
                 "from": "ARG",
                 "to": "CYS",
-                "matched": "",
+                "matched": "SGGQDSRRF",
                 "location": "flanking_region"
             },
             {
@@ -9322,7 +9322,7 @@
                 "alignment_pos": 307,
                 "from": "TYR",
                 "to": "TER",
-                "matched": "",
+                "matched": "CHPGFYGPD",
                 "location": "flanking_region"
             },
             {
@@ -9330,7 +9330,7 @@
                 "alignment_pos": 150,
                 "from": "GLU",
                 "to": "TER",
-                "matched": "VVKKTMGRL",
+                "matched": "KVLIKEEDA",
                 "location": "flanking_region"
             }
         ],
@@ -9385,7 +9385,7 @@
                 "alignment_pos": 9,
                 "from": "GLN",
                 "to": "TER",
-                "matched": "WELGEGAFG",
+                "matched": "GGRRGQLGW",
                 "location": "flanking_region"
             },
             {
@@ -9433,7 +9433,7 @@
                 "alignment_pos": 359,
                 "from": "TYR",
                 "to": "CYS",
-                "matched": "",
+                "matched": "VNNGNYTLL",
                 "location": "flanking_region"
             },
             {
@@ -9496,7 +9496,7 @@
                 "alignment_pos": 444,
                 "from": "GLY",
                 "to": "TER",
-                "matched": "",
+                "matched": "IASVVGFCL",
                 "location": "flanking_region"
             },
             {
@@ -9504,7 +9504,7 @@
                 "alignment_pos": 434,
                 "from": "TYR",
                 "to": "CYS",
-                "matched": "",
+                "matched": "EHLSVYAVV",
                 "location": "flanking_region"
             },
             {
@@ -9551,7 +9551,7 @@
                 "alignment_pos": 76,
                 "from": "TRP",
                 "to": "TER",
-                "matched": "YPYMRNGTL",
+                "matched": "ELLWSWAQK",
                 "location": "flanking_region"
             }
         ],
@@ -9598,7 +9598,7 @@
                 "alignment_pos": 12,
                 "from": "ARG",
                 "to": "CYS",
-                "matched": "GFGVVYKGY",
+                "matched": "PSTYVRCLN",
                 "location": "flanking_region"
             }
         ],
@@ -9653,7 +9653,7 @@
                 "alignment_pos": 768,
                 "from": "GLU",
                 "to": "LYS",
-                "matched": "",
+                "matched": "AGQYSSQGL",
                 "location": "flanking_region"
             }
         ],
@@ -9747,7 +9747,7 @@
                 "alignment_pos": 569,
                 "from": "GLU",
                 "to": "LYS",
-                "matched": "",
+                "matched": "SLSTYYQQC",
                 "location": "flanking_region"
             },
             {
@@ -9755,7 +9755,7 @@
                 "alignment_pos": 497,
                 "from": "TYR",
                 "to": "TER",
-                "matched": "",
+                "matched": "QPLAPCPNS",
                 "location": "flanking_region"
             },
             {
@@ -9802,7 +9802,7 @@
                 "alignment_pos": 368,
                 "from": "PHE",
                 "to": "CYS",
-                "matched": "",
+                "matched": "LLLLEEEDL",
                 "location": "flanking_region"
             },
             {
@@ -9849,7 +9849,7 @@
                 "alignment_pos": 1441,
                 "from": "ARG",
                 "to": "GLY",
-                "matched": "",
+                "matched": "FNIKARASS",
                 "location": "flanking_region"
             },
             {
@@ -9857,7 +9857,7 @@
                 "alignment_pos": 1699,
                 "from": "TYR",
                 "to": "CYS",
-                "matched": "",
+                "matched": "LYEMPYFPM",
                 "location": "flanking_region"
             },
             {
@@ -9865,7 +9865,7 @@
                 "alignment_pos": 1441,
                 "from": "ARG",
                 "to": "CYS",
-                "matched": "",
+                "matched": "FNIKARASS",
                 "location": "flanking_region"
             },
             {
@@ -9873,7 +9873,7 @@
                 "alignment_pos": 1122,
                 "from": "ILE",
                 "to": "VAL",
-                "matched": "",
+                "matched": "NKISGICSP",
                 "location": "flanking_region"
             },
             {
@@ -9897,7 +9897,7 @@
                 "alignment_pos": 1441,
                 "from": "ARG",
                 "to": "HIS",
-                "matched": "",
+                "matched": "FNIKARASS",
                 "location": "flanking_region"
             },
             {
@@ -9905,7 +9905,7 @@
                 "alignment_pos": 2385,
                 "from": "GLY",
                 "to": "ARG",
-                "matched": "",
+                "matched": "KENKESKHK",
                 "location": "flanking_region"
             }
         ],
@@ -9944,7 +9944,7 @@
                 "alignment_pos": 929,
                 "from": "GLU",
                 "to": "TER",
-                "matched": "",
+                "matched": "PIWLSECLQ",
                 "location": "flanking_region"
             }
         ],
@@ -9983,7 +9983,7 @@
                 "alignment_pos": 257,
                 "from": "SER",
                 "to": "LEU",
-                "matched": "",
+                "matched": "SQRQRSTST",
                 "location": "flanking_region"
             },
             {
@@ -9991,7 +9991,7 @@
                 "alignment_pos": 261,
                 "from": "PRO",
                 "to": "SER",
-                "matched": "",
+                "matched": "RSTSTPNVH",
                 "location": "flanking_region"
             },
             {
@@ -10007,7 +10007,7 @@
                 "alignment_pos": 613,
                 "from": "LEU",
                 "to": "VAL",
-                "matched": "",
+                "matched": "AHTEDINAC",
                 "location": "flanking_region"
             },
             {
@@ -10031,7 +10031,7 @@
                 "alignment_pos": 237,
                 "from": "ALA",
                 "to": "THR",
-                "matched": "SSIEL",
+                "matched": "YSTPHAFTF",
                 "location": "flanking_region"
             }
         ],
@@ -10158,7 +10158,7 @@
                 "alignment_pos": 246,
                 "from": "ALA",
                 "to": "PRO",
-                "matched": "",
+                "matched": "TFFTLAFCD",
                 "location": "flanking_region"
             },
             {
@@ -10166,7 +10166,7 @@
                 "alignment_pos": 257,
                 "from": "GLN",
                 "to": "ARG",
-                "matched": "",
+                "matched": "RKLLFQGFR",
                 "location": "flanking_region"
             },
             {
@@ -10238,7 +10238,7 @@
                 "alignment_pos": 241,
                 "from": "THR",
                 "to": "MET",
-                "matched": "L",
+                "matched": "NFVRKTFFT",
                 "location": "flanking_region"
             },
             {
@@ -10246,7 +10246,7 @@
                 "alignment_pos": 241,
                 "from": "THR",
                 "to": "ARG",
-                "matched": "L",
+                "matched": "NFVRKTFFT",
                 "location": "flanking_region"
             },
             {
@@ -10254,7 +10254,7 @@
                 "alignment_pos": 241,
                 "from": "THR",
                 "to": "PRO",
-                "matched": "L",
+                "matched": "NFVRKTFFT",
                 "location": "flanking_region"
             },
             {
@@ -10278,7 +10278,7 @@
                 "alignment_pos": 245,
                 "from": "LEU",
                 "to": "PHE",
-                "matched": "",
+                "matched": "KTFFTLAFC",
                 "location": "flanking_region"
             }
         ],
@@ -10317,7 +10317,7 @@
                 "alignment_pos": 376,
                 "from": "SER",
                 "to": "TER",
-                "matched": "",
+                "matched": "VEGPEELSR",
                 "location": "flanking_region"
             },
             {
@@ -10380,7 +10380,7 @@
                 "alignment_pos": 324,
                 "from": "ASP",
                 "to": "ASN",
-                "matched": "",
+                "matched": "GLGMGPVEE",
                 "location": "flanking_region"
             },
             {
@@ -10388,7 +10388,7 @@
                 "alignment_pos": 324,
                 "from": "ASP",
                 "to": "HIS",
-                "matched": "",
+                "matched": "GLGMGPVEE",
                 "location": "flanking_region"
             },
             {
@@ -10396,7 +10396,7 @@
                 "alignment_pos": 324,
                 "from": "ASP",
                 "to": "TYR",
-                "matched": "",
+                "matched": "GLGMGPVEE",
                 "location": "flanking_region"
             },
             {
@@ -10404,7 +10404,7 @@
                 "alignment_pos": 324,
                 "from": "ASP",
                 "to": "VAL",
-                "matched": "",
+                "matched": "GLGMGPVEE",
                 "location": "flanking_region"
             }
         ],
@@ -10443,7 +10443,7 @@
                 "alignment_pos": 713,
                 "from": "GLU",
                 "to": "LYS",
-                "matched": "",
+                "matched": "SRKQGIMSF",
                 "location": "flanking_region"
             }
         ],
@@ -10498,7 +10498,7 @@
                 "alignment_pos": 200,
                 "from": "THR",
                 "to": "ILE",
-                "matched": "RPNIWQALR",
+                "matched": "LLVQRTIAR",
                 "location": "flanking_region"
             },
             {
@@ -10538,7 +10538,7 @@
                 "alignment_pos": 174,
                 "from": "GLY",
                 "to": "VAL",
-                "matched": "DIYAMGLVF",
+                "matched": "PFISEGTTL",
                 "location": "flanking_region"
             },
             {
@@ -10546,7 +10546,7 @@
                 "alignment_pos": 45,
                 "from": "ASN",
                 "to": "SER",
-                "matched": "EAEIYQTLR",
+                "matched": "LCTKDNFTC",
                 "location": "flanking_region"
             },
             {
@@ -10554,7 +10554,7 @@
                 "alignment_pos": 52,
                 "from": "GLY",
                 "to": "ARG",
-                "matched": "LRHENILGF",
+                "matched": "TCVTDGLCF",
                 "location": "flanking_region"
             },
             {
@@ -10601,7 +10601,7 @@
                 "alignment_pos": 200,
                 "from": "ILE",
                 "to": "LYS",
-                "matched": "RPSFWSCLR",
+                "matched": "LVQRTIAKQ",
                 "location": "flanking_region"
             },
             {
@@ -10625,7 +10625,7 @@
                 "alignment_pos": 53,
                 "from": "CYS",
                 "to": "ARG",
-                "matched": "RHENILGFI",
+                "matched": "STDGYCFTM",
                 "location": "flanking_region"
             },
             {
@@ -10641,7 +10641,7 @@
                 "alignment_pos": 31,
                 "from": "ARG",
                 "to": "CYS",
-                "matched": "VKVFFTTEE",
+                "matched": "RPKVLRCKC",
                 "location": "flanking_region"
             },
             {
@@ -10712,7 +10712,7 @@
                 "alignment_pos": 124,
                 "from": "CYS",
                 "to": "ARG",
-                "matched": "ILIKKNGSC",
+                "matched": "RRTIECCRT",
                 "location": "flanking_region"
             },
             {
@@ -10783,7 +10783,7 @@
                 "alignment_pos": 150,
                 "from": "TRP",
                 "to": "CYS",
-                "matched": "NPRVGTKRY",
+                "matched": "RRQEKQRGL",
                 "location": "flanking_region"
             },
             {
@@ -10791,7 +10791,7 @@
                 "alignment_pos": 48,
                 "from": "GLY",
                 "to": "GLU",
-                "matched": "IYNTLRHDN",
+                "matched": "GPTCRGAWC",
                 "location": "flanking_region"
             },
             {
@@ -10799,7 +10799,7 @@
                 "alignment_pos": 49,
                 "from": "ALA",
                 "to": "PRO",
-                "matched": "YNTLRHDNI",
+                "matched": "PTCRGAWCT",
                 "location": "flanking_region"
             },
             {
@@ -10902,7 +10902,7 @@
                 "alignment_pos": 206,
                 "from": "ARG",
                 "to": "HIS",
-                "matched": "TLTSLAKLM",
+                "matched": "QRTVARQ)I",
                 "location": "flanking_region"
             },
             {
@@ -10958,7 +10958,7 @@
                 "alignment_pos": 202,
                 "from": "ARG",
                 "to": "ILE",
-                "matched": "NIWFTLTSL",
+                "matched": "PFLVQRTVA",
                 "location": "flanking_region"
             },
             {
@@ -10966,7 +10966,7 @@
                 "alignment_pos": 196,
                 "from": "LEU",
                 "to": "PRO",
-                "matched": "DMRQRPNIW",
+                "matched": "GSGSGLPFL",
                 "location": "flanking_region"
             }
         ],
@@ -11164,7 +11164,7 @@
                 "alignment_pos": 40,
                 "from": "ARG",
                 "to": "HIS",
-                "matched": "QSWQSEREI",
+                "matched": "NWELERTNQ",
                 "location": "flanking_region"
             },
             {
@@ -11211,7 +11211,7 @@
                 "alignment_pos": 899,
                 "from": "ARG",
                 "to": "TER",
-                "matched": "",
+                "matched": "TQDGKSGSG",
                 "location": "flanking_region"
             },
             {
@@ -11219,7 +11219,7 @@
                 "alignment_pos": 73,
                 "from": "SER",
                 "to": "TER",
-                "matched": "VMEYYPNGS",
+                "matched": "GLWEKSKGD",
                 "location": "flanking_region"
             },
             {
@@ -11227,7 +11227,7 @@
                 "alignment_pos": 118,
                 "from": "CYS",
                 "to": "TRP",
-                "matched": "LNSRNVLVK",
+                "matched": "YRFCCCSTD",
                 "location": "flanking_region"
             },
             {
@@ -11259,7 +11259,7 @@
                 "alignment_pos": 169,
                 "from": "CYS",
                 "to": "TER",
-                "matched": "RKQVDMYAL",
+                "matched": "LIVALCFGY",
                 "location": "flanking_region"
             },
             {
@@ -11267,7 +11267,7 @@
                 "alignment_pos": 873,
                 "from": "ARG",
                 "to": "TER",
-                "matched": "",
+                "matched": "RAQRPNSLD",
                 "location": "flanking_region"
             },
             {
@@ -11283,7 +11283,7 @@
                 "alignment_pos": 123,
                 "from": "CYS",
                 "to": "ARG",
-                "matched": "VLVKNDGTC",
+                "matched": "CSTDLCNVN",
                 "location": "flanking_region"
             },
             {
@@ -11291,7 +11291,7 @@
                 "alignment_pos": 123,
                 "from": "CYS",
                 "to": "SER",
-                "matched": "VLVKNDGTC",
+                "matched": "CSTDLCNVN",
                 "location": "flanking_region"
             },
             {
@@ -11307,7 +11307,7 @@
                 "alignment_pos": 899,
                 "from": "ARG",
                 "to": "PRO",
-                "matched": "",
+                "matched": "TQDGKSGSG",
                 "location": "flanking_region"
             },
             {
@@ -11323,7 +11323,7 @@
                 "alignment_pos": 182,
                 "from": "GLY",
                 "to": "ASP",
-                "matched": "WEIFMRQMA",
+                "matched": "GDRKQGLHS",
                 "location": "flanking_region"
             },
             {
@@ -11331,7 +11331,7 @@
                 "alignment_pos": 40,
                 "from": "TYR",
                 "to": "TER",
-                "matched": "QNFINEKNI",
+                "matched": "AFKDPYQQD",
                 "location": "flanking_region"
             },
             {
@@ -11347,7 +11347,7 @@
                 "alignment_pos": 202,
                 "from": "ASN",
                 "to": "TYR",
-                "matched": "KQSLAVRSL",
+                "matched": "SLDLDN)LK",
                 "location": "flanking_region"
             },
             {
@@ -11355,7 +11355,7 @@
                 "alignment_pos": 195,
                 "from": "GLU",
                 "to": "TER",
-                "matched": "GDMLVSEKQ",
+                "matched": "EAAASEPSL",
                 "location": "flanking_region"
             }
         ],
@@ -11433,7 +11433,7 @@
                 "alignment_pos": 85,
                 "from": "ARG",
                 "to": "LEU",
-                "matched": "LHMEVIVHL",
+                "matched": "SDPNHRCFD",
                 "location": "flanking_region"
             }
         ],
@@ -11535,7 +11535,7 @@
                 "alignment_pos": 31,
                 "from": "PHE",
                 "to": "ILE",
-                "matched": "LALKVLFKA",
+                "matched": "LVTQQFPCQ",
                 "location": "flanking_region"
             }
         ],
@@ -11613,7 +11613,7 @@
                 "alignment_pos": 40,
                 "from": "THR",
                 "to": "MET",
-                "matched": "LIIYNLLTI",
+                "matched": "GRIMSTLQG",
                 "location": "flanking_region"
             },
             {
@@ -11621,7 +11621,7 @@
                 "alignment_pos": 194,
                 "from": "ARG",
                 "to": "TER",
-                "matched": "",
+                "matched": "LQSQHRQFQ",
                 "location": "flanking_region"
             },
             {
@@ -11645,7 +11645,7 @@
                 "alignment_pos": 814,
                 "from": "ARG",
                 "to": "HIS",
-                "matched": "",
+                "matched": "LKLKERLNE",
                 "location": "flanking_region"
             },
             {
@@ -11661,7 +11661,7 @@
                 "alignment_pos": 550,
                 "from": "ARG",
                 "to": "GLN",
-                "matched": "",
+                "matched": "PADPPRVLA",
                 "location": "flanking_region"
             }
         ],
@@ -11700,7 +11700,7 @@
                 "alignment_pos": 492,
                 "from": "SER",
                 "to": "TYR",
-                "matched": "",
+                "matched": "KDEWQSLDQ",
                 "location": "flanking_region"
             }
         ],
@@ -11739,7 +11739,7 @@
                 "alignment_pos": 8,
                 "from": "TRP",
                 "to": "TER",
-                "matched": "GQELGRGQY",
+                "matched": "GDGVPWGSE",
                 "location": "flanking_region"
             },
             {
@@ -11747,7 +11747,7 @@
                 "alignment_pos": 29,
                 "from": "ARG",
                 "to": "GLN",
-                "matched": "FPCALKSVV",
+                "matched": "IRELCRGFG",
                 "location": "flanking_region"
             }
         ],
@@ -11841,7 +11841,7 @@
                 "alignment_pos": 401,
                 "from": "LYS",
                 "to": "GLU",
-                "matched": "",
+                "matched": "LDFCIRNIE",
                 "location": "flanking_region"
             },
             {
@@ -11904,7 +11904,7 @@
                 "alignment_pos": 422,
                 "from": "GLN",
                 "to": "TER",
-                "matched": "",
+                "matched": "AKLEFFHKS",
                 "location": "flanking_region"
             }
         ],
@@ -11943,7 +11943,7 @@
                 "alignment_pos": 265,
                 "from": "GLU",
                 "to": "TER",
-                "matched": "",
+                "matched": "EQEHIEIND",
                 "location": "flanking_region"
             },
             {
@@ -11951,7 +11951,7 @@
                 "alignment_pos": 1,
                 "from": "MET",
                 "to": "ILE",
-                "matched": "DEKYK",
+                "matched": "(MESR",
                 "location": "flanking_region"
             },
             {
@@ -12220,7 +12220,7 @@
                 "alignment_pos": 1986,
                 "from": "ARG",
                 "to": "GLN",
-                "matched": "",
+                "matched": "GLSVDSAQE",
                 "location": "flanking_region"
             },
             {
@@ -12228,7 +12228,7 @@
                 "alignment_pos": 805,
                 "from": "LEU",
                 "to": "PHE",
-                "matched": "",
+                "matched": "VRAELMQAL",
                 "location": "flanking_region"
             },
             {
@@ -12236,7 +12236,7 @@
                 "alignment_pos": 1043,
                 "from": "ALA",
                 "to": "THR",
-                "matched": "",
+                "matched": "ELCKIGEVA",
                 "location": "flanking_region"
             },
             {
@@ -12244,7 +12244,7 @@
                 "alignment_pos": 1866,
                 "from": "TRP",
                 "to": "ARG",
-                "matched": "",
+                "matched": "PAVPARMED",
                 "location": "flanking_region"
             },
             {
@@ -12252,7 +12252,7 @@
                 "alignment_pos": 1159,
                 "from": "LEU",
                 "to": "ARG",
-                "matched": "",
+                "matched": "KDEERAEEI",
                 "location": "flanking_region"
             },
             {
@@ -12260,7 +12260,7 @@
                 "alignment_pos": 1866,
                 "from": "TRP",
                 "to": "CYS",
-                "matched": "",
+                "matched": "PAVPARMED",
                 "location": "flanking_region"
             },
             {
@@ -12268,7 +12268,7 @@
                 "alignment_pos": 171,
                 "from": "ARG",
                 "to": "CYS",
-                "matched": "",
+                "matched": "PKVVNRYFE",
                 "location": "flanking_region"
             }
         ],
@@ -12307,7 +12307,7 @@
                 "alignment_pos": 34,
                 "from": "ARG",
                 "to": "TER",
-                "matched": "KHVNKKREL",
+                "matched": "VVLPEHNLS",
                 "location": "flanking_region"
             },
             {
@@ -12315,7 +12315,7 @@
                 "alignment_pos": 295,
                 "from": "ARG",
                 "to": "TER",
-                "matched": "",
+                "matched": "FQTVLVITY",
                 "location": "flanking_region"
             },
             {
@@ -12323,7 +12323,7 @@
                 "alignment_pos": 105,
                 "from": "LEU",
                 "to": "PRO",
-                "matched": "NDLVKGMAF",
+                "matched": "GCVYPAASV",
                 "location": "flanking_region"
             }
         ],
@@ -12370,7 +12370,7 @@
                 "alignment_pos": 52,
                 "from": "ALA",
                 "to": "SER",
-                "matched": "KLQELRHEN",
+                "matched": "PPALSAVFT",
                 "location": "flanking_region"
             },
             {
@@ -12378,7 +12378,7 @@
                 "alignment_pos": 837,
                 "from": "GLU",
                 "to": "ASP",
-                "matched": "",
+                "matched": "PEYFEQVTL",
                 "location": "flanking_region"
             },
             {
@@ -12386,7 +12386,7 @@
                 "alignment_pos": 838,
                 "from": "ARG",
                 "to": "SER",
-                "matched": "",
+                "matched": "EYFEQVTLY",
                 "location": "flanking_region"
             },
             {
@@ -12394,7 +12394,7 @@
                 "alignment_pos": 838,
                 "from": "ARG",
                 "to": "CYS",
-                "matched": "",
+                "matched": "EYFEQVTLY",
                 "location": "flanking_region"
             },
             {
@@ -12402,7 +12402,7 @@
                 "alignment_pos": 837,
                 "from": "GLU",
                 "to": "ASP",
-                "matched": "",
+                "matched": "PEYFEQVTL",
                 "location": "flanking_region"
             },
             {
@@ -12410,7 +12410,7 @@
                 "alignment_pos": 838,
                 "from": "ARG",
                 "to": "CYS",
-                "matched": "",
+                "matched": "EYFEQVTLY",
                 "location": "flanking_region"
             },
             {
@@ -12418,7 +12418,7 @@
                 "alignment_pos": 839,
                 "from": "THR",
                 "to": "MET",
-                "matched": "",
+                "matched": "YFEQVTLYF",
                 "location": "flanking_region"
             },
             {
@@ -12426,7 +12426,7 @@
                 "alignment_pos": 838,
                 "from": "ARG",
                 "to": "HIS",
-                "matched": "",
+                "matched": "EYFEQVTLY",
                 "location": "flanking_region"
             },
             {
@@ -12434,7 +12434,7 @@
                 "alignment_pos": 949,
                 "from": "ILE",
                 "to": "THR",
-                "matched": "",
+                "matched": "VAGVVGLTM",
                 "location": "flanking_region"
             },
             {
@@ -12442,7 +12442,7 @@
                 "alignment_pos": 933,
                 "from": "VAL",
                 "to": "ALA",
-                "matched": "",
+                "matched": "PEVPVRIRI",
                 "location": "flanking_region"
             },
             {
@@ -12458,7 +12458,7 @@
                 "alignment_pos": 911,
                 "from": "LEU",
                 "to": "PHE",
-                "matched": "",
+                "matched": "AEIANMSLD",
                 "location": "flanking_region"
             },
             {
@@ -12482,7 +12482,7 @@
                 "alignment_pos": 83,
                 "from": "ARG",
                 "to": "CYS",
-                "matched": "RGSLQDLLA",
+                "matched": "RLAAARLNR",
                 "location": "flanking_region"
             }
         ],
@@ -12521,7 +12521,7 @@
                 "alignment_pos": 840,
                 "from": "SER",
                 "to": "ILE",
-                "matched": "",
+                "matched": "TIGDAYMVA",
                 "location": "flanking_region"
             },
             {
@@ -12529,7 +12529,7 @@
                 "alignment_pos": 387,
                 "from": "ASP",
                 "to": "GLY",
-                "matched": "",
+                "matched": "LYTSVDTKK",
                 "location": "flanking_region"
             }
         ],
@@ -12568,7 +12568,7 @@
                 "alignment_pos": 546,
                 "from": "GLN",
                 "to": "TER",
-                "matched": "",
+                "matched": "LTSKLIRSH",
                 "location": "flanking_region"
             },
             {
@@ -12576,7 +12576,7 @@
                 "alignment_pos": 628,
                 "from": "GLN",
                 "to": "TER",
-                "matched": "",
+                "matched": "QQDDWSTGG",
                 "location": "flanking_region"
             },
             {
@@ -12584,7 +12584,7 @@
                 "alignment_pos": 478,
                 "from": "ASP",
                 "to": "GLY",
-                "matched": "",
+                "matched": "CGLTVDPEK",
                 "location": "flanking_region"
             },
             {
@@ -12772,7 +12772,7 @@
                 "alignment_pos": 455,
                 "from": "LYS",
                 "to": "TER",
-                "matched": "",
+                "matched": "VDIPRCHQY",
                 "location": "flanking_region"
             },
             {
@@ -12780,7 +12780,7 @@
                 "alignment_pos": 511,
                 "from": "ARG",
                 "to": "HIS",
-                "matched": "",
+                "matched": "EALAYACMS",
                 "location": "flanking_region"
             }
         ],
@@ -12827,7 +12827,7 @@
                 "alignment_pos": 330,
                 "from": "SER",
                 "to": "TER",
-                "matched": "",
+                "matched": "QERINSQRE",
                 "location": "flanking_region"
             },
             {
@@ -12835,7 +12835,7 @@
                 "alignment_pos": 297,
                 "from": "GLY",
                 "to": "ASP",
-                "matched": "",
+                "matched": "DRLRLGHFT",
                 "location": "flanking_region"
             }
         ],
@@ -12874,7 +12874,7 @@
                 "alignment_pos": 1224,
                 "from": "LEU",
                 "to": "ARG",
-                "matched": "",
+                "matched": "IEGTEVVQE",
                 "location": "flanking_region"
             }
         ],
@@ -12929,7 +12929,7 @@
                 "alignment_pos": 200,
                 "from": "ARG",
                 "to": "TER",
-                "matched": "KNMIQPDAE",
+                "matched": "KRCVLRETN",
                 "location": "flanking_region"
             }
         ],
@@ -13023,7 +13023,7 @@
                 "alignment_pos": 565,
                 "from": "GLN",
                 "to": "GLU",
-                "matched": "",
+                "matched": "TTSDCETDG",
                 "location": "flanking_region"
             },
             {
@@ -13031,7 +13031,7 @@
                 "alignment_pos": 562,
                 "from": "GLU",
                 "to": "LYS",
-                "matched": "",
+                "matched": "YSSTTSDCE",
                 "location": "flanking_region"
             },
             {
@@ -13039,7 +13039,7 @@
                 "alignment_pos": 564,
                 "from": "ASP",
                 "to": "ALA",
-                "matched": "",
+                "matched": "STTSDCETD",
                 "location": "flanking_region"
             },
             {
@@ -13047,7 +13047,7 @@
                 "alignment_pos": 1185,
                 "from": "ARG",
                 "to": "CYS",
-                "matched": "",
+                "matched": "RNSLQRSEP",
                 "location": "flanking_region"
             }
         ],
@@ -13102,7 +13102,7 @@
                 "alignment_pos": 73,
                 "from": "GLN",
                 "to": "TER",
-                "matched": "KIVLVTELM",
+                "matched": "AAATTTTTE",
                 "location": "flanking_region"
             },
             {
@@ -13110,7 +13110,7 @@
                 "alignment_pos": 1172,
                 "from": "ILE",
                 "to": "MET",
-                "matched": "",
+                "matched": "EKADEMLSE",
                 "location": "flanking_region"
             },
             {
@@ -13118,7 +13118,7 @@
                 "alignment_pos": 2047,
                 "from": "SER",
                 "to": "ASN",
-                "matched": "",
+                "matched": "SDNESDIED",
                 "location": "flanking_region"
             }
         ],

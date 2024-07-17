@@ -82,23 +82,32 @@ def parse_subs_file(subs_file_path, uniprot_info):
                     for flanking_region in uniprot_info[uniprot_id]["flanking_positions"]:
                         if flanking_region["start"] <= full_sequence_pos <= flanking_region["end"]:
                             location = "flanking_region"
+                            alignment_pos = full_sequence_pos
                             break
 
-                    if location == "flanking_region":
-                        alignment_pos = full_sequence_pos
-                    else:
-                        # Calculate the length of the starting flanking region
-                        first_flanking_region = uniprot_info[uniprot_id]["flanking_positions"][0]
-                        flanking_length = first_flanking_region["end"] - first_flanking_region["start"] + 1
+                    if location == "kinase_domain":
+                        # Calculate the length of all preceding flanking regions
+                        preceding_flanking_length = sum(
+                            (region["end"] - region["start"] + 1) 
+                            for region in uniprot_info[uniprot_id]["flanking_positions"]
+                            if region["end"] < full_sequence_pos
+                        )
 
                         # Calculate alignment_pos
-                        alignment_pos = full_sequence_pos - flanking_length
+                        alignment_pos = full_sequence_pos - preceding_flanking_length
 
                     # Create the matched property
-                    cleaned_kinase_seq = uniprot_info[uniprot_id]["kinase_domain_alignment"]["sequence"]
-                    matched_start = max(0, alignment_pos - 1 - n)
-                    matched_end = min(len(cleaned_kinase_seq), alignment_pos - 1 + n + 1)
-                    matched_seq = cleaned_kinase_seq[matched_start:matched_end]
+                    if location == "flanking_region":
+                        sequence = uniprot_info[uniprot_id]["sequence"]
+                        flanking_sequences = ''.join(c for c in sequence if c.isupper() or c == '(' or c == ')')
+                        matched_start = max(0, alignment_pos - 1 - n)
+                        matched_end = min(len(flanking_sequences), alignment_pos - 1 + n + 1)
+                        matched_seq = flanking_sequences[matched_start:matched_end]
+                    else:
+                        cleaned_kinase_seq = uniprot_info[uniprot_id]["kinase_domain_alignment"]["sequence"]
+                        matched_start = max(0, alignment_pos - 1 - n)
+                        matched_end = min(len(cleaned_kinase_seq), alignment_pos - 1 + n + 1)
+                        matched_seq = cleaned_kinase_seq[matched_start:matched_end]
 
                     uniprot_info[uniprot_id]["substitutions"].append({
                         "full_sequence_pos": full_sequence_pos,
