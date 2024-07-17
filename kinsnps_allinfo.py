@@ -1,5 +1,7 @@
 import json
 
+n = 4  # Number of characters before and after the alignment position for the matched property
+
 def parse_fasta_file(fasta_file_path):
     uniprot_info = {}
     with open(fasta_file_path, 'r') as file:
@@ -12,7 +14,6 @@ def parse_fasta_file(fasta_file_path):
                     current_id = parts[1]
                     sequence = next(file).strip()
                     sequence = sequence[sequence.index("{")+1:sequence.index("}")]
-                    clean_sequence = sequence.replace('(', '').replace(')', '').replace('-', '')
                     flanking_positions = []
                     kinase_domain = ""
                     kinase_start = -1
@@ -41,6 +42,10 @@ def parse_fasta_file(fasta_file_path):
                                 pos += 1
                     if kinase_end == -1:  # If no flanking regions or at the end
                         kinase_end = pos - 1
+
+                    # Create kinase_domain_alignment sequence
+                    kinase_domain_alignment = ''.join(c for c in kinase_domain if c.isupper())
+
                     uniprot_info[current_id] = {
                         "uniprot_id": current_id,
                         "sequence": sequence,
@@ -53,7 +58,10 @@ def parse_fasta_file(fasta_file_path):
                         },
                         "kinase_motifs": [
                             {"name": "", "start": -1, "end": -1}
-                        ]
+                        ],
+                        "kinase_domain_alignment": {
+                            "sequence": kinase_domain_alignment
+                        }
                     }
     return uniprot_info
 
@@ -66,13 +74,39 @@ def parse_subs_file(subs_file_path, uniprot_info):
                 continue
             parts = line.split()
             if len(parts) == 4:
-                uniprot_id, from_aa, pos, to_aa = parts
-                pos = int(pos)
+                uniprot_id, from_aa, full_sequence_pos, to_aa = parts
+                full_sequence_pos = int(full_sequence_pos)
                 if uniprot_id in uniprot_info:
+                    # Determine location
+                    location = "kinase_domain"
+                    for flanking_region in uniprot_info[uniprot_id]["flanking_positions"]:
+                        if flanking_region["start"] <= full_sequence_pos <= flanking_region["end"]:
+                            location = "flanking_region"
+                            break
+
+                    if location == "flanking_region":
+                        alignment_pos = full_sequence_pos
+                    else:
+                        # Calculate the length of the starting flanking region
+                        first_flanking_region = uniprot_info[uniprot_id]["flanking_positions"][0]
+                        flanking_length = first_flanking_region["end"] - first_flanking_region["start"] + 1
+
+                        # Calculate alignment_pos
+                        alignment_pos = full_sequence_pos - flanking_length
+
+                    # Create the matched property
+                    cleaned_kinase_seq = uniprot_info[uniprot_id]["kinase_domain_alignment"]["sequence"]
+                    matched_start = max(0, alignment_pos - 1 - n)
+                    matched_end = min(len(cleaned_kinase_seq), alignment_pos - 1 + n + 1)
+                    matched_seq = cleaned_kinase_seq[matched_start:matched_end]
+
                     uniprot_info[uniprot_id]["substitutions"].append({
-                        "pos": pos,
+                        "full_sequence_pos": full_sequence_pos,
+                        "alignment_pos": alignment_pos,
                         "from": from_aa,
-                        "to": to_aa
+                        "to": to_aa,
+                        "matched": matched_seq,
+                        "location": location
                     })
     return uniprot_info
 
