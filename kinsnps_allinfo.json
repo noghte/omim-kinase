@@ -249,10 +249,10 @@
             },
             {
                 "full_sequence_pos": 227,
-                "alignment_pos": 150,
+                "alignment_pos": 151,
                 "from": "SER",
                 "to": "ALA",
-                "matched": "HEKAYSFCG",
+                "matched": "EKAYSFCGT",
                 "location": "kinase_domain"
             },
             {
@@ -297,18 +297,18 @@
             },
             {
                 "full_sequence_pos": 189,
-                "alignment_pos": 113,
+                "alignment_pos": 114,
                 "from": "ILE",
                 "to": "LYS",
-                "matched": "LHSLGIIYR",
+                "matched": "HSLGIIYRD",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 268,
-                "alignment_pos": 191,
+                "alignment_pos": 192,
                 "from": "PHE",
                 "to": "SER",
-                "matched": "TGTLPFQGK",
+                "matched": "GTLPFQGKD",
                 "location": "kinase_domain"
             },
             {
@@ -690,10 +690,10 @@
         "substitutions": [
             {
                 "full_sequence_pos": 167,
-                "alignment_pos": 126,
+                "alignment_pos": 128,
                 "from": "GLU",
                 "to": "ASP",
-                "matched": "NMLISNEGH",
+                "matched": "LISNEGHIK",
                 "location": "kinase_domain"
             }
         ],
@@ -831,10 +831,10 @@
         "substitutions": [
             {
                 "full_sequence_pos": 206,
-                "alignment_pos": 156,
+                "alignment_pos": 158,
                 "from": "LEU",
                 "to": "ARG",
-                "matched": "CGTPEYLAP",
+                "matched": "TPEYLAPEI",
                 "location": "kinase_domain"
             },
             {
@@ -917,10 +917,10 @@
         "substitutions": [
             {
                 "full_sequence_pos": 235,
-                "alignment_pos": 185,
+                "alignment_pos": 187,
                 "from": "GLY",
                 "to": "ARG",
-                "matched": "IYEMAAGYP",
+                "matched": "EMAAGYPPF",
                 "location": "kinase_domain"
             },
             {
@@ -1019,10 +1019,10 @@
         "substitutions": [
             {
                 "full_sequence_pos": 569,
-                "alignment_pos": 110,
+                "alignment_pos": 111,
                 "from": "ARG",
                 "to": "TER",
-                "matched": "FDYLHRLGI",
+                "matched": "DYLHRLGII",
                 "location": "kinase_domain"
             }
         ],
@@ -1262,10 +1262,10 @@
         "substitutions": [
             {
                 "full_sequence_pos": 173,
-                "alignment_pos": 116,
+                "alignment_pos": 121,
                 "from": "LEU",
                 "to": "PRO",
-                "matched": "HRDVKPENL",
+                "matched": "PENLLYTSD",
                 "location": "kinase_domain"
             }
         ],
@@ -1317,10 +1317,10 @@
             },
             {
                 "full_sequence_pos": 107,
-                "alignment_pos": 71,
+                "alignment_pos": 75,
                 "from": "GLY",
                 "to": "VAL",
-                "matched": "LIVMEMMEG",
+                "matched": "EMMEGGELF",
                 "location": "kinase_domain"
             }
         ],
@@ -1601,10 +1601,10 @@
             },
             {
                 "full_sequence_pos": 268,
-                "alignment_pos": 231,
+                "alignment_pos": 232,
                 "from": "TYR",
                 "to": "HIS",
-                "matched": "ERITVYEAL",
+                "matched": "RITVYEALN",
                 "location": "kinase_domain"
             },
             {
@@ -1712,18 +1712,18 @@
         "substitutions": [
             {
                 "full_sequence_pos": 163,
-                "alignment_pos": 104,
+                "alignment_pos": 105,
                 "from": "GLY",
                 "to": "ASP",
-                "matched": "CQLIDGLEY",
+                "matched": "QLIDGLEYL",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 253,
-                "alignment_pos": 189,
+                "alignment_pos": 190,
                 "from": "TYR",
                 "to": "TER",
-                "matched": "ITTGLYPFE",
+                "matched": "TTGLYPFEG",
                 "location": "kinase_domain"
             },
             {
@@ -1752,18 +1752,18 @@
             },
             {
                 "full_sequence_pos": 163,
-                "alignment_pos": 104,
+                "alignment_pos": 105,
                 "from": "GLY",
                 "to": "ASP",
-                "matched": "CQLIDGLEY",
+                "matched": "QLIDGLEYL",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 194,
-                "alignment_pos": 135,
+                "alignment_pos": 136,
                 "from": "ASP",
                 "to": "TYR",
-                "matched": "TLKISDLGV",
+                "matched": "LKISDLGVA",
                 "location": "kinase_domain"
             },
             {
@@ -1776,10 +1776,10 @@
             },
             {
                 "full_sequence_pos": 170,
-                "alignment_pos": 111,
+                "alignment_pos": 112,
                 "from": "GLU",
                 "to": "TER",
-                "matched": "EYLHSQGIV",
+                "matched": "YLHSQGIVH",
                 "location": "kinase_domain"
             },
             {
@@ -1800,18 +1800,18 @@
             },
             {
                 "full_sequence_pos": 239,
-                "alignment_pos": 175,
+                "alignment_pos": 176,
                 "from": "TRP",
                 "to": "CYS",
-                "matched": "FKVDIWSAG",
+                "matched": "KVDIWSAGV",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 246,
-                "alignment_pos": 182,
+                "alignment_pos": 183,
                 "from": "TYR",
                 "to": "TER",
-                "matched": "AGVTLYNIT",
+                "matched": "GVTLYNITT",
                 "location": "kinase_domain"
             },
             {
@@ -2163,10 +2163,10 @@
             },
             {
                 "full_sequence_pos": 428,
-                "alignment_pos": 192,
+                "alignment_pos": 193,
                 "from": "SER",
                 "to": "PHE",
-                "matched": "GYPPFSEHT",
+                "matched": "YPPFSEHTQ",
                 "location": "kinase_domain"
             }
         ],
@@ -2438,10 +2438,10 @@
             },
             {
                 "full_sequence_pos": 46,
-                "alignment_pos": 37,
+                "alignment_pos": 38,
                 "from": "HIS",
                 "to": "ARG",
-                "matched": "CVKTKHPQL",
+                "matched": "VKTKHPQLH",
                 "location": "kinase_domain"
             }
         ],
@@ -2477,10 +2477,10 @@
         "substitutions": [
             {
                 "full_sequence_pos": 230,
-                "alignment_pos": 162,
+                "alignment_pos": 167,
                 "from": "ARG",
                 "to": "TRP",
-                "matched": "NTHGKEQSR",
+                "matched": "EQSRRDDLE",
                 "location": "kinase_domain"
             }
         ],
@@ -2524,26 +2524,26 @@
             },
             {
                 "full_sequence_pos": 133,
-                "alignment_pos": 68,
+                "alignment_pos": 72,
                 "from": "ARG",
                 "to": "CYS",
-                "matched": "SYRFMIMDR",
+                "matched": "MIMDRFGSD",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 236,
-                "alignment_pos": 154,
+                "alignment_pos": 161,
                 "from": "VAL",
                 "to": "MET",
-                "matched": "IEFTSIDAH",
+                "matched": "AHGVAPSRR",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 89,
-                "alignment_pos": 43,
+                "alignment_pos": 47,
                 "from": "ARG",
                 "to": "GLN",
-                "matched": "FTELKFYQR",
+                "matched": "KFYQRKPIL",
                 "location": "kinase_domain"
             },
             {
@@ -2564,18 +2564,18 @@
             },
             {
                 "full_sequence_pos": 219,
-                "alignment_pos": 141,
+                "alignment_pos": 148,
                 "from": "ARG",
                 "to": "ILE",
-                "matched": "YRHKYDKRC",
+                "matched": "RCHDGTIEF",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 254,
-                "alignment_pos": 170,
+                "alignment_pos": 178,
                 "from": "TRP",
                 "to": "LEU",
-                "matched": "GDLEILGYC",
+                "matched": "CMIQWLTGH",
                 "location": "kinase_domain"
             }
         ],
@@ -2658,10 +2658,10 @@
         "substitutions": [
             {
                 "full_sequence_pos": 197,
-                "alignment_pos": 166,
+                "alignment_pos": 168,
                 "from": "ALA",
                 "to": "THR",
-                "matched": "VLLSSYATP",
+                "matched": "LSSYATPVD",
                 "location": "kinase_domain"
             }
         ],
@@ -2697,42 +2697,42 @@
         "substitutions": [
             {
                 "full_sequence_pos": 196,
-                "alignment_pos": 148,
+                "alignment_pos": 152,
                 "from": "THR",
                 "to": "ALA",
-                "matched": "KPLDPVVVT",
+                "matched": "PVVVTFWYR",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 32,
-                "alignment_pos": 10,
+                "alignment_pos": 11,
                 "from": "TYR",
                 "to": "HIS",
-                "matched": "VGRGTYGHV",
+                "matched": "GRGTYGHVY",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 31,
-                "alignment_pos": 9,
+                "alignment_pos": 10,
                 "from": "THR",
                 "to": "ASN",
-                "matched": "KVGRGTYGH",
+                "matched": "VGRGTYGHV",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 28,
-                "alignment_pos": 6,
+                "alignment_pos": 7,
                 "from": "GLY",
                 "to": "ARG",
-                "matched": "EGCKVGRGT",
+                "matched": "GCKVGRGTY",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 28,
-                "alignment_pos": 6,
+                "alignment_pos": 7,
                 "from": "GLY",
                 "to": "ARG",
-                "matched": "EGCKVGRGT",
+                "matched": "GCKVGRGTY",
                 "location": "kinase_domain"
             }
         ],
@@ -2768,42 +2768,42 @@
         "substitutions": [
             {
                 "full_sequence_pos": 62,
-                "alignment_pos": 37,
+                "alignment_pos": 39,
                 "from": "SER",
                 "to": "LEU",
-                "matched": "GTGISMSAC",
+                "matched": "GISMSACRE",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 29,
-                "alignment_pos": 7,
+                "alignment_pos": 8,
                 "from": "ARG",
                 "to": "GLY",
-                "matched": "GCKVGRGTY",
-                "location": "kinase_domain"
-            },
-            {
-                "full_sequence_pos": 30,
-                "alignment_pos": 8,
-                "from": "GLY",
-                "to": "SER",
                 "matched": "CKVGRGTYG",
                 "location": "kinase_domain"
             },
             {
+                "full_sequence_pos": 30,
+                "alignment_pos": 9,
+                "from": "GLY",
+                "to": "SER",
+                "matched": "KVGRGTYGH",
+                "location": "kinase_domain"
+            },
+            {
                 "full_sequence_pos": 193,
-                "alignment_pos": 148,
+                "alignment_pos": 152,
                 "from": "VAL",
                 "to": "GLY",
-                "matched": "KPLDPVVVT",
+                "matched": "PVVVTFWYR",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 223,
-                "alignment_pos": 174,
+                "alignment_pos": 178,
                 "from": "ILE",
                 "to": "MET",
-                "matched": "IDIWAIGCI",
+                "matched": "AIGCIFAEL",
                 "location": "kinase_domain"
             }
         ],
@@ -2839,10 +2839,10 @@
         "substitutions": [
             {
                 "full_sequence_pos": 842,
-                "alignment_pos": 122,
+                "alignment_pos": 123,
                 "from": "ASN",
                 "to": "SER",
-                "matched": "DIKCSNILL",
+                "matched": "IKCSNILLN",
                 "location": "kinase_domain"
             },
             {
@@ -2871,18 +2871,18 @@
             },
             {
                 "full_sequence_pos": 842,
-                "alignment_pos": 122,
+                "alignment_pos": 123,
                 "from": "ASN",
                 "to": "ASP",
-                "matched": "DIKCSNILL",
+                "matched": "IKCSNILLN",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 874,
-                "alignment_pos": 150,
+                "alignment_pos": 152,
                 "from": "VAL",
                 "to": "LEU",
-                "matched": "RPYTNKVIT",
+                "matched": "YTNKVITLW",
                 "location": "kinase_domain"
             }
         ],
@@ -2973,10 +2973,10 @@
             },
             {
                 "full_sequence_pos": 174,
-                "alignment_pos": 142,
+                "alignment_pos": 143,
                 "from": "ALA",
                 "to": "VAL",
-                "matched": "GLARVADDH",
+                "matched": "LARVADDHG",
                 "location": "kinase_domain"
             },
             {
@@ -3028,18 +3028,18 @@
         "substitutions": [
             {
                 "full_sequence_pos": 152,
-                "alignment_pos": 134,
+                "alignment_pos": 135,
                 "from": "CYS",
                 "to": "PHE",
-                "matched": "DVLKLCDFG",
+                "matched": "VLKLCDFGF",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 175,
-                "alignment_pos": 153,
+                "alignment_pos": 155,
                 "from": "ARG",
                 "to": "SER",
-                "matched": "TEYVATRWY",
+                "matched": "YVATRWYRS",
                 "location": "kinase_domain"
             },
             {
@@ -3068,26 +3068,26 @@
             },
             {
                 "full_sequence_pos": 288,
-                "alignment_pos": 228,
+                "alignment_pos": 230,
                 "from": "THR",
                 "to": "ILE",
-                "matched": "PADRYLTEQ",
+                "matched": "DRYLTEQCL",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 291,
-                "alignment_pos": 231,
+                "alignment_pos": 233,
                 "from": "CYS",
                 "to": "TYR",
-                "matched": "RYLTEQCLN",
+                "matched": "LTEQCLNHP",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 178,
-                "alignment_pos": 156,
+                "alignment_pos": 158,
                 "from": "ARG",
                 "to": "PRO",
-                "matched": "VATRWYRSP",
+                "matched": "TRWYRSPEL",
                 "location": "kinase_domain"
             }
         ],
@@ -3123,18 +3123,18 @@
         "substitutions": [
             {
                 "full_sequence_pos": 198,
-                "alignment_pos": 148,
+                "alignment_pos": 154,
                 "from": "LYS",
                 "to": "ARG",
-                "matched": "YNVRVASRY",
+                "matched": "SRYFKGPEL",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 175,
-                "alignment_pos": 127,
+                "alignment_pos": 132,
                 "from": "ASP",
                 "to": "GLY",
-                "matched": "DEHRKLRLI",
+                "matched": "LRLIDWGLA",
                 "location": "kinase_domain"
             },
             {
@@ -3155,10 +3155,10 @@
             },
             {
                 "full_sequence_pos": 156,
-                "alignment_pos": 109,
+                "alignment_pos": 114,
                 "from": "ASP",
                 "to": "HIS",
-                "matched": "CHSMGIMHR",
+                "matched": "IMHRDVKPH",
                 "location": "kinase_domain"
             },
             {
@@ -3202,10 +3202,10 @@
         "substitutions": [
             {
                 "full_sequence_pos": 272,
-                "alignment_pos": 225,
+                "alignment_pos": 227,
                 "from": "ARG",
                 "to": "GLN",
-                "matched": "QWDPKKRPT",
+                "matched": "DPKKRPTAS",
                 "location": "kinase_domain"
             },
             {
@@ -3218,10 +3218,10 @@
             },
             {
                 "full_sequence_pos": 220,
-                "alignment_pos": 209,
+                "alignment_pos": 211,
                 "from": "LYS",
                 "to": "GLU",
-                "matched": "QVLASSEAV",
+                "matched": "LASSEAVQL",
                 "location": "kinase_domain"
             },
             {
@@ -3242,10 +3242,10 @@
             },
             {
                 "full_sequence_pos": 120,
-                "alignment_pos": 110,
+                "alignment_pos": 112,
                 "from": "GLY",
                 "to": "CYS",
-                "matched": "AFIHKHGFF",
+                "matched": "IHKHGFFHR",
                 "location": "kinase_domain"
             }
         ],
@@ -3281,18 +3281,18 @@
         "substitutions": [
             {
                 "full_sequence_pos": 240,
-                "alignment_pos": 209,
+                "alignment_pos": 211,
                 "from": "GLY",
                 "to": "TER",
-                "matched": "QVLASNEAI",
+                "matched": "LASNEAIQL",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 130,
-                "alignment_pos": 120,
+                "alignment_pos": 122,
                 "from": "ASN",
                 "to": "HIS",
-                "matched": "RDMKPENLL",
+                "matched": "MKPENLLCM",
                 "location": "kinase_domain"
             },
             {
@@ -3305,10 +3305,10 @@
             },
             {
                 "full_sequence_pos": 166,
-                "alignment_pos": 156,
+                "alignment_pos": 158,
                 "from": "ARG",
                 "to": "HIS",
-                "matched": "VSTRWYRAP",
+                "matched": "TRWYRAPEV",
                 "location": "kinase_domain"
             }
         ],
@@ -3344,18 +3344,18 @@
         "substitutions": [
             {
                 "full_sequence_pos": 748,
-                "alignment_pos": 208,
+                "alignment_pos": 209,
                 "from": "PRO",
                 "to": "LEU",
-                "matched": "IVEGIYSEK",
+                "matched": "VEGIYSEKV",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 773,
-                "alignment_pos": 227,
+                "alignment_pos": 228,
                 "from": "ARG",
                 "to": "CYS",
-                "matched": "PDAEARPDI",
+                "matched": "DAEARPDIV",
                 "location": "kinase_domain"
             }
         ],
@@ -3700,10 +3700,10 @@
             },
             {
                 "full_sequence_pos": 463,
-                "alignment_pos": 146,
+                "alignment_pos": 150,
                 "from": "ARG",
                 "to": "TER",
-                "matched": "ICEALPYKT",
+                "matched": "LPYKTGKKG",
                 "location": "kinase_domain"
             },
             {
@@ -3755,10 +3755,10 @@
         "substitutions": [
             {
                 "full_sequence_pos": 448,
-                "alignment_pos": 117,
+                "alignment_pos": 121,
                 "from": "ILE",
                 "to": "VAL",
-                "matched": "HRDLKPRNI",
+                "matched": "KPRNIFLGP",
                 "location": "kinase_domain"
             }
         ],
@@ -3857,10 +3857,10 @@
             },
             {
                 "full_sequence_pos": 461,
-                "alignment_pos": 160,
+                "alignment_pos": 163,
                 "from": "SER",
                 "to": "CYS",
-                "matched": "YMSPEQISS",
+                "matched": "PEQISSQDY",
                 "location": "kinase_domain"
             },
             {
@@ -3936,10 +3936,10 @@
         "substitutions": [
             {
                 "full_sequence_pos": 565,
-                "alignment_pos": 144,
+                "alignment_pos": 154,
                 "from": "PRO",
                 "to": "ARG",
-                "matched": "LLTIPGTET",
+                "matched": "MAPEVVLGR",
                 "location": "kinase_domain"
             },
             {
@@ -3983,18 +3983,18 @@
         "substitutions": [
             {
                 "full_sequence_pos": 180,
-                "alignment_pos": 142,
+                "alignment_pos": 144,
                 "from": "ARG",
                 "to": "TER",
-                "matched": "VSAQDRTVG",
+                "matched": "AQDRTVGRR",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 180,
-                "alignment_pos": 142,
+                "alignment_pos": 144,
                 "from": "ARG",
                 "to": "TER",
-                "matched": "VSAQDRTVG",
+                "matched": "AQDRTVGRR",
                 "location": "kinase_domain"
             }
         ],
@@ -4046,10 +4046,10 @@
             },
             {
                 "full_sequence_pos": 239,
-                "alignment_pos": 197,
+                "alignment_pos": 199,
                 "from": "LEU",
                 "to": "PRO",
-                "matched": "LHPMRALFK",
+                "matched": "PMRALFKIP",
                 "location": "kinase_domain"
             }
         ],
@@ -4093,10 +4093,10 @@
             },
             {
                 "full_sequence_pos": 429,
-                "alignment_pos": 154,
+                "alignment_pos": 156,
                 "from": "TYR",
                 "to": "CYS",
-                "matched": "TMVGTPYWM",
+                "matched": "VGTPYWMAP",
                 "location": "kinase_domain"
             }
         ],
@@ -4132,10 +4132,10 @@
         "substitutions": [
             {
                 "full_sequence_pos": 435,
-                "alignment_pos": 181,
+                "alignment_pos": 183,
                 "from": "GLU",
                 "to": "LYS",
-                "matched": "LGIMAIEMV",
+                "matched": "IMAIEMVEG",
                 "location": "kinase_domain"
             }
         ],
@@ -4171,10 +4171,10 @@
         "substitutions": [
             {
                 "full_sequence_pos": 419,
-                "alignment_pos": 132,
+                "alignment_pos": 134,
                 "from": "ARG",
                 "to": "TER",
-                "matched": "DGSVKLTDF",
+                "matched": "SVKLTDFGF",
                 "location": "kinase_domain"
             },
             {
@@ -4187,18 +4187,18 @@
             },
             {
                 "full_sequence_pos": 365,
-                "alignment_pos": 78,
+                "alignment_pos": 80,
                 "from": "ALA",
                 "to": "GLU",
-                "matched": "YLAGGSLTD",
+                "matched": "AGGSLTDVV",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 446,
-                "alignment_pos": 158,
+                "alignment_pos": 160,
                 "from": "TRP",
                 "to": "SER",
-                "matched": "TPYWMAPEV",
+                "matched": "YWMAPEVVT",
                 "location": "kinase_domain"
             }
         ],
@@ -4234,18 +4234,18 @@
         "substitutions": [
             {
                 "full_sequence_pos": 117,
-                "alignment_pos": 87,
+                "alignment_pos": 88,
                 "from": "ARG",
                 "to": "TER",
-                "matched": "DIIRLRTLT",
+                "matched": "IIRLRTLTE",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 250,
-                "alignment_pos": 210,
+                "alignment_pos": 211,
                 "from": "TRP",
                 "to": "TER",
-                "matched": "PTFWSDNFT",
+                "matched": "TFWSDNFTD",
                 "location": "kinase_domain"
             }
         ],
@@ -4320,10 +4320,10 @@
         "substitutions": [
             {
                 "full_sequence_pos": 150,
-                "alignment_pos": 116,
+                "alignment_pos": 117,
                 "from": "ARG",
                 "to": "ILE",
-                "matched": "HTMIHRDIK",
+                "matched": "TMIHRDIKA",
                 "location": "kinase_domain"
             },
             {
@@ -4383,26 +4383,26 @@
             },
             {
                 "full_sequence_pos": 134,
-                "alignment_pos": 59,
+                "alignment_pos": 60,
                 "from": "TYR",
                 "to": "HIS",
-                "matched": "YIVGFYGAF",
+                "matched": "IVGFYGAFY",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 128,
-                "alignment_pos": 53,
+                "alignment_pos": 54,
                 "from": "PRO",
                 "to": "GLN",
-                "matched": "HECNSPYIV",
+                "matched": "ECNSPYIVG",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 132,
-                "alignment_pos": 57,
+                "alignment_pos": 58,
                 "from": "GLY",
                 "to": "ASP",
-                "matched": "SPYIVGFYG",
+                "matched": "PYIVGFYGA",
                 "location": "kinase_domain"
             }
         ],
@@ -4446,26 +4446,26 @@
             },
             {
                 "full_sequence_pos": 130,
-                "alignment_pos": 59,
+                "alignment_pos": 60,
                 "from": "TYR",
                 "to": "CYS",
-                "matched": "YIVGFYGAF",
+                "matched": "IVGFYGAFY",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 128,
-                "alignment_pos": 57,
+                "alignment_pos": 58,
                 "from": "GLY",
                 "to": "VAL",
-                "matched": "SPYIVGFYG",
+                "matched": "PYIVGFYGA",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 124,
-                "alignment_pos": 53,
+                "alignment_pos": 54,
                 "from": "PRO",
                 "to": "GLN",
-                "matched": "HECNSPYIV",
+                "matched": "ECNSPYIVG",
                 "location": "kinase_domain"
             },
             {
@@ -4741,10 +4741,10 @@
             },
             {
                 "full_sequence_pos": 565,
-                "alignment_pos": 73,
+                "alignment_pos": 74,
                 "from": "GLU",
                 "to": "ALA",
-                "matched": "LYVIVEYAS",
+                "matched": "YVIVEYASK",
                 "location": "kinase_domain"
             },
             {
@@ -4757,18 +4757,18 @@
             },
             {
                 "full_sequence_pos": 648,
-                "alignment_pos": 139,
+                "alignment_pos": 140,
                 "from": "ALA",
                 "to": "THR",
-                "matched": "ADFGLARDI",
+                "matched": "DFGLARDIN",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 628,
-                "alignment_pos": 119,
+                "alignment_pos": 120,
                 "from": "ALA",
                 "to": "THR",
-                "matched": "IHRDLAARN",
+                "matched": "HRDLAARNV",
                 "location": "kinase_domain"
             },
             {
@@ -4852,26 +4852,26 @@
             },
             {
                 "full_sequence_pos": 666,
-                "alignment_pos": 156,
+                "alignment_pos": 158,
                 "from": "TRP",
                 "to": "ARG",
-                "matched": "GRLPKWMAP",
+                "matched": "LPKWMAPEA",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 622,
-                "alignment_pos": 116,
+                "alignment_pos": 117,
                 "from": "ARG",
                 "to": "TER",
-                "matched": "KKCIHRDLA",
+                "matched": "KCIHRDLAA",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 607,
-                "alignment_pos": 101,
+                "alignment_pos": 102,
                 "from": "VAL",
                 "to": "MET",
-                "matched": "SCAYQVARG",
+                "matched": "CAYQVARGM",
                 "location": "kinase_domain"
             },
             {
@@ -4932,26 +4932,26 @@
             },
             {
                 "full_sequence_pos": 722,
-                "alignment_pos": 207,
+                "alignment_pos": 209,
                 "from": "PRO",
                 "to": "HIS",
-                "matched": "LKESNCTNE",
+                "matched": "ESNCTNELY",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 724,
-                "alignment_pos": 207,
+                "alignment_pos": 209,
                 "from": "ASN",
                 "to": "LYS",
-                "matched": "LKESNCTNE",
+                "matched": "ESNCTNELY",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 680,
-                "alignment_pos": 169,
+                "alignment_pos": 171,
                 "from": "GLN",
                 "to": "TER",
-                "matched": "DRIYTHQSD",
+                "matched": "IYTHQSDVW",
                 "location": "kinase_domain"
             },
             {
@@ -4972,10 +4972,10 @@
             },
             {
                 "full_sequence_pos": 609,
-                "alignment_pos": 103,
+                "alignment_pos": 104,
                 "from": "ARG",
                 "to": "TER",
-                "matched": "AYQVARGME",
+                "matched": "YQVARGMEY",
                 "location": "kinase_domain"
             },
             {
@@ -4996,10 +4996,10 @@
             },
             {
                 "full_sequence_pos": 722,
-                "alignment_pos": 207,
+                "alignment_pos": 209,
                 "from": "PRO",
                 "to": "SER",
-                "matched": "LKESNCTNE",
+                "matched": "ESNCTNELY",
                 "location": "kinase_domain"
             },
             {
@@ -5044,26 +5044,26 @@
             },
             {
                 "full_sequence_pos": 692,
-                "alignment_pos": 181,
+                "alignment_pos": 183,
                 "from": "GLU",
                 "to": "GLY",
-                "matched": "FGVLLWEIF",
+                "matched": "VLLWEIFTG",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 670,
-                "alignment_pos": 159,
+                "alignment_pos": 161,
                 "from": "GLU",
                 "to": "LYS",
-                "matched": "PKWMAPEAL",
+                "matched": "WMAPEALFD",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 725,
-                "alignment_pos": 207,
+                "alignment_pos": 209,
                 "from": "CYS",
                 "to": "TYR",
-                "matched": "LKESNCTNE",
+                "matched": "ESNCTNELY",
                 "location": "kinase_domain"
             },
             {
@@ -5076,10 +5076,10 @@
             },
             {
                 "full_sequence_pos": 623,
-                "alignment_pos": 117,
+                "alignment_pos": 118,
                 "from": "ASP",
                 "to": "TYR",
-                "matched": "KCIHRDLAA",
+                "matched": "CIHRDLAAR",
                 "location": "kinase_domain"
             },
             {
@@ -5092,10 +5092,10 @@
             },
             {
                 "full_sequence_pos": 656,
-                "alignment_pos": 148,
+                "alignment_pos": 149,
                 "from": "LYS",
                 "to": "GLU",
-                "matched": "HDYKKTTNG",
+                "matched": "DYKKTTNGR",
                 "location": "kinase_domain"
             }
         ],
@@ -5155,10 +5155,10 @@
             },
             {
                 "full_sequence_pos": 650,
-                "alignment_pos": 148,
+                "alignment_pos": 149,
                 "from": "LYS",
                 "to": "GLU",
-                "matched": "HDYKKTTNG",
+                "matched": "DYKKTTNGR",
                 "location": "kinase_domain"
             },
             {
@@ -5179,26 +5179,26 @@
             },
             {
                 "full_sequence_pos": 807,
-                "alignment_pos": 238,
+                "alignment_pos": 240,
                 "from": "TER",
                 "to": "GLY",
-                "matched": "VEDLDR",
+                "matched": "DLDR",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 807,
-                "alignment_pos": 238,
+                "alignment_pos": 240,
                 "from": "TER",
                 "to": "ARG",
-                "matched": "VEDLDR",
+                "matched": "DLDR",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 807,
-                "alignment_pos": 238,
+                "alignment_pos": 240,
                 "from": "TER",
                 "to": "CYS",
-                "matched": "VEDLDR",
+                "matched": "DLDR",
                 "location": "kinase_domain"
             },
             {
@@ -5243,10 +5243,10 @@
             },
             {
                 "full_sequence_pos": 650,
-                "alignment_pos": 148,
+                "alignment_pos": 149,
                 "from": "LYS",
                 "to": "MET",
-                "matched": "HDYKKTTNG",
+                "matched": "DYKKTTNGR",
                 "location": "kinase_domain"
             },
             {
@@ -5275,26 +5275,26 @@
             },
             {
                 "full_sequence_pos": 650,
-                "alignment_pos": 148,
+                "alignment_pos": 149,
                 "from": "LYS",
                 "to": "ASN",
-                "matched": "HDYKKTTNG",
+                "matched": "DYKKTTNGR",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 650,
-                "alignment_pos": 148,
+                "alignment_pos": 149,
                 "from": "LYS",
                 "to": "ASN",
-                "matched": "HDYKKTTNG",
+                "matched": "DYKKTTNGR",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 650,
-                "alignment_pos": 148,
+                "alignment_pos": 149,
                 "from": "LYS",
                 "to": "GLN",
-                "matched": "HDYKKTTNG",
+                "matched": "DYKKTTNGR",
                 "location": "kinase_domain"
             },
             {
@@ -5339,10 +5339,10 @@
             },
             {
                 "full_sequence_pos": 621,
-                "alignment_pos": 121,
+                "alignment_pos": 122,
                 "from": "ARG",
                 "to": "HIS",
-                "matched": "RDLAARNVL",
+                "matched": "DLAARNVLV",
                 "location": "kinase_domain"
             },
             {
@@ -5419,10 +5419,10 @@
             },
             {
                 "full_sequence_pos": 628,
-                "alignment_pos": 128,
+                "alignment_pos": 129,
                 "from": "ASP",
                 "to": "ASN",
-                "matched": "VLVTEDNVM",
+                "matched": "LVTEDNVMK",
                 "location": "kinase_domain"
             }
         ],
@@ -5497,42 +5497,42 @@
         "substitutions": [
             {
                 "full_sequence_pos": 835,
-                "alignment_pos": 141,
+                "alignment_pos": 142,
                 "from": "ASP",
                 "to": "VAL",
-                "matched": "FGLARDIMS",
+                "matched": "GLARDIMSN",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 835,
-                "alignment_pos": 141,
+                "alignment_pos": 142,
                 "from": "ASP",
                 "to": "HIS",
-                "matched": "FGLARDIMS",
+                "matched": "GLARDIMSN",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 835,
-                "alignment_pos": 141,
+                "alignment_pos": 142,
                 "from": "ASP",
                 "to": "ASN",
-                "matched": "FGLARDIMS",
+                "matched": "GLARDIMSN",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 835,
-                "alignment_pos": 141,
+                "alignment_pos": 142,
                 "from": "ASP",
                 "to": "GLU",
-                "matched": "FGLARDIMS",
+                "matched": "GLARDIMSN",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 835,
-                "alignment_pos": 141,
+                "alignment_pos": 142,
                 "from": "ASP",
                 "to": "TYR",
-                "matched": "FGLARDIMS",
+                "matched": "GLARDIMSN",
                 "location": "kinase_domain"
             }
         ],
@@ -5568,10 +5568,10 @@
         "substitutions": [
             {
                 "full_sequence_pos": 664,
-                "alignment_pos": 67,
+                "alignment_pos": 68,
                 "from": "GLY",
                 "to": "ARG",
-                "matched": "ACTIGPTLV",
+                "matched": "CTIGPTLVI",
                 "location": "kinase_domain"
             },
             {
@@ -5592,18 +5592,18 @@
             },
             {
                 "full_sequence_pos": 816,
-                "alignment_pos": 141,
+                "alignment_pos": 142,
                 "from": "ASP",
                 "to": "VAL",
-                "matched": "FGLARDIKS",
+                "matched": "GLARDIKSN",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 820,
-                "alignment_pos": 145,
+                "alignment_pos": 146,
                 "from": "ASP",
                 "to": "GLY",
-                "matched": "RDIKSNVVK",
+                "matched": "DIKSNVVKG",
                 "location": "kinase_domain"
             },
             {
@@ -5616,42 +5616,42 @@
             },
             {
                 "full_sequence_pos": 796,
-                "alignment_pos": 121,
+                "alignment_pos": 122,
                 "from": "ARG",
                 "to": "GLY",
-                "matched": "RDLAARNIL",
+                "matched": "DLAARNILL",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 816,
-                "alignment_pos": 141,
+                "alignment_pos": 142,
                 "from": "ASP",
                 "to": "TYR",
-                "matched": "FGLARDIKS",
+                "matched": "GLARDIKSN",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 847,
-                "alignment_pos": 167,
+                "alignment_pos": 169,
                 "from": "THR",
                 "to": "PRO",
-                "matched": "IFNCVYTFE",
+                "matched": "NCVYTFESD",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 839,
-                "alignment_pos": 159,
+                "alignment_pos": 161,
                 "from": "GLU",
                 "to": "LYS",
-                "matched": "PKWMAPESI",
+                "matched": "WMAPESIFN",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 816,
-                "alignment_pos": 141,
+                "alignment_pos": 142,
                 "from": "ASP",
                 "to": "HIS",
-                "matched": "FGLARDIKS",
+                "matched": "GLARDIKSN",
                 "location": "kinase_domain"
             },
             {
@@ -5696,10 +5696,10 @@
             },
             {
                 "full_sequence_pos": 822,
-                "alignment_pos": 146,
+                "alignment_pos": 147,
                 "from": "ASN",
                 "to": "ILE",
-                "matched": "DIKSNVVKG",
+                "matched": "IKSNVVKGN",
                 "location": "kinase_domain"
             }
         ],
@@ -5735,10 +5735,10 @@
         "substitutions": [
             {
                 "full_sequence_pos": 842,
-                "alignment_pos": 141,
+                "alignment_pos": 142,
                 "from": "ASP",
                 "to": "VAL",
-                "matched": "FGLARDIMS",
+                "matched": "GLARDIMSN",
                 "location": "kinase_domain"
             },
             {
@@ -5751,18 +5751,18 @@
             },
             {
                 "full_sequence_pos": 674,
-                "alignment_pos": 72,
+                "alignment_pos": 73,
                 "from": "THR",
                 "to": "ILE",
-                "matched": "PIYIITEYC",
+                "matched": "IYIITEYCF",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 846,
-                "alignment_pos": 145,
+                "alignment_pos": 146,
                 "from": "ASP",
                 "to": "TYR",
-                "matched": "RDIMSNVSK",
+                "matched": "DIMSNVSKG",
                 "location": "kinase_domain"
             },
             {
@@ -5807,10 +5807,10 @@
             },
             {
                 "full_sequence_pos": 846,
-                "alignment_pos": 145,
+                "alignment_pos": 146,
                 "from": "ASP",
                 "to": "VAL",
-                "matched": "RDIMSNVSK",
+                "matched": "DIMSNVSKG",
                 "location": "kinase_domain"
             }
         ],
@@ -5941,10 +5941,10 @@
         "substitutions": [
             {
                 "full_sequence_pos": 875,
-                "alignment_pos": 207,
+                "alignment_pos": 209,
                 "from": "MET",
                 "to": "THR",
-                "matched": "VKDAFAPKN",
+                "matched": "DAFAPKNIY",
                 "location": "kinase_domain"
             },
             {
@@ -5957,34 +5957,34 @@
             },
             {
                 "full_sequence_pos": 794,
-                "alignment_pos": 133,
+                "alignment_pos": 134,
                 "from": "ILE",
                 "to": "THR",
-                "matched": "GHVAKIGDF",
+                "matched": "HVAKIGDFG",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 837,
-                "alignment_pos": 171,
+                "alignment_pos": 173,
                 "from": "ASP",
                 "to": "TYR",
-                "matched": "VYTVQSDVW",
+                "matched": "TVQSDVWSY",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 781,
-                "alignment_pos": 120,
+                "alignment_pos": 121,
                 "from": "ALA",
                 "to": "GLU",
-                "matched": "HRDVAARNV",
+                "matched": "RDVAARNVL",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 782,
-                "alignment_pos": 121,
+                "alignment_pos": 122,
                 "from": "ARG",
                 "to": "HIS",
-                "matched": "RDVAARNVL",
+                "matched": "DVAARNVLL",
                 "location": "kinase_domain"
             },
             {
@@ -6044,10 +6044,10 @@
         "substitutions": [
             {
                 "full_sequence_pos": 1147,
-                "alignment_pos": 222,
+                "alignment_pos": 224,
                 "from": "PRO",
                 "to": "SER",
-                "matched": "DCWHGEPSQ",
+                "matched": "WHGEPSQRP",
                 "location": "kinase_domain"
             },
             {
@@ -6099,42 +6099,42 @@
             },
             {
                 "full_sequence_pos": 1041,
-                "alignment_pos": 121,
+                "alignment_pos": 122,
                 "from": "ARG",
                 "to": "PRO",
-                "matched": "RDLAARNIL",
+                "matched": "DLAARNILL",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 1044,
-                "alignment_pos": 124,
+                "alignment_pos": 125,
                 "from": "LEU",
                 "to": "PRO",
-                "matched": "AARNILLSE",
+                "matched": "ARNILLSES",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 1114,
-                "alignment_pos": 188,
+                "alignment_pos": 190,
                 "from": "PRO",
                 "to": "LEU",
-                "matched": "IFSGASPYP",
+                "matched": "SGASPYPGV",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 1035,
-                "alignment_pos": 115,
+                "alignment_pos": 116,
                 "from": "HIS",
                 "to": "ARG",
-                "matched": "SRKCIHRDL",
+                "matched": "RKCIHRDLA",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 954,
-                "alignment_pos": 90,
+                "alignment_pos": 91,
                 "from": "PRO",
                 "to": "SER",
-                "matched": "RAKPLTMED",
+                "matched": "AKPLTMEDL",
                 "location": "kinase_domain"
             },
             {
@@ -6147,18 +6147,18 @@
             },
             {
                 "full_sequence_pos": 1086,
-                "alignment_pos": 161,
+                "alignment_pos": 163,
                 "from": "ILE",
                 "to": "THR",
-                "matched": "WMAPESIFD",
+                "matched": "APESIFDKV",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 1106,
-                "alignment_pos": 181,
+                "alignment_pos": 183,
                 "from": "GLU",
                 "to": "LYS",
-                "matched": "FGVLLWEIF",
+                "matched": "VLLWEIFSG",
                 "location": "kinase_domain"
             },
             {
@@ -6461,26 +6461,26 @@
         "substitutions": [
             {
                 "full_sequence_pos": 341,
-                "alignment_pos": 92,
+                "alignment_pos": 94,
                 "from": "LEU",
                 "to": "PRO",
-                "matched": "KLTINKLLD",
+                "matched": "TINKLLDMA",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 465,
-                "alignment_pos": 206,
+                "alignment_pos": 209,
                 "from": "CYS",
                 "to": "ARG",
-                "matched": "LERDNCPEE",
+                "matched": "DNCPEELYQ",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 440,
-                "alignment_pos": 187,
+                "alignment_pos": 190,
                 "from": "PRO",
                 "to": "SER",
-                "matched": "IVTGRIPYP",
+                "matched": "GRIPYPGMT",
                 "location": "kinase_domain"
             }
         ],
@@ -6753,10 +6753,10 @@
             },
             {
                 "full_sequence_pos": 775,
-                "alignment_pos": 166,
+                "alignment_pos": 167,
                 "from": "ARG",
                 "to": "TER",
-                "matched": "ESLADRVYT",
+                "matched": "SLADRVYTS",
                 "location": "kinase_domain"
             }
         ],
@@ -6792,10 +6792,10 @@
         "substitutions": [
             {
                 "full_sequence_pos": 752,
-                "alignment_pos": 157,
+                "alignment_pos": 158,
                 "from": "ARG",
                 "to": "CYS",
-                "matched": "AVLPRWMSW",
+                "matched": "VLPRWMSWE",
                 "location": "kinase_domain"
             },
             {
@@ -6879,18 +6879,18 @@
             },
             {
                 "full_sequence_pos": 787,
-                "alignment_pos": 72,
+                "alignment_pos": 73,
                 "from": "THR",
                 "to": "PRO",
-                "matched": "SLQLVTQYL",
+                "matched": "LQLVTQYLP",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 899,
-                "alignment_pos": 175,
+                "alignment_pos": 178,
                 "from": "VAL",
                 "to": "MET",
-                "matched": "SDVWSYGVT",
+                "matched": "WSYGVTVWE",
                 "location": "kinase_domain"
             }
         ],
@@ -6926,10 +6926,10 @@
         "substitutions": [
             {
                 "full_sequence_pos": 927,
-                "alignment_pos": 193,
+                "alignment_pos": 196,
                 "from": "ARG",
                 "to": "GLN",
-                "matched": "PYDGIPTRE",
+                "matched": "GIPTREIPD",
                 "location": "kinase_domain"
             },
             {
@@ -6997,10 +6997,10 @@
             },
             {
                 "full_sequence_pos": 914,
-                "alignment_pos": 179,
+                "alignment_pos": 182,
                 "from": "GLU",
                 "to": "LYS",
-                "matched": "SYGVTVWEL",
+                "matched": "VTVWELMTG",
                 "location": "kinase_domain"
             },
             {
@@ -7013,10 +7013,10 @@
             },
             {
                 "full_sequence_pos": 857,
-                "alignment_pos": 129,
+                "alignment_pos": 130,
                 "from": "ASN",
                 "to": "SER",
-                "matched": "LVKSPNHVK",
+                "matched": "VKSPNHVKI",
                 "location": "kinase_domain"
             },
             {
@@ -7060,34 +7060,34 @@
         "substitutions": [
             {
                 "full_sequence_pos": 858,
-                "alignment_pos": 136,
+                "alignment_pos": 138,
                 "from": "LEU",
                 "to": "ARG",
-                "matched": "KITDFGLAK",
+                "matched": "TDFGLAKLL",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 719,
-                "alignment_pos": 6,
+                "alignment_pos": 7,
                 "from": "GLY",
                 "to": "CYS",
-                "matched": "KIKVLGSGA",
+                "matched": "IKVLGSGAF",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 719,
-                "alignment_pos": 6,
+                "alignment_pos": 7,
                 "from": "GLY",
                 "to": "SER",
-                "matched": "KIKVLGSGA",
+                "matched": "IKVLGSGAF",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 790,
-                "alignment_pos": 70,
+                "alignment_pos": 72,
                 "from": "THR",
                 "to": "MET",
-                "matched": "STVQLITQL",
+                "matched": "VQLITQLMP",
                 "location": "kinase_domain"
             },
             {
@@ -7194,18 +7194,18 @@
             },
             {
                 "full_sequence_pos": 782,
-                "alignment_pos": 153,
+                "alignment_pos": 154,
                 "from": "ILE",
                 "to": "SER",
-                "matched": "SSGGKIPRW",
+                "matched": "SGGKIPRWT",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 802,
-                "alignment_pos": 171,
+                "alignment_pos": 173,
                 "from": "ASP",
                 "to": "GLY",
-                "matched": "KFTSASDAW",
+                "matched": "TSASDAWSY",
                 "location": "kinase_domain"
             },
             {
@@ -7368,10 +7368,10 @@
             },
             {
                 "full_sequence_pos": 1227,
-                "alignment_pos": 182,
+                "alignment_pos": 183,
                 "from": "TRP",
                 "to": "SER",
-                "matched": "FGVVLWEIT",
+                "matched": "GVVLWEITS",
                 "location": "kinase_domain"
             },
             {
@@ -7528,10 +7528,10 @@
             },
             {
                 "full_sequence_pos": 1201,
-                "alignment_pos": 157,
+                "alignment_pos": 158,
                 "from": "ARG",
                 "to": "GLN",
-                "matched": "GLLPRWMAP",
+                "matched": "LLPRWMAPE",
                 "location": "kinase_domain"
             },
             {
@@ -7702,10 +7702,10 @@
             },
             {
                 "full_sequence_pos": 638,
-                "alignment_pos": 27,
+                "alignment_pos": 28,
                 "from": "ARG",
                 "to": "TER",
-                "matched": "PEEVVLKVL",
+                "matched": "EEVVLKVLD",
                 "location": "kinase_domain"
             },
             {
@@ -7718,10 +7718,10 @@
             },
             {
                 "full_sequence_pos": 757,
-                "alignment_pos": 131,
+                "alignment_pos": 134,
                 "from": "LEU",
                 "to": "VAL",
-                "matched": "LGLIKLSDP",
+                "matched": "IKLSDPGVG",
                 "location": "kinase_domain"
             },
             {
@@ -7742,10 +7742,10 @@
             },
             {
                 "full_sequence_pos": 799,
-                "alignment_pos": 164,
+                "alignment_pos": 171,
                 "from": "GLY",
                 "to": "ARG",
-                "matched": "GNSLSTAMD",
+                "matched": "MDKWGFGAT",
                 "location": "kinase_domain"
             }
         ],
@@ -7781,18 +7781,18 @@
         "substitutions": [
             {
                 "full_sequence_pos": 617,
-                "alignment_pos": 63,
+                "alignment_pos": 64,
                 "from": "VAL",
                 "to": "PHE",
-                "matched": "NYGVCVCGE",
+                "matched": "YGVCVCGEN",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 607,
-                "alignment_pos": 53,
+                "alignment_pos": 54,
                 "from": "LYS",
                 "to": "ASN",
-                "matched": "SKLSHKHLV",
+                "matched": "KLSHKHLVL",
                 "location": "kinase_domain"
             },
             {
@@ -7805,10 +7805,10 @@
             },
             {
                 "full_sequence_pos": 617,
-                "alignment_pos": 63,
+                "alignment_pos": 64,
                 "from": "VAL",
                 "to": "ILE",
-                "matched": "NYGVCVCGE",
+                "matched": "YGVCVCGEN",
                 "location": "kinase_domain"
             }
         ],
@@ -7844,18 +7844,18 @@
         "substitutions": [
             {
                 "full_sequence_pos": 634,
-                "alignment_pos": 39,
+                "alignment_pos": 40,
                 "from": "ALA",
                 "to": "ASP",
-                "matched": "SDISLAFFE",
+                "matched": "DISLAFFEA",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 703,
-                "alignment_pos": 104,
+                "alignment_pos": 106,
                 "from": "SER",
                 "to": "ILE",
-                "matched": "QLASALSYL",
+                "matched": "ASALSYLED",
                 "location": "kinase_domain"
             },
             {
@@ -7868,18 +7868,18 @@
             },
             {
                 "full_sequence_pos": 733,
-                "alignment_pos": 132,
+                "alignment_pos": 134,
                 "from": "PRO",
                 "to": "LEU",
-                "matched": "EGIIKLSDP",
+                "matched": "IIKLSDPGI",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 832,
-                "alignment_pos": 212,
+                "alignment_pos": 219,
                 "from": "PRO",
                 "to": "SER",
-                "matched": "ADLMTRCMN",
+                "matched": "MNYDPNQRP",
                 "location": "kinase_domain"
             }
         ],
@@ -7923,10 +7923,10 @@
             },
             {
                 "full_sequence_pos": 565,
-                "alignment_pos": 37,
+                "alignment_pos": 38,
                 "from": "CYS",
                 "to": "TER",
-                "matched": "DAKNCMESF",
+                "matched": "AKNCMESFL",
                 "location": "kinase_domain"
             },
             {
@@ -8144,10 +8144,10 @@
         "substitutions": [
             {
                 "full_sequence_pos": 790,
-                "alignment_pos": 179,
+                "alignment_pos": 180,
                 "from": "VAL",
                 "to": "MET",
-                "matched": "VWAYGVVLW",
+                "matched": "WAYGVVLWE",
                 "location": "kinase_domain"
             },
             {
@@ -8327,10 +8327,10 @@
             },
             {
                 "full_sequence_pos": 918,
-                "alignment_pos": 157,
+                "alignment_pos": 159,
                 "from": "MET",
                 "to": "THR",
-                "matched": "RIPKWMAIE",
+                "matched": "PKWMAIESL",
                 "location": "kinase_domain"
             },
             {
@@ -8343,18 +8343,18 @@
             },
             {
                 "full_sequence_pos": 897,
-                "alignment_pos": 140,
+                "alignment_pos": 141,
                 "from": "ARG",
                 "to": "GLN",
-                "matched": "DFGLSRDVY",
+                "matched": "FGLSRDVYD",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 972,
-                "alignment_pos": 207,
+                "alignment_pos": 209,
                 "from": "ARG",
                 "to": "GLY",
-                "matched": "LKTDNCSEE",
+                "matched": "TDNCSEEMY",
                 "location": "kinase_domain"
             },
             {
@@ -8471,10 +8471,10 @@
             },
             {
                 "full_sequence_pos": 982,
-                "alignment_pos": 212,
+                "alignment_pos": 214,
                 "from": "ARG",
                 "to": "CYS",
-                "matched": "CSEEMYRLM",
+                "matched": "EEMYRLMLQ",
                 "location": "kinase_domain"
             },
             {
@@ -8519,26 +8519,26 @@
             },
             {
                 "full_sequence_pos": 804,
-                "alignment_pos": 72,
+                "alignment_pos": 73,
                 "from": "VAL",
                 "to": "MET",
-                "matched": "PLLLIVEYA",
+                "matched": "LLLIVEYAK",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 904,
-                "alignment_pos": 146,
+                "alignment_pos": 147,
                 "from": "SER",
                 "to": "CYS",
-                "matched": "DVYDSVKRS",
+                "matched": "VYDSVKRSQ",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 804,
-                "alignment_pos": 72,
+                "alignment_pos": 73,
                 "from": "VAL",
                 "to": "LEU",
-                "matched": "PLLLIVEYA",
+                "matched": "LLLIVEYAK",
                 "location": "kinase_domain"
             },
             {
@@ -8575,18 +8575,18 @@
             },
             {
                 "full_sequence_pos": 891,
-                "alignment_pos": 134,
+                "alignment_pos": 135,
                 "from": "SER",
                 "to": "ALA",
-                "matched": "RKMKISDFG",
+                "matched": "KMKISDFGL",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 912,
-                "alignment_pos": 152,
+                "alignment_pos": 153,
                 "from": "ARG",
                 "to": "PRO",
-                "matched": "KRSQGRIPK",
+                "matched": "RSQGRIPKW",
                 "location": "kinase_domain"
             },
             {
@@ -8670,10 +8670,10 @@
             },
             {
                 "full_sequence_pos": 720,
-                "alignment_pos": 211,
+                "alignment_pos": 212,
                 "from": "TRP",
                 "to": "TER",
-                "matched": "DDCPAWVYA",
+                "matched": "DCPAWVYAL",
                 "location": "kinase_domain"
             },
             {
@@ -8733,10 +8733,10 @@
         "substitutions": [
             {
                 "full_sequence_pos": 736,
-                "alignment_pos": 227,
+                "alignment_pos": 228,
                 "from": "ARG",
                 "to": "THR",
-                "matched": "EIPSRRPRF",
+                "matched": "IPSRRPRFK",
                 "location": "kinase_domain"
             }
         ],
@@ -8772,18 +8772,18 @@
         "substitutions": [
             {
                 "full_sequence_pos": 550,
-                "alignment_pos": 163,
+                "alignment_pos": 167,
                 "from": "SER",
                 "to": "TYR",
-                "matched": "ECINYYKFS",
+                "matched": "YYKFSSKSD",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 550,
-                "alignment_pos": 163,
+                "alignment_pos": 167,
                 "from": "SER",
                 "to": "PHE",
-                "matched": "ECINYYKFS",
+                "matched": "YYKFSSKSD",
                 "location": "kinase_domain"
             },
             {
@@ -8827,18 +8827,18 @@
         "substitutions": [
             {
                 "full_sequence_pos": 518,
-                "alignment_pos": 168,
+                "alignment_pos": 170,
                 "from": "SER",
                 "to": "ARG",
-                "matched": "NFRKFSSRS",
+                "matched": "RKFSSRSDV",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 465,
-                "alignment_pos": 121,
+                "alignment_pos": 122,
                 "from": "ARG",
                 "to": "HIS",
-                "matched": "RDLAARNVL",
+                "matched": "DLAARNVLL",
                 "location": "kinase_domain"
             },
             {
@@ -8890,18 +8890,18 @@
         "substitutions": [
             {
                 "full_sequence_pos": 525,
-                "alignment_pos": 121,
+                "alignment_pos": 122,
                 "from": "ARG",
                 "to": "GLN",
-                "matched": "RDLAARNCL",
+                "matched": "DLAARNCLV",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 430,
-                "alignment_pos": 28,
+                "alignment_pos": 29,
                 "from": "LYS",
                 "to": "GLU",
-                "matched": "YDVAIKMIK",
+                "matched": "DVAIKMIKE",
                 "location": "kinase_domain"
             },
             {
@@ -9026,130 +9026,130 @@
             },
             {
                 "full_sequence_pos": 425,
-                "alignment_pos": 23,
+                "alignment_pos": 24,
                 "from": "TYR",
                 "to": "TER",
-                "matched": "KWRGQYDVA",
+                "matched": "WRGQYDVAI",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 502,
-                "alignment_pos": 98,
+                "alignment_pos": 99,
                 "from": "CYS",
                 "to": "TER",
-                "matched": "QLLEMCKDV",
+                "matched": "LLEMCKDVC",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 506,
-                "alignment_pos": 102,
+                "alignment_pos": 103,
                 "from": "CYS",
                 "to": "ARG",
-                "matched": "MCKDVCEAM",
+                "matched": "CKDVCEAME",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 520,
-                "alignment_pos": 116,
+                "alignment_pos": 117,
                 "from": "ARG",
                 "to": "TER",
-                "matched": "KQFLHRDLA",
+                "matched": "QFLHRDLAA",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 520,
-                "alignment_pos": 116,
+                "alignment_pos": 117,
                 "from": "ARG",
                 "to": "GLN",
-                "matched": "KQFLHRDLA",
+                "matched": "QFLHRDLAA",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 542,
-                "alignment_pos": 138,
+                "alignment_pos": 139,
                 "from": "LEU",
                 "to": "PRO",
-                "matched": "VSDFGLSRY",
+                "matched": "SDFGLSRYV",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 562,
-                "alignment_pos": 155,
+                "alignment_pos": 157,
                 "from": "ARG",
                 "to": "TRP",
-                "matched": "GSKFPRWSP",
+                "matched": "KFPRWSPPE",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 581,
-                "alignment_pos": 173,
+                "alignment_pos": 175,
                 "from": "TYR",
                 "to": "ARG",
-                "matched": "SSKSDIWAF",
+                "matched": "KSDIWAFGV",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 589,
-                "alignment_pos": 181,
+                "alignment_pos": 183,
                 "from": "GLU",
                 "to": "GLY",
-                "matched": "FGVLMWEIY",
-                "location": "kinase_domain"
-            },
-            {
-                "full_sequence_pos": 591,
-                "alignment_pos": 183,
-                "from": "TYR",
-                "to": "TER",
                 "matched": "VLMWEIYSG",
                 "location": "kinase_domain"
             },
             {
+                "full_sequence_pos": 591,
+                "alignment_pos": 185,
+                "from": "TYR",
+                "to": "TER",
+                "matched": "MWEIYSGKM",
+                "location": "kinase_domain"
+            },
+            {
                 "full_sequence_pos": 607,
-                "alignment_pos": 198,
+                "alignment_pos": 200,
                 "from": "ALA",
                 "to": "ASP",
-                "matched": "FTNSETAEH",
+                "matched": "NSETAEHIA",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 613,
-                "alignment_pos": 204,
+                "alignment_pos": 206,
                 "from": "GLY",
                 "to": "ASP",
-                "matched": "AEHIAQHLA",
+                "matched": "HIAQHLASE",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 630,
-                "alignment_pos": 214,
+                "alignment_pos": 216,
                 "from": "MET",
                 "to": "LYS",
-                "matched": "EKVYTIMYS",
+                "matched": "VYTIMYSCW",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 636,
-                "alignment_pos": 220,
+                "alignment_pos": 222,
                 "from": "GLU",
                 "to": "TER",
-                "matched": "MYSCWHEKA",
+                "matched": "SCWHEKADE",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 652,
-                "alignment_pos": 236,
+                "alignment_pos": 238,
                 "from": "LEU",
                 "to": "PRO",
-                "matched": "ILLSNILD",
+                "matched": "LSNILD",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 562,
-                "alignment_pos": 155,
+                "alignment_pos": 157,
                 "from": "ARG",
                 "to": "PRO",
-                "matched": "GSKFPRWSP",
+                "matched": "KFPRWSPPE",
                 "location": "kinase_domain"
             }
         ],
@@ -9193,10 +9193,10 @@
             },
             {
                 "full_sequence_pos": 588,
-                "alignment_pos": 211,
+                "alignment_pos": 213,
                 "from": "TYR",
                 "to": "TER",
-                "matched": "LASTHVYQI",
+                "matched": "STHVYQIMN",
                 "location": "kinase_domain"
             },
             {
@@ -9248,10 +9248,10 @@
             },
             {
                 "full_sequence_pos": 1064,
-                "alignment_pos": 199,
+                "alignment_pos": 201,
                 "from": "ARG",
                 "to": "HIS",
-                "matched": "TCAELYEKL",
+                "matched": "AELYEKLPQ",
                 "location": "kinase_domain"
             }
         ],
@@ -9366,18 +9366,18 @@
         "substitutions": [
             {
                 "full_sequence_pos": 571,
-                "alignment_pos": 54,
+                "alignment_pos": 55,
                 "from": "GLY",
                 "to": "ARG",
-                "matched": "MLQHQHIVR",
+                "matched": "LQHQHIVRF",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 774,
-                "alignment_pos": 228,
+                "alignment_pos": 230,
                 "from": "ARG",
                 "to": "PRO",
-                "matched": "PQQRHSIKD",
+                "matched": "QRHSIKDVH",
                 "location": "kinase_domain"
             },
             {
@@ -9390,42 +9390,42 @@
             },
             {
                 "full_sequence_pos": 598,
-                "alignment_pos": 81,
+                "alignment_pos": 82,
                 "from": "HIS",
                 "to": "TYR",
-                "matched": "RHGDLNRFL",
+                "matched": "HGDLNRFLR",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 607,
-                "alignment_pos": 90,
+                "alignment_pos": 91,
                 "from": "GLY",
                 "to": "VAL",
-                "matched": "RSHPLGLGQ",
+                "matched": "SHPLGLGQL",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 604,
-                "alignment_pos": 87,
+                "alignment_pos": 88,
                 "from": "TYR",
                 "to": "HIS",
-                "matched": "RFLRSHPLG",
+                "matched": "FLRSHPLGL",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 613,
-                "alignment_pos": 90,
+                "alignment_pos": 91,
                 "from": "VAL",
                 "to": "GLY",
-                "matched": "RSHPLGLGQ",
+                "matched": "SHPLGLGQL",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 689,
-                "alignment_pos": 152,
+                "alignment_pos": 154,
                 "from": "PRO",
                 "to": "LEU",
-                "matched": "VGGRTMLPR",
+                "matched": "GRTMLPRWM",
                 "location": "kinase_domain"
             },
             {
@@ -9438,10 +9438,10 @@
             },
             {
                 "full_sequence_pos": 581,
-                "alignment_pos": 64,
+                "alignment_pos": 65,
                 "from": "MET",
                 "to": "VAL",
-                "matched": "FGVCTEGRP",
+                "matched": "GVCTEGRPL",
                 "location": "kinase_domain"
             },
             {
@@ -9485,10 +9485,10 @@
         "substitutions": [
             {
                 "full_sequence_pos": 722,
-                "alignment_pos": 158,
+                "alignment_pos": 160,
                 "from": "TYR",
                 "to": "CYS",
-                "matched": "LPRWMPPES",
+                "matched": "RWMPPESIM",
                 "location": "kinase_domain"
             },
             {
@@ -9509,10 +9509,10 @@
             },
             {
                 "full_sequence_pos": 720,
-                "alignment_pos": 157,
+                "alignment_pos": 159,
                 "from": "THR",
                 "to": "ILE",
-                "matched": "MLPRWMPPE",
+                "matched": "PRWMPPESI",
                 "location": "kinase_domain"
             }
         ],
@@ -9587,10 +9587,10 @@
         "substitutions": [
             {
                 "full_sequence_pos": 293,
-                "alignment_pos": 91,
+                "alignment_pos": 96,
                 "from": "GLN",
                 "to": "TER",
-                "matched": "SWHMRCKIA",
+                "matched": "CKIAQGAAN",
                 "location": "kinase_domain"
             },
             {
@@ -9634,18 +9634,18 @@
         "substitutions": [
             {
                 "full_sequence_pos": 526,
-                "alignment_pos": 56,
+                "alignment_pos": 59,
                 "from": "GLY",
                 "to": "ASP",
-                "matched": "PCVIQFVGA",
+                "matched": "IQFVGACLN",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 539,
-                "alignment_pos": 69,
+                "alignment_pos": 72,
                 "from": "THR",
                 "to": "ALA",
-                "matched": "PSQAIVTQY",
+                "matched": "AIVTQYISG",
                 "location": "kinase_domain"
             },
             {
@@ -9689,10 +9689,10 @@
         "substitutions": [
             {
                 "full_sequence_pos": 262,
-                "alignment_pos": 65,
+                "alignment_pos": 67,
                 "from": "ALA",
                 "to": "VAL",
-                "matched": "ACQSPPHPT",
+                "matched": "QSPPHPTLI",
                 "location": "kinase_domain"
             }
         ],
@@ -9728,18 +9728,18 @@
         "substitutions": [
             {
                 "full_sequence_pos": 208,
-                "alignment_pos": 158,
+                "alignment_pos": 165,
                 "from": "PRO",
                 "to": "SER",
-                "matched": "APEVFEGSN",
+                "matched": "SNYSEKCDV",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 230,
-                "alignment_pos": 180,
+                "alignment_pos": 187,
                 "from": "GLN",
                 "to": "LYS",
-                "matched": "LWEVITRRK",
+                "matched": "RKPFDEIGG",
                 "location": "kinase_domain"
             },
             {
@@ -9760,10 +9760,10 @@
             },
             {
                 "full_sequence_pos": 149,
-                "alignment_pos": 105,
+                "alignment_pos": 110,
                 "from": "SER",
                 "to": "TER",
-                "matched": "GVAYLHPKA",
+                "matched": "HPKALIHRD",
                 "location": "kinase_domain"
             }
         ],
@@ -9807,10 +9807,10 @@
             },
             {
                 "full_sequence_pos": 172,
-                "alignment_pos": 140,
+                "alignment_pos": 149,
                 "from": "TRP",
                 "to": "TER",
-                "matched": "NHTTHMSLV",
+                "matched": "GTFPWMAPE",
                 "location": "kinase_domain"
             }
         ],
@@ -9878,18 +9878,18 @@
             },
             {
                 "full_sequence_pos": 2019,
-                "alignment_pos": 123,
+                "alignment_pos": 131,
                 "from": "GLY",
                 "to": "SER",
-                "matched": "LNAAIIAKI",
+                "matched": "IADYGIAQY",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 2020,
-                "alignment_pos": 124,
+                "alignment_pos": 132,
                 "from": "ILE",
                 "to": "THR",
-                "matched": "NAAIIAKIA",
+                "matched": "ADYGIAQYC",
                 "location": "kinase_domain"
             },
             {
@@ -9996,10 +9996,10 @@
             },
             {
                 "full_sequence_pos": 491,
-                "alignment_pos": 134,
+                "alignment_pos": 138,
                 "from": "THR",
                 "to": "ARG",
-                "matched": "KIGDFGLAT",
+                "matched": "FGLATVKSG",
                 "location": "kinase_domain"
             },
             {
@@ -10012,10 +10012,10 @@
             },
             {
                 "full_sequence_pos": 603,
-                "alignment_pos": 228,
+                "alignment_pos": 232,
                 "from": "LEU",
                 "to": "PRO",
-                "matched": "ERPLFPQIL",
+                "matched": "FPQILSSIE",
                 "location": "kinase_domain"
             },
             {
@@ -10067,10 +10067,10 @@
         "substitutions": [
             {
                 "full_sequence_pos": 600,
-                "alignment_pos": 135,
+                "alignment_pos": 139,
                 "from": "VAL",
                 "to": "GLU",
-                "matched": "IGDFGLATV",
+                "matched": "GLATVKSGS",
                 "location": "kinase_domain"
             },
             {
@@ -10099,10 +10099,10 @@
             },
             {
                 "full_sequence_pos": 601,
-                "alignment_pos": 136,
+                "alignment_pos": 140,
                 "from": "LYS",
                 "to": "GLU",
-                "matched": "GDFGLATVK",
+                "matched": "LATVKSGSH",
                 "location": "kinase_domain"
             },
             {
@@ -10115,18 +10115,18 @@
             },
             {
                 "full_sequence_pos": 597,
-                "alignment_pos": 132,
+                "alignment_pos": 136,
                 "from": "LEU",
                 "to": "ARG",
-                "matched": "TVKIGDFGL",
+                "matched": "GDFGLATVK",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 597,
-                "alignment_pos": 132,
+                "alignment_pos": 136,
                 "from": "LEU",
                 "to": "VAL",
-                "matched": "TVKIGDFGL",
+                "matched": "GDFGLATVK",
                 "location": "kinase_domain"
             },
             {
@@ -10147,10 +10147,10 @@
             },
             {
                 "full_sequence_pos": 594,
-                "alignment_pos": 129,
+                "alignment_pos": 133,
                 "from": "ASP",
                 "to": "GLY",
-                "matched": "EDLTVKIGD",
+                "matched": "VKIGDFGLA",
                 "location": "kinase_domain"
             },
             {
@@ -10179,58 +10179,58 @@
             },
             {
                 "full_sequence_pos": 485,
-                "alignment_pos": 26,
+                "alignment_pos": 29,
                 "from": "LEU",
                 "to": "PHE",
-                "matched": "GDVAVKMLN",
+                "matched": "AVKMLNVTA",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 499,
-                "alignment_pos": 37,
+                "alignment_pos": 40,
                 "from": "LYS",
                 "to": "GLU",
-                "matched": "AQQLQAFKN",
+                "matched": "LQAFKNEVG",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 501,
-                "alignment_pos": 39,
+                "alignment_pos": 42,
                 "from": "GLU",
                 "to": "LYS",
-                "matched": "QLQAFKNEV",
+                "matched": "AFKNEVGVL",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 501,
-                "alignment_pos": 39,
+                "alignment_pos": 42,
                 "from": "GLU",
                 "to": "GLY",
-                "matched": "QLQAFKNEV",
+                "matched": "AFKNEVGVL",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 581,
-                "alignment_pos": 116,
+                "alignment_pos": 120,
                 "from": "ASN",
                 "to": "ASP",
-                "matched": "IHRDLKSNN",
+                "matched": "LKSNNIFLH",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 534,
-                "alignment_pos": 71,
+                "alignment_pos": 75,
                 "from": "GLY",
                 "to": "ARG",
-                "matched": "AIVTQWCEG",
+                "matched": "QWCEGSSLY",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 638,
-                "alignment_pos": 167,
+                "alignment_pos": 171,
                 "from": "ASP",
                 "to": "GLU",
-                "matched": "KNPYSFQSD",
+                "matched": "SFQSDVYAF",
                 "location": "kinase_domain"
             },
             {
@@ -10259,18 +10259,18 @@
             },
             {
                 "full_sequence_pos": 531,
-                "alignment_pos": 68,
+                "alignment_pos": 72,
                 "from": "TRP",
                 "to": "CYS",
-                "matched": "PQLAIVTQW",
+                "matched": "IVTQWCEGS",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 597,
-                "alignment_pos": 132,
+                "alignment_pos": 136,
                 "from": "LEU",
                 "to": "VAL",
-                "matched": "TVKIGDFGL",
+                "matched": "GDFGLATVK",
                 "location": "kinase_domain"
             },
             {
@@ -10330,18 +10330,18 @@
             },
             {
                 "full_sequence_pos": 121,
-                "alignment_pos": 95,
+                "alignment_pos": 97,
                 "from": "ILE",
                 "to": "ASN",
-                "matched": "WDLRFRIIH",
+                "matched": "LRFRIIHET",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 284,
-                "alignment_pos": 234,
+                "alignment_pos": 237,
                 "from": "GLU",
                 "to": "LYS",
-                "matched": "QGNGLNGEL",
+                "matched": "GLNGEL",
                 "location": "kinase_domain"
             }
         ],
@@ -10479,18 +10479,18 @@
         "substitutions": [
             {
                 "full_sequence_pos": 318,
-                "alignment_pos": 104,
+                "alignment_pos": 108,
                 "from": "MET",
                 "to": "ARG",
-                "matched": "ASGLAHLHP",
+                "matched": "AHLHPAIAH",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 400,
-                "alignment_pos": 168,
+                "alignment_pos": 173,
                 "from": "ASP",
                 "to": "GLY",
-                "matched": "MKHKRADIY",
+                "matched": "ADIYAMGLV",
                 "location": "kinase_domain"
             },
             {
@@ -10503,34 +10503,34 @@
             },
             {
                 "full_sequence_pos": 487,
-                "alignment_pos": 218,
+                "alignment_pos": 226,
                 "from": "ARG",
                 "to": "PRO",
-                "matched": "WYANGAARL",
+                "matched": "LTALRIKKT",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 241,
-                "alignment_pos": 34,
+                "alignment_pos": 37,
                 "from": "SER",
                 "to": "LEU",
-                "matched": "FSSREERSW",
+                "matched": "REERSWFRE",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 487,
-                "alignment_pos": 218,
+                "alignment_pos": 226,
                 "from": "ARG",
                 "to": "GLN",
-                "matched": "WYANGAARL",
+                "matched": "LTALRIKKT",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 487,
-                "alignment_pos": 218,
+                "alignment_pos": 226,
                 "from": "ARG",
                 "to": "TRP",
-                "matched": "WYANGAARL",
+                "matched": "LTALRIKKT",
                 "location": "kinase_domain"
             },
             {
@@ -10559,10 +10559,10 @@
             },
             {
                 "full_sequence_pos": 414,
-                "alignment_pos": 179,
+                "alignment_pos": 184,
                 "from": "ARG",
                 "to": "TER",
-                "matched": "GLVFWEIAR",
+                "matched": "EIARRQLPY",
                 "location": "kinase_domain"
             }
         ],
@@ -10606,18 +10606,18 @@
             },
             {
                 "full_sequence_pos": 486,
-                "alignment_pos": 218,
+                "alignment_pos": 226,
                 "from": "ARG",
                 "to": "TRP",
-                "matched": "WAHNPASRL",
+                "matched": "LTALRVKKT",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 486,
-                "alignment_pos": 218,
+                "alignment_pos": 226,
                 "from": "ARG",
                 "to": "GLN",
-                "matched": "WAHNPASRL",
+                "matched": "LTALRVKKT",
                 "location": "kinase_domain"
             },
             {
@@ -10646,10 +10646,10 @@
             },
             {
                 "full_sequence_pos": 325,
-                "alignment_pos": 109,
+                "alignment_pos": 113,
                 "from": "LYS",
                 "to": "ASN",
-                "matched": "HLHPAIAHR",
+                "matched": "AIAHRDLKS",
                 "location": "kinase_domain"
             }
         ],
@@ -10693,18 +10693,18 @@
             },
             {
                 "full_sequence_pos": 271,
-                "alignment_pos": 34,
+                "alignment_pos": 38,
                 "from": "TRP",
                 "to": "TER",
-                "matched": "FFTTEEASW",
+                "matched": "EEASWFRET",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 338,
-                "alignment_pos": 95,
+                "alignment_pos": 99,
                 "from": "ALA",
                 "to": "ASP",
-                "matched": "ALLKLAYSA",
+                "matched": "LAYSAACGL",
                 "location": "kinase_domain"
             },
             {
@@ -10717,18 +10717,18 @@
             },
             {
                 "full_sequence_pos": 376,
-                "alignment_pos": 123,
+                "alignment_pos": 128,
                 "from": "CYS",
                 "to": "TYR",
-                "matched": "NILIKKNGS",
+                "matched": "KNGSCCIAD",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 470,
-                "alignment_pos": 192,
+                "alignment_pos": 199,
                 "from": "MET",
                 "to": "THR",
-                "matched": "YYVPDMRLR",
+                "matched": "LRPIVWNCL",
                 "location": "kinase_domain"
             }
         ],
@@ -10764,18 +10764,18 @@
         "substitutions": [
             {
                 "full_sequence_pos": 411,
-                "alignment_pos": 179,
+                "alignment_pos": 184,
                 "from": "ARG",
                 "to": "GLN",
-                "matched": "GLVLWEIAR",
+                "matched": "EIARRRPPF",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 376,
-                "alignment_pos": 150,
+                "alignment_pos": 155,
                 "from": "MET",
                 "to": "ARG",
-                "matched": "NPRVGTKRY",
+                "matched": "TKRYMAPEV",
                 "location": "kinase_domain"
             },
             {
@@ -10804,34 +10804,34 @@
             },
             {
                 "full_sequence_pos": 398,
-                "alignment_pos": 168,
+                "alignment_pos": 173,
                 "from": "ILE",
                 "to": "ASN",
-                "matched": "TDCKWTDIW",
+                "matched": "TDIWAFGLV",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 374,
-                "alignment_pos": 148,
+                "alignment_pos": 153,
                 "from": "ARG",
                 "to": "TRP",
-                "matched": "GNNPRVGTK",
+                "matched": "VGTKRYMAP",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 411,
-                "alignment_pos": 179,
+                "alignment_pos": 184,
                 "from": "ARG",
                 "to": "TRP",
-                "matched": "GLVLWEIAR",
+                "matched": "EIARRRPPF",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 484,
-                "alignment_pos": 218,
+                "alignment_pos": 226,
                 "from": "ARG",
                 "to": "TRP",
-                "matched": "WYPNPSARL",
+                "matched": "LTALRIKKT",
                 "location": "kinase_domain"
             },
             {
@@ -10844,26 +10844,26 @@
             },
             {
                 "full_sequence_pos": 344,
-                "alignment_pos": 123,
+                "alignment_pos": 128,
                 "from": "CYS",
                 "to": "TYR",
-                "matched": "NVLVKSNLQ",
+                "matched": "SNLQCCIAD",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 399,
-                "alignment_pos": 168,
+                "alignment_pos": 173,
                 "from": "TRP",
                 "to": "SER",
-                "matched": "TDCKWTDIW",
+                "matched": "TDIWAFGLV",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 411,
-                "alignment_pos": 179,
+                "alignment_pos": 184,
                 "from": "ARG",
                 "to": "PRO",
-                "matched": "GLVLWEIAR",
+                "matched": "EIARRRPPF",
                 "location": "kinase_domain"
             }
         ],
@@ -10907,50 +10907,50 @@
             },
             {
                 "full_sequence_pos": 356,
-                "alignment_pos": 129,
+                "alignment_pos": 134,
                 "from": "GLY",
                 "to": "ASP",
-                "matched": "NGQCCIADL",
+                "matched": "IADLGLAVM",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 258,
-                "alignment_pos": 47,
+                "alignment_pos": 51,
                 "from": "ARG",
                 "to": "SER",
-                "matched": "ELYNTLRHE",
+                "matched": "TLRHENILG",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 328,
-                "alignment_pos": 109,
+                "alignment_pos": 113,
                 "from": "GLY",
                 "to": "ARG",
-                "matched": "HLHPAIAHR",
+                "matched": "AIAHRDLKS",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 328,
-                "alignment_pos": 109,
+                "alignment_pos": 113,
                 "from": "GLY",
                 "to": "TRP",
-                "matched": "HLHPAIAHR",
+                "matched": "AIAHRDLKS",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 328,
-                "alignment_pos": 109,
+                "alignment_pos": 113,
                 "from": "GLY",
                 "to": "GLU",
-                "matched": "HLHPAIAHR",
+                "matched": "AIAHRDLKS",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 375,
-                "alignment_pos": 144,
+                "alignment_pos": 149,
                 "from": "ARG",
                 "to": "PRO",
-                "matched": "SQLVGNNPR",
+                "matched": "NNPRVGTKR",
                 "location": "kinase_domain"
             },
             {
@@ -11002,130 +11002,130 @@
         "substitutions": [
             {
                 "full_sequence_pos": 315,
-                "alignment_pos": 60,
+                "alignment_pos": 64,
                 "from": "THR",
                 "to": "MET",
-                "matched": "FLTAEERKK",
+                "matched": "EERKKQYWL",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 526,
-                "alignment_pos": 211,
+                "alignment_pos": 219,
                 "from": "GLU",
                 "to": "GLN",
-                "matched": "CETLTECWD",
+                "matched": "DHDPEARLT",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 508,
-                "alignment_pos": 201,
+                "alignment_pos": 209,
                 "from": "GLN",
                 "to": "GLN",
-                "matched": "DRGHQGIQM",
+                "matched": "MVCETLTEC",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 308,
-                "alignment_pos": 53,
+                "alignment_pos": 57,
                 "from": "LEU",
                 "to": "PRO",
-                "matched": "KHENILQFL",
+                "matched": "ILQFLTAEE",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 449,
-                "alignment_pos": 167,
+                "alignment_pos": 173,
                 "from": "SER",
                 "to": "PHE",
-                "matched": "NLEKQTDVY",
+                "matched": "DVYSMALVL",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 537,
-                "alignment_pos": 222,
+                "alignment_pos": 230,
                 "from": "ARG",
                 "to": "CYS",
-                "matched": "PEARLTAQC",
+                "matched": "CVAERFSE",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 336,
-                "alignment_pos": 77,
+                "alignment_pos": 81,
                 "from": "TYR",
                 "to": "ASN",
-                "matched": "HAKGNLQEY",
+                "matched": "NLQEYLTRV",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 355,
-                "alignment_pos": 94,
+                "alignment_pos": 99,
                 "from": "ALA",
                 "to": "PRO",
-                "matched": "DLRKLGSSL",
+                "matched": "GSSLARGIA",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 357,
-                "alignment_pos": 96,
+                "alignment_pos": 101,
                 "from": "GLY",
                 "to": "TRP",
-                "matched": "RKLGSSLAR",
+                "matched": "SLARGIAHL",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 528,
-                "alignment_pos": 213,
+                "alignment_pos": 221,
                 "from": "ARG",
                 "to": "HIS",
-                "matched": "TLTECWDHD",
+                "matched": "DPEARLTAQ",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 528,
-                "alignment_pos": 213,
+                "alignment_pos": 221,
                 "from": "ARG",
                 "to": "CYS",
-                "matched": "TLTECWDHD",
+                "matched": "DPEARLTAQ",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 460,
-                "alignment_pos": 177,
+                "alignment_pos": 183,
                 "from": "ARG",
                 "to": "CYS",
-                "matched": "MALVLWEMT",
+                "matched": "EMTSREPPF",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 460,
-                "alignment_pos": 177,
+                "alignment_pos": 183,
                 "from": "ARG",
                 "to": "HIS",
-                "matched": "MALVLWEMT",
+                "matched": "EMTSREPPF",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 425,
-                "alignment_pos": 148,
+                "alignment_pos": 154,
                 "from": "MET",
                 "to": "VAL",
-                "matched": "NSGQVGTAR",
+                "matched": "TARYMAPEV",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 427,
-                "alignment_pos": 150,
+                "alignment_pos": 156,
                 "from": "PRO",
                 "to": "LEU",
-                "matched": "GQVGTARYM",
+                "matched": "RYMAPEVLS",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 495,
-                "alignment_pos": 193,
+                "alignment_pos": 201,
                 "from": "ARG",
                 "to": "TER",
-                "matched": "SKRSMNVLD",
+                "matched": "DRGHQGIQM",
                 "location": "kinase_domain"
             }
         ],
@@ -11232,26 +11232,26 @@
             },
             {
                 "full_sequence_pos": 347,
-                "alignment_pos": 121,
+                "alignment_pos": 127,
                 "from": "CYS",
                 "to": "TYR",
-                "matched": "RNVLVKNDG",
+                "matched": "NDGTCVISD",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 485,
-                "alignment_pos": 207,
+                "alignment_pos": 215,
                 "from": "ASP",
                 "to": "GLY",
-                "matched": "VRSLKETIE",
+                "matched": "EDCWDQDAE",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 491,
-                "alignment_pos": 213,
+                "alignment_pos": 221,
                 "from": "ARG",
                 "to": "TRP",
-                "matched": "TIEDCWDQD",
+                "matched": "DAEARLTAQ",
                 "location": "kinase_domain"
             },
             {
@@ -11272,10 +11272,10 @@
             },
             {
                 "full_sequence_pos": 491,
-                "alignment_pos": 213,
+                "alignment_pos": 221,
                 "from": "ARG",
                 "to": "GLN",
-                "matched": "TIEDCWDQD",
+                "matched": "DAEARLTAQ",
                 "location": "kinase_domain"
             },
             {
@@ -11296,10 +11296,10 @@
             },
             {
                 "full_sequence_pos": 332,
-                "alignment_pos": 108,
+                "alignment_pos": 113,
                 "from": "ARG",
                 "to": "TER",
-                "matched": "YLHPAISHR",
+                "matched": "ISHRDLNSR",
                 "location": "kinase_domain"
             },
             {
@@ -11336,10 +11336,10 @@
             },
             {
                 "full_sequence_pos": 433,
-                "alignment_pos": 185,
+                "alignment_pos": 191,
                 "from": "GLN",
                 "to": "TER",
-                "matched": "FMRQMAFQT",
+                "matched": "FQTEGDMLV",
                 "location": "kinase_domain"
             },
             {
@@ -11391,10 +11391,10 @@
         "substitutions": [
             {
                 "full_sequence_pos": 406,
-                "alignment_pos": 166,
+                "alignment_pos": 172,
                 "from": "ARG",
                 "to": "GLN",
-                "matched": "LDLQRRADI",
+                "matched": "ADIYSLALL",
                 "location": "kinase_domain"
             }
         ],
@@ -11469,34 +11469,34 @@
         "substitutions": [
             {
                 "full_sequence_pos": 137,
-                "alignment_pos": 46,
+                "alignment_pos": 53,
                 "from": "LEU",
                 "to": "ARG",
-                "matched": "LKSLQGTHV",
+                "matched": "HVVTLLGYC",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 258,
-                "alignment_pos": 145,
+                "alignment_pos": 156,
                 "from": "GLN",
                 "to": "ARG",
-                "matched": "KCGHRELFV",
+                "matched": "EQLWPGEYD",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 109,
-                "alignment_pos": 21,
+                "alignment_pos": 26,
                 "from": "GLN",
                 "to": "TER",
-                "matched": "WKEHKVALS",
+                "matched": "VALSQLTSE",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 302,
-                "alignment_pos": 168,
+                "alignment_pos": 185,
                 "from": "VAL",
                 "to": "ASP",
-                "matched": "DIWKIPDIS",
+                "matched": "FHLFDIHKA",
                 "location": "kinase_domain"
             }
         ],
@@ -11571,10 +11571,10 @@
         "substitutions": [
             {
                 "full_sequence_pos": 229,
-                "alignment_pos": 181,
+                "alignment_pos": 182,
                 "from": "CYS",
                 "to": "TYR",
-                "matched": "CIGVLCYEL",
+                "matched": "IGVLCYELL",
                 "location": "kinase_domain"
             }
         ],
@@ -11626,18 +11626,18 @@
             },
             {
                 "full_sequence_pos": 844,
-                "alignment_pos": 2,
+                "alignment_pos": 20,
                 "from": "LEU",
                 "to": "PHE",
-                "matched": "CYQYQD",
+                "matched": "NCFTLQDLL",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 921,
-                "alignment_pos": 34,
+                "alignment_pos": 96,
                 "from": "GLN",
                 "to": "HIS",
-                "matched": "THEITVLII",
+                "matched": "SGFRTVQIL",
                 "location": "kinase_domain"
             },
             {
@@ -11650,10 +11650,10 @@
             },
             {
                 "full_sequence_pos": 1012,
-                "alignment_pos": 107,
+                "alignment_pos": 172,
                 "from": "LEU",
                 "to": "PRO",
-                "matched": "QKIPYQVDL",
+                "matched": "LGELAAEMN",
                 "location": "kinase_domain"
             },
             {
@@ -11783,18 +11783,18 @@
         "substitutions": [
             {
                 "full_sequence_pos": 272,
-                "alignment_pos": 191,
+                "alignment_pos": 202,
                 "from": "ARG",
                 "to": "TER",
-                "matched": "QEKNLAERL",
+                "matched": "WLQLMLMWH",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 203,
-                "alignment_pos": 156,
+                "alignment_pos": 165,
                 "from": "VAL",
                 "to": "ILE",
-                "matched": "APELLEQQK",
+                "matched": "YTVTVDYWS",
                 "location": "kinase_domain"
             }
         ],
@@ -11846,26 +11846,26 @@
             },
             {
                 "full_sequence_pos": 159,
-                "alignment_pos": 127,
+                "alignment_pos": 133,
                 "from": "GLY",
                 "to": "ALA",
-                "matched": "RVSVYKLTD",
+                "matched": "LTDFGAARE",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 50,
-                "alignment_pos": 37,
+                "alignment_pos": 40,
                 "from": "ASP",
                 "to": "ALA",
-                "matched": "NNFVDVQMR",
+                "matched": "VDVQMREFE",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 207,
-                "alignment_pos": 161,
+                "alignment_pos": 170,
                 "from": "ILE",
                 "to": "VAL",
-                "matched": "EQKKYGATV",
+                "matched": "DLWSIGVTF",
                 "location": "kinase_domain"
             }
         ],
@@ -11956,10 +11956,10 @@
             },
             {
                 "full_sequence_pos": 462,
-                "alignment_pos": 85,
+                "alignment_pos": 95,
                 "from": "ARG",
                 "to": "GLN",
-                "matched": "VHREFARNV",
+                "matched": "SSIFKAVQE",
                 "location": "kinase_domain"
             }
         ],
@@ -11995,74 +11995,74 @@
         "substitutions": [
             {
                 "full_sequence_pos": 95,
-                "alignment_pos": 33,
+                "alignment_pos": 35,
                 "from": "ASN",
                 "to": "LYS",
-                "matched": "QVNKSRRSF",
+                "matched": "NKSRRSFWA",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 139,
-                "alignment_pos": 61,
+                "alignment_pos": 67,
                 "from": "MET",
                 "to": "THR",
-                "matched": "ASTNSLIIM",
+                "matched": "IIMEFGNVT",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 246,
-                "alignment_pos": 138,
+                "alignment_pos": 151,
                 "from": "ARG",
                 "to": "HIS",
-                "matched": "LEDFPLGGT",
+                "matched": "APELLGVTP",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 320,
-                "alignment_pos": 181,
+                "alignment_pos": 202,
                 "from": "CYS",
                 "to": "TER",
-                "matched": "RQAAVGQRL",
+                "matched": "AQRPSARLL",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 319,
-                "alignment_pos": 181,
+                "alignment_pos": 202,
                 "from": "ARG",
                 "to": "HIS",
-                "matched": "RQAAVGQRL",
+                "matched": "AQRPSARLL",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 264,
-                "alignment_pos": 150,
+                "alignment_pos": 164,
                 "from": "SER",
                 "to": "CYS",
-                "matched": "RAPELLGVT",
+                "matched": "YSFAITLWQ",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 199,
-                "alignment_pos": 97,
+                "alignment_pos": 107,
                 "from": "HIS",
                 "to": "LEU",
-                "matched": "VVNGLLFLH",
+                "matched": "QSIVHLDLK",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 229,
-                "alignment_pos": 127,
+                "alignment_pos": 137,
                 "from": "ALA",
                 "to": "VAL",
-                "matched": "CKISDFGCS",
+                "matched": "KLEDFPLGG",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 197,
-                "alignment_pos": 95,
+                "alignment_pos": 105,
                 "from": "ILE",
                 "to": "MET",
-                "matched": "LDVVNGLLF",
+                "matched": "HSQSIVHLD",
                 "location": "kinase_domain"
             }
         ],
@@ -12098,58 +12098,58 @@
         "substitutions": [
             {
                 "full_sequence_pos": 309,
-                "alignment_pos": 60,
+                "alignment_pos": 68,
                 "from": "GLY",
                 "to": "ASP",
-                "matched": "FTSGRTLFL",
+                "matched": "LVMKNYPCT",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 437,
-                "alignment_pos": 143,
+                "alignment_pos": 163,
                 "from": "TRP",
                 "to": "TER",
-                "matched": "LMAPEVSPG",
+                "matched": "AIAYEIFGL",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 246,
-                "alignment_pos": 39,
+                "alignment_pos": 46,
                 "from": "ARG",
                 "to": "TER",
-                "matched": "ILNELALAE",
+                "matched": "AEYSHPNII",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 271,
-                "alignment_pos": 47,
+                "alignment_pos": 55,
                 "from": "HIS",
                 "to": "GLN",
-                "matched": "EYSHPNIIR",
+                "matched": "RVLRAFTSG",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 347,
-                "alignment_pos": 82,
+                "alignment_pos": 92,
                 "from": "LEU",
                 "to": "PRO",
-                "matched": "CVSPRLAAM",
+                "matched": "LLQLLEGVD",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 279,
-                "alignment_pos": 47,
+                "alignment_pos": 55,
                 "from": "ARG",
                 "to": "HIS",
-                "matched": "EYSHPNIIR",
+                "matched": "RVLRAFTSG",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 313,
-                "alignment_pos": 60,
+                "alignment_pos": 68,
                 "from": "THR",
                 "to": "MET",
-                "matched": "FTSGRTLFL",
+                "matched": "LVMKNYPCT",
                 "location": "kinase_domain"
             },
             {
@@ -12162,26 +12162,26 @@
             },
             {
                 "full_sequence_pos": 456,
-                "alignment_pos": 152,
+                "alignment_pos": 174,
                 "from": "GLN",
                 "to": "TER",
-                "matched": "IYSKADAWA",
+                "matched": "FYGQRLPES",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 431,
-                "alignment_pos": 137,
+                "alignment_pos": 157,
                 "from": "TYR",
                 "to": "HIS",
-                "matched": "RGGNGCLMA",
+                "matched": "DAWAVGAIA",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 399,
-                "alignment_pos": 126,
+                "alignment_pos": 139,
                 "from": "PRO",
                 "to": "LEU",
-                "matched": "IADFGCCDE",
+                "matched": "GNGCLMAPE",
                 "location": "kinase_domain"
             }
         ],
@@ -12447,10 +12447,10 @@
             },
             {
                 "full_sequence_pos": 768,
-                "alignment_pos": 208,
+                "alignment_pos": 209,
                 "from": "ARG",
                 "to": "TRP",
-                "matched": "VRSLDQPVE",
+                "matched": "RSLDQPVEC",
                 "location": "kinase_domain"
             },
             {
@@ -12463,10 +12463,10 @@
             },
             {
                 "full_sequence_pos": 761,
-                "alignment_pos": 204,
+                "alignment_pos": 205,
                 "from": "ARG",
                 "to": "TRP",
-                "matched": "VVQRVRSLD",
+                "matched": "VQRVRSLDQ",
                 "location": "kinase_domain"
             },
             {
@@ -12589,18 +12589,18 @@
             },
             {
                 "full_sequence_pos": 57,
-                "alignment_pos": 36,
+                "alignment_pos": 39,
                 "from": "GLN",
                 "to": "TER",
-                "matched": "DVKATQVAK",
+                "matched": "ATQVAKAAF",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 105,
-                "alignment_pos": 77,
+                "alignment_pos": 82,
                 "from": "ALA",
                 "to": "VAL",
-                "matched": "VTPLGIYLK",
+                "matched": "IYLKGGLKE",
                 "location": "kinase_domain"
             }
         ],
@@ -12714,18 +12714,18 @@
         "substitutions": [
             {
                 "full_sequence_pos": 217,
-                "alignment_pos": 57,
+                "alignment_pos": 60,
                 "from": "TYR",
                 "to": "TER",
-                "matched": "NVLQLYGYC",
+                "matched": "QLYGYCYQD",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 262,
-                "alignment_pos": 90,
+                "alignment_pos": 98,
                 "from": "LEU",
                 "to": "ARG",
-                "matched": "EDRFRICLS",
+                "matched": "SLGRLLHHL",
                 "location": "kinase_domain"
             }
         ],
@@ -12761,10 +12761,10 @@
         "substitutions": [
             {
                 "full_sequence_pos": 126,
-                "alignment_pos": 97,
+                "alignment_pos": 113,
                 "from": "ARG",
                 "to": "TER",
-                "matched": "YMNKHGIVH",
+                "matched": "ILLDRKGHI",
                 "location": "kinase_domain"
             },
             {
@@ -12816,10 +12816,10 @@
         "substitutions": [
             {
                 "full_sequence_pos": 698,
-                "alignment_pos": 204,
+                "alignment_pos": 207,
                 "from": "ARG",
                 "to": "TER",
-                "matched": "LQENTPVVT",
+                "matched": "NTPVVTPEA",
                 "location": "kinase_domain"
             },
             {
@@ -12918,10 +12918,10 @@
             },
             {
                 "full_sequence_pos": 410,
-                "alignment_pos": 144,
+                "alignment_pos": 157,
                 "from": "ARG",
                 "to": "TRP",
-                "matched": "EEGDSRFLA",
+                "matched": "QHLPKADIF",
                 "location": "kinase_domain"
             },
             {
@@ -13154,26 +13154,26 @@
         "substitutions": [
             {
                 "full_sequence_pos": 81,
-                "alignment_pos": 35,
+                "alignment_pos": 40,
                 "from": "THR",
                 "to": "ARG",
-                "matched": "LEARRRTVQ",
+                "matched": "RTVQEARAL",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 42,
-                "alignment_pos": 4,
+                "alignment_pos": 7,
                 "from": "GLY",
                 "to": "ASP",
-                "matched": "LELVKQGA",
+                "matched": "LVKQGAEAR",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 243,
-                "alignment_pos": 153,
+                "alignment_pos": 192,
                 "from": "ARG",
                 "to": "LEU",
-                "matched": "LYVLEKAFL",
+                "matched": "LDEVRLRGR",
                 "location": "kinase_domain"
             }
         ],
