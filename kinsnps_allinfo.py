@@ -45,7 +45,7 @@ def parse_fasta_file(fasta_file_path):
                         kinase_end = pos - 1
 
                     # Create kinase_domain_alignment sequence
-                    kinase_domain_alignment = ''.join(c for c in kinase_domain if c.isupper())
+                    kinase_domain_alignment = ''.join(c for c in kinase_domain if c.isupper() or c == '-')
 
                     uniprot_info[current_id] = {
                         "uniprot_id": current_id,
@@ -53,7 +53,7 @@ def parse_fasta_file(fasta_file_path):
                         "substitutions": [],
                         "flanking_positions": flanking_positions,
                         "kinase_domain": {
-                            "sequence": kinase_domain.replace("-", ""),
+                            "sequence": kinase_domain,#.replace("-", ""),
                             "start": kinase_start,
                             "end": kinase_end
                         },
@@ -96,7 +96,7 @@ def parse_subs_file(subs_file_path, uniprot_info):
 
                         # Calculate alignment_pos
                         sequence = uniprot_info[uniprot_id]["sequence"]
-                        upper_count = sum(1 for c in sequence[:full_sequence_pos] if c.isupper() or c == '(' or c == ')')
+                        upper_count = sum(1 for c in sequence[:full_sequence_pos] if c.isupper() or c == '(' or c == ')' or c == '-')
                         alignment_pos = upper_count - preceding_flanking_length
 
                     # Create the matched property
