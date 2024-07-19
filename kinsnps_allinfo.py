@@ -45,7 +45,7 @@ def parse_fasta_file(fasta_file_path):
                         kinase_end = pos - 1
 
                     # Create kinase_domain_alignment sequence
-                    kinase_domain_alignment = ''.join(c for c in kinase_domain if c.isupper() or c == '-')
+                    kinase_domain_alignment = ''.join(c for c in kinase_domain if c.isupper())
 
                     uniprot_info[current_id] = {
                         "uniprot_id": current_id,

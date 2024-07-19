@@ -236,7 +236,7 @@
                 "alignment_pos": 40,
                 "from": "ARG",
                 "to": "TRP",
-                "matched": "TDRVR-TKM",
+                "matched": "TDRVRTKME",
                 "location": "kinase_domain"
             },
             {
@@ -276,7 +276,7 @@
                 "alignment_pos": 114,
                 "from": "ILE",
                 "to": "LYS",
-                "matched": "LHSLGIIYR",
+                "matched": "HSLGIIYRD",
                 "location": "kinase_domain"
             },
             {
@@ -284,7 +284,7 @@
                 "alignment_pos": 192,
                 "from": "PHE",
                 "to": "SER",
-                "matched": "TGTLPFQGK",
+                "matched": "GTLPFQGKD",
                 "location": "kinase_domain"
             },
             {
@@ -292,7 +292,7 @@
                 "alignment_pos": 151,
                 "from": "SER",
                 "to": "ALA",
-                "matched": "HEKAYSFCG",
+                "matched": "EKAYSFCGT",
                 "location": "kinase_domain"
             },
             {
@@ -300,7 +300,7 @@
                 "alignment_pos": 41,
                 "from": "THR",
                 "to": "SER",
-                "matched": "DRVR-TKME",
+                "matched": "DRVRTKMER",
                 "location": "kinase_domain"
             },
             {
@@ -335,7 +335,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "FELLKVLGQGSFGKVFLVKKIDARQLYAMKVLKKATDRVR-TKMERDILVEVNHPFIVKLHYAFQTEGKLYLILDFLRGGDLFTRLSKEMFTEEDVKFYLAELALALDHLHSLGIIYRDLKPENILLDEEGHIKLTDFGLSKESIDHEKAYSFCGTVEYMAPEVVNRRGHTQSADWWSFGVLMFEMLTGTLPFQGKDRKETMTMILKQFLSPEAQSLLRMLFKRNPANRLGAEEIKRHSFF"
+            "sequence": "FELLKVLGQGSFGKVFLVKKIDARQLYAMKVLKKATDRVRTKMERDILVEVNHPFIVKLHYAFQTEGKLYLILDFLRGGDLFTRLSKEMFTEEDVKFYLAELALALDHLHSLGIIYRDLKPENILLDEEGHIKLTDFGLSKESIDHEKAYSFCGTVEYMAPEVVNRRGHTQSADWWSFGVLMFEMLTGTLPFQGKDRKETMTMILKQFLSPEAQSLLRMLFKRNPANRLGAEEIKRHSFF"
         }
     },
     {
@@ -531,7 +531,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "FEVRSLVGCGHFAEVQVVREKATGDIYAMKVMKKKAEQVSFFEEERNILSRSTSPWIPQLQYAFQDKNHLYLVMEYQPGGDLLSLLNRYQLDENLIQFYLAELILAVHSVHLMGYVHRDIKPENILVDRTGHIKLVDFGSAAKMNNKMVNALPIGTPDYMAPEVLTMGTYGLDCDWWSVGVIAYEMIYGRSPFAEGTSARTFNNIMNPKVSSDFLDLIQSLLC-GQKERLKFEGLCCHPFF"
+            "sequence": "FEVRSLVGCGHFAEVQVVREKATGDIYAMKVMKKKAEQVSFFEEERNILSRSTSPWIPQLQYAFQDKNHLYLVMEYQPGGDLLSLLNRYQLDENLIQFYLAELILAVHSVHLMGYVHRDIKPENILVDRTGHIKLVDFGSAAKMNNKMVNALPIGTPDYMAPEVLTMGTYGLDCDWWSVGVIAYEMIYGRSPFAEGTSARTFNNIMNPKVSSDFLDLIQSLLCGQKERLKFEGLCCHPFF"
         }
     },
     {
@@ -610,7 +610,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "FEIIKVIGRGAFGEVAVVKMKNTERIYAMKILNKWEAETACFREERDVLVNGDCQWITALHYAFQDENHLYLVMDYYVGGDLLTLLSKFKLPEDMARFYIGEMVLAIDSIHQLHYVHRDIKPDNVLLDVNGHIRLADFGSCLKMNDGTVQSVAVGTPDYISPEILQAGKYGPECDWWSLGVCMYEMLYGETPFYAESLVETYGKIMNVDVSEEAKDLIQRLIC-SRERRLGQEDFKKHAFF"
+            "sequence": "FEIIKVIGRGAFGEVAVVKMKNTERIYAMKILNKWEAETACFREERDVLVNGDCQWITALHYAFQDENHLYLVMDYYVGGDLLTLLSKFKLPEDMARFYIGEMVLAIDSIHQLHYVHRDIKPDNVLLDVNGHIRLADFGSCLKMNDGTVQSVAVGTPDYISPEILQAGKYGPECDWWSLGVCMYEMLYGETPFYAESLVETYGKIMNVDVSEEAKDLIQRLICSRERRLGQEDFKKHAFF"
         }
     },
     {
@@ -669,7 +669,7 @@
                 "alignment_pos": 128,
                 "from": "GLU",
                 "to": "ASP",
-                "matched": "NMLISNEGH",
+                "matched": "LISNEGHIK",
                 "location": "kinase_domain"
             }
         ],
@@ -696,7 +696,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "FSIVKPISRGAFGKVYLGQKGG--KLYAVKVVKKADNMTHQVQAERDALALSKSPFIVHLYYSLQSANNVYLVMEYLIGGDVKSLLHIYYFDEEMAVKYISEVALALDYLHRHGIIHRDLKPDNMLISNEGHIKLTDFGLSKVTLNAPVDDRILGTPDYLAPELLLGRAHGPAVDWWALGVCLFEFLTGIPPFNDETPQQVFQNILKEKLSDNAQSAVEILLTIDDTKRAGMKELKRHPLF"
+            "sequence": "FSIVKPISRGAFGKVYLGQKGGKLYAVKVVKKADNMTHQVQAERDALALSKSPFIVHLYYSLQSANNVYLVMEYLIGGDVKSLLHIYYFDEEMAVKYISEVALALDYLHRHGIIHRDLKPDNMLISNEGHIKLTDFGLSKVTLNAPVDDRILGTPDYLAPELLLGRAHGPAVDWWALGVCLFEFLTGIPPFNDETPQQVFQNILKEKLSDNAQSAVEILLTIDDTKRAGMKELKRHPLF"
         }
     },
     {
@@ -818,7 +818,7 @@
                 "alignment_pos": 158,
                 "from": "LEU",
                 "to": "ARG",
-                "matched": "CGTPEYLAP",
+                "matched": "TPEYLAPEI",
                 "location": "kinase_domain"
             }
         ],
@@ -845,7 +845,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "FERIKTLGTGSFGRVMLVKHKETGNHYAMKILDKQKKQIEHTLNEKRILQAVNFPFLVKLEFSFKDNSNLYMVMEYVPGGEMFSHLRRIRFSEPHARFYAAQIVLTFEYLHSLDLIYRDLKPENLLIDQQGYIQVTDFGFAKRVKG--RTWTLCGTPEYLAPEIILSKGYNKAVDWWALGVLIYEMAAGYPPFFADQPIQIYEKIVSSHFSSDLKDLLRNLLQVDLTKRFGNNDIKNHKWF"
+            "sequence": "FERIKTLGTGSFGRVMLVKHKETGNHYAMKILDKQKKQIEHTLNEKRILQAVNFPFLVKLEFSFKDNSNLYMVMEYVPGGEMFSHLRRIRFSEPHARFYAAQIVLTFEYLHSLDLIYRDLKPENLLIDQQGYIQVTDFGFAKRVKGRTWTLCGTPEYLAPEIILSKGYNKAVDWWALGVLIYEMAAGYPPFFADQPIQIYEKIVSSHFSSDLKDLLRNLLQVDLTKRFGNNDIKNHKWF"
         }
     },
     {
@@ -884,7 +884,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "FERLRTLGMGSFGRVMLVRHQETGGHYAMKILNKQKKQVEHILNEKRILQAIDFPFLVKLQFSFKDNSYLYLVMEYVPGGEMFSRLQRVRFSEPHACFYAAQVVLAVQYLHSLDLIHRDLKPENLLIDQQGYLQVTDFGFAKRVKG--RTWTLCGTPEYLAPEIILSKGYNKAVDWWALGVLIYEMAVGFPPFYADQPIQIYEKIVSSKLSSDLKHLLRSLLQVDLTKRFGNGDIKNHKWF"
+            "sequence": "FERLRTLGMGSFGRVMLVRHQETGGHYAMKILNKQKKQVEHILNEKRILQAIDFPFLVKLQFSFKDNSYLYLVMEYVPGGEMFSRLQRVRFSEPHACFYAAQVVLAVQYLHSLDLIHRDLKPENLLIDQQGYLQVTDFGFAKRVKGRTWTLCGTPEYLAPEIILSKGYNKAVDWWALGVLIYEMAVGFPPFYADQPIQIYEKIVSSKLSSDLKHLLRSLLQVDLTKRFGNGDIKNHKWF"
         }
     },
     {
@@ -896,7 +896,7 @@
                 "alignment_pos": 187,
                 "from": "GLY",
                 "to": "ARG",
-                "matched": "IYEMAAGYP",
+                "matched": "EMAAGYPPF",
                 "location": "kinase_domain"
             },
             {
@@ -947,7 +947,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "FERKKTLGTGSFGRVMLVKHKATEQYYAMKILDKQKKQIEHTLNEKRILQAVNFPFLVRLEYAFKDNSNLYMVMEYVPGGEMFSHLRRIRFSEPHARFYAAQIVLTFEYLHSLDLIYRDLKPENLLIDHQGYIQVTDFGFAKRVKG--RTWTLCGTPEYLAPEIILSKGYNKAVDWWALGVLIYEMAAGYPPFFADQPIQIYEKIVSSHFSSDLKDLLRNLLQVDLTKRFGNSDIKTHKWF"
+            "sequence": "FERKKTLGTGSFGRVMLVKHKATEQYYAMKILDKQKKQIEHTLNEKRILQAVNFPFLVRLEYAFKDNSNLYMVMEYVPGGEMFSHLRRIRFSEPHARFYAAQIVLTFEYLHSLDLIYRDLKPENLLIDHQGYIQVTDFGFAKRVKGRTWTLCGTPEYLAPEIILSKGYNKAVDWWALGVLIYEMAAGYPPFFADQPIQIYEKIVSSHFSSDLKDLLRNLLQVDLTKRFGNSDIKTHKWF"
         }
     },
     {
@@ -986,7 +986,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "-NIIDTLGVGGFGRVELVQLKEESKTFAMKILKKRHRQQEHIRSEKQIMQGAHSDFIVRLYRTFKDSKYLYMLMEACLGGELWTILRDRSFEDSTTRFYTACVVEAFAYLHSKGIIYRDLKPENLILDHRGYAKLVDFGFAKKIGFGKKTWTFCGTPEYVAPEIILNKGHDISADYWSLGILMYELLTGSPPFSGPDPMKTYNIILRKKIAKNAANLIKKLCRDNPSERLGNKDIQKHKWF"
+            "sequence": "NIIDTLGVGGFGRVELVQLKEESKTFAMKILKKRHRQQEHIRSEKQIMQGAHSDFIVRLYRTFKDSKYLYMLMEACLGGELWTILRDRSFEDSTTRFYTACVVEAFAYLHSKGIIYRDLKPENLILDHRGYAKLVDFGFAKKIGFGKKTWTFCGTPEYVAPEIILNKGHDISADYWSLGILMYELLTGSPPFSGPDPMKTYNIILRKKIAKNAANLIKKLCRDNPSERLGNKDIQKHKWF"
         }
     },
     {
@@ -998,7 +998,7 @@
                 "alignment_pos": 111,
                 "from": "ARG",
                 "to": "TER",
-                "matched": "FDYLHRLGI",
+                "matched": "DYLHRLGII",
                 "location": "kinase_domain"
             }
         ],
@@ -1025,7 +1025,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "LEIIATLGVGGFGRVELVKVKE-NVAFAMKCIRKKHKQQEHVYSEKRILEELCSPFIVKLYRTFKDNKYVYMLLEACLGGELWSILRDRSFDEPTSKFCVACVTEAFDYLHRLGIIYRDLKPENLILDAEGYLKLVDFGFAKKIGSGQKTWTFCGTPEYVAPEVILNKGHDFSVDFWSLGILVYELLTGNPPFSGVDQMMTYNLILKRKITRRPEDLIRRLCRQNPTERLGNNDIKKHRWL"
+            "sequence": "LEIIATLGVGGFGRVELVKVKENVAFAMKCIRKKHKQQEHVYSEKRILEELCSPFIVKLYRTFKDNKYVYMLLEACLGGELWSILRDRSFDEPTSKFCVACVTEAFDYLHRLGIIYRDLKPENLILDAEGYLKLVDFGFAKKIGSGQKTWTFCGTPEYVAPEVILNKGHDFSVDFWSLGILVYELLTGNPPFSGVDQMMTYNLILKRKITRRPEDLIRRLCRQNPTERLGNNDIKKHRWL"
         }
     },
     {
@@ -1080,7 +1080,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "WDLVQTLGEGAYGEVQLAVNRVTEEAVAVKIVDM-KDCPENIKKEICINKMLNHENVVKFYGHRREGNIQYLFLEYCSGGELFDRIEPDGMPEPDAQRFFHQLMAGVVYLHGIGITHRDIKPENLLLDERDNLKISDFGLATVFRRERLLNKMCGTLPYVAPELKRREFHAEPVDVWSCGIVLTAMLAGELPWDQ--PSDSCQEYSDKKIDSAPLALLHKILVENPSARITIPDIKKDRWY"
+            "sequence": "WDLVQTLGEGAYGEVQLAVNRVTEEAVAVKIVDMKDCPENIKKEICINKMLNHENVVKFYGHRREGNIQYLFLEYCSGGELFDRIEPDGMPEPDAQRFFHQLMAGVVYLHGIGITHRDIKPENLLLDERDNLKISDFGLATVFRRERLLNKMCGTLPYVAPELKRREFHAEPVDVWSCGIVLTAMLAGELPWDQPSDSCQEYSDKKIDSAPLALLHKILVENPSARITIPDIKKDRWY"
         }
     },
     {
@@ -1241,7 +1241,7 @@
                 "alignment_pos": 121,
                 "from": "LEU",
                 "to": "PRO",
-                "matched": "HRDVKPENL",
+                "matched": "PENLLYTSD",
                 "location": "kinase_domain"
             }
         ],
@@ -1268,7 +1268,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "-LSKQVLGLGVNGKVLECFHRRTGQKCALKLLYD----SPKARQEVDHHWQAGGPHIVCILDVYENKRCLLIIMECMEGGELFSRIQERAFTEREAAEIMRDIGTAIQFLHSHNIAHRDVKPENLLYTSDAVLKLTDFGFAKETT-QEK--------------------YDKSCDMWSLGVIMYILLCGFPPFYSPGMKRRIRLGQYSEVSEDAKQLIRLLLKTDPTERLTITQFMNHPWI"
+            "sequence": "LSKQVLGLGVNGKVLECFHRRTGQKCALKLLYDSPKARQEVDHHWQAGGPHIVCILDVYENKRCLLIIMECMEGGELFSRIQERAFTEREAAEIMRDIGTAIQFLHSHNIAHRDVKPENLLYTSDAVLKLTDFGFAKETTQEKYDKSCDMWSLGVIMYILLCGFPPFYSPGMKRRIRLGQYSEVSEDAKQLIRLLLKTDPTERLTITQFMNHPWI"
         }
     },
     {
@@ -1296,7 +1296,7 @@
                 "alignment_pos": 75,
                 "from": "GLY",
                 "to": "VAL",
-                "matched": "LIVMEMMEG",
+                "matched": "EMMEGGELF",
                 "location": "kinase_domain"
             }
         ],
@@ -1323,7 +1323,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "INWTQKLGAGISGPVRVCVKKSTQERFALKILLD----RPKARNEVRLHMMCTHPNIVQIIEVFANRARLLIVMEMMEGGELFHRISQHHFTEKQASQVTKQIALALRHCHLLNIAHRDLKPENLLFKDDAPVKLCDFGFAK--I-DYT--------------------YNKSCDLWSLGVIIYVMLCGYPPFYPKDMRRKIMTGSFSQISEMAKDVVRKLLKVKPEERLTIEGVLDHPWL"
+            "sequence": "INWTQKLGAGISGPVRVCVKKSTQERFALKILLDRPKARNEVRLHMMCTHPNIVQIIEVFANRARLLIVMEMMEGGELFHRISQHHFTEKQASQVTKQIALALRHCHLLNIAHRDLKPENLLFKDDAPVKLCDFGFAKIDYTYNKSCDLWSLGVIIYVMLCGYPPFYPKDMRRKIMTGSFSQISEMAKDVVRKLLKVKPEERLTIEGVLDHPWL"
         }
     },
     {
@@ -1644,7 +1644,7 @@
                 "alignment_pos": 232,
                 "from": "TYR",
                 "to": "HIS",
-                "matched": "ERITVYEAL",
+                "matched": "RITVYEALN",
                 "location": "kinase_domain"
             },
             {
@@ -1679,7 +1679,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "YELCEVIGKGPFSVVRRCINRETGQQFAVKIVDVAKLSTEDLKREASICHMLKHPHIVELLETYSSDGMLYMVFEFMDGADLCFEIVKRVYSEAVASHYMRQILEALRYCHDNNIIHRDVKPHCVLLASSAPVKLGGFGVAIQLGEGLVAGGRVGTPHFMAPEVVKREPYGKPVDVWGCGVILFILLSGCLPFYGTK-ERLFEGIIKSHISESAKDLVRRMLMLDPAERITVYEALNHPWL"
+            "sequence": "YELCEVIGKGPFSVVRRCINRETGQQFAVKIVDVAKLSTEDLKREASICHMLKHPHIVELLETYSSDGMLYMVFEFMDGADLCFEIVKRVYSEAVASHYMRQILEALRYCHDNNIIHRDVKPHCVLLASSAPVKLGGFGVAIQLGEGLVAGGRVGTPHFMAPEVVKREPYGKPVDVWGCGVILFILLSGCLPFYGTKERLFEGIIKSHISESAKDLVRRMLMLDPAERITVYEALNHPWL"
         }
     },
     {
@@ -1691,7 +1691,7 @@
                 "alignment_pos": 136,
                 "from": "ASP",
                 "to": "TYR",
-                "matched": "TLKISDLGV",
+                "matched": "LKISDLGVA",
                 "location": "kinase_domain"
             },
             {
@@ -1699,7 +1699,7 @@
                 "alignment_pos": 112,
                 "from": "GLU",
                 "to": "TER",
-                "matched": "EYLHSQGIV",
+                "matched": "YLHSQGIVH",
                 "location": "kinase_domain"
             },
             {
@@ -1723,7 +1723,7 @@
                 "alignment_pos": 105,
                 "from": "GLY",
                 "to": "ASP",
-                "matched": "CQLIDGLEY",
+                "matched": "QLIDGLEYL",
                 "location": "kinase_domain"
             },
             {
@@ -1755,7 +1755,7 @@
                 "alignment_pos": 176,
                 "from": "TRP",
                 "to": "CYS",
-                "matched": "FKVDIWSAG",
+                "matched": "KVDIWSAGV",
                 "location": "kinase_domain"
             },
             {
@@ -1763,7 +1763,7 @@
                 "alignment_pos": 183,
                 "from": "TYR",
                 "to": "TER",
-                "matched": "AGVTLYNIT",
+                "matched": "GVTLYNITT",
                 "location": "kinase_domain"
             },
             {
@@ -1771,7 +1771,7 @@
                 "alignment_pos": 190,
                 "from": "TYR",
                 "to": "TER",
-                "matched": "ITTGLYPFE",
+                "matched": "TTGLYPFEG",
                 "location": "kinase_domain"
             },
             {
@@ -1814,7 +1814,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "YLMGDLLGEGSYGKVKEVLDSETLCRRAVKILKKKKNGEANVKKEIQLLRRLRHKNVIQLVDVLYNKQKMYMVMEYCVCQEMLDS-VPERFPVCQAHGYFCQLIDGLEYLHSQGIVHKDIKPGNLLLTTGGTLKISDLGVAEALHFADDCRTSQGSPAFQPPENGLDTFSGFKVDIWSAGVTLYNITTGLYPFEG-DNYKLFENIGKGDCGPPLSDLLKGMLEYEPAKRFSIRQIRQHSWF"
+            "sequence": "YLMGDLLGEGSYGKVKEVLDSETLCRRAVKILKKKKNGEANVKKEIQLLRRLRHKNVIQLVDVLYNKQKMYMVMEYCVCQEMLDSVPERFPVCQAHGYFCQLIDGLEYLHSQGIVHKDIKPGNLLLTTGGTLKISDLGVAEALHFADDCRTSQGSPAFQPPENGLDTFSGFKVDIWSAGVTLYNITTGLYPFEGDNYKLFENIGKGDCGPPLSDLLKGMLEYEPAKRFSIRQIRQHSWF"
         }
     },
     {
@@ -1916,7 +1916,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "---KEALGGGKFGAVCTCMEKATGLKLAAKVIKKQTPKKEMVLLEIEVMNQLNHRNLIQLYAAIETPHEIVLFMEYIEGGELFERIVDEYLTEVDTMVFVRQICDGILFMHKMRVLHLDLKPENILCVNGHLVKIIDFGLARRYNPNEKLKVNFGTPEFLSPEVVNYDQISDKTDMWSMGVITYMLLSGLSPFLGDDDTETLNNVLSEAVSDEAKDFVSNLIVKDQRARMNAAQCLAHPWL"
+            "sequence": "KEALGGGKFGAVCTCMEKATGLKLAAKVIKKQTPKKEMVLLEIEVMNQLNHRNLIQLYAAIETPHEIVLFMEYIEGGELFERIVDEYLTEVDTMVFVRQICDGILFMHKMRVLHLDLKPENILCVNGHLVKIIDFGLARRYNPNEKLKVNFGTPEFLSPEVVNYDQISDKTDMWSMGVITYMLLSGLSPFLGDDDTETLNNVLSEAVSDEAKDFVSNLIVKDQRARMNAAQCLAHPWL"
         }
     },
     {
@@ -2050,7 +2050,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "IFPDEVLGSGQFGIVYGGKHRKTGRDVAIKIIDKLRKQESQLRNEVAILQNLHHPGVVNLECMFETPERVFVVMEKLH-GDMLEMLSSERLPEHITKFLITQILVALRHLHFKNIVHCDLKPENVLLASDPQVKLCDFGFARIIGEKSFRRSVVGTPAYLAPELRN-KGYNRSLDMWSVGVIIYVSLSGTFPFNE--DEDIHDQIQNKEISHEAIDLINNLLQVKMRKRYSVDKTLSHPWL"
+            "sequence": "IFPDEVLGSGQFGIVYGGKHRKTGRDVAIKIIDKLRKQESQLRNEVAILQNLHHPGVVNLECMFETPERVFVVMEKLHGDMLEMLSSERLPEHITKFLITQILVALRHLHFKNIVHCDLKPENVLLASDPQVKLCDFGFARIIGEKSFRRSVVGTPAYLAPELRNKGYNRSLDMWSVGVIIYVSLSGTFPFNEDEDIHDQIQNKEISHEAIDLINNLLQVKMRKRYSVDKTLSHPWL"
         }
     },
     {
@@ -2134,7 +2134,7 @@
                 "alignment_pos": 193,
                 "from": "SER",
                 "to": "PHE",
-                "matched": "GYPPFSEHT",
+                "matched": "YPPFSEHTQ",
                 "location": "kinase_domain"
             }
         ],
@@ -2161,7 +2161,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "YIMSKTLGSGACGEVKLAFERKTCKKVAIKIISKRKDPALNVETEIEILKKLNHPCIIKIKNFFDAED-YYIVLELMEGGELFDKVVGNRLKEATCKLYFYQMLLAVQYLHENGIIHRDLKPENVLLSSDCLIKITDFGHSKILGETSLMRTLCGTPTYLAPEVLVTAGYNRAVDCWSLGVILFICLSGYPPFSEHTQVSLKDQITSAEVSEKALDLVKKLLVVDPKARFTTEEALRHPWL"
+            "sequence": "YIMSKTLGSGACGEVKLAFERKTCKKVAIKIISKRKDPALNVETEIEILKKLNHPCIIKIKNFFDAEDYYIVLELMEGGELFDKVVGNRLKEATCKLYFYQMLLAVQYLHENGIIHRDLKPENVLLSSDCLIKITDFGHSKILGETSLMRTLCGTPTYLAPEVLVTAGYNRAVDCWSLGVILFICLSGYPPFSEHTQVSLKDQITSAEVSEKALDLVKKLLVVDPKARFTTEEALRHPWL"
         }
     },
     {
@@ -2216,7 +2216,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "YTFLEEKARGRFGVVRACRENATGRTFVAKIVPYAAEGKRRVLQEYEVLRTLHHERIMSLHEAYITPRYLVLIAESCGNRELLCGLSDRRYSEDDVATYMVQLLQGLDYLHGHHVLHLDIKPDNLLL--ANALKIVDFGSAQPYNPLRPLGHRTGTLEFMAPEMVKGEPIGSATDIWGAGVLTYIMLSGRSPFYEPDPQETEARIVGPNTSQSATLFLRKVLSVHPWSRPSLQDCLAHPWL"
+            "sequence": "YTFLEEKARGRFGVVRACRENATGRTFVAKIVPYAAEGKRRVLQEYEVLRTLHHERIMSLHEAYITPRYLVLIAESCGNRELLCGLSDRRYSEDDVATYMVQLLQGLDYLHGHHVLHLDIKPDNLLLANALKIVDFGSAQPYNPLRPLGHRTGTLEFMAPEMVKGEPIGSATDIWGAGVLTYIMLSGRSPFYEPDPQETEARIVGPNTSQSATLFLRKVLSVHPWSRPSLQDCLAHPWL"
         }
     },
     {
@@ -2401,7 +2401,7 @@
                 "alignment_pos": 38,
                 "from": "HIS",
                 "to": "ARG",
-                "matched": "VK-TKHPQL",
+                "matched": "VKTKHPQLH",
                 "location": "kinase_domain"
             },
             {
@@ -2409,7 +2409,7 @@
                 "alignment_pos": 36,
                 "from": "THR",
                 "to": "ALA",
-                "matched": "ECVK-TKHP",
+                "matched": "ECVKTKHPQ",
                 "location": "kinase_domain"
             }
         ],
@@ -2436,7 +2436,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "YRLGRKIGSGSFGDIYLGTDIAAGEEVAIKLECVK-TKHPQLHIESKIYKMQGGVGIPTIRWCGAEGDYNVMVMELLG-PSLEDLFNFCKFSLKTVLLLADQMISRIEYIHSKNFIHRDVKPDNFLMGLGNLVYIIDFGLA--KKHIYN-KNLTGTARYASINTHGI-EQSRRDDLESLGYVLMYFNLGSLPWQ--GLKKYISTLCKG-YPSEFATYLNFCRSLRFDDKPDYSYLRQLFRN"
+            "sequence": "YRLGRKIGSGSFGDIYLGTDIAAGEEVAIKLECVKTKHPQLHIESKIYKMQGGVGIPTIRWCGAEGDYNVMVMELLGPSLEDLFNFCKFSLKTVLLLADQMISRIEYIHSKNFIHRDVKPDNFLMGLGNLVYIIDFGLAKKHIYNKNLTGTARYASINTHGIEQSRRDDLESLGYVLMYFNLGSLPWQGLKKYISTLCKGYPSEFATYLNFCRSLRFDDKPDYSYLRQLFRN"
         }
     },
     {
@@ -2448,7 +2448,7 @@
                 "alignment_pos": 167,
                 "from": "ARG",
                 "to": "TRP",
-                "matched": "NTHGK-EQS",
+                "matched": "EQSRRDDLE",
                 "location": "kinase_domain"
             }
         ],
@@ -2475,7 +2475,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "FRVGKKIGCGNFGELRLGKNLYTNEYVAIKLEPIK-SRAPQLHLEYRFYKQGSAEGLPQVYYFGPCGKYNAMVLELLG-PSLEDLFDLCTFTLKTVLMIAIQLLSRMEYVHSKNLIYRDVKPENFLIGREHVIHIIDFGLA--KEHIYH-KSLTGTARYMSINTHGK-EQSRRDDLEALGHMFMYFLRGSLPWQ--GLKRYINTLCEN-FPEEMATYLRYVRRLDFFEKPDYEYLRTLFTD"
+            "sequence": "FRVGKKIGCGNFGELRLGKNLYTNEYVAIKLEPIKSRAPQLHLEYRFYKQGSAEGLPQVYYFGPCGKYNAMVLELLGPSLEDLFDLCTFTLKTVLMIAIQLLSRMEYVHSKNLIYRDVKPENFLIGREHVIHIIDFGLAKEHIYHKSLTGTARYMSINTHGKEQSRRDDLEALGHMFMYFLRGSLPWQGLKRYINTLCENFPEEMATYLRYVRRLDFFEKPDYEYLRTLFTD"
         }
     },
     {
@@ -2487,7 +2487,7 @@
                 "alignment_pos": 72,
                 "from": "ARG",
                 "to": "CYS",
-                "matched": "SYRFMIMDR",
+                "matched": "MIMDRFGSD",
                 "location": "kinase_domain"
             },
             {
@@ -2495,7 +2495,7 @@
                 "alignment_pos": 148,
                 "from": "ARG",
                 "to": "ILE",
-                "matched": "YRHKYDKRC",
+                "matched": "RCHDGTIEF",
                 "location": "kinase_domain"
             },
             {
@@ -2519,7 +2519,7 @@
                 "alignment_pos": 47,
                 "from": "ARG",
                 "to": "GLN",
-                "matched": "FTELKFYQR",
+                "matched": "KFYQRKPIL",
                 "location": "kinase_domain"
             },
             {
@@ -2527,7 +2527,7 @@
                 "alignment_pos": 178,
                 "from": "TRP",
                 "to": "LEU",
-                "matched": "GDLEILGYC",
+                "matched": "CMIQWLTGH",
                 "location": "kinase_domain"
             },
             {
@@ -2543,7 +2543,7 @@
                 "alignment_pos": 161,
                 "from": "VAL",
                 "to": "MET",
-                "matched": "IEFTSIDAH",
+                "matched": "AHGVAPSRR",
                 "location": "kinase_domain"
             }
         ],
@@ -2570,7 +2570,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "WKVGLPIGQGGFGCIYLADMNESGAPCVVKVES----DNGPLFTELKFYQRKPILGVPKYWGSGLHDSYRFMIMDRFG-SDLQKIYEANRFSRKTVLQLSLRILDILEYIHEHEYVHGDIKASNLLLNYPDQVYLVDYGLA--YRHKYDKRCHDGTIEFTSIDAHGV-APSRRGDLEILGYCMIQWLTGHLPWE--DNLDPVRYMDKCPKPGEIAKYMETVKLLDYTEKPLYENLRDILLQ"
+            "sequence": "WKVGLPIGQGGFGCIYLADMNESGAPCVVKVESDNGPLFTELKFYQRKPILGVPKYWGSGLHDSYRFMIMDRFGSDLQKIYEANRFSRKTVLQLSLRILDILEYIHEHEYVHGDIKASNLLLNYPDQVYLVDYGLAYRHKYDKRCHDGTIEFTSIDAHGVAPSRRGDLEILGYCMIQWLTGHLPWEDNLDPVRYMDKCPKPGEIAKYMETVKLLDYTEKPLYENLRDILLQ"
         }
     },
     {
@@ -2617,7 +2617,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "YEPVAEIGVGAYGTVYKARDPHSGHFVALKSVRVPNGLPISTVREVALLRRLEHPNVVRLMDVCATSRKVTLVFEHVDQ-DLRTYLDKAGLPAETIKDLMRQFLRGLDFLHANCIVHRDLKPENILVTSGGTVKLADFGLARIYSYM-ALTPVVVTLWYRAPEVLLS-TYATPVDMWSVGCIFAEMFRRKPLFCGNSEADQLGKIFDLIMEESGAQLLLEMLTFNPHKRISAFRALQHSYL"
+            "sequence": "YEPVAEIGVGAYGTVYKARDPHSGHFVALKSVRVPNGLPISTVREVALLRRLEHPNVVRLMDVCATSRKVTLVFEHVDQDLRTYLDKAGLPAETIKDLMRQFLRGLDFLHANCIVHRDLKPENILVTSGGTVKLADFGLARIYSYMALTPVVVTLWYRAPEVLLSTYATPVDMWSVGCIFAEMFRRKPLFCGNSEADQLGKIFDLIMEESGAQLLLEMLTFNPHKRISAFRALQHSYL"
         }
     },
     {
@@ -2629,7 +2629,7 @@
                 "alignment_pos": 168,
                 "from": "ALA",
                 "to": "THR",
-                "matched": "VLLS-SYAT",
+                "matched": "LSSYATPVD",
                 "location": "kinase_domain"
             }
         ],
@@ -2656,7 +2656,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "YECVAEIGEGAYGKVFKARDLKNGRFVALKRVRVQTGMPLSTIREVAVLRHLEHPNVVRLFDVCTVSRKLTLVFEHVDQ-DLTTYLDKVGVPTETIKDMMFQLLRGLDFLHSHRVVHRDLKPQNILVTSSGQIKLADFGLARIYSFM-ALTSVVVTLWYRAPEVLLS-SYATPVDLWSVGCIFAEMFRRKPLFRGSSDVDQLGKILDVIIDELGKDLLLKCLTFNPAKRISAYSALSHPYF"
+            "sequence": "YECVAEIGEGAYGKVFKARDLKNGRFVALKRVRVQTGMPLSTIREVAVLRHLEHPNVVRLFDVCTVSRKLTLVFEHVDQDLTTYLDKVGVPTETIKDMMFQLLRGLDFLHSHRVVHRDLKPQNILVTSSGQIKLADFGLARIYSFMALTSVVVTLWYRAPEVLLSSYATPVDLWSVGCIFAEMFRRKPLFRGSSDVDQLGKILDVIIDELGKDLLLKCLTFNPAKRISAYSALSHPYF"
         }
     },
     {
@@ -2668,7 +2668,7 @@
                 "alignment_pos": 7,
                 "from": "GLY",
                 "to": "ARG",
-                "matched": "EGCKVGRGT",
+                "matched": "GCKVGRGTY",
                 "location": "kinase_domain"
             },
             {
@@ -2676,7 +2676,7 @@
                 "alignment_pos": 152,
                 "from": "THR",
                 "to": "ALA",
-                "matched": "-PLDPVVVT",
+                "matched": "PVVVTFWYR",
                 "location": "kinase_domain"
             },
             {
@@ -2684,7 +2684,7 @@
                 "alignment_pos": 10,
                 "from": "THR",
                 "to": "ASN",
-                "matched": "KVGRGTYGH",
+                "matched": "VGRGTYGHV",
                 "location": "kinase_domain"
             },
             {
@@ -2692,7 +2692,7 @@
                 "alignment_pos": 11,
                 "from": "TYR",
                 "to": "HIS",
-                "matched": "VGRGTYGHV",
+                "matched": "GRGTYGHVY",
                 "location": "kinase_domain"
             }
         ],
@@ -2719,7 +2719,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "-YEGCKVGRGTYGHVYKARRKDGKDEYALKQI-EGTGISMSACREIALLRELKHPNVIALQKVFLSDRKVWLLFDYAEH-DLWHIIKFSKLPRSMVKSLLYQILDGIHYLHANWVLHRDLKPANILVMERGRVKIADMGFARLFNLK-PLDPVVVTFWYRAPELLLARHYTKAIDIWAIGCIFAELLTSEPIFHCRQHHDQLDRIFSVMPDSKVFLLLQKLLTMDPTKRITSEQALQDPYF"
+            "sequence": "YEGCKVGRGTYGHVYKARRKDGKDEYALKQIEGTGISMSACREIALLRELKHPNVIALQKVFLSDRKVWLLFDYAEHDLWHIIKFSKLPRSMVKSLLYQILDGIHYLHANWVLHRDLKPANILVMERGRVKIADMGFARLFNLKPLDPVVVTFWYRAPELLLARHYTKAIDIWAIGCIFAELLTSEPIFHCRQHHDQLDRIFSVMPDSKVFLLLQKLLTMDPTKRITSEQALQDPYF"
         }
     },
     {
@@ -2731,7 +2731,7 @@
                 "alignment_pos": 8,
                 "from": "ARG",
                 "to": "GLY",
-                "matched": "GCKVGRGTY",
+                "matched": "CKVGRGTYG",
                 "location": "kinase_domain"
             },
             {
@@ -2739,7 +2739,7 @@
                 "alignment_pos": 9,
                 "from": "GLY",
                 "to": "SER",
-                "matched": "CKVGRGTYG",
+                "matched": "KVGRGTYGH",
                 "location": "kinase_domain"
             },
             {
@@ -2747,7 +2747,7 @@
                 "alignment_pos": 178,
                 "from": "ILE",
                 "to": "MET",
-                "matched": "IDIWAIGCI",
+                "matched": "AIGCIFAEL",
                 "location": "kinase_domain"
             },
             {
@@ -2755,7 +2755,7 @@
                 "alignment_pos": 39,
                 "from": "SER",
                 "to": "LEU",
-                "matched": "GTGISMSAC",
+                "matched": "GISMSACRE",
                 "location": "kinase_domain"
             },
             {
@@ -2763,7 +2763,7 @@
                 "alignment_pos": 152,
                 "from": "VAL",
                 "to": "GLY",
-                "matched": "-PLDPVVVT",
+                "matched": "PVVVTFWYR",
                 "location": "kinase_domain"
             }
         ],
@@ -2790,7 +2790,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "-YEGCKVGRGTYGHVYKAKRKDGKDDYALKQI-EGTGISMSACREIALLRELKHPNVISLQKVFLSDRKVWLLFDYAEH-DLWHIIKFSKLPRGMVKSLLYQILDGIHYLHANWVLHRDLKPANILVMERGRVKIADMGFARLFNLK-PLDPVVVTFWYRAPELLLARHYTKAIDIWAIGCIFAELLTSEPIFHCRQHHDQLDRIFNVMPDSKAFHLLQKLLTMDPIKRITSEQAMQDPYF"
+            "sequence": "YEGCKVGRGTYGHVYKAKRKDGKDDYALKQIEGTGISMSACREIALLRELKHPNVISLQKVFLSDRKVWLLFDYAEHDLWHIIKFSKLPRGMVKSLLYQILDGIHYLHANWVLHRDLKPANILVMERGRVKIADMGFARLFNLKPLDPVVVTFWYRAPELLLARHYTKAIDIWAIGCIFAELLTSEPIFHCRQHHDQLDRIFNVMPDSKAFHLLQKLLTMDPIKRITSEQAMQDPYF"
         }
     },
     {
@@ -2810,7 +2810,7 @@
                 "alignment_pos": 123,
                 "from": "ASN",
                 "to": "ASP",
-                "matched": "DIKCSNILL",
+                "matched": "IKCSNILLN",
                 "location": "kinase_domain"
             },
             {
@@ -2818,7 +2818,7 @@
                 "alignment_pos": 123,
                 "from": "ASN",
                 "to": "SER",
-                "matched": "DIKCSNILL",
+                "matched": "IKCSNILLN",
                 "location": "kinase_domain"
             },
             {
@@ -2842,7 +2842,7 @@
                 "alignment_pos": 152,
                 "from": "VAL",
                 "to": "LEU",
-                "matched": "-PYTNKVIT",
+                "matched": "YTNKVITLW",
                 "location": "kinase_domain"
             }
         ],
@@ -2869,7 +2869,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "FDIIGIIGEGTYGQVYKARDKDTGEMVALKKVRLDNGFPITAIREIKILRQLTHQSIINMKEIVTDKEAFYLVFEYMDH-DLMGLLESGHFNENHIKSFMRQLMEGLDYCHKKNFLHRDIKCSNILLNNRGQIKLADFGLARLYSSR-PYTNKVITLWYRPPELLLEERYTPAIDVWSCGCILGELFTKKPIFQANQELAQLELISRICIPAAALDLFDYMLALDPSKRCTAEQALQCEFL"
+            "sequence": "FDIIGIIGEGTYGQVYKARDKDTGEMVALKKVRLDNGFPITAIREIKILRQLTHQSIINMKEIVTDKEAFYLVFEYMDHDLMGLLESGHFNENHIKSFMRQLMEGLDYCHKKNFLHRDIKCSNILLNNRGQIKLADFGLARLYSSRPYTNKVITLWYRPPELLLEERYTPAIDVWSCGCILGELFTKKPIFQANQELAQLELISRICIPAAALDLFDYMLALDPSKRCTAEQALQCEFL"
         }
     },
     {
@@ -2916,7 +2916,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "YEIDSLIGKGSFGQVVKAYDHQTQELVAIKIIKNKKAFLNQAQIELRLLELMNQHYIVHLKRHFMFRNHLCLVFELLSY-NLYDLLRNRGVSLNLTRKLAQQLCTALLFLATLSIIHCDLKPENILLCKRSAIKIVDFGSSCQLGQR-I-YQYIQSRFYRSPEVLLGTPYDLAIDMWSLGCILVEMHTGEPLFSGSNEVDQMNRIVERADYLRFQDLVLRMLEYEPAARISPLGALQHGFF"
+            "sequence": "YEIDSLIGKGSFGQVVKAYDHQTQELVAIKIIKNKKAFLNQAQIELRLLELMNQHYIVHLKRHFMFRNHLCLVFELLSYNLYDLLRNRGVSLNLTRKLAQQLCTALLFLATLSIIHCDLKPENILLCKRSAIKIVDFGSSCQLGQRIYQYIQSRFYRSPEVLLGTPYDLAIDMWSLGCILVEMHTGEPLFSGSNEVDQMNRIVERADYLRFQDLVLRMLEYEPAARISPLGALQHGFF"
         }
     },
     {
@@ -2928,7 +2928,7 @@
                 "alignment_pos": 143,
                 "from": "ALA",
                 "to": "VAL",
-                "matched": "GLARVADDH",
+                "matched": "LARVADDHG",
                 "location": "kinase_domain"
             },
             {
@@ -2979,7 +2979,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "YTNLSYIGEGAYGMVCSAYDNVNKVRVAIKKISPFEHYCQRTLREIKILLRFRHENIIGINDIIRAMKDVYIVQDLMET-DLYKLLKTQHLSNDHICYFLYQILRGLKYIHSANVLHRDLKPSNLLLNTTCDLKICDFGLARVADDHGFLTEYVATRWYRAPEIMLSKGYTKSIDIWSVGCILAEMLSNRPIFPGKHYLDQLNHILGA--DSKALDLLDKMLTFNPHKRIEVEQALAHPYL"
+            "sequence": "YTNLSYIGEGAYGMVCSAYDNVNKVRVAIKKISPFEHYCQRTLREIKILLRFRHENIIGINDIIRAMKDVYIVQDLMETDLYKLLKTQHLSNDHICYFLYQILRGLKYIHSANVLHRDLKPSNLLLNTTCDLKICDFGLARVADDHGFLTEYVATRWYRAPEIMLSKGYTKSIDIWSVGCILAEMLSNRPIFPGKHYLDQLNHILGADSKALDLLDKMLTFNPHKRIEVEQALAHPYL"
         }
     },
     {
@@ -2999,7 +2999,7 @@
                 "alignment_pos": 155,
                 "from": "ARG",
                 "to": "SER",
-                "matched": "TEYVATRWY",
+                "matched": "YVATRWYRS",
                 "location": "kinase_domain"
             },
             {
@@ -3007,7 +3007,7 @@
                 "alignment_pos": 158,
                 "from": "ARG",
                 "to": "PRO",
-                "matched": "VATRWYRSP",
+                "matched": "TRWYRSPEL",
                 "location": "kinase_domain"
             },
             {
@@ -3015,7 +3015,7 @@
                 "alignment_pos": 135,
                 "from": "CYS",
                 "to": "PHE",
-                "matched": "DVLKLCDFG",
+                "matched": "VLKLCDFGF",
                 "location": "kinase_domain"
             },
             {
@@ -3023,7 +3023,7 @@
                 "alignment_pos": 233,
                 "from": "CYS",
                 "to": "TYR",
-                "matched": "RYLTEQCLN",
+                "matched": "LTEQCLNHP",
                 "location": "kinase_domain"
             },
             {
@@ -3047,7 +3047,7 @@
                 "alignment_pos": 230,
                 "from": "THR",
                 "to": "ILE",
-                "matched": "PADRYLTEQ",
+                "matched": "DRYLTEQCL",
                 "location": "kinase_domain"
             }
         ],
@@ -3074,7 +3074,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "FEILGVVGEGAYGVVLKCRHKETHEIVAIKKFKDSEEVKETTLRELKMLRTLKQENIVELKEAFRRRGKLYLVFEYVEK-NMLELLEEMGVPPEKVKSYIYQLIKAIHWCHKNDIVHRDIKPENLLISHNDVLKLCDFGFARNLSNA-NYTEYVATRWYRSPELLLGAPYGKSVDMWSVGCILGELSDGQPLFPGESEIDQLFTIQKVLLNSVLLDLMKNLLKLDPADRYLTEQCLNHPTF"
+            "sequence": "FEILGVVGEGAYGVVLKCRHKETHEIVAIKKFKDSEEVKETTLRELKMLRTLKQENIVELKEAFRRRGKLYLVFEYVEKNMLELLEEMGVPPEKVKSYIYQLIKAIHWCHKNDIVHRDIKPENLLISHNDVLKLCDFGFARNLSNANYTEYVATRWYRSPELLLGAPYGKSVDMWSVGCILGELSDGQPLFPGESEIDQLFTIQKVLLNSVLLDLMKNLLKLDPADRYLTEQCLNHPTF"
         }
     },
     {
@@ -3094,7 +3094,7 @@
                 "alignment_pos": 114,
                 "from": "ASP",
                 "to": "HIS",
-                "matched": "CHSMGIMHR",
+                "matched": "IMHRDVKPH",
                 "location": "kinase_domain"
             },
             {
@@ -3102,7 +3102,7 @@
                 "alignment_pos": 132,
                 "from": "ASP",
                 "to": "GLY",
-                "matched": "DEHRKLRLI",
+                "matched": "LRLIDWGLA",
                 "location": "kinase_domain"
             },
             {
@@ -3110,7 +3110,7 @@
                 "alignment_pos": 154,
                 "from": "LYS",
                 "to": "ARG",
-                "matched": "YNVRVASRY",
+                "matched": "SRYFKGPEL",
                 "location": "kinase_domain"
             },
             {
@@ -3153,7 +3153,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "YQLVRKLGRGKYSEVFEAINITNNEKVVVKILK-PVK-KKKIKREIKILENLRGPNIITLADIVKDSRTPALVFEHVNN-T--DFKQLYTLTDYDIRFYMYEILKALDYCHSMGIMHRDVKPHNVMIDEHRKLRLIDWGLAEFYHGQ-EYNVRVASRYFKGPELLVYQMYDYSLDMWSLGCMLASMIFRKPFFHGHDNYDQLVRIAKHLVSPEALDFLDKLLRYDHQSRLTAREAMEHPYF"
+            "sequence": "YQLVRKLGRGKYSEVFEAINITNNEKVVVKILKPVKKKKIKREIKILENLRGPNIITLADIVKDSRTPALVFEHVNNTDFKQLYTLTDYDIRFYMYEILKALDYCHSMGIMHRDVKPHNVMIDEHRKLRLIDWGLAEFYHGQEYNVRVASRYFKGPELLVYQMYDYSLDMWSLGCMLASMIFRKPFFHGHDNYDQLVRIAKHLVSPEALDFLDKLLRYDHQSRLTAREAMEHPYF"
         }
     },
     {
@@ -3173,7 +3173,7 @@
                 "alignment_pos": 227,
                 "from": "ARG",
                 "to": "GLN",
-                "matched": "QWDPKKRPT",
+                "matched": "DPKKRPTAS",
                 "location": "kinase_domain"
             },
             {
@@ -3189,7 +3189,7 @@
                 "alignment_pos": 112,
                 "from": "GLY",
                 "to": "CYS",
-                "matched": "AFIHKHGFF",
+                "matched": "IHKHGFFHR",
                 "location": "kinase_domain"
             },
             {
@@ -3197,7 +3197,7 @@
                 "alignment_pos": 211,
                 "from": "LYS",
                 "to": "GLU",
-                "matched": "QVLASSEAV",
+                "matched": "LASSEAVQL",
                 "location": "kinase_domain"
             },
             {
@@ -3232,7 +3232,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "YTTIRQLGDGTYGSVLLGRSIESGELIAIKKMK-RKWEECMNLREVKSLKKLNHANVVKLKEVIRENDHLYFIFEYMKE-NLYQLIKERLFPESAIRNIMYQILQGLAFIHKHGFFHRDLKPENLLCMGPELVKIADFGLAREIRSKPPYTDYVSTRWYRAPEVLLSTNYSSPIDVWAVGCIMAEVYTLRPLFPGASEIDTIFKICQVLASSEAVQLLRDMLQWDPKKRPTASQALRYPYF"
+            "sequence": "YTTIRQLGDGTYGSVLLGRSIESGELIAIKKMKRKWEECMNLREVKSLKKLNHANVVKLKEVIRENDHLYFIFEYMKENLYQLIKERLFPESAIRNIMYQILQGLAFIHKHGFFHRDLKPENLLCMGPELVKIADFGLAREIRSKPPYTDYVSTRWYRAPEVLLSTNYSSPIDVWAVGCIMAEVYTLRPLFPGASEIDTIFKICQVLASSEAVQLLRDMLQWDPKKRPTASQALRYPYF"
         }
     },
     {
@@ -3244,7 +3244,7 @@
                 "alignment_pos": 158,
                 "from": "ARG",
                 "to": "HIS",
-                "matched": "VSTRWYRAP",
+                "matched": "TRWYRAPEV",
                 "location": "kinase_domain"
             },
             {
@@ -3252,7 +3252,7 @@
                 "alignment_pos": 122,
                 "from": "ASN",
                 "to": "HIS",
-                "matched": "RDMKPENLL",
+                "matched": "MKPENLLCM",
                 "location": "kinase_domain"
             },
             {
@@ -3268,7 +3268,7 @@
                 "alignment_pos": 211,
                 "from": "GLY",
                 "to": "TER",
-                "matched": "QVLASNEAI",
+                "matched": "LASNEAIQL",
                 "location": "kinase_domain"
             }
         ],
@@ -3295,7 +3295,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "YTTMRQLGDGTYGSVLMGKSNESGELVAIKRMK-RKWDECMNLREVKSLKKLNHANVIKLKEVIRENDHLYFIFEYMKE-NLYQLMKDRLFPESVIRNIMYQILQGLAFIHKHGFFHRDMKPENLLCMGPELVKIADFGLARELRSQPPYTDYVSTRWYRAPEVLLSSVYSSPIDVWAVGSIMAELYMLRPLFPGTSEVDEIFKICQVLASNEAIQLMTEMLNWDPKKRPTASQALKHPYF"
+            "sequence": "YTTMRQLGDGTYGSVLMGKSNESGELVAIKRMKRKWDECMNLREVKSLKKLNHANVIKLKEVIRENDHLYFIFEYMKENLYQLMKDRLFPESVIRNIMYQILQGLAFIHKHGFFHRDMKPENLLCMGPELVKIADFGLARELRSQPPYTDYVSTRWYRAPEVLLSSVYSSPIDVWAVGSIMAELYMLRPLFPGTSEVDEIFKICQVLASNEAIQLMTEMLNWDPKKRPTASQALKHPYF"
         }
     },
     {
@@ -3307,7 +3307,7 @@
                 "alignment_pos": 228,
                 "from": "ARG",
                 "to": "CYS",
-                "matched": "PDAEARPDI",
+                "matched": "DAEARPDIV",
                 "location": "kinase_domain"
             },
             {
@@ -3315,7 +3315,7 @@
                 "alignment_pos": 209,
                 "from": "PRO",
                 "to": "LEU",
-                "matched": "IVEGIYSEK",
+                "matched": "VEGIYSEKV",
                 "location": "kinase_domain"
             }
         ],
@@ -3342,7 +3342,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "YAILDHLGSGAFGCVYKVRKHSGQNLLAMKEVNLNPKDKRNIVSELTIIKQLYHPNIVRYYKTFLENDRLYIVMELIEGAPLGEHFSSLHFTEERLWKIFIQLCLALRYLHEKRIVHRDLTPNNIMLGDKDKVTVTDFGLAKQK-QESKLTSVVGTILYSCPEVLKSEPYGEKADVWAVGCILYQMATLSPPFYSTNMLSLATKIVEGIYSEKVTDTISRCLTPDAEARPDIVEVSSMISD"
+            "sequence": "YAILDHLGSGAFGCVYKVRKHSGQNLLAMKEVNLNPKDKRNIVSELTIIKQLYHPNIVRYYKTFLENDRLYIVMELIEGAPLGEHFSSLHFTEERLWKIFIQLCLALRYLHEKRIVHRDLTPNNIMLGDKDKVTVTDFGLAKQKQESKLTSVVGTILYSCPEVLKSEPYGEKADVWAVGCILYQMATLSPPFYSTNMLSLATKIVEGIYSEKVTDTISRCLTPDAEARPDIVEVSSMISD"
         }
     },
     {
@@ -3639,7 +3639,7 @@
                 "alignment_pos": 150,
                 "from": "ARG",
                 "to": "TER",
-                "matched": "ICEA-----",
+                "matched": "LPYKTGKKG",
                 "location": "kinase_domain"
             },
             {
@@ -3682,7 +3682,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "VHKGKCIGSDQLGKVYNALETATGGFVLLYEWVL--QWDQGTETEFNSLVKLSHPNVVRYLAMNEQSIVVDILVEHISGVSLAAHL--SHIPVHQLRRYTAQLLSGLDYLHSNSVVHKVLSASNVLVDAEGTVKITDYSISKRLAICEA----------------LPYKTGKKGDVWRLGLLLLSL--SGEYPV------T-IPS-DADFQD----FLKKCVCLDDKERWSPQQLLKHSFI"
+            "sequence": "VHKGKCIGSDQLGKVYNALETATGGFVLLYEWVLQWDQGTETEFNSLVKLSHPNVVRYLAMNEQSIVVDILVEHISGVSLAAHLSHIPVHQLRRYTAQLLSGLDYLHSNSVVHKVLSASNVLVDAEGTVKITDYSISKRLAICEALPYKTGKKGDVWRLGLLLLSLSGEYPVTIPSDADFQDFLKKCVCLDDKERWSPQQLLKHSFI"
         }
     },
     {
@@ -3694,7 +3694,7 @@
                 "alignment_pos": 121,
                 "from": "ILE",
                 "to": "VAL",
-                "matched": "HRDLKPRNI",
+                "matched": "KPRNIFLGP",
                 "location": "kinase_domain"
             }
         ],
@@ -3721,7 +3721,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "FEELAILGKGGYGRVYKVRNKLDGQYYAIKKILI--K-GMKVLREVKVLAGLQHPNIVGYHTAWDQHLMLHIQMQLCE-LSLWDWIVERRREANVATKIFQELVEGVFYIHNMGIVHRDLKPRNIFLGPDQQVKIGDFGLATDILQKTTHTSRVGTCLYASPEQLEGSEYDAKSDMYSLGVVLLELFQFRAEVL------T-GLRTGESLRKVQAKYIQHLTRRNSSQRPSAIQLLQSELF"
+            "sequence": "FEELAILGKGGYGRVYKVRNKLDGQYYAIKKILIKGMKVLREVKVLAGLQHPNIVGYHTAWDQHLMLHIQMQLCELSLWDWIVERRREANVATKIFQELVEGVFYIHNMGIVHRDLKPRNIFLGPDQQVKIGDFGLATDILQKTTHTSRVGTCLYASPEQLEGSEYDAKSDMYSLGVVLLELFQFRAEVLTGLRTGESLRKVQAKYIQHLTRRNSSQRPSAIQLLQSELF"
         }
     },
     {
@@ -3768,7 +3768,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "FEPIQCLGRGGFGVVFEAKNKVDDCNYAIKRIRL--P-NEKVMREVKALAKLEHPGIVRYFNAWSSKVYLYIQMQLCRKENLKDWMNGRERERSVCLHIFLQIAEAVEFLHSKGLMHRDLKPSNIFFTMDDVVKVGDFGLVTAMDQDERHTGQVGTKLYMSPEQIHGNSYSHKVDIFSLGLILFELLYFRVRTL------T-DVRNLPLFTQCEYVMVQDMLSPSPMERPEAINIIENAVF"
+            "sequence": "FEPIQCLGRGGFGVVFEAKNKVDDCNYAIKRIRLPNEKVMREVKALAKLEHPGIVRYFNAWSSKVYLYIQMQLCRKENLKDWMNGRERERSVCLHIFLQIAEAVEFLHSKGLMHRDLKPSNIFFTMDDVVKVGDFGLVTAMDQDERHTGQVGTKLYMSPEQIHGNSYSHKVDIFSLGLILFELLYFRVRTLTDVRNLPLFTQCEYVMVQDMLSPSPMERPEAINIIENAVF"
         }
     },
     {
@@ -3820,7 +3820,7 @@
                 "alignment_pos": 163,
                 "from": "SER",
                 "to": "CYS",
-                "matched": "YMSPEQISS",
+                "matched": "PEQISSQDY",
                 "location": "kinase_domain"
             },
             {
@@ -3855,7 +3855,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "FKEIELIGSGGFGQVFKAKHRIDGKTYVIKRVKY--N-NEKAEREVKALAKLDHVNIVHYNGCWDGTKCLFIQMEFCDKGTLEQWIEKRELDKVLALELFEQITKGVDYIHSKKLIHRDLKPSNIFLVDTKQVKIGDFGLVTSLKNDGKRTRSKGTLRYMSPEQISSQDYGKEVDLYALGLILAELLHCTSKFF------T-DLRDGDIFDKKEKTLLQKLLSKKPEDRPNTSEILRTLTV"
+            "sequence": "FKEIELIGSGGFGQVFKAKHRIDGKTYVIKRVKYNNEKAEREVKALAKLDHVNIVHYNGCWDGTKCLFIQMEFCDKGTLEQWIEKRELDKVLALELFEQITKGVDYIHSKKLIHRDLKPSNIFLVDTKQVKIGDFGLVTSLKNDGKRTRSKGTLRYMSPEQISSQDYGKEVDLYALGLILAELLHCTSKFFTDLRDGDIFDKKEKTLLQKLLSKKPEDRPNTSEILRTLTV"
         }
     },
     {
@@ -3867,7 +3867,7 @@
                 "alignment_pos": 154,
                 "from": "PRO",
                 "to": "ARG",
-                "matched": "LLTIPGTET",
+                "matched": "MAPEVVLGR",
                 "location": "kinase_domain"
             },
             {
@@ -3902,7 +3902,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "------LGRGSFGEVHRMEDKQTGFQCAVKKVRLEV----FRAEELMACAGLTSPRIVPLYGAVREGPWVNIFMELLEGGSLGQLVKEQCLPEDRALYYLGQALEGLEYLHSRRILHGDVKADNVLLSSDGHAALCDFGVCLQDGLGKSLLTIPGTETHMAPEVVLGRSCDAKVDVWSSCCMMLHMLNGCHPWQFFRGPLCLKIAPPEICAPLTAQAIQEGLRKEPIHRVSAAELGGKVNR"
+            "sequence": "LGRGSFGEVHRMEDKQTGFQCAVKKVRLEVFRAEELMACAGLTSPRIVPLYGAVREGPWVNIFMELLEGGSLGQLVKEQCLPEDRALYYLGQALEGLEYLHSRRILHGDVKADNVLLSSDGHAALCDFGVCLQDGLGKSLLTIPGTETHMAPEVVLGRSCDAKVDVWSSCCMMLHMLNGCHPWQFFRGPLCLKIAPPEICAPLTAQAIQEGLRKEPIHRVSAAELGGKVNR"
         }
     },
     {
@@ -3914,7 +3914,7 @@
                 "alignment_pos": 144,
                 "from": "ARG",
                 "to": "TER",
-                "matched": "VSAQDRTVG",
+                "matched": "AQDRTVGRR",
                 "location": "kinase_domain"
             }
         ],
@@ -3941,7 +3941,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "FELVELVGNGTYGQVYKGRHVKTGQLAAIKVMDVTGE--EIKQEINMLKKYSHHRNIATYYGAFIKKDQLWLVMEFCGAGSVTDLIKNTTLKEEWIAYICREILRGLSHLHQHKVIHRDIKGQNVLLTENAEVKLVDFGVSAQDRTVGRRNTFIGTPYWMAPEVIENATYDFKSDLWSLGITAIEMAEGAPPLDMHPMRALFLIPAPRLWSKKFQSFIESCLVKNHSQRPATEQLMKHPFI"
+            "sequence": "FELVELVGNGTYGQVYKGRHVKTGQLAAIKVMDVTGEEIKQEINMLKKYSHHRNIATYYGAFIKKDQLWLVMEFCGAGSVTDLIKNTTLKEEWIAYICREILRGLSHLHQHKVIHRDIKGQNVLLTENAEVKLVDFGVSAQDRTVGRRNTFIGTPYWMAPEVIENATYDFKSDLWSLGITAIEMAEGAPPLDMHPMRALFLIPAPRLWSKKFQSFIESCLVKNHSQRPATEQLMKHPFI"
         }
     },
     {
@@ -3953,7 +3953,7 @@
                 "alignment_pos": 199,
                 "from": "LEU",
                 "to": "PRO",
-                "matched": "LHPMRALFK",
+                "matched": "PMRALFKIP",
                 "location": "kinase_domain"
             },
             {
@@ -3996,7 +3996,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "WEITETIGKGTYGKVFKVLNKKNGQKAAVKILDPIHE--EIEAEYNILKALSDHPNVVRFYGIYFKKDKLWLVLELCSGGSVTDLVKGKRMSEPLIAYILHEALMGLQHLHNNKTIHRDVKGNNILLTTEGGVKLVDFGVSAQTSTRHRRNTSVGTPFWMAPEVIQQTTYDARCDTWSLGITAIELGDGDPPLDLHPMRALFKIPPPKLWSAEFNDFISKCLTKDYEKRPTVSELLQHKFI"
+            "sequence": "WEITETIGKGTYGKVFKVLNKKNGQKAAVKILDPIHEEIEAEYNILKALSDHPNVVRFYGIYFKKDKLWLVLELCSGGSVTDLVKGKRMSEPLIAYILHEALMGLQHLHNNKTIHRDVKGNNILLTTEGGVKLVDFGVSAQTSTRHRRNTSVGTPFWMAPEVIQQTTYDARCDTWSLGITAIELGDGDPPLDLHPMRALFKIPPPKLWSAEFNDFISKCLTKDYEKRPTVSELLQHKFI"
         }
     },
     {
@@ -4016,7 +4016,7 @@
                 "alignment_pos": 156,
                 "from": "TYR",
                 "to": "CYS",
-                "matched": "TMVGTPYWM",
+                "matched": "VGTPYWMAP",
                 "location": "kinase_domain"
             }
         ],
@@ -4043,7 +4043,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "YTRFEKIGQGASGTVYTAMDVATGQEVAIKQMNLQQK--ELIINEILVMRENKNPNIVNYLDSYLVGDELWVVMEYLAGGSLTDVVTETCMDEGQIAAVCRECLQALEFLHSNQVIHRDIKSDNILLGMDGSVKLTDFGFCAQTPEQSKRSTMVGTPYWMAPEVVTRKAYGPKVDIWSLGIMAIEMIEGEPPYNENPLRALYLIATPELLSAIFRDFLNRCLEMDVEKRGSAKELLQHQFL"
+            "sequence": "YTRFEKIGQGASGTVYTAMDVATGQEVAIKQMNLQQKELIINEILVMRENKNPNIVNYLDSYLVGDELWVVMEYLAGGSLTDVVTETCMDEGQIAAVCRECLQALEFLHSNQVIHRDIKSDNILLGMDGSVKLTDFGFCAQTPEQSKRSTMVGTPYWMAPEVVTRKAYGPKVDIWSLGIMAIEMIEGEPPYNENPLRALYLIATPELLSAIFRDFLNRCLEMDVEKRGSAKELLQHQFL"
         }
     },
     {
@@ -4055,7 +4055,7 @@
                 "alignment_pos": 183,
                 "from": "GLU",
                 "to": "LYS",
-                "matched": "LGIMAIEMV",
+                "matched": "IMAIEMVEG",
                 "location": "kinase_domain"
             }
         ],
@@ -4082,7 +4082,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "YTRYEKIGQGASGTVFTATDVALGQEVAIKQINLQKK--ELIINEILVMKELKNPNIVNFLDSYLVGDELFVVMEYLAGGSLTDVVTETCMDEAQIAAVCRECLQALEFLHANQVIHRDIKSDNVLLGMEGSVKLTDFGFCAQTPEQSKRSTMVGTPYWMAPEVVTRKAYGPKVDIWSLGIMAIEMVEGEPPYNENPLRALYLIATPELLSPIFRDFLNRCLEMDVEKRGSAKELLQHPFL"
+            "sequence": "YTRYEKIGQGASGTVFTATDVALGQEVAIKQINLQKKELIINEILVMKELKNPNIVNFLDSYLVGDELFVVMEYLAGGSLTDVVTETCMDEAQIAAVCRECLQALEFLHANQVIHRDIKSDNVLLGMEGSVKLTDFGFCAQTPEQSKRSTMVGTPYWMAPEVVTRKAYGPKVDIWSLGIMAIEMVEGEPPYNENPLRALYLIATPELLSPIFRDFLNRCLEMDVEKRGSAKELLQHPFL"
         }
     },
     {
@@ -4094,7 +4094,7 @@
                 "alignment_pos": 80,
                 "from": "ALA",
                 "to": "GLU",
-                "matched": "YLAGGSLTD",
+                "matched": "AGGSLTDVV",
                 "location": "kinase_domain"
             },
             {
@@ -4102,7 +4102,7 @@
                 "alignment_pos": 134,
                 "from": "ARG",
                 "to": "TER",
-                "matched": "DGSVKLTDF",
+                "matched": "SVKLTDFGF",
                 "location": "kinase_domain"
             },
             {
@@ -4118,7 +4118,7 @@
                 "alignment_pos": 160,
                 "from": "TRP",
                 "to": "SER",
-                "matched": "TPYWMAPEV",
+                "matched": "YWMAPEVVT",
                 "location": "kinase_domain"
             }
         ],
@@ -4145,7 +4145,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "YTRFEKIGQGASGTVYTALDIATGQEVAIKQMNLQQK--ELIINEILVMRENKNPNIVNYLDSYLVGDELWVVMEYLAGGSLTDVVTETCMDEGQIAAVCRECLQALDFLHSNQVIHRDIKSDNILLGMDGSVKLTDFGFCAQTPEQSKRSTMVGTPYWMAPEVVTRKAYGPKVDIWSLGIMAIEMVEGEPPYNENPLRALYLIATPELLSAVFRDFLNRCLEMDVDRRGSAKELLQHPFL"
+            "sequence": "YTRFEKIGQGASGTVYTALDIATGQEVAIKQMNLQQKELIINEILVMRENKNPNIVNYLDSYLVGDELWVVMEYLAGGSLTDVVTETCMDEGQIAAVCRECLQALDFLHSNQVIHRDIKSDNILLGMDGSVKLTDFGFCAQTPEQSKRSTMVGTPYWMAPEVVTRKAYGPKVDIWSLGIMAIEMVEGEPPYNENPLRALYLIATPELLSAVFRDFLNRCLEMDVDRRGSAKELLQHPFL"
         }
     },
     {
@@ -4157,7 +4157,7 @@
                 "alignment_pos": 88,
                 "from": "ARG",
                 "to": "TER",
-                "matched": "DIIRLRTLT",
+                "matched": "IIRLRTLTE",
                 "location": "kinase_domain"
             },
             {
@@ -4165,7 +4165,7 @@
                 "alignment_pos": 211,
                 "from": "TRP",
                 "to": "TER",
-                "matched": "PTFWSDNFT",
+                "matched": "TFWSDNFTD",
                 "location": "kinase_domain"
             }
         ],
@@ -4192,7 +4192,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "FDVLEKLGEGSYGSVYKAIHKETGQIVAIKQVPVESDL-QEIIKEISIMQQCDSPHVVKYYGSYFKNTDLWIVMEYCGAGSVSDIIRLRTLTEDEIATILQSTLKGLEYLHFMRKIHRDIKAGNILLNTEGHAKLADFGVAGQTDTMAKRNTVIGTPFWMAPEVIQEIGYNCVADIWSLGITAIEMAEGKPPYDIHPMRAIFMIPPPTFWSDNFTDFVKQCLVKSPEQRATATQLLQHPFV"
+            "sequence": "FDVLEKLGEGSYGSVYKAIHKETGQIVAIKQVPVESDLQEIIKEISIMQQCDSPHVVKYYGSYFKNTDLWIVMEYCGAGSVSDIIRLRTLTEDEIATILQSTLKGLEYLHFMRKIHRDIKAGNILLNTEGHAKLADFGVAGQTDTMAKRNTVIGTPFWMAPEVIQEIGYNCVADIWSLGITAIEMAEGKPPYDIHPMRAIFMIPPPTFWSDNFTDFVKQCLVKSPEQRATATQLLQHPFV"
         }
     },
     {
@@ -4243,7 +4243,7 @@
                 "alignment_pos": 117,
                 "from": "ARG",
                 "to": "ILE",
-                "matched": "HTMIHRDIK",
+                "matched": "TMIHRDIKA",
                 "location": "kinase_domain"
             },
             {
@@ -4278,7 +4278,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "FTDLREIGHGSFGAVYFARDVRTNEVVAIKKMSYSGTKWQDIIKEVKFLQRIKHPNSIEYKGCYLREHTAWLVMEYC-LGSASDLLEVHPLQEVEIAAITHGALQGLAYLHSHTMIHRDIKAGNILLTEPGQVKLADFGSAS---MASPANSFVGTPYWMAPEVILMGQYDGKVDVWSLGITCIELAERKPPLNMNAMSALYHIASPTLWSDYFRNFVDSCLQKIPQDRPTSEELLKHIFV"
+            "sequence": "FTDLREIGHGSFGAVYFARDVRTNEVVAIKKMSYSGTKWQDIIKEVKFLQRIKHPNSIEYKGCYLREHTAWLVMEYCLGSASDLLEVHPLQEVEIAAITHGALQGLAYLHSHTMIHRDIKAGNILLTEPGQVKLADFGSASMASPANSFVGTPYWMAPEVILMGQYDGKVDVWSLGITCIELAERKPPLNMNAMSALYHIASPTLWSDYFRNFVDSCLQKIPQDRPTSEELLKHIFV"
         }
     },
     {
@@ -4290,7 +4290,7 @@
                 "alignment_pos": 58,
                 "from": "GLY",
                 "to": "ASP",
-                "matched": "SPYIVGFYG",
+                "matched": "PYIVGFYGA",
                 "location": "kinase_domain"
             },
             {
@@ -4314,7 +4314,7 @@
                 "alignment_pos": 54,
                 "from": "PRO",
                 "to": "GLN",
-                "matched": "HECNSPYIV",
+                "matched": "ECNSPYIVG",
                 "location": "kinase_domain"
             },
             {
@@ -4322,7 +4322,7 @@
                 "alignment_pos": 60,
                 "from": "TYR",
                 "to": "HIS",
-                "matched": "YIVGFYGAF",
+                "matched": "IVGFYGAFY",
                 "location": "kinase_domain"
             }
         ],
@@ -4349,7 +4349,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "FERISELGAGNGGVVTKVQHRPSGLIMARKLIHLEII-RNQIIRELQVLHECNSPYIVGFYGAFYSDGEISICMEHMDGGSLDQVLKEARIPEEILGKVSIAVLRGLAYLRKHQIMHRDVKPSNILVNSRGEIKLCDFGVSGQIDSMAN--SFVGTRSYMAPERLQGTHYSVQSDIWSMGLSLVELAVGRYPIPPAIFELLDYIVPPKLFTPDFQEFVNKCLIKNPAERADLKMLTNHTFI"
+            "sequence": "FERISELGAGNGGVVTKVQHRPSGLIMARKLIHLEIIRNQIIRELQVLHECNSPYIVGFYGAFYSDGEISICMEHMDGGSLDQVLKEARIPEEILGKVSIAVLRGLAYLRKHQIMHRDVKPSNILVNSRGEIKLCDFGVSGQIDSMANSFVGTRSYMAPERLQGTHYSVQSDIWSMGLSLVELAVGRYPIPPAIFELLDYIVPPKLFTPDFQEFVNKCLIKNPAERADLKMLTNHTFI"
         }
     },
     {
@@ -4369,7 +4369,7 @@
                 "alignment_pos": 58,
                 "from": "GLY",
                 "to": "VAL",
-                "matched": "SPYIVGFYG",
+                "matched": "PYIVGFYGA",
                 "location": "kinase_domain"
             },
             {
@@ -4401,7 +4401,7 @@
                 "alignment_pos": 54,
                 "from": "PRO",
                 "to": "GLN",
-                "matched": "HECNSPYIV",
+                "matched": "ECNSPYIVG",
                 "location": "kinase_domain"
             },
             {
@@ -4409,7 +4409,7 @@
                 "alignment_pos": 60,
                 "from": "TYR",
                 "to": "CYS",
-                "matched": "YIVGFYGAF",
+                "matched": "IVGFYGAFY",
                 "location": "kinase_domain"
             }
         ],
@@ -4436,7 +4436,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "FEKISELGAGNGGVVFKVSHKPSGLVMARKLIHLEII-RNQIIRELQVLHECNSPYIVGFYGAFYSDGEISICMEHMDGGSLDQVLKKARIPEQILGKVSIAVIKGLTYLRKHKIMHRDVKPSNILVNSRGEIKLCDFGVSGQIDSMAN--SFVGTRSYMSPERLQGTHYSVQSDIWSMGLSLVEMAVGRYPIPPAIFELLDYIVPPKLFSLEFQDFVNKCLIKNPAERADLKQLMVHAFI"
+            "sequence": "FEKISELGAGNGGVVFKVSHKPSGLVMARKLIHLEIIRNQIIRELQVLHECNSPYIVGFYGAFYSDGEISICMEHMDGGSLDQVLKKARIPEQILGKVSIAVIKGLTYLRKHKIMHRDVKPSNILVNSRGEIKLCDFGVSGQIDSMANSFVGTRSYMSPERLQGTHYSVQSDIWSMGLSLVEMAVGRYPIPPAIFELLDYIVPPKLFSLEFQDFVNKCLIKNPAERADLKQLMVHAFI"
         }
     },
     {
@@ -4488,7 +4488,7 @@
                 "alignment_pos": 120,
                 "from": "ALA",
                 "to": "THR",
-                "matched": "IHRDLAARN",
+                "matched": "HRDLAARNV",
                 "location": "kinase_domain"
             },
             {
@@ -4496,7 +4496,7 @@
                 "alignment_pos": 140,
                 "from": "ALA",
                 "to": "THR",
-                "matched": "ADFGLARDI",
+                "matched": "DFGLARDIN",
                 "location": "kinase_domain"
             },
             {
@@ -4552,7 +4552,7 @@
                 "alignment_pos": 74,
                 "from": "GLU",
                 "to": "ALA",
-                "matched": "LYVIVEYAS",
+                "matched": "YVIVEYASK",
                 "location": "kinase_domain"
             },
             {
@@ -4739,7 +4739,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "LTLGKPLGEGCFGQVVMAEAVKEAVTVAVKMLKDDAKDLSDLVSEMEMMKMGKHKNIINLLGACT-QGPLYVIVEYASKGNLREYLRARQMTFKDLVSCTYQLARGMEYLASQKCIHRDLAARNVLVTENNVMKIADFGLARDINDYKKTT-NGRLPKWMAPEALFDRVYTHQSDVWSFGVLMWEIFTGGSPYPGIPVEELFKLLKEANCTNELYMMMRDCWHAVPSQRPTFKQLVEDLDR"
+            "sequence": "LTLGKPLGEGCFGQVVMAEAVKEAVTVAVKMLKDDAKDLSDLVSEMEMMKMGKHKNIINLLGACTQGPLYVIVEYASKGNLREYLRARQMTFKDLVSCTYQLARGMEYLASQKCIHRDLAARNVLVTENNVMKIADFGLARDINDYKKTTNGRLPKWMAPEALFDRVYTHQSDVWSFGVLMWEIFTGGSPYPGIPVEELFKLLKEANCTNELYMMMRDCWHAVPSQRPTFKQLVEDLDR"
         }
     },
     {
@@ -4775,7 +4775,7 @@
                 "alignment_pos": 104,
                 "from": "ARG",
                 "to": "TER",
-                "matched": "AYQVARGME",
+                "matched": "YQVARGMEY",
                 "location": "kinase_domain"
             },
             {
@@ -4783,7 +4783,7 @@
                 "alignment_pos": 117,
                 "from": "ARG",
                 "to": "TER",
-                "matched": "KKCIHRDLA",
+                "matched": "KCIHRDLAA",
                 "location": "kinase_domain"
             },
             {
@@ -4807,7 +4807,7 @@
                 "alignment_pos": 209,
                 "from": "ASN",
                 "to": "LYS",
-                "matched": "LKESNCTNE",
+                "matched": "ESNCTNELY",
                 "location": "kinase_domain"
             },
             {
@@ -4815,7 +4815,7 @@
                 "alignment_pos": 118,
                 "from": "ASP",
                 "to": "TYR",
-                "matched": "KCIHRDLAA",
+                "matched": "CIHRDLAAR",
                 "location": "kinase_domain"
             },
             {
@@ -4847,7 +4847,7 @@
                 "alignment_pos": 209,
                 "from": "CYS",
                 "to": "TYR",
-                "matched": "LKESNCTNE",
+                "matched": "ESNCTNELY",
                 "location": "kinase_domain"
             },
             {
@@ -4855,7 +4855,7 @@
                 "alignment_pos": 171,
                 "from": "GLN",
                 "to": "TER",
-                "matched": "DRIYTHQSD",
+                "matched": "IYTHQSDVW",
                 "location": "kinase_domain"
             },
             {
@@ -4871,7 +4871,7 @@
                 "alignment_pos": 161,
                 "from": "GLU",
                 "to": "LYS",
-                "matched": "PKWMAPEAL",
+                "matched": "WMAPEALFD",
                 "location": "kinase_domain"
             },
             {
@@ -4879,7 +4879,7 @@
                 "alignment_pos": 183,
                 "from": "GLU",
                 "to": "GLY",
-                "matched": "FGVLLWEIF",
+                "matched": "VLLWEIFTG",
                 "location": "kinase_domain"
             },
             {
@@ -4935,7 +4935,7 @@
                 "alignment_pos": 149,
                 "from": "LYS",
                 "to": "GLU",
-                "matched": "HDYKKTT-N",
+                "matched": "DYKKTTNGR",
                 "location": "kinase_domain"
             },
             {
@@ -4967,7 +4967,7 @@
                 "alignment_pos": 209,
                 "from": "PRO",
                 "to": "HIS",
-                "matched": "LKESNCTNE",
+                "matched": "ESNCTNELY",
                 "location": "kinase_domain"
             },
             {
@@ -4975,7 +4975,7 @@
                 "alignment_pos": 209,
                 "from": "PRO",
                 "to": "SER",
-                "matched": "LKESNCTNE",
+                "matched": "ESNCTNELY",
                 "location": "kinase_domain"
             },
             {
@@ -4983,7 +4983,7 @@
                 "alignment_pos": 158,
                 "from": "TRP",
                 "to": "ARG",
-                "matched": "GRLPKWMAP",
+                "matched": "LPKWMAPEA",
                 "location": "kinase_domain"
             },
             {
@@ -4999,7 +4999,7 @@
                 "alignment_pos": 102,
                 "from": "VAL",
                 "to": "MET",
-                "matched": "SCAYQVARG",
+                "matched": "CAYQVARGM",
                 "location": "kinase_domain"
             }
         ],
@@ -5026,7 +5026,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "LVLGKPLGEGCFGQVVLAEAINRVTKVAVKMLKSDAKDLSDLISEMEMMKMGKHKNIINLLGACT-QGPLYVIVEYASKGNLREYLQARQLSSKDLVSCAYQVARGMEYLASKKCIHRDLAARNVLVTEDNVMKIADFGLARDIHDYKKTT-NGRLPKWMAPEALFDRIYTHQSDVWSFGVLLWEIFTGGSPYPGVPVEELFKLLKESNCTNELYMMMRDCWHAVPSQRPTFKQLVEDLDR"
+            "sequence": "LVLGKPLGEGCFGQVVLAEAINRVTKVAVKMLKSDAKDLSDLISEMEMMKMGKHKNIINLLGACTQGPLYVIVEYASKGNLREYLQARQLSSKDLVSCAYQVARGMEYLASKKCIHRDLAARNVLVTEDNVMKIADFGLARDIHDYKKTTNGRLPKWMAPEALFDRIYTHQSDVWSFGVLLWEIFTGGSPYPGVPVEELFKLLKESNCTNELYMMMRDCWHAVPSQRPTFKQLVEDLDR"
         }
     },
     {
@@ -5062,7 +5062,7 @@
                 "alignment_pos": 122,
                 "from": "ARG",
                 "to": "HIS",
-                "matched": "RDLAARNVL",
+                "matched": "DLAARNVLV",
                 "location": "kinase_domain"
             },
             {
@@ -5102,7 +5102,7 @@
                 "alignment_pos": 129,
                 "from": "ASP",
                 "to": "ASN",
-                "matched": "VLVTEDNVM",
+                "matched": "LVTEDNVMK",
                 "location": "kinase_domain"
             },
             {
@@ -5174,7 +5174,7 @@
                 "alignment_pos": 149,
                 "from": "LYS",
                 "to": "ASN",
-                "matched": "HDYKKTT-N",
+                "matched": "DYKKTTNGR",
                 "location": "kinase_domain"
             },
             {
@@ -5182,7 +5182,7 @@
                 "alignment_pos": 149,
                 "from": "LYS",
                 "to": "GLN",
-                "matched": "HDYKKTT-N",
+                "matched": "DYKKTTNGR",
                 "location": "kinase_domain"
             },
             {
@@ -5190,7 +5190,7 @@
                 "alignment_pos": 149,
                 "from": "LYS",
                 "to": "GLU",
-                "matched": "HDYKKTT-N",
+                "matched": "DYKKTTNGR",
                 "location": "kinase_domain"
             },
             {
@@ -5198,7 +5198,7 @@
                 "alignment_pos": 149,
                 "from": "LYS",
                 "to": "MET",
-                "matched": "HDYKKTT-N",
+                "matched": "DYKKTTNGR",
                 "location": "kinase_domain"
             },
             {
@@ -5270,7 +5270,7 @@
                 "alignment_pos": 65,
                 "from": "THR",
                 "to": "LYS",
-                "matched": "LGACT-QGP",
+                "matched": "LGACTQGPL",
                 "location": "kinase_domain"
             },
             {
@@ -5313,7 +5313,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "LTLGKPLGEGCFGQVVMAEAIAKPVTVAVKMLKDDAKDLSDLVSEMEMMKMGKHKNIINLLGACT-QGPLYVLVEYAAKGNLREFLRARQLTFKDLVSCAYQVARGMEYLASQKCIHRDLAARNVLVTEDNVMKIADFGLARDVHDYKKTT-NGRLPKWMAPEALFDRVYTHQSDVWSFGVLLWEIFTGGSPYPGIPVEELFKLLKEANCTHDLYMIMRECWHAAPSQRPTFKQLVEDLDR"
+            "sequence": "LTLGKPLGEGCFGQVVMAEAIAKPVTVAVKMLKDDAKDLSDLVSEMEMMKMGKHKNIINLLGACTQGPLYVLVEYAAKGNLREFLRARQLTFKDLVSCAYQVARGMEYLASQKCIHRDLAARNVLVTEDNVMKIADFGLARDVHDYKKTTNGRLPKWMAPEALFDRVYTHQSDVWSFGVLLWEIFTGGSPYPGIPVEELFKLLKEANCTHDLYMIMRECWHAAPSQRPTFKQLVEDLDR"
         }
     },
     {
@@ -5352,7 +5352,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "LVLGKPLGEGCFGQVVRAEAFDQASTVAVKMLKDNAKDLADLVSEMEVMKLGRHKNIINLLGVCT-QGPLYVIVECAAKGNLREFLRARPLSFPVLVSCAYQVARGMQYLESRKCIHRDLAARNVLVTEDNVMKIADFGLARGVHDYKKTS-NGRLPKWMAPEALFDRVYTHQSDVWSFGILLWEIFTGGSPYPGIPVEELFSLLREPHCPPELYGLMRECWHAAPSQRPTFKQLVEALDK"
+            "sequence": "LVLGKPLGEGCFGQVVRAEAFDQASTVAVKMLKDNAKDLADLVSEMEVMKLGRHKNIINLLGVCTQGPLYVIVECAAKGNLREFLRARPLSFPVLVSCAYQVARGMQYLESRKCIHRDLAARNVLVTEDNVMKIADFGLARGVHDYKKTSNGRLPKWMAPEALFDRVYTHQSDVWSFGILLWEIFTGGSPYPGIPVEELFSLLREPHCPPELYGLMRECWHAAPSQRPTFKQLVEALDK"
         }
     },
     {
@@ -5364,7 +5364,7 @@
                 "alignment_pos": 142,
                 "from": "ASP",
                 "to": "ASN",
-                "matched": "FGLARDIMS",
+                "matched": "GLARDIMSN",
                 "location": "kinase_domain"
             },
             {
@@ -5372,7 +5372,7 @@
                 "alignment_pos": 142,
                 "from": "ASP",
                 "to": "GLU",
-                "matched": "FGLARDIMS",
+                "matched": "GLARDIMSN",
                 "location": "kinase_domain"
             },
             {
@@ -5380,7 +5380,7 @@
                 "alignment_pos": 142,
                 "from": "ASP",
                 "to": "HIS",
-                "matched": "FGLARDIMS",
+                "matched": "GLARDIMSN",
                 "location": "kinase_domain"
             },
             {
@@ -5388,7 +5388,7 @@
                 "alignment_pos": 142,
                 "from": "ASP",
                 "to": "TYR",
-                "matched": "FGLARDIMS",
+                "matched": "GLARDIMSN",
                 "location": "kinase_domain"
             },
             {
@@ -5396,7 +5396,7 @@
                 "alignment_pos": 142,
                 "from": "ASP",
                 "to": "VAL",
-                "matched": "FGLARDIMS",
+                "matched": "GLARDIMSN",
                 "location": "kinase_domain"
             }
         ],
@@ -5423,7 +5423,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "LEFGKVLGSGAFGKVMNATAYGVSIQVAVKMLKEKASEREALMSELKMMTQGSHENIVNLLGACT-LGPIYLIFEYCCYGDLLNYLRSKVLTFEDLLCFAYQVAKGMEFLEFKSCVHRDLAARNVLVTHGKVVKICDFGLARDIMSNVVRG-NARLPKWMAPESLFEGIYTIKSDVWSYGILLWEIFSGVNPYPGIPVDANFKLIQNFYATEEIYIIMQSCWAFDSRKRPSFPNLTSFLGC"
+            "sequence": "LEFGKVLGSGAFGKVMNATAYGVSIQVAVKMLKEKASEREALMSELKMMTQGSHENIVNLLGACTLGPIYLIFEYCCYGDLLNYLRSKVLTFEDLLCFAYQVAKGMEFLEFKSCVHRDLAARNVLVTHGKVVKICDFGLARDIMSNVVRGNARLPKWMAPESLFEGIYTIKSDVWSYGILLWEIFSGVNPYPGIPVDANFKLIQNFYATEEIYIIMQSCWAFDSRKRPSFPNLTSFLGC"
         }
     },
     {
@@ -5443,7 +5443,7 @@
                 "alignment_pos": 122,
                 "from": "ARG",
                 "to": "GLY",
-                "matched": "RDLAARNIL",
+                "matched": "DLAARNILL",
                 "location": "kinase_domain"
             },
             {
@@ -5451,7 +5451,7 @@
                 "alignment_pos": 147,
                 "from": "ASN",
                 "to": "ILE",
-                "matched": "DIKSNVVKG",
+                "matched": "IKSNVVKGN",
                 "location": "kinase_domain"
             },
             {
@@ -5459,7 +5459,7 @@
                 "alignment_pos": 142,
                 "from": "ASP",
                 "to": "HIS",
-                "matched": "FGLARDIKS",
+                "matched": "GLARDIKSN",
                 "location": "kinase_domain"
             },
             {
@@ -5467,7 +5467,7 @@
                 "alignment_pos": 142,
                 "from": "ASP",
                 "to": "TYR",
-                "matched": "FGLARDIKS",
+                "matched": "GLARDIKSN",
                 "location": "kinase_domain"
             },
             {
@@ -5475,7 +5475,7 @@
                 "alignment_pos": 142,
                 "from": "ASP",
                 "to": "VAL",
-                "matched": "FGLARDIKS",
+                "matched": "GLARDIKSN",
                 "location": "kinase_domain"
             },
             {
@@ -5483,7 +5483,7 @@
                 "alignment_pos": 146,
                 "from": "ASP",
                 "to": "GLY",
-                "matched": "RDIKSNVVK",
+                "matched": "DIKSNVVKG",
                 "location": "kinase_domain"
             },
             {
@@ -5499,7 +5499,7 @@
                 "alignment_pos": 161,
                 "from": "GLU",
                 "to": "LYS",
-                "matched": "PKWMAPESI",
+                "matched": "WMAPESIFN",
                 "location": "kinase_domain"
             },
             {
@@ -5507,7 +5507,7 @@
                 "alignment_pos": 68,
                 "from": "GLY",
                 "to": "ARG",
-                "matched": "CT-IGPTLV",
+                "matched": "CTIGPTLVI",
                 "location": "kinase_domain"
             },
             {
@@ -5539,7 +5539,7 @@
                 "alignment_pos": 169,
                 "from": "THR",
                 "to": "PRO",
-                "matched": "IFNCVYTFE",
+                "matched": "NCVYTFESD",
                 "location": "kinase_domain"
             },
             {
@@ -5590,7 +5590,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "LSFGKTLGAGAFGKVVEATAYDAAMTVAVKMLKPSATEREALMSELKVLSYGNHMNIVNLLGACT-IGPTLVITEYCCYGDLLNFLRRKALDLEDLLSFSYQVAKGMAFLASKNCIHRDLAARNILLTHGRITKICDFGLARDIKSNVVKG-NARLPKWMAPESIFNCVYTFESDVWSYGIFLWELFSGSSPYPGMPVDSKFKMIKEEHAPAEMYDIMKTCWDADPLKRPTFKQIVQLIEK"
+            "sequence": "LSFGKTLGAGAFGKVVEATAYDAAMTVAVKMLKPSATEREALMSELKVLSYGNHMNIVNLLGACTIGPTLVITEYCCYGDLLNFLRRKALDLEDLLSFSYQVAKGMAFLASKNCIHRDLAARNILLTHGRITKICDFGLARDIKSNVVKGNARLPKWMAPESIFNCVYTFESDVWSYGIFLWELFSGSSPYPGMPVDSKFKMIKEEHAPAEMYDIMKTCWDADPLKRPTFKQIVQLIEK"
         }
     },
     {
@@ -5610,7 +5610,7 @@
                 "alignment_pos": 142,
                 "from": "ASP",
                 "to": "VAL",
-                "matched": "FGLARDIMS",
+                "matched": "GLARDIMSN",
                 "location": "kinase_domain"
             },
             {
@@ -5618,7 +5618,7 @@
                 "alignment_pos": 146,
                 "from": "ASP",
                 "to": "TYR",
-                "matched": "RDIMSNVSK",
+                "matched": "DIMSNVSKG",
                 "location": "kinase_domain"
             },
             {
@@ -5626,7 +5626,7 @@
                 "alignment_pos": 146,
                 "from": "ASP",
                 "to": "VAL",
-                "matched": "RDIMSNVSK",
+                "matched": "DIMSNVSKG",
                 "location": "kinase_domain"
             },
             {
@@ -5650,7 +5650,7 @@
                 "alignment_pos": 73,
                 "from": "THR",
                 "to": "ILE",
-                "matched": "PIYIITEYC",
+                "matched": "IYIITEYCF",
                 "location": "kinase_domain"
             },
             {
@@ -5701,7 +5701,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "LVLGRVLGSGAFGKVVEGTAYQPVMKVAVKMLKPTASEKQALMSELKIMTHGPHLNIVNLLGACT-KGPIYIITEYCFYGDLVNYLHKNGLTLLDLLSFTYQVARGMEFLASKNCVHRDLAARNVLLAQGKIVKICDFGLARDIMSNVSKG-STFLPKWMAPESIFDNLYTTLSDVWSYGILLWEIFSGGTPYPGMMVDSTFNKIKSDHATSEVYEIMVKCWNSEPEKRPSFYHLSEIVEN"
+            "sequence": "LVLGRVLGSGAFGKVVEGTAYQPVMKVAVKMLKPTASEKQALMSELKIMTHGPHLNIVNLLGACTKGPIYIITEYCFYGDLVNYLHKNGLTLLDLLSFTYQVARGMEFLASKNCVHRDLAARNVLLAQGKIVKICDFGLARDIMSNVSKGSTFLPKWMAPESIFDNLYTTLSDVWSYGILLWEIFSGGTPYPGMMVDSTFNKIKSDHATSEVYEIMVKCWNSEPEKRPSFYHLSEIVEN"
         }
     },
     {
@@ -5796,7 +5796,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "LVLGRTLGSGAFGQVVEATAHQATMKVAVKMLKSTASEKQALMSELKIMSHGPHLNVVNLLGACT-KGPIYIITEYCRYGDLVDYLHRNVLSYMDLVGFSYQVANGMEFLASKNCVHRDLAARNVLICEGKLVKICDFGLARDIMSNISKG-STFLPKWMAPESIFNSLYTTLSDVWSFGILLWEIFTGGTPYPELPMNEQFNAIKRAHASDEIYEIMQKCWEEKFEIRPPFSQLVLLLER"
+            "sequence": "LVLGRTLGSGAFGQVVEATAHQATMKVAVKMLKSTASEKQALMSELKIMSHGPHLNVVNLLGACTKGPIYIITEYCRYGDLVDYLHRNVLSYMDLVGFSYQVANGMEFLASKNCVHRDLAARNVLICEGKLVKICDFGLARDIMSNISKGSTFLPKWMAPESIFNSLYTTLSDVWSFGILLWEIFTGGTPYPELPMNEQFNAIKRAHASDEIYEIMQKCWEEKFEIRPPFSQLVLLLER"
         }
     },
     {
@@ -5808,7 +5808,7 @@
                 "alignment_pos": 121,
                 "from": "ALA",
                 "to": "GLU",
-                "matched": "HRDVAARNV",
+                "matched": "RDVAARNVL",
                 "location": "kinase_domain"
             },
             {
@@ -5816,7 +5816,7 @@
                 "alignment_pos": 122,
                 "from": "ARG",
                 "to": "HIS",
-                "matched": "RDVAARNVL",
+                "matched": "DVAARNVLL",
                 "location": "kinase_domain"
             },
             {
@@ -5824,7 +5824,7 @@
                 "alignment_pos": 173,
                 "from": "ASP",
                 "to": "TYR",
-                "matched": "VYTVQSDVW",
+                "matched": "TVQSDVWSY",
                 "location": "kinase_domain"
             },
             {
@@ -5856,7 +5856,7 @@
                 "alignment_pos": 134,
                 "from": "ILE",
                 "to": "THR",
-                "matched": "GHVAKIGDF",
+                "matched": "HVAKIGDFG",
                 "location": "kinase_domain"
             },
             {
@@ -5864,7 +5864,7 @@
                 "alignment_pos": 209,
                 "from": "MET",
                 "to": "THR",
-                "matched": "VKDAFAPKN",
+                "matched": "DAFAPKNIY",
                 "location": "kinase_domain"
             },
             {
@@ -5899,7 +5899,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "LQFGKTLGAGAFGKVVEATAFDAVLKVAVKMLKSTADEKEALMSELKIMSHGQHENIVNLLGACT-HGPVLVITEYCCYGDLLNFLRRKPLELRDLLHFSSQVAQGMAFLASKNCIHRDVAARNVLLTNGHVAKIGDFGLARDIMSNIVKG-NARLPKWMAPESIFDCVYTVQSDVWSYGILLWEIFSGLNPYPGILVNSKFKLVKDAFAPKNIYSIMQACWALEPTHRPTFQQICSFLQE"
+            "sequence": "LQFGKTLGAGAFGKVVEATAFDAVLKVAVKMLKSTADEKEALMSELKIMSHGQHENIVNLLGACTHGPVLVITEYCCYGDLLNFLRRKPLELRDLLHFSSQVAQGMAFLASKNCIHRDVAARNVLLTNGHVAKIGDFGLARDIMSNIVKGNARLPKWMAPESIFDCVYTVQSDVWSYGILLWEIFSGLNPYPGILVNSKFKLVKDAFAPKNIYSIMQACWALEPTHRPTFQQICSFLQE"
         }
     },
     {
@@ -5919,7 +5919,7 @@
                 "alignment_pos": 224,
                 "from": "PRO",
                 "to": "SER",
-                "matched": "DCWHGEPSQ",
+                "matched": "WHGEPSQRP",
                 "location": "kinase_domain"
             }
         ],
@@ -5946,7 +5946,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "LKLGKPLGRGAFGQVIEADAFATCRTVAVKMLKEGASEHRALMSELKILIHGHHLNVVNLLGACT-KGPLMVIVEFCKFGNLSTYLRSKFLTLEHLICYSFQVAKGMEFLASRKCIHRDLAARNILLSEKNVVKICDFGLARDIYPDVRKG-DARLPKWMAPETIFDRVYTIQSDVWSFGVLLWEIFSGASPYPGVKIDEEFRRLKEDYTTPEMYQTMLDCWHGEPSQRPTFSELVEHLGN"
+            "sequence": "LKLGKPLGRGAFGQVIEADAFATCRTVAVKMLKEGASEHRALMSELKILIHGHHLNVVNLLGACTKGPLMVIVEFCKFGNLSTYLRSKFLTLEHLICYSFQVAKGMEFLASRKCIHRDLAARNILLSEKNVVKICDFGLARDIYPDVRKGDARLPKWMAPETIFDRVYTIQSDVWSFGVLLWEIFSGASPYPGVKIDEEFRRLKEDYTTPEMYQTMLDCWHGEPSQRPTFSELVEHLGN"
         }
     },
     {
@@ -5966,7 +5966,7 @@
                 "alignment_pos": 122,
                 "from": "ARG",
                 "to": "PRO",
-                "matched": "RDLAARNIL",
+                "matched": "DLAARNILL",
                 "location": "kinase_domain"
             },
             {
@@ -5982,7 +5982,7 @@
                 "alignment_pos": 183,
                 "from": "GLU",
                 "to": "LYS",
-                "matched": "FGVLLWEIF",
+                "matched": "VLLWEIFSG",
                 "location": "kinase_domain"
             },
             {
@@ -5998,7 +5998,7 @@
                 "alignment_pos": 116,
                 "from": "HIS",
                 "to": "ARG",
-                "matched": "SRKCIHRDL",
+                "matched": "RKCIHRDLA",
                 "location": "kinase_domain"
             },
             {
@@ -6006,7 +6006,7 @@
                 "alignment_pos": 163,
                 "from": "ILE",
                 "to": "THR",
-                "matched": "WMAPESIFD",
+                "matched": "APESIFDKV",
                 "location": "kinase_domain"
             },
             {
@@ -6014,7 +6014,7 @@
                 "alignment_pos": 125,
                 "from": "LEU",
                 "to": "PRO",
-                "matched": "AARNILLSE",
+                "matched": "ARNILLSES",
                 "location": "kinase_domain"
             },
             {
@@ -6022,7 +6022,7 @@
                 "alignment_pos": 190,
                 "from": "PRO",
                 "to": "LEU",
-                "matched": "IFSGASPYP",
+                "matched": "SGASPYPGV",
                 "location": "kinase_domain"
             },
             {
@@ -6030,7 +6030,7 @@
                 "alignment_pos": 91,
                 "from": "PRO",
                 "to": "SER",
-                "matched": "RAKPLTMED",
+                "matched": "AKPLTMEDL",
                 "location": "kinase_domain"
             },
             {
@@ -6073,7 +6073,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "LHLGRVLGYGAFGKVVEASAFSSCDTVAVKMLKEGASEHRALMSELKILIHGNHLNVVNLLGACT-KGPLMVIVEFCKYGNLSNFLRAKPLTMEDLVCYSFQVARGMEFLASRKCIHRDLAARNILLSESDVVKICDFGLARDIYPDVRKG-SARLPKWMAPESIFDKVYTTQSDVWSFGVLLWEIFSGASPYPGVQINEEFQRLRDELATPAIRRIMLNCWSGDPKARPAFSELVEILGD"
+            "sequence": "LHLGRVLGYGAFGKVVEASAFSSCDTVAVKMLKEGASEHRALMSELKILIHGNHLNVVNLLGACTKGPLMVIVEFCKYGNLSNFLRAKPLTMEDLVCYSFQVARGMEFLASRKCIHRDLAARNILLSESDVVKICDFGLARDIYPDVRKGSARLPKWMAPESIFDKVYTTQSDVWSFGVLLWEIFSGASPYPGVQINEEFQRLRDELATPAIRRIMLNCWSGDPKARPAFSELVEILGD"
         }
     },
     {
@@ -6120,7 +6120,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "ITLERRLGTGCFGDVWLGTWN-GSTKVAVKTLKPGTMSPKAFLEEAQVMKLLRHDKLVQLYAVVS-EEPIYIVTEFMCHGSLLDFLKNPDLRLPQLVDMAAQVAEGMAYMERMNYIHRDLRAANILVGERLACKIADFGLARLIKDENPCQ-GSKFPKWTAPEAALFGRFTIKSDVWSFGILLTELITGRIPYPGMNKREVLEQVEQPGCPASLYEAMEQTWRLDPEERPTFEYLQSFLED"
+            "sequence": "ITLERRLGTGCFGDVWLGTWNGSTKVAVKTLKPGTMSPKAFLEEAQVMKLLRHDKLVQLYAVVSEEPIYIVTEFMCHGSLLDFLKNPDLRLPQLVDMAAQVAEGMAYMERMNYIHRDLRAANILVGERLACKIADFGLARLIKDENPCQGSKFPKWTAPEAALFGRFTIKSDVWSFGILLTELITGRIPYPGMNKREVLEQVEQPGCPASLYEAMEQTWRLDPEERPTFEYLQSFLED"
         }
     },
     {
@@ -6167,7 +6167,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "LRLEVKLGQGCFGEVWMGTWN-GTTRVAIKTLKPGTMSPEAFLQEAQVMKKLRHEKLVQLYAVVS-EEPIYIVTEYMSKGSLLDFLKGEYLRLPQLVDMAAQIASGMAYVERMNYVHRDLRAANILVGENLVCKVADFGLARLIENETARQ-GAKFPKWTAPEAALYGRFTIKSDVWSFGILLTELTTGRVPYPGMVNREVLDQVERPECPESLHDLMCQCWRKEPEERPTFEYLQAFLED"
+            "sequence": "LRLEVKLGQGCFGEVWMGTWNGTTRVAIKTLKPGTMSPEAFLQEAQVMKKLRHEKLVQLYAVVSEEPIYIVTEYMSKGSLLDFLKGEYLRLPQLVDMAAQIASGMAYVERMNYVHRDLRAANILVGENLVCKVADFGLARLIENETARQGAKFPKWTAPEAALYGRFTIKSDVWSFGILLTELTTGRVPYPGMVNREVLDQVERPECPESLHDLMCQCWRKEPEERPTFEYLQAFLED"
         }
     },
     {
@@ -6230,7 +6230,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "IKLVKRLGAGQFGEVWMGYYN-NSTKVAVKTLKPGTMSVQAFLEEANLMKTLQHDKLVRLYAVVTREEPIYIITEYMAKGSLLDFLKSDKVLLPKLIDFSAQIAEGMAYIERKNYIHRDLRAANVLVSESLMCKIADFGLARVIENETARE-GAKFPKWTAPEAINFGCFTIKSDVWSFGILLYEIVTGKIPYPGRTNADVMTALSQENCPDELYDIMKMCWKEKAEERPTFDYLQSVLDD"
+            "sequence": "IKLVKRLGAGQFGEVWMGYYNNSTKVAVKTLKPGTMSVQAFLEEANLMKTLQHDKLVRLYAVVTREEPIYIITEYMAKGSLLDFLKSDKVLLPKLIDFSAQIAEGMAYIERKNYIHRDLRAANVLVSESLMCKIADFGLARVIENETAREGAKFPKWTAPEAINFGCFTIKSDVWSFGILLYEIVTGKIPYPGRTNADVMTALSQENCPDELYDIMKMCWKEKAEERPTFDYLQSVLDD"
         }
     },
     {
@@ -6242,7 +6242,7 @@
                 "alignment_pos": 240,
                 "from": "TYR",
                 "to": "TER",
-                "matched": "QSVLDD",
+                "matched": "LDD",
                 "location": "kinase_domain"
             }
         ],
@@ -6269,7 +6269,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "LKLEKKLGAGQFGEVWMATYN-KHTKVAVKTMKPGSMSVEAFLAEANVMKTLQHDKLVKLHAVVT-KEPIYIITEFMAKGSLLDFLKSDKQPLPKLIDFSAQIAEGMAFIEQRNYIHRDLRAANILVSASLVCKIADFGLARVIENETARE-GAKFPKWTAPEAINFGSFTIKSDVWSFGILLMEIVTGRIPYPGMSNPEVIRALERENCPEELYNIMMRCWKNRPEERPTFEYIQSVLDD"
+            "sequence": "LKLEKKLGAGQFGEVWMATYNKHTKVAVKTMKPGSMSVEAFLAEANVMKTLQHDKLVKLHAVVTKEPIYIITEFMAKGSLLDFLKSDKQPLPKLIDFSAQIAEGMAFIEQRNYIHRDLRAANILVSASLVCKIADFGLARVIENETAREGAKFPKWTAPEAINFGSFTIKSDVWSFGILLMEIVTGRIPYPGMSNPEVIRALERENCPEELYNIMMRCWKNRPEERPTFEYIQSVLDD"
         }
     },
     {
@@ -6316,7 +6316,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "LRLVRKLGSGQFGEVWMGYYK-NNMKVAIKTLKEGTMSPEAFLGEANVMKALQHERLVRLYAVVT-KEPIYIVTEYMARGCLLDFLKTDRLSLPRLIDMSAQIAEGMAYIERMNSIHRDLRAANILVSEALCCKIADFGLARIIDSETAQE-GAKFPKWTAPEAIHFGVFTIKADVWSFGVLLMEVVTGRVPYPGMSNPEVIRNLERDTCPPELYGVIAECWRSRPEERPTFEFLQSVLED"
+            "sequence": "LRLVRKLGSGQFGEVWMGYYKNNMKVAIKTLKEGTMSPEAFLGEANVMKALQHERLVRLYAVVTKEPIYIVTEYMARGCLLDFLKTDRLSLPRLIDMSAQIAEGMAYIERMNSIHRDLRAANILVSEALCCKIADFGLARIIDSETAQEGAKFPKWTAPEAIHFGVFTIKADVWSFGVLLMEVVTGRVPYPGMSNPEVIRNLERDTCPPELYGVIAECWRSRPEERPTFEFLQSVLED"
         }
     },
     {
@@ -6328,7 +6328,7 @@
                 "alignment_pos": 209,
                 "from": "CYS",
                 "to": "ARG",
-                "matched": "LERDNCPEE",
+                "matched": "DNCPEELYQ",
                 "location": "kinase_domain"
             },
             {
@@ -6336,7 +6336,7 @@
                 "alignment_pos": 94,
                 "from": "LEU",
                 "to": "PRO",
-                "matched": "KLTINKLLD",
+                "matched": "TINKLLDMA",
                 "location": "kinase_domain"
             },
             {
@@ -6344,7 +6344,7 @@
                 "alignment_pos": 190,
                 "from": "PRO",
                 "to": "SER",
-                "matched": "IVTGRIPYP",
+                "matched": "GRIPYPGMT",
                 "location": "kinase_domain"
             }
         ],
@@ -6371,7 +6371,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "LKLVERLGAGQFGEVWMGYYN-GHTKVAVKSLKQGSMSPDAFLAEANLMKQLQHQRLVRLYAVVT-QEPIYIITEYMENGSLVDFLKTPKLTINKLLDMAAQIAEGMAFIEERNYIHRDLRAANILVSDTLSCKIADFGLARLIENETARE-GAKFPKWTAPEAINYGTFTIKSDVWSFGILLTEIVTGRIPYPGMTNPEVIQNLERDNCPEELYQLMRLCWKERPEDRPTFDYLRSVLED"
+            "sequence": "LKLVERLGAGQFGEVWMGYYNGHTKVAVKSLKQGSMSPDAFLAEANLMKQLQHQRLVRLYAVVTQEPIYIITEYMENGSLVDFLKTPKLTINKLLDMAAQIAEGMAFIEERNYIHRDLRAANILVSDTLSCKIADFGLARLIENETAREGAKFPKWTAPEAINYGTFTIKSDVWSFGILLTEIVTGRIPYPGMTNPEVIQNLERDNCPEELYQLMRLCWKERPEDRPTFDYLRSVLED"
         }
     },
     {
@@ -6434,7 +6434,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "ITLIRGLGHGAFGEVYEGQVSPSPLQVAVKTLPEVCQDELDFLMEALIISKFNHQNIVRCIGVSLQSLPRFILLELMAGGDLKSFLRETSLAMLDLLHVARDIACGCQYLEENHFIHRDIAARNCLLTCPRVAKIGDFGMARDIYSYRKGG-CAMLPKWMPPEAFMEGIFTSKTDTWSFGVLLWEIFSGYMPYPSKSNQEVLEFVTSKNCPGPVYRIMTQCWQHQPEDRPNFAIILERIEY"
+            "sequence": "ITLIRGLGHGAFGEVYEGQVSPSPLQVAVKTLPEVCQDELDFLMEALIISKFNHQNIVRCIGVSLQSLPRFILLELMAGGDLKSFLRETSLAMLDLLHVARDIACGCQYLEENHFIHRDIAARNCLLTCPRVAKIGDFGMARDIYSYRKGGCAMLPKWMPPEAFMEGIFTSKTDTWSFGVLLWEIFSGYMPYPSKSNQEVLEFVTSKNCPGPVYRIMTQCWQHQPEDRPNFAIILERIEY"
         }
     },
     {
@@ -6561,7 +6561,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "ITMKHKLGGGQYGEVYEGVWKKYSLTVAVKTLKEDTMEVEEFLKEAAVMKEIKHPNLVQLLGVCTREPPFYIITEFMTYGNLLDYLRECEVNAVVLLYMATQISSAMEYLEKKNFIHRDLAARNCLVGENHLVKVADFGLSRLMTDTTAHA-GAKFPKWTAPESLAYNKFSIKSDVWAFGVLLWEIATGMSPYPGIDLSQVYELLEKEGCPEKVYELMRACWQWNPSDRPSFAEIHQAFET"
+            "sequence": "ITMKHKLGGGQYGEVYEGVWKKYSLTVAVKTLKEDTMEVEEFLKEAAVMKEIKHPNLVQLLGVCTREPPFYIITEFMTYGNLLDYLRECEVNAVVLLYMATQISSAMEYLEKKNFIHRDLAARNCLVGENHLVKVADFGLSRLMTDTTAHAGAKFPKWTAPESLAYNKFSIKSDVWAFGVLLWEIATGMSPYPGIDLSQVYELLEKEGCPEKVYELMRACWQWNPSDRPSFAEIHQAFET"
         }
     },
     {
@@ -6600,7 +6600,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "LRLLEKLGDGSFGVVRRGEWDGKTVSVAVKCLKPDSEAMDDFIREVNAMHSLDHRNLIRLYGVVL-TPPMKMVTELAPLGSLLDRLRKHHFLLGTLSRYAVQVAEGMGYLESKRFIHRDLAARNLLLATRDLVKIGDFGLMRALPDHVMQE-HRKVPAWCAPESLKTRTFSHASDTWMFGVTLWEMFTGQEPWIGLNGSQILHKIDEEDCPQDIYNVMVQCWAHKPEDRPTFVALRDFLLE"
+            "sequence": "LRLLEKLGDGSFGVVRRGEWDGKTVSVAVKCLKPDSEAMDDFIREVNAMHSLDHRNLIRLYGVVLTPPMKMVTELAPLGSLLDRLRKHHFLLGTLSRYAVQVAEGMGYLESKRFIHRDLAARNLLLATRDLVKIGDFGLMRALPDHVMQEHRKVPAWCAPESLKTRTFSHASDTWMFGVTLWEMFTGQEPWIGLNGSQILHKIDEEDCPQDIYNVMVQCWAHKPEDRPTFVALRDFLLE"
         }
     },
     {
@@ -6620,7 +6620,7 @@
                 "alignment_pos": 167,
                 "from": "ARG",
                 "to": "TER",
-                "matched": "ESLADRVYT",
+                "matched": "SLADRVYTS",
                 "location": "kinase_domain"
             }
         ],
@@ -6647,7 +6647,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "LILGKILGEGEFGSVMEGNLKGTSLKVAVKTMKDNSREIEEFLSEAACMKDFSHPNVIRLLGVCIEMQKPMVILPFMKYGDLHTYLLYSHIPLQTLLKFMVDIALGMEYLSNRNFLHRDLAARNCMLRDDMTVCVADFGLSKKIYDYRQGR-IAKMPKWIAIESLADRVYTSKSDVWAFGVTMWEIATGMTPYPGVQNHEMYDYLLHEDCLDELYEIMYSCWRTDPLDRPTFSVLRLQLEK"
+            "sequence": "LILGKILGEGEFGSVMEGNLKGTSLKVAVKTMKDNSREIEEFLSEAACMKDFSHPNVIRLLGVCIEMQKPMVILPFMKYGDLHTYLLYSHIPLQTLLKFMVDIALGMEYLSNRNFLHRDLAARNCMLRDDMTVCVADFGLSKKIYDYRQGRIAKMPKWIAIESLADRVYTSKSDVWAFGVTMWEIATGMTPYPGVQNHEMYDYLLHEDCLDELYEIMYSCWRTDPLDRPTFSVLRLQLEK"
         }
     },
     {
@@ -6659,7 +6659,7 @@
                 "alignment_pos": 158,
                 "from": "ARG",
                 "to": "CYS",
-                "matched": "AVLPRWMSW",
+                "matched": "VLPRWMSWE",
                 "location": "kinase_domain"
             },
             {
@@ -6726,7 +6726,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "LTFKEKLGEGQFGEVHLCEVENQPVLVAVKMLRADANARNDFLKEIKIMSRLKDPNIIHLLAVCITDDPLCMITEYMENGDLNQFLSRHTVSYTNLKFMATQIASGMKYLSSLNFVHRDLATRNCLVGKNYTIKIADFGMSRNLYDYRIQG-RAVLPRWMSWESILLGKFTTASDVWAFGVTLWETFTQEQPYSQLSDEQVIENTGEAICPDSVYKLMLSCWRRDTKNRPSFQEIHLLLLQ"
+            "sequence": "LTFKEKLGEGQFGEVHLCEVENQPVLVAVKMLRADANARNDFLKEIKIMSRLKDPNIIHLLAVCITDDPLCMITEYMENGDLNQFLSRHTVSYTNLKFMATQIASGMKYLSSLNFVHRDLATRNCLVGKNYTIKIADFGMSRNLYDYRIQGRAVLPRWMSWESILLGKFTTASDVWAFGVTLWETFTQEQPYSQLSDEQVIENTGEAICPDSVYKLMLSCWRRDTKNRPSFQEIHLLLLQ"
         }
     },
     {
@@ -6746,7 +6746,7 @@
                 "alignment_pos": 73,
                 "from": "THR",
                 "to": "PRO",
-                "matched": "SLQLVTQYL",
+                "matched": "LQLVTQYLP",
                 "location": "kinase_domain"
             },
             {
@@ -6754,7 +6754,7 @@
                 "alignment_pos": 178,
                 "from": "VAL",
                 "to": "MET",
-                "matched": "SDVWSYGVT",
+                "matched": "WSYGVTVWE",
                 "location": "kinase_domain"
             }
         ],
@@ -6781,7 +6781,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "LRKLKVLGSGVFGTVHKGVWISIKIPVCIKVIEDKSQSFQAVTDHMLAIGSLDHAHIVRLLGLCPGS-SLQLVTQYLPLGSLLDHVRQHALGPQLLLNWGVQIAKGMYYLEEHGMVHRNLAARNVLLKSPSQVQVADFGVADLLPKQLYSE--AKTPKWMALESIHFGKYTHQSDVWSYGVTVWELMTGAEPYAGLRLAEVPDLLEKQICTIDVYMVMVKCWMIDENIRPTFKELANEFTR"
+            "sequence": "LRKLKVLGSGVFGTVHKGVWISIKIPVCIKVIEDKSQSFQAVTDHMLAIGSLDHAHIVRLLGLCPGSSLQLVTQYLPLGSLLDHVRQHALGPQLLLNWGVQIAKGMYYLEEHGMVHRNLAARNVLLKSPSQVQVADFGVADLLPKQLYSEAKTPKWMALESIHFGKYTHQSDVWSYGVTVWELMTGAEPYAGLRLAEVPDLLEKQICTIDVYMVMVKCWMIDENIRPTFKELANEFTR"
         }
     },
     {
@@ -6801,7 +6801,7 @@
                 "alignment_pos": 196,
                 "from": "ARG",
                 "to": "GLN",
-                "matched": "PYDGIPTRE",
+                "matched": "GIPTREIPD",
                 "location": "kinase_domain"
             }
         ],
@@ -6828,7 +6828,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "LKRVKVLGSGAFGTVYKGIWVTVKIPVAIKILNETTKANVEFMDEALIMASMDHPHLVRLLGVCLSP-TIQLVTQLMPHGCLLEYVHEHNIGSQLLLNWCVQIAKGMMYLEERRLVHRDLAARNVLVKSPNHVKITDFGLARLLEKENADG--GKMPKWMALECIHYRKFTHQSDVWSYGVTIWELMTGGKPYDGIPTREIPDLLEKPICTIDVYMVMVKCWMIDADSRPKFKELAAEFSR"
+            "sequence": "LKRVKVLGSGAFGTVYKGIWVTVKIPVAIKILNETTKANVEFMDEALIMASMDHPHLVRLLGVCLSPTIQLVTQLMPHGCLLEYVHEHNIGSQLLLNWCVQIAKGMMYLEERRLVHRDLAARNVLVKSPNHVKITDFGLARLLEKENADGGKMPKWMALECIHYRKFTHQSDVWSYGVTIWELMTGGKPYDGIPTREIPDLLEKPICTIDVYMVMVKCWMIDADSRPKFKELAAEFSR"
         }
     },
     {
@@ -6848,7 +6848,7 @@
                 "alignment_pos": 130,
                 "from": "ASN",
                 "to": "SER",
-                "matched": "LVKSPNHVK",
+                "matched": "VKSPNHVKI",
                 "location": "kinase_domain"
             },
             {
@@ -6856,7 +6856,7 @@
                 "alignment_pos": 182,
                 "from": "GLU",
                 "to": "LYS",
-                "matched": "SYGVTVWEL",
+                "matched": "VTVWELMTG",
                 "location": "kinase_domain"
             },
             {
@@ -6915,7 +6915,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "LRKVKVLGSGAFGTVYKGIWINVKIPVAIKVLRENTKANKEILDEAYVMAGVGSPYVSRLLGICLTS-TVQLVTQLMPYGCLLDHVRENRLGSQDLLNWCMQIAKGMSYLEDVRLVHRDLAARNVLVKSPNHVKITDFGLARLLDTEHADG--GKVPKWMALESILRRRFTHQSDVWSYGVTVWELMTGAKPYDGIPAREIPDLLEKPICTIDVYMIMVKCWMIDSECRPRFRELVSEFSR"
+            "sequence": "LRKVKVLGSGAFGTVYKGIWINVKIPVAIKVLRENTKANKEILDEAYVMAGVGSPYVSRLLGICLTSTVQLVTQLMPYGCLLDHVRENRLGSQDLLNWCMQIAKGMSYLEDVRLVHRDLAARNVLVKSPNHVKITDFGLARLLDTEHADGGKVPKWMALESILRRRFTHQSDVWSYGVTVWELMTGAKPYDGIPAREIPDLLEKPICTIDVYMIMVKCWMIDSECRPRFRELVSEFSR"
         }
     },
     {
@@ -6935,7 +6935,7 @@
                 "alignment_pos": 7,
                 "from": "GLY",
                 "to": "CYS",
-                "matched": "KIKVLGSGA",
+                "matched": "IKVLGSGAF",
                 "location": "kinase_domain"
             },
             {
@@ -6943,7 +6943,7 @@
                 "alignment_pos": 7,
                 "from": "GLY",
                 "to": "SER",
-                "matched": "KIKVLGSGA",
+                "matched": "IKVLGSGAF",
                 "location": "kinase_domain"
             },
             {
@@ -6951,7 +6951,7 @@
                 "alignment_pos": 138,
                 "from": "LEU",
                 "to": "ARG",
-                "matched": "KITDFGLAK",
+                "matched": "TDFGLAKLL",
                 "location": "kinase_domain"
             },
             {
@@ -6959,7 +6959,7 @@
                 "alignment_pos": 72,
                 "from": "THR",
                 "to": "MET",
-                "matched": "-TVQLITQL",
+                "matched": "VQLITQLMP",
                 "location": "kinase_domain"
             }
         ],
@@ -6986,7 +6986,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "-KKIKVLGSGAFGTVYKGLWIKVKIPVAIKELREATKANKEILDEAYVMASVDNPHVCRLLGICLTS-TVQLITQLMPFGCLLDYVREHNIGSQYLLNWCVQIAKGMNYLEDRRLVHRDLAARNVLVKTPQHVKITDFGLAKLLGKEHAEG--GKVPKWMALESILHRIYTHQSDVWSYGVTVWELMTGSKPYDGIPASEISSILEKPICTIDVYMIMVKCWMIDADSRPKFRELIIEFSK"
+            "sequence": "KKIKVLGSGAFGTVYKGLWIKVKIPVAIKELREATKANKEILDEAYVMASVDNPHVCRLLGICLTSTVQLITQLMPFGCLLDYVREHNIGSQYLLNWCVQIAKGMNYLEDRRLVHRDLAARNVLVKTPQHVKITDFGLAKLLGKEHAEGGKVPKWMALESILHRIYTHQSDVWSYGVTVWELMTGSKPYDGIPASEISSILEKPICTIDVYMIMVKCWMIDADSRPKFRELIIEFSK"
         }
     },
     {
@@ -7041,7 +7041,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "VTRQKVIGAGEFGEVYKGMLKKKEVPVAIKTLKAGYKQRVDFLGEAGIMGQFSHHNIIRLEGVISKYKPMMIITEYMENGALDKFLREKEFSVLQLVGMLRGIAAGMKYLANMNYVHRDLAARNILVNSNLVCKVSDFGLSRVLDATTTSG--GKIPRWTAPEAISYRKFTSASDVWSFGIVMWEVMTGERPYWELSNHEVMKAINDMDCPSAIYQLMMQCWQQERARRPKFADIVSILDK"
+            "sequence": "VTRQKVIGAGEFGEVYKGMLKKKEVPVAIKTLKAGYKQRVDFLGEAGIMGQFSHHNIIRLEGVISKYKPMMIITEYMENGALDKFLREKEFSVLQLVGMLRGIAAGMKYLANMNYVHRDLAARNILVNSNLVCKVSDFGLSRVLDATTTSGGKIPRWTAPEAISYRKFTSASDVWSFGIVMWEVMTGERPYWELSNHEVMKAINDMDCPSAIYQLMMQCWQQERARRPKFADIVSILDK"
         }
     },
     {
@@ -7061,7 +7061,7 @@
                 "alignment_pos": 173,
                 "from": "ASP",
                 "to": "GLY",
-                "matched": "KFTSASDAW",
+                "matched": "TSASDAWSY",
                 "location": "kinase_domain"
             },
             {
@@ -7093,7 +7093,7 @@
                 "alignment_pos": 154,
                 "from": "ILE",
                 "to": "SER",
-                "matched": "SG--GKIPR",
+                "matched": "SGGKIPRWT",
                 "location": "kinase_domain"
             }
         ],
@@ -7120,7 +7120,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "VKIEEVIGAGEFGEVCRGRLKKKESCVAIKTLKGGYRQRREFLSEASIMGQFEHPNIIRLEGVVTNSMPVMILTEFMENGALDSFLRLNQFTVIQLVGMLRGIASGMRYLAEMSYVHRDLAARNILVNSNLVCKVSDFGLSRFLEPTTSSG--GKIPRWTAPEAIAFRKFTSASDAWSYGIVMWEVMSGERPYWDMSNQDVINAIEQPDCPTSLHQLMLDCWQKDRNARPRFPQVVSALDK"
+            "sequence": "VKIEEVIGAGEFGEVCRGRLKKKESCVAIKTLKGGYRQRREFLSEASIMGQFEHPNIIRLEGVVTNSMPVMILTEFMENGALDSFLRLNQFTVIQLVGMLRGIASGMRYLAEMSYVHRDLAARNILVNSNLVCKVSDFGLSRFLEPTTSSGGKIPRWTAPEAIAFRKFTSASDAWSYGIVMWEVMSGERPYWDMSNQDVINAIEQPDCPTSLHQLMLDCWQKDRNARPRFPQVVSALDK"
         }
     },
     {
@@ -7191,7 +7191,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "VKIEQVIGAGEFGEVCSGHLKKREIFVAIKTLKSGYKQRRDFLSEASIMGQFDHPNVIHLEGVVTKSTPVMIITEFMENGSLDSFLRQNQFTVIQLVGMLRGIAAGMKYLADMNYVHRDLAARNILVNSNLVCKVSDFGLSRFLDPTTSLG--GKIPRWTAPEAIQYRKFTSASDVWSYGIVMWEVMSGERPYWDMTNQDVINAIEQMDCPSALHQLMLDCWQKDRNHRPKFGQIVNTLDK"
+            "sequence": "VKIEQVIGAGEFGEVCSGHLKKREIFVAIKTLKSGYKQRRDFLSEASIMGQFDHPNVIHLEGVVTKSTPVMIITEFMENGSLDSFLRQNQFTVIQLVGMLRGIAAGMKYLADMNYVHRDLAARNILVNSNLVCKVSDFGLSRFLDPTTSLGGKIPRWTAPEAIQYRKFTSASDVWSYGIVMWEVMSGERPYWDMTNQDVINAIEQMDCPSALHQLMLDCWQKDRNHRPKFGQIVNTLDK"
         }
     },
     {
@@ -7243,7 +7243,7 @@
                 "alignment_pos": 149,
                 "from": "ARG",
                 "to": "GLN",
-                "matched": "YDYRKGG-K",
+                "matched": "YDYRKGGKG",
                 "location": "kinase_domain"
             },
             {
@@ -7251,7 +7251,7 @@
                 "alignment_pos": 158,
                 "from": "ARG",
                 "to": "GLN",
-                "matched": "GLLPRWMAP",
+                "matched": "LLPRWMAPE",
                 "location": "kinase_domain"
             },
             {
@@ -7395,7 +7395,7 @@
                 "alignment_pos": 183,
                 "from": "TRP",
                 "to": "SER",
-                "matched": "FGVVLWEIT",
+                "matched": "GVVLWEITS",
                 "location": "kinase_domain"
             },
             {
@@ -7454,7 +7454,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "ITLLRELGQGSFGMVYEGNAREAETRVAVKTVNESARERIEFLNEASVMKGFTCHHVVRLLGVVSKGQPTLVVMELMAHGDLKSYLRSLPPTLQEMIQMAAEIADGMAYLNAKKFVHRDLAARNCMVAHDFTVKIGDFGMTRDIYDYRKGG-KGLLPRWMAPESLKDGVFTTSSDMWSFGVVLWEITSAEQPYQGLSNEQVLKFVMDDNCPERVTDLMRMCWQFNPKMRPTFLEIVNLLKD"
+            "sequence": "ITLLRELGQGSFGMVYEGNAREAETRVAVKTVNESARERIEFLNEASVMKGFTCHHVVRLLGVVSKGQPTLVVMELMAHGDLKSYLRSLPPTLQEMIQMAAEIADGMAYLNAKKFVHRDLAARNCMVAHDFTVKIGDFGMTRDIYDYRKGGKGLLPRWMAPESLKDGVFTTSSDMWSFGVVLWEITSAEQPYQGLSNEQVLKFVMDDNCPERVTDLMRMCWQFNPKMRPTFLEIVNLLKD"
         }
     },
     {
@@ -7549,7 +7549,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "ITMSRELGQGSFGMVYEGVAKEPETRVAIKTVNEAARERIEFLNEASVMKEFNCHHVVRLLGVVSQGQPTLVIMELMTRGDLKSYLRSLPPSLSKMIQMAGEIADGMAYLNANKFVHRDLAARNCMVAEDFTVKIGDFGMTRDIYDYRKGG-KGLLPRWMSPESLKDGVFTTYSDVWSFGVVLWEIATAEQPYQGLSNEQVLRFVMEDNCPDMLFELMRMCWQYNPKMRPSFLEIISSIKE"
+            "sequence": "ITMSRELGQGSFGMVYEGVAKEPETRVAIKTVNEAARERIEFLNEASVMKEFNCHHVVRLLGVVSQGQPTLVIMELMTRGDLKSYLRSLPPSLSKMIQMAGEIADGMAYLNANKFVHRDLAARNCMVAEDFTVKIGDFGMTRDIYDYRKGGKGLLPRWMSPESLKDGVFTTYSDVWSFGVVLWEIATAEQPYQGLSNEQVLRFVMEDNCPDMLFELMRMCWQYNPKMRPSFLEIISSIKE"
         }
     },
     {
@@ -7561,7 +7561,7 @@
                 "alignment_pos": 28,
                 "from": "ARG",
                 "to": "TER",
-                "matched": "PEEVVLKVL",
+                "matched": "EEVVLKVLD",
                 "location": "kinase_domain"
             },
             {
@@ -7577,7 +7577,7 @@
                 "alignment_pos": 171,
                 "from": "GLY",
                 "to": "ARG",
-                "matched": "GNSLSTAMD",
+                "matched": "MDKWGFGAT",
                 "location": "kinase_domain"
             },
             {
@@ -7593,7 +7593,7 @@
                 "alignment_pos": 134,
                 "from": "LEU",
                 "to": "VAL",
-                "matched": "LGLIKLSDP",
+                "matched": "IKLSDPGVG",
                 "location": "kinase_domain"
             },
             {
@@ -7636,7 +7636,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "-TQLSHLGQGTRTNVYEGRLRGDPEEVVLKVLDP-SDIALAFYETASLMSQVSHTHLAFVHGVCVRGENI-MVTEYVEHGPLDVWLRREHVPMAWKMVVAQQLASALSYLENKNLVHGNVCGRNILLARLGLIKLSDPGVGLGALS---RE-ERVERPWLAPECLPGNSLSTAMDKWGFGATLLEICFGEAPH----------FYQRS-CPQ-LATLTSQCLTYEPTQRPSFRTILRDLTR"
+            "sequence": "TQLSHLGQGTRTNVYEGRLRGDPEEVVLKVLDPSDIALAFYETASLMSQVSHTHLAFVHGVCVRGENIMVTEYVEHGPLDVWLRREHVPMAWKMVVAQQLASALSYLENKNLVHGNVCGRNILLARLGLIKLSDPGVGLGALSREERVERPWLAPECLPGNSLSTAMDKWGFGATLLEICFGEAPHFYQRSCPQLATLTSQCLTYEPTQRPSFRTILRDLTR"
         }
     },
     {
@@ -7656,7 +7656,7 @@
                 "alignment_pos": 54,
                 "from": "LYS",
                 "to": "ASN",
-                "matched": "SKLSHKHLV",
+                "matched": "KLSHKHLVL",
                 "location": "kinase_domain"
             },
             {
@@ -7664,7 +7664,7 @@
                 "alignment_pos": 64,
                 "from": "VAL",
                 "to": "ILE",
-                "matched": "NYGVCVCGE",
+                "matched": "YGVCVCGEN",
                 "location": "kinase_domain"
             },
             {
@@ -7672,7 +7672,7 @@
                 "alignment_pos": 64,
                 "from": "VAL",
                 "to": "PHE",
-                "matched": "NYGVCVCGE",
+                "matched": "YGVCVCGEN",
                 "location": "kinase_domain"
             }
         ],
@@ -7699,7 +7699,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "LIFNESLGQGTFTKIFKGVRRYGETEVLLKVLDK-ANYSESFFEAASMMSKLSHKHLVLNYGVCVCGENI-LVQEFVKFGSLDTYLKKNCINILWKLEVAKQLAWAMHFLEENTLIHGNVCAKNILLIREEDIKLSDPGISITVLD------ILQERPWVPPECIENPKLNLATDKWSFGTTLWEICSGDKPLSALDSQRKLQFYEDKW--AELANLINNCMDYEPDFRPSFRAIIRDLNS"
+            "sequence": "LIFNESLGQGTFTKIFKGVRRYGETEVLLKVLDKANYSESFFEAASMMSKLSHKHLVLNYGVCVCGENILVQEFVKFGSLDTYLKKNCINILWKLEVAKQLAWAMHFLEENTLIHGNVCAKNILLIREEDIKLSDPGISITVLDILQERPWVPPECIENPKLNLATDKWSFGTTLWEICSGDKPLSALDSQRKLQFYEDKWAELANLINNCMDYEPDFRPSFRAIIRDLNS"
         }
     },
     {
@@ -7711,7 +7711,7 @@
                 "alignment_pos": 40,
                 "from": "ALA",
                 "to": "ASP",
-                "matched": "SDISLAFFE",
+                "matched": "DISLAFFEA",
                 "location": "kinase_domain"
             },
             {
@@ -7727,7 +7727,7 @@
                 "alignment_pos": 134,
                 "from": "PRO",
                 "to": "LEU",
-                "matched": "EGIIKLSDP",
+                "matched": "IIKLSDPGI",
                 "location": "kinase_domain"
             },
             {
@@ -7735,7 +7735,7 @@
                 "alignment_pos": 219,
                 "from": "PRO",
                 "to": "SER",
-                "matched": "ADLMTRCMN",
+                "matched": "MNYDPNQRP",
                 "location": "kinase_domain"
             },
             {
@@ -7743,7 +7743,7 @@
                 "alignment_pos": 106,
                 "from": "SER",
                 "to": "ILE",
-                "matched": "QLASALSYL",
+                "matched": "ASALSYLED",
                 "location": "kinase_domain"
             }
         ],
@@ -7770,7 +7770,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "LVQGEHLGRGTRTHIYSGTLMDEGTKVILKVLDP-SDISLAFFEAASMMRQVSHKHIVYLYGVCVRDENI-MVEEFVEGGPLDLFMHRKVLTTPWKFKVAKQLASALSYLEDKDLVHGNVCTKNLLLAREGIIKLSDPGIPITVLS---RQ-ECIERPWIAPECVEDSKLSVAADKWSFGTTLWEICYGEIPLKDKTLIEKERFYESPSCK-ELADLMTRCMNYDPNQRPFFRAIMRDINK"
+            "sequence": "LVQGEHLGRGTRTHIYSGTLMDEGTKVILKVLDPSDISLAFFEAASMMRQVSHKHIVYLYGVCVRDENIMVEEFVEGGPLDLFMHRKVLTTPWKFKVAKQLASALSYLEDKDLVHGNVCTKNLLLAREGIIKLSDPGIPITVLSRQECIERPWIAPECVEDSKLSVAADKWSFGTTLWEICYGEIPLKDKTLIEKERFYESPSCKELADLMTRCMNYDPNQRPFFRAIMRDINK"
         }
     },
     {
@@ -7798,7 +7798,7 @@
                 "alignment_pos": 38,
                 "from": "CYS",
                 "to": "TER",
-                "matched": "A-KNCMESF",
+                "matched": "AKNCMESFL",
                 "location": "kinase_domain"
             },
             {
@@ -7833,7 +7833,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "LEWHENLGHGSFTKIYRGCRHGEKTEVLLKVMDA-KNCMESFLEAASLMSQVSYRHLVLLHGVCMAGST--MVQEFVHLGAIDMYLRKRLVPASWKLQVVKQLAYALNYLEDKGLPHGNVSARKVLLAREGAIKLSDPGVSPAVLS---LE-MLTDRPWVAPECLREQTLSLEADKWGFGATVWEVFSVTMPISALDPAKKLQFYEDKW--TELALLIQQCMAYEPVQRPSFRAVIRDLNS"
+            "sequence": "LEWHENLGHGSFTKIYRGCRHGEKTEVLLKVMDAKNCMESFLEAASLMSQVSYRHLVLLHGVCMAGSTMVQEFVHLGAIDMYLRKRLVPASWKLQVVKQLAYALNYLEDKGLPHGNVSARKVLLAREGAIKLSDPGVSPAVLSLEMLTDRPWVAPECLREQTLSLEADKWGFGATVWEVFSVTMPISALDPAKKLQFYEDKWTELALLIQQCMAYEPVQRPSFRAVIRDLNS"
         }
     },
     {
@@ -7872,7 +7872,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "-HSDRVIGKGHFGVVYHGEYIQNRIQCAIKSLSRITQQVEAFLREGLLMRGLNHPNVLALIGIMLPPGLPHVLLPYMCHGDLLQFIRSPNPTVKDLISFGLQVARGMEYLAEQKFVHRDLAARNCMLDESFTVKVADFGLARDILEYSVQQHRARLPKWMALESLQTYRFTTKSDVWSFGVLLWELLTGAPPYRHIDPFDLTHFLAQEYCPDSLYQVMQQCWEADPAVRPTFRVLVGEVEQ"
+            "sequence": "HSDRVIGKGHFGVVYHGEYIQNRIQCAIKSLSRITQQVEAFLREGLLMRGLNHPNVLALIGIMLPPGLPHVLLPYMCHGDLLQFIRSPNPTVKDLISFGLQVARGMEYLAEQKFVHRDLAARNCMLDESFTVKVADFGLARDILEYSVQQHRARLPKWMALESLQTYRFTTKSDVWSFGVLLWELLTGAPPYRHIDPFDLTHFLAQEYCPDSLYQVMQQCWEADPAVRPTFRVLVGEVEQ"
         }
     },
     {
@@ -8043,7 +8043,7 @@
                 "alignment_pos": 180,
                 "from": "VAL",
                 "to": "MET",
-                "matched": "VWAYGVVLW",
+                "matched": "WAYGVVLWE",
                 "location": "kinase_domain"
             }
         ],
@@ -8070,7 +8070,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "IEYVRDIGEGAFGRVFQARAPEPFTMVAVKMLKEEADMQADFQREAALMAEFDNPNIVKLLGVCAVGKPMCLLFEYMAYGDLNEFLRSMPLSCAEQLCIARQVAAGMAYLSERKFVHRDLATRNCLVGENMVVKIADFGLSRNIYDYKANE-NDAIPRWMPPESIFYNRYTTESDVWAYGVVLWEIFSGLQPYYGMAHEEVIYYVRDENCPVELYNLMRLCWSKLPADRPSFTSIHRILER"
+            "sequence": "IEYVRDIGEGAFGRVFQARAPEPFTMVAVKMLKEEADMQADFQREAALMAEFDNPNIVKLLGVCAVGKPMCLLFEYMAYGDLNEFLRSMPLSCAEQLCIARQVAAGMAYLSERKFVHRDLATRNCLVGENMVVKIADFGLSRNIYDYKANENDAIPRWMPPESIFYNRYTTESDVWAYGVVLWEIFSGLQPYYGMAHEEVIYYVRDENCPVELYNLMRLCWSKLPADRPSFTSIHRILER"
         }
     },
     {
@@ -8130,7 +8130,7 @@
                 "alignment_pos": 141,
                 "from": "ARG",
                 "to": "GLN",
-                "matched": "DFGLSRDVY",
+                "matched": "FGLSRDVYD",
                 "location": "kinase_domain"
             },
             {
@@ -8138,7 +8138,7 @@
                 "alignment_pos": 153,
                 "from": "ARG",
                 "to": "PRO",
-                "matched": "KRS-QGRIP",
+                "matched": "RSQGRIPKW",
                 "location": "kinase_domain"
             },
             {
@@ -8146,7 +8146,7 @@
                 "alignment_pos": 209,
                 "from": "ARG",
                 "to": "GLY",
-                "matched": "LKTDNCSEE",
+                "matched": "TDNCSEEMY",
                 "location": "kinase_domain"
             },
             {
@@ -8154,7 +8154,7 @@
                 "alignment_pos": 214,
                 "from": "ARG",
                 "to": "CYS",
-                "matched": "CSEEMYRLM",
+                "matched": "EEMYRLMLQ",
                 "location": "kinase_domain"
             },
             {
@@ -8362,7 +8362,7 @@
                 "alignment_pos": 159,
                 "from": "MET",
                 "to": "THR",
-                "matched": "RIPKWMAIE",
+                "matched": "PKWMAIESL",
                 "location": "kinase_domain"
             },
             {
@@ -8418,7 +8418,7 @@
                 "alignment_pos": 135,
                 "from": "SER",
                 "to": "ALA",
-                "matched": "RKMKISDFG",
+                "matched": "KMKISDFGL",
                 "location": "kinase_domain"
             },
             {
@@ -8426,7 +8426,7 @@
                 "alignment_pos": 147,
                 "from": "SER",
                 "to": "CYS",
-                "matched": "DVYDSVKRS",
+                "matched": "VYDSVKRSQ",
                 "location": "kinase_domain"
             },
             {
@@ -8458,7 +8458,7 @@
                 "alignment_pos": 73,
                 "from": "VAL",
                 "to": "LEU",
-                "matched": "PLLLIVEYA",
+                "matched": "LLLIVEYAK",
                 "location": "kinase_domain"
             },
             {
@@ -8466,7 +8466,7 @@
                 "alignment_pos": 73,
                 "from": "VAL",
                 "to": "MET",
-                "matched": "PLLLIVEYA",
+                "matched": "LLLIVEYAK",
                 "location": "kinase_domain"
             }
         ],
@@ -8493,7 +8493,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "LVLGKTLGEGEFGKVVKATAFAGYTTVAVKMLKENASELRDLLSEFNVLKQVNHPHVIKLYGACS-QGPLLLIVEYAKYGSLRGFLRESALTMGDLISFAWQISQGMQYLAEMKLVHRDLAARNILVAEGRKMKISDFGLSRDVYDSVKRS-QGRIPKWMAIESLFDHIYTTQSDVWSFGVLLWEIVTGGNPYPGIPPERLFNLLKTDNCSEEMYRLMLQCWKQEPDKRPVFADISKDLEK"
+            "sequence": "LVLGKTLGEGEFGKVVKATAFAGYTTVAVKMLKENASELRDLLSEFNVLKQVNHPHVIKLYGACSQGPLLLIVEYAKYGSLRGFLRESALTMGDLISFAWQISQGMQYLAEMKLVHRDLAARNILVAEGRKMKISDFGLSRDVYDSVKRSQGRIPKWMAIESLFDHIYTTQSDVWSFGVLLWEIVTGGNPYPGIPPERLFNLLKTDNCSEEMYRLMLQCWKQEPDKRPVFADISKDLEK"
         }
     },
     {
@@ -8545,7 +8545,7 @@
                 "alignment_pos": 212,
                 "from": "TRP",
                 "to": "TER",
-                "matched": "DDCPAWVYA",
+                "matched": "DCPAWVYAL",
                 "location": "kinase_domain"
             },
             {
@@ -8553,7 +8553,7 @@
                 "alignment_pos": 241,
                 "from": "TRP",
                 "to": "TER",
-                "matched": "SRLRA",
+                "matched": "RLRA",
                 "location": "kinase_domain"
             },
             {
@@ -8588,7 +8588,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "VRFMEELGEDRFGKVYKGHLFEQTQAVAIKTLKDKAPLREEFRHEAMLRARLQHPNVVCLLGVVTKDQPLSMIFSYCSHGDLHEFLVMRALEPPDFVHLVAQIAAGMEYLSSHHVVHKDLATRNVLVYDKLNVKISDLGLFREVYDYKLLG-NSLLPRWMAPEAIMYGKFSIDSDIWSYGVVLWEVFSGLQPYCGYSNQDVVEMIRNDDCPAWVYALMIECWNEFPSRRPRFKDIHSRLRA"
+            "sequence": "VRFMEELGEDRFGKVYKGHLFEQTQAVAIKTLKDKAPLREEFRHEAMLRARLQHPNVVCLLGVVTKDQPLSMIFSYCSHGDLHEFLVMRALEPPDFVHLVAQIAAGMEYLSSHHVVHKDLATRNVLVYDKLNVKISDLGLFREVYDYKLLGNSLLPRWMAPEAIMYGKFSIDSDIWSYGVVLWEVFSGLQPYCGYSNQDVVEMIRNDDCPAWVYALMIECWNEFPSRRPRFKDIHSRLRA"
         }
     },
     {
@@ -8600,7 +8600,7 @@
                 "alignment_pos": 228,
                 "from": "ARG",
                 "to": "THR",
-                "matched": "EIPSRRPRF",
+                "matched": "IPSRRPRFK",
                 "location": "kinase_domain"
             }
         ],
@@ -8627,7 +8627,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "VRFMEELGECAFGKIYKGHLYDHAQLVAIKTLKDYNQQWTEFQQEASLMAELHHPNIVCLLGAVTQEQPVCMLFEYINQGDLHEFLIMRSLDHGDFLHIAIQIAAGMEYLSSHFFVHKDLAARNILIGEQLHVKISDLGLSREIYDYRVQS-KSLLPRWMPPEAIMYGKFSSDSDIWSFGVVLWEIFSGLQPYYGFSNQEVIEMVRKEDCPPRMYSLMTECWNEIPSRRPRFKDIHVRLRS"
+            "sequence": "VRFMEELGECAFGKIYKGHLYDHAQLVAIKTLKDYNQQWTEFQQEASLMAELHHPNIVCLLGAVTQEQPVCMLFEYINQGDLHEFLIMRSLDHGDFLHIAIQIAAGMEYLSSHFFVHKDLAARNILIGEQLHVKISDLGLSREIYDYRVQSKSLLPRWMPPEAIMYGKFSSDSDIWSFGVVLWEIFSGLQPYYGFSNQEVIEMVRKEDCPPRMYSLMTECWNEIPSRRPRFKDIHVRLRS"
         }
     },
     {
@@ -8647,7 +8647,7 @@
                 "alignment_pos": 167,
                 "from": "SER",
                 "to": "PHE",
-                "matched": "ECINYYKFS",
+                "matched": "YYKFSSKSD",
                 "location": "kinase_domain"
             },
             {
@@ -8655,7 +8655,7 @@
                 "alignment_pos": 167,
                 "from": "SER",
                 "to": "TYR",
-                "matched": "ECINYYKFS",
+                "matched": "YYKFSSKSD",
                 "location": "kinase_domain"
             }
         ],
@@ -8682,7 +8682,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "--EDKELGSGNFGTVKKGYYQKVVKTVAVKILKNEAALKDELLAEANVMQQLDNPYIVRMIGICEAE-SWMLVMEMAELGPLNKYLQQNHVKDKNIIELVHQVSMGMKYLEESNFVHRDLAARNVLLVTQHYAKISDFGLSKALANYKAQT-HGKWPKWYAPECINYYKFSSKSDVWSFGVLMWEAFSGQKPYRGMKGSEVTAMLEKAGCPREMYDLMNLCWTYDVENRPGFAAVELRLRN"
+            "sequence": "EDKELGSGNFGTVKKGYYQKVVKTVAVKILKNEAALKDELLAEANVMQQLDNPYIVRMIGICEAESWMLVMEMAELGPLNKYLQQNHVKDKNIIELVHQVSMGMKYLEESNFVHRDLAARNVLLVTQHYAKISDFGLSKALANYKAQTHGKWPKWYAPECINYYKFSSKSDVWSFGVLMWEAFSGQKPYRGMKGSEVTAMLEKAGCPREMYDLMNLCWTYDVENRPGFAAVELRLRN"
         }
     },
     {
@@ -8710,7 +8710,7 @@
                 "alignment_pos": 122,
                 "from": "ARG",
                 "to": "HIS",
-                "matched": "RDLAARNVL",
+                "matched": "DLAARNVLL",
                 "location": "kinase_domain"
             },
             {
@@ -8718,7 +8718,7 @@
                 "alignment_pos": 170,
                 "from": "SER",
                 "to": "ARG",
-                "matched": "NFRKFSSRS",
+                "matched": "RKFSSRSDV",
                 "location": "kinase_domain"
             }
         ],
@@ -8745,7 +8745,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "LIADIELGCGNFGSVRQGVYRKKQIDVAIKVLKQGTADTEEMMREAQIMHQLDNPYIVRLIGVCQAE-ALMLVMEMAGGGPLHKFLVGKEIPVSNVAELLHQVSMGMKYLEEKNFVHRDLAARNVLLVNRHYAKISDFGLSKALASYTARS-AGKWPKWYAPECINFRKFSSRSDVWSYGVTMWEALSGQKPYKKMKGPEVMAFIEQPECPPELYALMSDCWIYKWEDRPDFLTVEQRMRA"
+            "sequence": "LIADIELGCGNFGSVRQGVYRKKQIDVAIKVLKQGTADTEEMMREAQIMHQLDNPYIVRLIGVCQAEALMLVMEMAGGGPLHKFLVGKEIPVSNVAELLHQVSMGMKYLEEKNFVHRDLAARNVLLVNRHYAKISDFGLSKALASYTARSAGKWPKWYAPECINFRKFSSRSDVWSYGVTMWEALSGQKPYKKMKGPEVMAFIEQPECPPELYALMSDCWIYKWEDRPDFLTVEQRMRA"
         }
     },
     {
@@ -8757,7 +8757,7 @@
                 "alignment_pos": 200,
                 "from": "ALA",
                 "to": "ASP",
-                "matched": "FTNSETAEH",
+                "matched": "NSETAEHIA",
                 "location": "kinase_domain"
             },
             {
@@ -8805,7 +8805,7 @@
                 "alignment_pos": 117,
                 "from": "ARG",
                 "to": "GLN",
-                "matched": "KQFLHRDLA",
+                "matched": "QFLHRDLAA",
                 "location": "kinase_domain"
             },
             {
@@ -8813,7 +8813,7 @@
                 "alignment_pos": 117,
                 "from": "ARG",
                 "to": "TER",
-                "matched": "KQFLHRDLA",
+                "matched": "QFLHRDLAA",
                 "location": "kinase_domain"
             },
             {
@@ -8821,7 +8821,7 @@
                 "alignment_pos": 122,
                 "from": "ARG",
                 "to": "GLN",
-                "matched": "RDLAARNCL",
+                "matched": "DLAARNCLV",
                 "location": "kinase_domain"
             },
             {
@@ -8829,7 +8829,7 @@
                 "alignment_pos": 157,
                 "from": "ARG",
                 "to": "PRO",
-                "matched": "GSKFPRWSP",
+                "matched": "KFPRWSPPE",
                 "location": "kinase_domain"
             },
             {
@@ -8837,7 +8837,7 @@
                 "alignment_pos": 157,
                 "from": "ARG",
                 "to": "TRP",
-                "matched": "GSKFPRWSP",
+                "matched": "KFPRWSPPE",
                 "location": "kinase_domain"
             },
             {
@@ -8845,7 +8845,7 @@
                 "alignment_pos": 99,
                 "from": "CYS",
                 "to": "TER",
-                "matched": "QLLEMCKDV",
+                "matched": "LLEMCKDVC",
                 "location": "kinase_domain"
             },
             {
@@ -8853,7 +8853,7 @@
                 "alignment_pos": 103,
                 "from": "CYS",
                 "to": "ARG",
-                "matched": "MCKDVCEAM",
+                "matched": "CKDVCEAME",
                 "location": "kinase_domain"
             },
             {
@@ -8877,7 +8877,7 @@
                 "alignment_pos": 183,
                 "from": "GLU",
                 "to": "GLY",
-                "matched": "FGVLMWEIY",
+                "matched": "VLMWEIYSG",
                 "location": "kinase_domain"
             },
             {
@@ -8885,7 +8885,7 @@
                 "alignment_pos": 222,
                 "from": "GLU",
                 "to": "TER",
-                "matched": "MYSCWHEKA",
+                "matched": "SCWHEKADE",
                 "location": "kinase_domain"
             },
             {
@@ -8893,7 +8893,7 @@
                 "alignment_pos": 206,
                 "from": "GLY",
                 "to": "ASP",
-                "matched": "AEHIAQHLA",
+                "matched": "HIAQHLASE",
                 "location": "kinase_domain"
             },
             {
@@ -8909,7 +8909,7 @@
                 "alignment_pos": 139,
                 "from": "LEU",
                 "to": "PRO",
-                "matched": "VSDFGLSRY",
+                "matched": "SDFGLSRYV",
                 "location": "kinase_domain"
             },
             {
@@ -8917,7 +8917,7 @@
                 "alignment_pos": 238,
                 "from": "LEU",
                 "to": "PRO",
-                "matched": "ILLSNILD",
+                "matched": "LSNILD",
                 "location": "kinase_domain"
             },
             {
@@ -8925,7 +8925,7 @@
                 "alignment_pos": 29,
                 "from": "LYS",
                 "to": "GLU",
-                "matched": "YDVAIKMIK",
+                "matched": "DVAIKMIKE",
                 "location": "kinase_domain"
             },
             {
@@ -8941,7 +8941,7 @@
                 "alignment_pos": 216,
                 "from": "MET",
                 "to": "LYS",
-                "matched": "EKVYTIMYS",
+                "matched": "VYTIMYSCW",
                 "location": "kinase_domain"
             },
             {
@@ -8989,7 +8989,7 @@
                 "alignment_pos": 24,
                 "from": "TYR",
                 "to": "TER",
-                "matched": "WR-GQYDVA",
+                "matched": "WRGQYDVAI",
                 "location": "kinase_domain"
             },
             {
@@ -8997,7 +8997,7 @@
                 "alignment_pos": 175,
                 "from": "TYR",
                 "to": "ARG",
-                "matched": "SSKSDIWAF",
+                "matched": "KSDIWAFGV",
                 "location": "kinase_domain"
             },
             {
@@ -9005,7 +9005,7 @@
                 "alignment_pos": 185,
                 "from": "TYR",
                 "to": "TER",
-                "matched": "VLMWEIYSG",
+                "matched": "MWEIYSGKM",
                 "location": "kinase_domain"
             },
             {
@@ -9040,7 +9040,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "LTFLKELGTGQFGVVKYGKWR-GQYDVAIKMIKEGSMSEDEFIEEAKVMMNLSHEKLVQLYGVCTKQRPIFIITEYMANGCLLNYLREMRFQTQQLLEMCKDVCEAMEYLESKQFLHRDLAARNCLVNDQGVVKVSDFGLSRYVLDETSSV-GSKFPRWSPPEVLMYSKFSSKSDIWAFGVLMWEIYSGKMPYERFTNSETAEHIAQHLASEKVYTIMYSCWHEKADERPTFKILLSNILD"
+            "sequence": "LTFLKELGTGQFGVVKYGKWRGQYDVAIKMIKEGSMSEDEFIEEAKVMMNLSHEKLVQLYGVCTKQRPIFIITEYMANGCLLNYLREMRFQTQQLLEMCKDVCEAMEYLESKQFLHRDLAARNCLVNDQGVVKVSDFGLSRYVLDETSSVGSKFPRWSPPEVLMYSKFSSKSDIWAFGVLMWEIYSGKMPYERFTNSETAEHIAQHLASEKVYTIMYSCWHEKADERPTFKILLSNILD"
         }
     },
     {
@@ -9068,7 +9068,7 @@
                 "alignment_pos": 213,
                 "from": "TYR",
                 "to": "TER",
-                "matched": "LASTHVYQI",
+                "matched": "STHVYQIMN",
                 "location": "kinase_domain"
             }
         ],
@@ -9095,7 +9095,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "LTFVQEIGSGQFGLVHLGYWL-NKDKVAIKTIREGAMSEEDFIEEAEVMMKLSHPKLVQLYGVCLEQAPICLVFEFMEHGCLSDYLRTQLFAAETLLGMCLDVCEGMAYLEEACVIHRDLAARNCLVGENQVIKVSDFGMTRFVLDQTSST-GTKFPKWASPEVFSFSRYSSKSDVWSFGVLMWEVFSGKIPYENRSNSEVVEDISTRLASTHVYQIMNHCWKERPEDRPAFSRLLRQLAE"
+            "sequence": "LTFVQEIGSGQFGLVHLGYWLNKDKVAIKTIREGAMSEEDFIEEAEVMMKLSHPKLVQLYGVCLEQAPICLVFEFMEHGCLSDYLRTQLFAAETLLGMCLDVCEGMAYLEEACVIHRDLAARNCLVGENQVIKVSDFGMTRFVLDQTSSTGTKFPKWASPEVFSFSRYSSKSDVWSFGVLMWEVFSGKIPYENRSNSEVVEDISTRLASTHVYQIMNHCWKERPEDRPAFSRLLRQLAE"
         }
     },
     {
@@ -9107,7 +9107,7 @@
                 "alignment_pos": 201,
                 "from": "ARG",
                 "to": "HIS",
-                "matched": "TCAELYEKL",
+                "matched": "AELYEKLPQ",
                 "location": "kinase_domain"
             },
             {
@@ -9142,7 +9142,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "ITFEDLIGEGNFGQVIRAMIKGLKMNAAIKMLKEYANDHRDFAGELEVLCKLGHPNIINLLGACKNRGYLYIAIEYAPYGNLLDFLRKSTLSSRQLLRFASDAANGMQYLSEKQFIHRDLAARNVLVGENLASKIADFGLSRGE-EVVKKT-MGRLPRWMAIESLNYSVYTTKSDVWSFGVLLWEIVSGGTPYCGMTCAELYEKLPQRNCDDEVYELMRQCWRDRPYERPPFAQIALQLGR"
+            "sequence": "ITFEDLIGEGNFGQVIRAMIKGLKMNAAIKMLKEYANDHRDFAGELEVLCKLGHPNIINLLGACKNRGYLYIAIEYAPYGNLLDFLRKSTLSSRQLLRFASDAANGMQYLSEKQFIHRDLAARNVLVGENLASKIADFGLSRGEEVVKKTMGRLPRWMAIESLNYSVYTTKSDVWSFGVLLWEIVSGGTPYCGMTCAELYEKLPQRNCDDEVYELMRQCWRDRPYERPPFAQIALQLGR"
         }
     },
     {
@@ -9221,7 +9221,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "IKFQDVIGEGNFGQVLKARIKGLRMDAAIKRMKEYADDHRDFAGELEVLCKLGHPNIINLLGACEHRGYLYLAIEYAPHGNLLDFLRKSTLSSQQLLHFAADVARGMDYLSQKQFIHRDLAARNILVGENYVAKIADFGLSRGQ-EVVKKT-MGRLPRWMAIESLNYSVYTTNSDVWSYGVLLWEIVSGGTPYCGMTCAELYEKLPQLNCDDEVYDLMRQCWREKPYERPSFAQILVSLNR"
+            "sequence": "IKFQDVIGEGNFGQVLKARIKGLRMDAAIKRMKEYADDHRDFAGELEVLCKLGHPNIINLLGACEHRGYLYLAIEYAPHGNLLDFLRKSTLSSQQLLHFAADVARGMDYLSQKQFIHRDLAARNILVGENYVAKIADFGLSRGQEVVKKTMGRLPRWMAIESLNYSVYTTNSDVWSYGVLLWEIVSGGTPYCGMTCAELYEKLPQLNCDDEVYDLMRQCWREKPYERPSFAQILVSLNR"
         }
     },
     {
@@ -9233,7 +9233,7 @@
                 "alignment_pos": 230,
                 "from": "ARG",
                 "to": "PRO",
-                "matched": "PQQRHSIKD",
+                "matched": "QRHSIKDVH",
                 "location": "kinase_domain"
             },
             {
@@ -9257,7 +9257,7 @@
                 "alignment_pos": 55,
                 "from": "GLY",
                 "to": "ARG",
-                "matched": "MLQHQHIVR",
+                "matched": "LQHQHIVRF",
                 "location": "kinase_domain"
             },
             {
@@ -9265,7 +9265,7 @@
                 "alignment_pos": 91,
                 "from": "GLY",
                 "to": "VAL",
-                "matched": "RSHPLGLGQ",
+                "matched": "SHPLGLGQL",
                 "location": "kinase_domain"
             },
             {
@@ -9273,7 +9273,7 @@
                 "alignment_pos": 82,
                 "from": "HIS",
                 "to": "TYR",
-                "matched": "RHGDLNRFL",
+                "matched": "HGDLNRFLR",
                 "location": "kinase_domain"
             },
             {
@@ -9281,7 +9281,7 @@
                 "alignment_pos": 65,
                 "from": "MET",
                 "to": "VAL",
-                "matched": "FGVCTEGRP",
+                "matched": "GVCTEGRPL",
                 "location": "kinase_domain"
             },
             {
@@ -9289,7 +9289,7 @@
                 "alignment_pos": 154,
                 "from": "PRO",
                 "to": "LEU",
-                "matched": "GG-RTMLPR",
+                "matched": "GRTMLPRWM",
                 "location": "kinase_domain"
             },
             {
@@ -9305,7 +9305,7 @@
                 "alignment_pos": 88,
                 "from": "TYR",
                 "to": "HIS",
-                "matched": "RFLRSHPLG",
+                "matched": "FLRSHPLGL",
                 "location": "kinase_domain"
             },
             {
@@ -9313,7 +9313,7 @@
                 "alignment_pos": 91,
                 "from": "VAL",
                 "to": "GLY",
-                "matched": "RSHPLGLGQ",
+                "matched": "SHPLGLGQL",
                 "location": "kinase_domain"
             }
         ],
@@ -9340,7 +9340,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "IVLKWELGEGAFGKVFLAECHQDKMLVAVKALKE-ASARQDFQREAELLTMLQHQHIVRFFGVCTEGRPLLMVFEYMRHGDLNRFLRSHPLGLGQLLAVASQVAAGMVYLAGLHFVHRDLATRNCLVGQGLVVKIGDFGMSRDIYDYRVGG-RTMLPRWMPPESILYRKFTTESDVWSFGVVLWEIFTGKQPWYQLSNTEAIDCITQRACPPEVYAIMRGCWQREPQQRHSIKDVHARLQA"
+            "sequence": "IVLKWELGEGAFGKVFLAECHQDKMLVAVKALKEASARQDFQREAELLTMLQHQHIVRFFGVCTEGRPLLMVFEYMRHGDLNRFLRSHPLGLGQLLAVASQVAAGMVYLAGLHFVHRDLATRNCLVGQGLVVKIGDFGMSRDIYDYRVGGRTMLPRWMPPESILYRKFTTESDVWSFGVVLWEIFTGKQPWYQLSNTEAIDCITQRACPPEVYAIMRGCWQREPQQRHSIKDVHARLQA"
         }
     },
     {
@@ -9360,7 +9360,7 @@
                 "alignment_pos": 159,
                 "from": "THR",
                 "to": "ILE",
-                "matched": "MLPRWMPPE",
+                "matched": "PRWMPPESI",
                 "location": "kinase_domain"
             },
             {
@@ -9376,7 +9376,7 @@
                 "alignment_pos": 160,
                 "from": "TYR",
                 "to": "CYS",
-                "matched": "LPRWMPPES",
+                "matched": "RWMPPESIM",
                 "location": "kinase_domain"
             }
         ],
@@ -9403,7 +9403,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "IVLKRELGEGAFGKVFLAECYQDKILVAVKTLKD-ANARKDFHREAELLTNLQHEHIVKFYGVCVEGDPLIMVFEYMKHGDLNKFLRAHELTQSQMLHIAQQIAAGMVYLASQHFVHRDLATRNCLVGENLLVKIGDFGMSRDVYDYRVGG-HTMLPRWMPPESIMYRKFTTESDVWSLGVVLWEIFTGKQPWYQLSNNEVIECITQRTCPQEVYELMLGCWQREPHMRKNIKGIHTLLQN"
+            "sequence": "IVLKRELGEGAFGKVFLAECYQDKILVAVKTLKDANARKDFHREAELLTNLQHEHIVKFYGVCVEGDPLIMVFEYMKHGDLNKFLRAHELTQSQMLHIAQQIAAGMVYLASQHFVHRDLATRNCLVGENLLVKIGDFGMSRDVYDYRVGGHTMLPRWMPPESIMYRKFTTESDVWSLGVVLWEIFTGKQPWYQLSNNEVIECITQRTCPQEVYELMLGCWQREPHMRKNIKGIHTLLQN"
         }
     },
     {
@@ -9442,7 +9442,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "FHKDFLIGEGEIFEVYRVEIQ--NLTYAVKLFKQEKKHWKRFLSELEVLLLFHHPNILELAAYFTETEKFCLIYPYMRNGTLFDRLQCVPLPWHIRIGILIGISKAIHYLHPCSVICGSISSANILLDDQFQPKLTDFAMAHFRSQSNMTSSSSKHLWYMPEEYIRQGKLSIKTDVYSFGIVIMEVLTGCRVVLDDPKIQL-RDLLRRNFSAKLFCLAGRCAATRAKLRPSMDEVLNTLES"
+            "sequence": "FHKDFLIGEGEIFEVYRVEIQNLTYAVKLFKQEKKHWKRFLSELEVLLLFHHPNILELAAYFTETEKFCLIYPYMRNGTLFDRLQCVPLPWHIRIGILIGISKAIHYLHPCSVICGSISSANILLDDQFQPKLTDFAMAHFRSQSNMTSSSSKHLWYMPEEYIRQGKLSIKTDVYSFGIVIMEVLTGCRVVLDDPKIQLRDLLRRNFSAKLFCLAGRCAATRAKLRPSMDEVLNTLES"
         }
     },
     {
@@ -9462,7 +9462,7 @@
                 "alignment_pos": 96,
                 "from": "GLN",
                 "to": "TER",
-                "matched": "SWHMRCKIA",
+                "matched": "CKIAQGAAN",
                 "location": "kinase_domain"
             }
         ],
@@ -9489,7 +9489,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "---GNKMGEGGFGVVYKGYVN--NTTVAVKKLAAMVELKQQFDQEIKVMAKCQHENLVELLGFSSDGDDLCLVYVYMPNGSLLDRLSCLPLSWHMRCKIAQGAANGINFLHENHHIHRDIKSANILLDEAFTAKISDFGLARASEQTVMTSRIVGTTAYMAPEALR-GEITPKSDIYSFGVVLLEIITGLPAVDEHREQLL-LDIKESTSVEAMYSVASQCLHEKKNKRPDIKKVQQLLQE"
+            "sequence": "GNKMGEGGFGVVYKGYVNNTTVAVKKLAAMVELKQQFDQEIKVMAKCQHENLVELLGFSSDGDDLCLVYVYMPNGSLLDRLSCLPLSWHMRCKIAQGAANGINFLHENHHIHRDIKSANILLDEAFTAKISDFGLARASEQTVMTSRIVGTTAYMAPEALRGEITPKSDIYSFGVVLLEIITGLPAVDEHREQLLLDIKESTSVEAMYSVASQCLHEKKNKRPDIKKVQQLLQE"
         }
     },
     {
@@ -9509,7 +9509,7 @@
                 "alignment_pos": 59,
                 "from": "GLY",
                 "to": "ASP",
-                "matched": "PCVIQFVGA",
+                "matched": "IQFVGACLN",
                 "location": "kinase_domain"
             },
             {
@@ -9517,7 +9517,7 @@
                 "alignment_pos": 72,
                 "from": "THR",
                 "to": "ALA",
-                "matched": "PSQAIVTQY",
+                "matched": "AIVTQYISG",
                 "location": "kinase_domain"
             }
         ],
@@ -9544,7 +9544,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "IEFHEIIGSGSFGKVYKGRCR--NKIVAIKRY-RANSDVDMFCREVSILCQLNHPCVIQFVGACLNDPSQAIVTQYIS-GSLFSLLHEQILDLQSKLIIAVDVAKGMEYLHQ-PIIHRDLNSHNILLYEDGHAVVADFGESRFLQSEDNMTKQPGNLRWMAPEVFTQTRYTIKADVFSYALCLWEILTGEIPFAHL-KPAAAAADMAYSIPKPISSLLIRGWNACPEGRPEFSEVVMKLEE"
+            "sequence": "IEFHEIIGSGSFGKVYKGRCRNKIVAIKRYRANSDVDMFCREVSILCQLNHPCVIQFVGACLNDPSQAIVTQYISGSLFSLLHEQILDLQSKLIIAVDVAKGMEYLHQPIIHRDLNSHNILLYEDGHAVVADFGESRFLQSEDNMTKQPGNLRWMAPEVFTQTRYTIKADVFSYALCLWEILTGEIPFAHLKPAAAAADMAYSIPKPISSLLIRGWNACPEGRPEFSEVVMKLEE"
         }
     },
     {
@@ -9556,7 +9556,7 @@
                 "alignment_pos": 67,
                 "from": "ALA",
                 "to": "VAL",
-                "matched": "ACQSPPHPT",
+                "matched": "QSPPHPTLI",
                 "location": "kinase_domain"
             }
         ],
@@ -9583,7 +9583,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "LNFLTKLNENHSGELWKGRWQ--GNDIVVKVLKVRDRKSRDFNEECPRLRIFSHPNVLPVLGACQSPPHPTLITHWMPYGSLYNVLHEGVVDQSQAVKFALDMARGMAFLHP-LIPRHALNSRSVMIDEDMTARISMADVKFS----FQCPGRMYAPAWVAPEALQKKPEDRSADMWSFAVLLWELVTREVPFADL-SNMEIGMKVAPGISPHVCKLMKICMNEDPAKRPKFDMIVPILEK"
+            "sequence": "LNFLTKLNENHSGELWKGRWQGNDIVVKVLKVRDRKSRDFNEECPRLRIFSHPNVLPVLGACQSPPHPTLITHWMPYGSLYNVLHEGVVDQSQAVKFALDMARGMAFLHPLIPRHALNSRSVMIDEDMTARISMADVKFSFQCPGRMYAPAWVAPEALQKKPEDRSADMWSFAVLLWELVTREVPFADLSNMEIGMKVAPGISPHVCKLMKICMNEDPAKRPKFDMIVPILEK"
         }
     },
     {
@@ -9595,7 +9595,7 @@
                 "alignment_pos": 187,
                 "from": "GLN",
                 "to": "LYS",
-                "matched": "LWEVITRRK",
+                "matched": "RKPFDEIGG",
                 "location": "kinase_domain"
             },
             {
@@ -9611,7 +9611,7 @@
                 "alignment_pos": 165,
                 "from": "PRO",
                 "to": "SER",
-                "matched": "APEVFEGSN",
+                "matched": "SNYSEKCDV",
                 "location": "kinase_domain"
             },
             {
@@ -9619,7 +9619,7 @@
                 "alignment_pos": 110,
                 "from": "SER",
                 "to": "TER",
-                "matched": "GVAYLHPKA",
+                "matched": "HPKALIHRD",
                 "location": "kinase_domain"
             },
             {
@@ -9654,7 +9654,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "IEVEEVVGRGAFGVVCKAKWR--AKDVAIKQIESE-SERKAFIVELRQLSRVNHPNIVKLYGACLN--PVCLVMEYAEGGSLYNVLHGEYYTAAHAMSWCLQCSQGVAYLHPKALIHRDLKPPNLLLAGGTVLKICDFGTACDIQTH--MTNNKGSAAWMAPEVFEGSNYSEKCDVFSWGIILWEVITRRKPFDEI-GGPAFRIMWAKNLPKPIESLMTRCWSKDPSQRPSMEEIVKIMTH"
+            "sequence": "IEVEEVVGRGAFGVVCKAKWRAKDVAIKQIESESERKAFIVELRQLSRVNHPNIVKLYGACLNPVCLVMEYAEGGSLYNVLHGEYYTAAHAMSWCLQCSQGVAYLHPKALIHRDLKPPNLLLAGGTVLKICDFGTACDIQTHMTNNKGSAAWMAPEVFEGSNYSEKCDVFSWGIILWEVITRRKPFDEIGGPAFRIMWAKNLPKPIESLMTRCWSKDPSQRPSMEEIVKIMTH"
         }
     },
     {
@@ -9674,7 +9674,7 @@
                 "alignment_pos": 149,
                 "from": "TRP",
                 "to": "TER",
-                "matched": "NHT-THMSL",
+                "matched": "GTFPWMAPE",
                 "location": "kinase_domain"
             }
         ],
@@ -9701,7 +9701,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "LQFFENCGGGSFGSVYRAKWI--SKEVAVKKLL-------KIEKEAEILSVLSHRNIIQFYGVILEPPNYGIVTEYASLGSLYDYINSNEMDMDHIMTWATDVAKGMHYLHPVKVIHRDLKSRNVVIAADGVLKICDFGASRFHNHT-THMSLVGTFPWMAPEVIQSLPVSETCDTYSYGVVLWEMLTREVPFKGL-EGLQVAWLVVSSCPRSFAELLHQCWEADAKKRPSFKQIISILES"
+            "sequence": "LQFFENCGGGSFGSVYRAKWISKEVAVKKLLKIEKEAEILSVLSHRNIIQFYGVILEPPNYGIVTEYASLGSLYDYINSNEMDMDHIMTWATDVAKGMHYLHPVKVIHRDLKSRNVVIAADGVLKICDFGASRFHNHTTHMSLVGTFPWMAPEVIQSLPVSETCDTYSYGVVLWEMLTREVPFKGLEGLQVAWLVVSSCPRSFAELLHQCWEADAKKRPSFKQIISILES"
         }
     },
     {
@@ -9737,7 +9737,7 @@
                 "alignment_pos": 131,
                 "from": "GLY",
                 "to": "SER",
-                "matched": "LNAAIIAKI",
+                "matched": "IADYGIAQY",
                 "location": "kinase_domain"
             },
             {
@@ -9761,7 +9761,7 @@
                 "alignment_pos": 132,
                 "from": "ILE",
                 "to": "THR",
-                "matched": "NAAIIAKIA",
+                "matched": "ADYGIAQYC",
                 "location": "kinase_domain"
             },
             {
@@ -9796,7 +9796,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "---EFLLGDGSFGSVYRAAYE--GEEVAVKIFNKHTS-LRLLRQELVVLCHLHHPSLISLLAAGIRP--RMLVMELASKGSLDRLLQQDSLTRTLQHRIALHVADGLRYLHSAMIIYRDLKPHNVLLNAAIIAKIADYGIAQYCCRM-GIKTSEGTPGFRAPEVARNVIYNQQADVYSFGLLLYDILTGGRIVEGFPNEFDELEIQGKEPWPMVEKLIKQCLKENPQERPTSAQVFDILNS"
+            "sequence": "EFLLGDGSFGSVYRAAYEGEEVAVKIFNKHTSLRLLRQELVVLCHLHHPSLISLLAAGIRPRMLVMELASKGSLDRLLQQDSLTRTLQHRIALHVADGLRYLHSAMIIYRDLKPHNVLLNAAIIAKIADYGIAQYCCRMGIKTSEGTPGFRAPEVARNVIYNQQADVYSFGLLLYDILTGGRIVEGFPNEFDELEIQGKEPWPMVEKLIKQCLKENPQERPTSAQVFDILNS"
         }
     },
     {
@@ -9835,7 +9835,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "EDEGSVLGQGGSGTVYRARYQ--GQPVAVKRFHIKKKNFSEFRQEASMLHALQHPCIVALIGISIHP--LCFALELAPLSSLNTVLSENPLGHMLTQKIAYQIASGLAYLHKKNIIFCDLKSDNILVKEHINIKLSDYGISRQSFHE-GALGVEGTPGYQAPEIRPRIVYDEKVDMFSYGMVLYELLSGQRPALGHHLQIAKKLSKGQPEFRRLQALMMECWDTKPEKRPLALSVVSQMKD"
+            "sequence": "EDEGSVLGQGGSGTVYRARYQGQPVAVKRFHIKKKNFSEFRQEASMLHALQHPCIVALIGISIHPLCFALELAPLSSLNTVLSENPLGHMLTQKIAYQIASGLAYLHKKNIIFCDLKSDNILVKEHINIKLSDYGISRQSFHEGALGVEGTPGYQAPEIRPRIVYDEKVDMFSYGMVLYELLSGQRPALGHHLQIAKKLSKGQPEFRRLQALMMECWDTKPEKRPLALSVVSQMKD"
         }
     },
     {
@@ -9855,7 +9855,7 @@
                 "alignment_pos": 232,
                 "from": "LEU",
                 "to": "PRO",
-                "matched": "ERPLFPQIL",
+                "matched": "FPQILSSIE",
                 "location": "kinase_domain"
             },
             {
@@ -9887,7 +9887,7 @@
                 "alignment_pos": 138,
                 "from": "THR",
                 "to": "ARG",
-                "matched": "KIGDFGLAT",
+                "matched": "FGLATVKSG",
                 "location": "kinase_domain"
             },
             {
@@ -9922,7 +9922,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "VMLSTRIGSGSFGTVYKGKWH--G-DVAVKILKVVDEQFQAFRNEVAVLRKTRHVNILLFMGYMTK-DNLAIVTQWCEGSSLYKHLHVQKFQMFQLIDIARQTAQGMDYLHAKNIIHRDMKSNNIFLHEGLTVKIGDFGLATVKSGSQQVEQPTGSVLWMAPEVIDNNPFSFQSDVYSYGIVLYELMTGELPYSHINNRDQIIFMVGKNCPKAMKRLVADCVKKVKEERPLFPQILSSIEL"
+            "sequence": "VMLSTRIGSGSFGTVYKGKWHGDVAVKILKVVDEQFQAFRNEVAVLRKTRHVNILLFMGYMTKDNLAIVTQWCEGSSLYKHLHVQKFQMFQLIDIARQTAQGMDYLHAKNIIHRDMKSNNIFLHEGLTVKIGDFGLATVKSGSQQVEQPTGSVLWMAPEVIDNNPFSFQSDVYSYGIVLYELMTGELPYSHINNRDQIIFMVGKNCPKAMKRLVADCVKKVKEERPLFPQILSSIEL"
         }
     },
     {
@@ -9950,7 +9950,7 @@
                 "alignment_pos": 120,
                 "from": "ASN",
                 "to": "ASP",
-                "matched": "IHRDLKSNN",
+                "matched": "LKSNNIFLH",
                 "location": "kinase_domain"
             },
             {
@@ -9958,7 +9958,7 @@
                 "alignment_pos": 133,
                 "from": "ASP",
                 "to": "GLY",
-                "matched": "EDLTVKIGD",
+                "matched": "VKIGDFGLA",
                 "location": "kinase_domain"
             },
             {
@@ -9966,7 +9966,7 @@
                 "alignment_pos": 171,
                 "from": "ASP",
                 "to": "GLU",
-                "matched": "KNPYSFQSD",
+                "matched": "SFQSDVYAF",
                 "location": "kinase_domain"
             },
             {
@@ -9982,7 +9982,7 @@
                 "alignment_pos": 42,
                 "from": "GLU",
                 "to": "GLY",
-                "matched": "QLQAFKNEV",
+                "matched": "AFKNEVGVL",
                 "location": "kinase_domain"
             },
             {
@@ -9990,7 +9990,7 @@
                 "alignment_pos": 42,
                 "from": "GLU",
                 "to": "LYS",
-                "matched": "QLQAFKNEV",
+                "matched": "AFKNEVGVL",
                 "location": "kinase_domain"
             },
             {
@@ -10038,7 +10038,7 @@
                 "alignment_pos": 75,
                 "from": "GLY",
                 "to": "ARG",
-                "matched": "AIVTQWCEG",
+                "matched": "QWCEGSSLY",
                 "location": "kinase_domain"
             },
             {
@@ -10062,7 +10062,7 @@
                 "alignment_pos": 29,
                 "from": "LEU",
                 "to": "PHE",
-                "matched": "-DVAVKMLN",
+                "matched": "AVKMLNVTA",
                 "location": "kinase_domain"
             },
             {
@@ -10070,7 +10070,7 @@
                 "alignment_pos": 136,
                 "from": "LEU",
                 "to": "ARG",
-                "matched": "TVKIGDFGL",
+                "matched": "GDFGLATVK",
                 "location": "kinase_domain"
             },
             {
@@ -10078,7 +10078,7 @@
                 "alignment_pos": 136,
                 "from": "LEU",
                 "to": "VAL",
-                "matched": "TVKIGDFGL",
+                "matched": "GDFGLATVK",
                 "location": "kinase_domain"
             },
             {
@@ -10086,7 +10086,7 @@
                 "alignment_pos": 40,
                 "from": "LYS",
                 "to": "GLU",
-                "matched": "AQQLQAFKN",
+                "matched": "LQAFKNEVG",
                 "location": "kinase_domain"
             },
             {
@@ -10094,7 +10094,7 @@
                 "alignment_pos": 140,
                 "from": "LYS",
                 "to": "GLU",
-                "matched": "GDFGLATVK",
+                "matched": "LATVKSGSH",
                 "location": "kinase_domain"
             },
             {
@@ -10126,7 +10126,7 @@
                 "alignment_pos": 72,
                 "from": "TRP",
                 "to": "CYS",
-                "matched": "PQLAIVTQW",
+                "matched": "IVTQWCEGS",
                 "location": "kinase_domain"
             },
             {
@@ -10134,7 +10134,7 @@
                 "alignment_pos": 139,
                 "from": "VAL",
                 "to": "GLU",
-                "matched": "IGDFGLATV",
+                "matched": "GLATVKSGS",
                 "location": "kinase_domain"
             }
         ],
@@ -10161,7 +10161,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "ITVGQRIGSGSFGTVYKGKWH--G-DVAVKMLNVTAQQLQAFKNEVGVLRKTRHVNILLFMGYSTK-PQLAIVTQWCEGSSLYHHLHIIKFEMIKLIDIARQTAQGMDYLHAKSIIHRDLKSNNIFLHEDLTVKIGDFGLATVKSGSHQFEQLSGSILWMAPEVIDKNPYSFQSDVYAFGIVLYELMTGQLPYSNINNRDQIIFMVGSNCPKAMKRLMAECLKKKRDERPLFPQILASIEL"
+            "sequence": "ITVGQRIGSGSFGTVYKGKWHGDVAVKMLNVTAQQLQAFKNEVGVLRKTRHVNILLFMGYSTKPQLAIVTQWCEGSSLYHHLHIIKFEMIKLIDIARQTAQGMDYLHAKSIIHRDLKSNNIFLHEDLTVKIGDFGLATVKSGSHQFEQLSGSILWMAPEVIDKNPYSFQSDVYAFGIVLYELMTGQLPYSNINNRDQIIFMVGSNCPKAMKRLMAECLKKKRDERPLFPQILASIEL"
         }
     },
     {
@@ -10173,7 +10173,7 @@
                 "alignment_pos": 237,
                 "from": "GLU",
                 "to": "LYS",
-                "matched": "QGNGLNGEL",
+                "matched": "GLNGEL",
                 "location": "kinase_domain"
             },
             {
@@ -10181,7 +10181,7 @@
                 "alignment_pos": 97,
                 "from": "ILE",
                 "to": "ASN",
-                "matched": "WDLRFRIIH",
+                "matched": "LRFRIIHET",
                 "location": "kinase_domain"
             },
             {
@@ -10224,7 +10224,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "FTGWEKVGSGGFGQVYKVRHVHWKTWLAIKCSPSLHDERMELLEEAKKMEMAKFRYILPVYGICREP--VGLVMEYMETGSLEKLLASEPLPWDLRFRIIHETAVGMNFLHP-PLLHLDLKPANILLDAHYHVKISDFGLAKCNHSHLSMDGLFGTIAYLPPERIRERLFDTKHDVYSFAIVIWGVLTQKKPFADEKNILHIMVKVVRARPSHLIRLMQRCWQGDPRVRPTFQGNGLNGEL"
+            "sequence": "FTGWEKVGSGGFGQVYKVRHVHWKTWLAIKCSPSLHDERMELLEEAKKMEMAKFRYILPVYGICREPVGLVMEYMETGSLEKLLASEPLPWDLRFRIIHETAVGMNFLHPPLLHLDLKPANILLDAHYHVKISDFGLAKCNHSHLSMDGLFGTIAYLPPERIRERLFDTKHDVYSFAIVIWGVLTQKKPFADEKNILHIMVKVVRARPSHLIRLMQRCWQGDPRVRPTFQGNGLNGEL"
         }
     },
     {
@@ -10287,7 +10287,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "FLESAELDSGGFGKVSLCFHRTQGL-MIMKTVYKGPIENEALLEEAKMMNRLRHSRVVKLLGVIIEEGKYSLVMEYMEKGNLMHVLKAESTPLSVKGRIILEIIEGMCYLHGKGVIHKDLKPENILVDNDFHIKIADLGLASFKKLNEHNELNGGTLYYMAPEHLNDAKPTEKSDVYSFAVVLWAIFANKEPYENAICEQQLIMCIKEYCPREIISLMKLCWEANPEARPTFPGIEEKFRP"
+            "sequence": "FLESAELDSGGFGKVSLCFHRTQGLMIMKTVYKGPIENEALLEEAKMMNRLRHSRVVKLLGVIIEEGKYSLVMEYMEKGNLMHVLKAESTPLSVKGRIILEIIEGMCYLHGKGVIHKDLKPENILVDNDFHIKIADLGLASFKKLNEHNELNGGTLYYMAPEHLNDAKPTEKSDVYSFAVVLWAIFANKEPYENAICEQQLIMCIKEYCPREIISLMKLCWEANPEARPTFPGIEEKFRP"
         }
     },
     {
@@ -10326,7 +10326,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "--DWRLVASGGFSQVFQARHRRWRTEYAIKCAPCLPADVNYLIEEAAKMKKIKFQHIVSIYGVCKQP--LGIVMEFMANGSLEKVLSTHSLCWKLRFRIIHETSLAMNFLHP-PLLHLDLKPGNILLDSNMHVKISDFGLSKWMTRQIERSALRGMLSYIPPEMFLEKAPGPKYDVYSFAIVIWELLTQKKPYSG-FNMMMIIIRVADQWPQQMVDLMKRCWDQDPKKRPCFLDITIETDI"
+            "sequence": "DWRLVASGGFSQVFQARHRRWRTEYAIKCAPCLPADVNYLIEEAAKMKKIKFQHIVSIYGVCKQPLGIVMEFMANGSLEKVLSTHSLCWKLRFRIIHETSLAMNFLHPPLLHLDLKPGNILLDSNMHVKISDFGLSKWMTRQIERSALRGMLSYIPPEMFLEKAPGPKYDVYSFAIVIWELLTQKKPYSGFNMMMIIIRVADQWPQQMVDLMKRCWDQDPKKRPCFLDITIETDI"
         }
     },
     {
@@ -10338,7 +10338,7 @@
                 "alignment_pos": 184,
                 "from": "ARG",
                 "to": "TER",
-                "matched": "GLVFWEIAR",
+                "matched": "EIARRQLPY",
                 "location": "kinase_domain"
             },
             {
@@ -10346,7 +10346,7 @@
                 "alignment_pos": 226,
                 "from": "ARG",
                 "to": "GLN",
-                "matched": "WYANGAARL",
+                "matched": "LTALRIKKT",
                 "location": "kinase_domain"
             },
             {
@@ -10354,7 +10354,7 @@
                 "alignment_pos": 226,
                 "from": "ARG",
                 "to": "PRO",
-                "matched": "WYANGAARL",
+                "matched": "LTALRIKKT",
                 "location": "kinase_domain"
             },
             {
@@ -10362,7 +10362,7 @@
                 "alignment_pos": 226,
                 "from": "ARG",
                 "to": "TRP",
-                "matched": "WYANGAARL",
+                "matched": "LTALRIKKT",
                 "location": "kinase_domain"
             },
             {
@@ -10378,7 +10378,7 @@
                 "alignment_pos": 173,
                 "from": "ASP",
                 "to": "GLY",
-                "matched": "MKHKRADIY",
+                "matched": "ADIYAMGLV",
                 "location": "kinase_domain"
             },
             {
@@ -10402,7 +10402,7 @@
                 "alignment_pos": 108,
                 "from": "MET",
                 "to": "ARG",
-                "matched": "ASGLAHLHP",
+                "matched": "AHLHPAIAH",
                 "location": "kinase_domain"
             },
             {
@@ -10410,7 +10410,7 @@
                 "alignment_pos": 37,
                 "from": "SER",
                 "to": "LEU",
-                "matched": "SS--REERS",
+                "matched": "REERSWFRE",
                 "location": "kinase_domain"
             },
             {
@@ -10445,7 +10445,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "IVLQESIGKGRFGEVWRGKWR--GEEVAVKIFSS--REERSWFREAEIYQTLRHENILGFIAADNKDTQLWLVSDYHEHGSLFDYLNRYTVTVEGMIKLALSTASGLAHLHP-AIAHRDLKSKNILVKKNGTCCIADLGLAVRHDTIIAPNHRVGTKRYMAPEVLDSNMKHKRADIYAMGLVFWEIARRQLPYYV---PEMRLRPNIWQALRVMAKIMRECWYANGAARLTALRIKKTLSQ"
+            "sequence": "IVLQESIGKGRFGEVWRGKWRGEEVAVKIFSSREERSWFREAEIYQTLRHENILGFIAADNKDTQLWLVSDYHEHGSLFDYLNRYTVTVEGMIKLALSTASGLAHLHPAIAHRDLKSKNILVKKNGTCCIADLGLAVRHDTIIAPNHRVGTKRYMAPEVLDSNMKHKRADIYAMGLVFWEIARRQLPYYVPEMRLRPNIWQALRVMAKIMRECWYANGAARLTALRIKKTLSQ"
         }
     },
     {
@@ -10465,7 +10465,7 @@
                 "alignment_pos": 226,
                 "from": "ARG",
                 "to": "GLN",
-                "matched": "WAHNPASRL",
+                "matched": "LTALRVKKT",
                 "location": "kinase_domain"
             },
             {
@@ -10473,7 +10473,7 @@
                 "alignment_pos": 226,
                 "from": "ARG",
                 "to": "TRP",
-                "matched": "WAHNPASRL",
+                "matched": "LTALRVKKT",
                 "location": "kinase_domain"
             },
             {
@@ -10497,7 +10497,7 @@
                 "alignment_pos": 113,
                 "from": "LYS",
                 "to": "ASN",
-                "matched": "HLHP-AIAH",
+                "matched": "AIAHRDLKS",
                 "location": "kinase_domain"
             },
             {
@@ -10532,7 +10532,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "IQMVKQIGKGRYGEVWMGKWR--GEKVAVKVFFT--TEEASWFRETEIYQTMRHENILGFIAADIKGTQLYLITDYHENGSLYDYLKSTTLDAKSMLKLAYSSVSGLCHLHP-AIAHRDLKSKNILVKKNGTCCIADLGLAVKFIEVIPPNTRVGTKRYMPPEVLESNRNHIMADMYSFGLILWEVARRQLPYHV---PDMRLRPSFWSCLRQMGKLMTECWAHNPASRLTALRVKKTLAK"
+            "sequence": "IQMVKQIGKGRYGEVWMGKWRGEKVAVKVFFTTEEASWFRETEIYQTMRHENILGFIAADIKGTQLYLITDYHENGSLYDYLKSTTLDAKSMLKLAYSSVSGLCHLHPAIAHRDLKSKNILVKKNGTCCIADLGLAVKFIEVIPPNTRVGTKRYMPPEVLESNRNHIMADMYSFGLILWEVARRQLPYHVPDMRLRPSFWSCLRQMGKLMTECWAHNPASRLTALRVKKTLAK"
         }
     },
     {
@@ -10544,7 +10544,7 @@
                 "alignment_pos": 99,
                 "from": "ALA",
                 "to": "ASP",
-                "matched": "ALLKLAYSA",
+                "matched": "LAYSAACGL",
                 "location": "kinase_domain"
             },
             {
@@ -10560,7 +10560,7 @@
                 "alignment_pos": 128,
                 "from": "CYS",
                 "to": "TYR",
-                "matched": "NILIKKNGS",
+                "matched": "KNGSCCIAD",
                 "location": "kinase_domain"
             },
             {
@@ -10576,7 +10576,7 @@
                 "alignment_pos": 199,
                 "from": "MET",
                 "to": "THR",
-                "matched": "V---PDMRL",
+                "matched": "LRPIVWNCL",
                 "location": "kinase_domain"
             },
             {
@@ -10584,7 +10584,7 @@
                 "alignment_pos": 38,
                 "from": "TRP",
                 "to": "TER",
-                "matched": "T--TEEASW",
+                "matched": "EEASWFRET",
                 "location": "kinase_domain"
             }
         ],
@@ -10611,7 +10611,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "IQMVRQVGKGRYGEVWMGKWR--GEKVAVKVFFT--TEEASWFRETEIYQTMRHENILGFIAADIKGTQLYLITDYHENGSLYDFLKCATLDTRALLKLAYSAACGLCHLHP-AIAHRDLKSKNILIKKNGSCCIADLGLAVKFNEVVPLNTRVGTKRYMAPEVLESNKNHIMADIYSFGLIIWEMARRQLPYYV---PDMRLRPIVWNCLRAVLKLMSECWAHNPASRLTALRIKKTLAK"
+            "sequence": "IQMVRQVGKGRYGEVWMGKWRGEKVAVKVFFTTEEASWFRETEIYQTMRHENILGFIAADIKGTQLYLITDYHENGSLYDFLKCATLDTRALLKLAYSAACGLCHLHPAIAHRDLKSKNILIKKNGSCCIADLGLAVKFNEVVPLNTRVGTKRYMAPEVLESNKNHIMADIYSFGLIIWEMARRQLPYYVPDMRLRPIVWNCLRAVLKLMSECWAHNPASRLTALRIKKTLAK"
         }
     },
     {
@@ -10631,7 +10631,7 @@
                 "alignment_pos": 153,
                 "from": "ARG",
                 "to": "TRP",
-                "matched": "GNNPRVGTK",
+                "matched": "VGTKRYMAP",
                 "location": "kinase_domain"
             },
             {
@@ -10639,7 +10639,7 @@
                 "alignment_pos": 184,
                 "from": "ARG",
                 "to": "GLN",
-                "matched": "GLVLWEIAR",
+                "matched": "EIARRRPPF",
                 "location": "kinase_domain"
             },
             {
@@ -10647,7 +10647,7 @@
                 "alignment_pos": 184,
                 "from": "ARG",
                 "to": "PRO",
-                "matched": "GLVLWEIAR",
+                "matched": "EIARRRPPF",
                 "location": "kinase_domain"
             },
             {
@@ -10655,7 +10655,7 @@
                 "alignment_pos": 184,
                 "from": "ARG",
                 "to": "TRP",
-                "matched": "GLVLWEIAR",
+                "matched": "EIARRRPPF",
                 "location": "kinase_domain"
             },
             {
@@ -10663,7 +10663,7 @@
                 "alignment_pos": 226,
                 "from": "ARG",
                 "to": "TRP",
-                "matched": "WYPNPSARL",
+                "matched": "LTALRIKKT",
                 "location": "kinase_domain"
             },
             {
@@ -10671,7 +10671,7 @@
                 "alignment_pos": 128,
                 "from": "CYS",
                 "to": "TYR",
-                "matched": "NVLVKSNLQ",
+                "matched": "SNLQCCIAD",
                 "location": "kinase_domain"
             },
             {
@@ -10695,7 +10695,7 @@
                 "alignment_pos": 173,
                 "from": "ILE",
                 "to": "ASN",
-                "matched": "TDCKWTDIW",
+                "matched": "TDIWAFGLV",
                 "location": "kinase_domain"
             },
             {
@@ -10703,7 +10703,7 @@
                 "alignment_pos": 155,
                 "from": "MET",
                 "to": "ARG",
-                "matched": "NPRVGTKRY",
+                "matched": "TKRYMAPEV",
                 "location": "kinase_domain"
             },
             {
@@ -10719,7 +10719,7 @@
                 "alignment_pos": 173,
                 "from": "TRP",
                 "to": "SER",
-                "matched": "TDCKWTDIW",
+                "matched": "TDIWAFGLV",
                 "location": "kinase_domain"
             }
         ],
@@ -10746,7 +10746,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "VALVECVGKGRYGEVWRGLWH--GESVAVKIFSS--RDEQSWFRETEIYNTLRHDNILGFIASDMTSTQLWLITHYHEHGSLYDFLQRQTLEPHLALRLAVSAACGLAHLHP-AIAHRDFKSRNVLVKSNLQCCIADLGLAVMHSYLIGNNPRVGTKRYMAPEVLEQRTDCKWTDIWAFGLVLWEIARRRPPFYV---PDMKQTPTILAVLSGLAQMMRECWYPNPSARLTALRIKKTLQK"
+            "sequence": "VALVECVGKGRYGEVWRGLWHGESVAVKIFSSRDEQSWFRETEIYNTLRHDNILGFIASDMTSTQLWLITHYHEHGSLYDFLQRQTLEPHLALRLAVSAACGLAHLHPAIAHRDFKSRNVLVKSNLQCCIADLGLAVMHSYLIGNNPRVGTKRYMAPEVLEQRTDCKWTDIWAFGLVLWEIARRRPPFYVPDMKQTPTILAVLSGLAQMMRECWYPNPSARLTALRIKKTLQK"
         }
     },
     {
@@ -10774,7 +10774,7 @@
                 "alignment_pos": 51,
                 "from": "ARG",
                 "to": "SER",
-                "matched": "ELYNTLRHE",
+                "matched": "TLRHENILG",
                 "location": "kinase_domain"
             },
             {
@@ -10782,7 +10782,7 @@
                 "alignment_pos": 149,
                 "from": "ARG",
                 "to": "PRO",
-                "matched": "SQLVGNNPR",
+                "matched": "NNPRVGTKR",
                 "location": "kinase_domain"
             },
             {
@@ -10790,7 +10790,7 @@
                 "alignment_pos": 113,
                 "from": "GLY",
                 "to": "ARG",
-                "matched": "HLHP-AIAH",
+                "matched": "AIAHRDLKS",
                 "location": "kinase_domain"
             },
             {
@@ -10798,7 +10798,7 @@
                 "alignment_pos": 113,
                 "from": "GLY",
                 "to": "GLU",
-                "matched": "HLHP-AIAH",
+                "matched": "AIAHRDLKS",
                 "location": "kinase_domain"
             },
             {
@@ -10806,7 +10806,7 @@
                 "alignment_pos": 113,
                 "from": "GLY",
                 "to": "TRP",
-                "matched": "HLHP-AIAH",
+                "matched": "AIAHRDLKS",
                 "location": "kinase_domain"
             },
             {
@@ -10814,7 +10814,7 @@
                 "alignment_pos": 134,
                 "from": "GLY",
                 "to": "ASP",
-                "matched": "NGQCCIADL",
+                "matched": "IADLGLAVM",
                 "location": "kinase_domain"
             },
             {
@@ -10849,7 +10849,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "ITLLECVGKGRYGEVWRGSWQ--GENVAVKIFSS--RDEKSWFRETELYNTLRHENILGFIASDMTSTQLWLITHYHEMGSLYDYLQLTTLDTVSCLRIVLSIASGLAHLHP-AIAHRDLKSKNILVKKNGQCCIADLGLAVMHSQLVGNNPRVGTKRYMAPEVLETQVDCKRVDIWAFGLVLWEVARRKPPFYV---PDMRQRPNIWFTLTSLAKLMKECWYQNPSARLTALRIKKTLTK"
+            "sequence": "ITLLECVGKGRYGEVWRGSWQGENVAVKIFSSRDEKSWFRETELYNTLRHENILGFIASDMTSTQLWLITHYHEMGSLYDYLQLTTLDTVSCLRIVLSIASGLAHLHPAIAHRDLKSKNILVKKNGQCCIADLGLAVMHSQLVGNNPRVGTKRYMAPEVLETQVDCKRVDIWAFGLVLWEVARRKPPFYVPDMRQRPNIWFTLTSLAKLMKECWYQNPSARLTALRIKKTLTK"
         }
     },
     {
@@ -10861,7 +10861,7 @@
                 "alignment_pos": 99,
                 "from": "ALA",
                 "to": "PRO",
-                "matched": "DLRKLGSSL",
+                "matched": "GSSLARGIA",
                 "location": "kinase_domain"
             },
             {
@@ -10869,7 +10869,7 @@
                 "alignment_pos": 183,
                 "from": "ARG",
                 "to": "CYS",
-                "matched": "MALVLWEMT",
+                "matched": "EMTSREPPF",
                 "location": "kinase_domain"
             },
             {
@@ -10877,7 +10877,7 @@
                 "alignment_pos": 183,
                 "from": "ARG",
                 "to": "HIS",
-                "matched": "MALVLWEMT",
+                "matched": "EMTSREPPF",
                 "location": "kinase_domain"
             },
             {
@@ -10885,7 +10885,7 @@
                 "alignment_pos": 201,
                 "from": "ARG",
                 "to": "TER",
-                "matched": "SKRSMNVLD",
+                "matched": "DRGHQGIQM",
                 "location": "kinase_domain"
             },
             {
@@ -10893,7 +10893,7 @@
                 "alignment_pos": 221,
                 "from": "ARG",
                 "to": "CYS",
-                "matched": "TLTECWDHD",
+                "matched": "DPEARLTAQ",
                 "location": "kinase_domain"
             },
             {
@@ -10901,7 +10901,7 @@
                 "alignment_pos": 221,
                 "from": "ARG",
                 "to": "HIS",
-                "matched": "TLTECWDHD",
+                "matched": "DPEARLTAQ",
                 "location": "kinase_domain"
             },
             {
@@ -10909,7 +10909,7 @@
                 "alignment_pos": 230,
                 "from": "ARG",
                 "to": "CYS",
-                "matched": "PEARLTAQC",
+                "matched": "CVAERFSE",
                 "location": "kinase_domain"
             },
             {
@@ -10917,7 +10917,7 @@
                 "alignment_pos": 209,
                 "from": "GLN",
                 "to": "GLN",
-                "matched": "DRGHQGIQM",
+                "matched": "MVCETLTEC",
                 "location": "kinase_domain"
             },
             {
@@ -10925,7 +10925,7 @@
                 "alignment_pos": 219,
                 "from": "GLU",
                 "to": "GLN",
-                "matched": "CETLTECWD",
+                "matched": "DHDPEARLT",
                 "location": "kinase_domain"
             },
             {
@@ -10933,7 +10933,7 @@
                 "alignment_pos": 101,
                 "from": "GLY",
                 "to": "TRP",
-                "matched": "RKLGSSLAR",
+                "matched": "SLARGIAHL",
                 "location": "kinase_domain"
             },
             {
@@ -10941,7 +10941,7 @@
                 "alignment_pos": 57,
                 "from": "LEU",
                 "to": "PRO",
-                "matched": "KHENILQFL",
+                "matched": "ILQFLTAEE",
                 "location": "kinase_domain"
             },
             {
@@ -10949,7 +10949,7 @@
                 "alignment_pos": 154,
                 "from": "MET",
                 "to": "VAL",
-                "matched": "NSGQVGTAR",
+                "matched": "TARYMAPEV",
                 "location": "kinase_domain"
             },
             {
@@ -10957,7 +10957,7 @@
                 "alignment_pos": 156,
                 "from": "PRO",
                 "to": "LEU",
-                "matched": "GQVGTARYM",
+                "matched": "RYMAPEVLS",
                 "location": "kinase_domain"
             },
             {
@@ -10965,7 +10965,7 @@
                 "alignment_pos": 173,
                 "from": "SER",
                 "to": "PHE",
-                "matched": "NLEKQTDVY",
+                "matched": "DVYSMALVL",
                 "location": "kinase_domain"
             },
             {
@@ -10973,7 +10973,7 @@
                 "alignment_pos": 64,
                 "from": "THR",
                 "to": "MET",
-                "matched": "FLTAEERKK",
+                "matched": "EERKKQYWL",
                 "location": "kinase_domain"
             },
             {
@@ -10981,7 +10981,7 @@
                 "alignment_pos": 81,
                 "from": "TYR",
                 "to": "ASN",
-                "matched": "HAKGNLQEY",
+                "matched": "NLQEYLTRV",
                 "location": "kinase_domain"
             }
         ],
@@ -11008,7 +11008,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "IELDTLVGKGRFAEVYKAKLK--QETVAVKIFPYE--EYASWKTEKDIFSDLKHENILQFLTAEERKKQYWLITAFHAKGNLQEYLT-RVISWEDLRKLGSSLARGIAHLHM-PIVHRDLKSSNILVKNDLTCCLCDFGLSLRLDSVDDNSGQVGTARYMAPEVLSRMNLEKQTDVYSMALVLWEMTSREPPFG--SKRSMNVLDRGHQGIQMVCETLTECWDHDPEARLTAQCVAERFSE"
+            "sequence": "IELDTLVGKGRFAEVYKAKLKQETVAVKIFPYEEYASWKTEKDIFSDLKHENILQFLTAEERKKQYWLITAFHAKGNLQEYLTRVISWEDLRKLGSSLARGIAHLHMPIVHRDLKSSNILVKNDLTCCLCDFGLSLRLDSVDDNSGQVGTARYMAPEVLSRMNLEKQTDVYSMALVLWEMTSREPPFGSKRSMNVLDRGHQGIQMVCETLTECWDHDPEARLTAQCVAERFSE"
         }
     },
     {
@@ -11055,7 +11055,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "LQLLEIKARGRFGCVWKAQLM--NDFVAVKIFPLQ--DKQSWQSEREIFSTMKHENLLQFIAAEKRGVELWLITAFHDKGSLTDYLK-GIITWNELCHVAETMSRGLSYLHP-SIAHRDFKSKNVLLKSDLTAVLADFGLAVRFEPPGDTHGQVGTRRYMAPEVLGAINFQLRIDMYAMGLVLWELVSRMLPFE--EEGELVVVKKMHPGLAQLCVTIEECWDHDAEARLSAGCVEERVSL"
+            "sequence": "LQLLEIKARGRFGCVWKAQLMNDFVAVKIFPLQDKQSWQSEREIFSTMKHENLLQFIAAEKRGVELWLITAFHDKGSLTDYLKGIITWNELCHVAETMSRGLSYLHPSIAHRDFKSKNVLLKSDLTAVLADFGLAVRFEPPGDTHGQVGTRRYMAPEVLGAINFQLRIDMYAMGLVLWELVSRMLPFEEEGELVVVKKMHPGLAQLCVTIEECWDHDAEARLSAGCVEERVSL"
         }
     },
     {
@@ -11075,7 +11075,7 @@
                 "alignment_pos": 113,
                 "from": "ARG",
                 "to": "TER",
-                "matched": "YLHP-AISH",
+                "matched": "ISHRDLNSR",
                 "location": "kinase_domain"
             },
             {
@@ -11083,7 +11083,7 @@
                 "alignment_pos": 221,
                 "from": "ARG",
                 "to": "GLN",
-                "matched": "TIEDCWDQD",
+                "matched": "DAEARLTAQ",
                 "location": "kinase_domain"
             },
             {
@@ -11091,7 +11091,7 @@
                 "alignment_pos": 221,
                 "from": "ARG",
                 "to": "TRP",
-                "matched": "TIEDCWDQD",
+                "matched": "DAEARLTAQ",
                 "location": "kinase_domain"
             },
             {
@@ -11131,7 +11131,7 @@
                 "alignment_pos": 215,
                 "from": "ASP",
                 "to": "GLY",
-                "matched": "VRSLKETIE",
+                "matched": "EDCWDQDAE",
                 "location": "kinase_domain"
             },
             {
@@ -11171,7 +11171,7 @@
                 "alignment_pos": 127,
                 "from": "CYS",
                 "to": "TYR",
-                "matched": "RNVLVKNDG",
+                "matched": "NDGTCVISD",
                 "location": "kinase_domain"
             },
             {
@@ -11179,7 +11179,7 @@
                 "alignment_pos": 191,
                 "from": "GLN",
                 "to": "TER",
-                "matched": "FMRQMAFQ-",
+                "matched": "FQTEGDMLV",
                 "location": "kinase_domain"
             },
             {
@@ -11238,7 +11238,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "LKLLELIGRGRYGAVYKGSLD--ERPVAVKVFSFA--NRQNFINEKNIYRVMEHDNIARFIVGDERVMEYLLVMEYYPNGSLCKYLS-LTSDWVSSCRLAHSVTRGLAYLHP-AISHRDLNSRNVLVKNDGTCVISDFGLSMRLTLVRDAISEVGTIRYMAPEVLGAVNLRKQVDMYALGLIYWEIFMRQMAFQ--TEGDMLVSEKQSLAVRSLKETIEDCWDQDAEARLTAQCAEERMAE"
+            "sequence": "LKLLELIGRGRYGAVYKGSLDERPVAVKVFSFANRQNFINEKNIYRVMEHDNIARFIVGDERVMEYLLVMEYYPNGSLCKYLSLTSDWVSSCRLAHSVTRGLAYLHPAISHRDLNSRNVLVKNDGTCVISDFGLSMRLTLVRDAISEVGTIRYMAPEVLGAVNLRKQVDMYALGLIYWEIFMRQMAFQTEGDMLVSEKQSLAVRSLKETIEDCWDQDAEARLTAQCAEERMAE"
         }
     },
     {
@@ -11250,7 +11250,7 @@
                 "alignment_pos": 172,
                 "from": "ARG",
                 "to": "GLN",
-                "matched": "LDLQRRADI",
+                "matched": "ADIYSLALL",
                 "location": "kinase_domain"
             }
         ],
@@ -11277,7 +11277,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "LCFSQVIREGGHAVVWAGQLQ--GKLVAIKAFPPR--SVAQFQAERALYELLQHDHIVRFITASRGGLGPLLVLELHPKGSLCHYLT-QTSDWGSSLRMALSLAQGLAFLHP-GIAHRDLSSQNVLIREDGSCAIGDLGLALVLPQPQGAIMEAGTQRYMAPELLKTLDLQRRADIYSLALLLWEILSRQLAYE--AEGELLAVERRATDPDGLRELLEDCWDADPEARLTAECVQQRLAA"
+            "sequence": "LCFSQVIREGGHAVVWAGQLQGKLVAIKAFPPRSVAQFQAERALYELLQHDHIVRFITASRGGLGPLLVLELHPKGSLCHYLTQTSDWGSSLRMALSLAQGLAFLHPGIAHRDLSSQNVLIREDGSCAIGDLGLALVLPQPQGAIMEAGTQRYMAPELLKTLDLQRRADIYSLALLLWEILSRQLAYEAEGELLAVERRATDPDGLRELLEDCWDADPEARLTAECVQQRLAA"
         }
     },
     {
@@ -11316,7 +11316,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "--------SGPYMVMTNLVWN--GSRVTVKELNLPTPLADLLIAEQEHSSKLRHPYLLQLMAVCLDLEKTRLVYERITIGTLFSVLHERSLHMEVIVHLLLQISDALRYLHFQGFIHRSLSSYAVHIISPGEARLTNLEYMLESED--RGVQRTQLYNWAAPEVI-LKAATVKSDIYSFSMIMQEILTDDIPWKGLDGS--VVKKAVVRLPKPYYDIVKSGIHVKQKDRTMNLQDIRYILK"
+            "sequence": "SGPYMVMTNLVWNGSRVTVKELNLPTPLADLLIAEQEHSSKLRHPYLLQLMAVCLDLEKTRLVYERITIGTLFSVLHERSLHMEVIVHLLLQISDALRYLHFQGFIHRSLSSYAVHIISPGEARLTNLEYMLESEDRGVQRTQLYNWAAPEVILKAATVKSDIYSFSMIMQEILTDDIPWKGLDGSVVKKAVVRLPKPYYDIVKSGIHVKQKDRTMNLQDIRYILK"
         }
     },
     {
@@ -11328,7 +11328,7 @@
                 "alignment_pos": 26,
                 "from": "GLN",
                 "to": "TER",
-                "matched": "--EHKVALS",
+                "matched": "VALSQLTSE",
                 "location": "kinase_domain"
             },
             {
@@ -11336,7 +11336,7 @@
                 "alignment_pos": 156,
                 "from": "GLN",
                 "to": "ARG",
-                "matched": "KCGHRELFV",
+                "matched": "EQLWPGEYD",
                 "location": "kinase_domain"
             },
             {
@@ -11344,7 +11344,7 @@
                 "alignment_pos": 53,
                 "from": "LEU",
                 "to": "ARG",
-                "matched": "LKSLQGTHV",
+                "matched": "HVVTLLGYC",
                 "location": "kinase_domain"
             },
             {
@@ -11352,7 +11352,7 @@
                 "alignment_pos": 185,
                 "from": "VAL",
                 "to": "ASP",
-                "matched": "---------",
+                "matched": "FHLFDIHKA",
                 "location": "kinase_domain"
             }
         ],
@@ -11379,7 +11379,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "---LKRVGEGAVKRVFLSEWK--EHKVALSQLT--SEMKDDFLHGLQMLKSLQGTHVVTLLGYCEDDNT--MLTEYHPLGSLSNLLSKYNVNWQHRLELAMDYVSIINYLHHSPVGTRVMCDSNYLLTSNFSILANDLDLVNHSSG--MLVKCGHRELFVAPEQLWPGEYDEKIDIW------------KIP--------DISSFLLDMVRFHLFDIHKACKSQTPSERPTAQDVLETYQK"
+            "sequence": "LKRVGEGAVKRVFLSEWKEHKVALSQLTSEMKDDFLHGLQMLKSLQGTHVVTLLGYCEDDNTMLTEYHPLGSLSNLLSKYNVNWQHRLELAMDYVSIINYLHHSPVGTRVMCDSNYLLTSNFSILANDLDLVNHSSGMLVKCGHRELFVAPEQLWPGEYDEKIDIWKIPDISSFLLDMVRFHLFDIHKACKSQTPSERPTAQDVLETYQK"
         }
     },
     {
@@ -11418,7 +11418,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "FEIGRPLGKGKFGNVYLAREKQSKFILALKVLFKAQGVEHQLRREVEIQSHLRHPNILRLYGYFHDATRVYLILEYAPLGTVYRELQKLKFDEQRTATYITELANALSYCHSKRVIHRDIKPENLLLGSAGELKIADFGWSVHAP-SSRRTTLCGTLDYLPPEMIEGRMHDEKVDLWSLGVLCYEFLVGKPPFEANTYQETYKRISRDFVTEGARDLISRLLKHNPSQRPMLREVLEHPWI"
+            "sequence": "FEIGRPLGKGKFGNVYLAREKQSKFILALKVLFKAQGVEHQLRREVEIQSHLRHPNILRLYGYFHDATRVYLILEYAPLGTVYRELQKLKFDEQRTATYITELANALSYCHSKRVIHRDIKPENLLLGSAGELKIADFGWSVHAPSSRRTTLCGTLDYLPPEMIEGRMHDEKVDLWSLGVLCYEFLVGKPPFEANTYQETYKRISRDFVTEGARDLISRLLKHNPSQRPMLREVLEHPWI"
         }
     },
     {
@@ -11430,7 +11430,7 @@
                 "alignment_pos": 182,
                 "from": "CYS",
                 "to": "TYR",
-                "matched": "CIGVLCYEL",
+                "matched": "IGVLCYELL",
                 "location": "kinase_domain"
             }
         ],
@@ -11457,7 +11457,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "FEIGRPLGKGKFGNVYLARLKESHFIVALKVLFKSQGLEHQLRREIEIQAHLQHPNILRLYNYFHDARRVYLILEYAPRGELYKELQKSKLDEQRTATIIEELADALTYCHDKKVIHRDIKPENLLLGFRGEVKIADFGWSVHTP-SLRRKTMCGTLDYLPPEMIEGRTYDEKVDLWCIGVLCYELLVGYPPFESASHSETYRRILKLSMPLGARDLISRLLRYQPLERLPLAQILKHPWV"
+            "sequence": "FEIGRPLGKGKFGNVYLARLKESHFIVALKVLFKSQGLEHQLRREIEIQAHLQHPNILRLYNYFHDARRVYLILEYAPRGELYKELQKSKLDEQRTATIIEELADALTYCHDKKVIHRDIKPENLLLGFRGEVKIADFGWSVHTPSLRRKTMCGTLDYLPPEMIEGRTYDEKVDLWCIGVLCYELLVGYPPFESASHSETYRRILKLSMPLGARDLISRLLRYQPLERLPLAQILKHPWV"
         }
     },
     {
@@ -11493,7 +11493,7 @@
                 "alignment_pos": 96,
                 "from": "GLN",
                 "to": "HIS",
-                "matched": "THEITVLII",
+                "matched": "SGFRTVQIL",
                 "location": "kinase_domain"
             },
             {
@@ -11501,7 +11501,7 @@
                 "alignment_pos": 172,
                 "from": "LEU",
                 "to": "PRO",
-                "matched": "QKIPYQVDL",
+                "matched": "LGELAAEMN",
                 "location": "kinase_domain"
             },
             {
@@ -11509,7 +11509,7 @@
                 "alignment_pos": 20,
                 "from": "LEU",
                 "to": "PHE",
-                "matched": "---------",
+                "matched": "NCFTLQDLL",
                 "location": "kinase_domain"
             },
             {
@@ -11544,7 +11544,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "--------------------------------------------------------------CYQYQDGCIVWHQYINCFTLQDLLQHSYITHEITVLIIYNLLTIVEMLHKAEIVHGDLSPRCLILRNKQALKIVDFSYSVDLRVQLDVFTLSG---FRTVQILEGQKIPYQVDLFGIADLAHLLLFKEHLFWDGSFWKLSQNISELKDGELWNKFFVRILNANDEATVSVLGELAAEMN"
+            "sequence": "CYQYQDGCIVWHQYINCFTLQDLLQHSYITHEITVLIIYNLLTIVEMLHKAEIVHGDLSPRCLILRNKQALKIVDFSYSVDLRVQLDVFTLSGFRTVQILEGQKIPYQVDLFGIADLAHLLLFKEHLFWDGSFWKLSQNISELKDGELWNKFFVRILNANDEATVSVLGELAAEMN"
         }
     },
     {
@@ -11583,7 +11583,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "--VHHLLGEGAFAQVYEATQAKNKQKFVLKVQKPANFYIGTQLMER--LKSMQHMF-MKFYSAHLFQNGSVLVGELYSYGTLLNAINLYNTPEKVVISFAMRMLYMIEQVHDCEIIHGDIKPDNFILDDELSLALIDLGQSIDMKPKGTIFTKCETSGFQCVEMLSNKPWNYQIDYFGVAATVYCMLFGTYMKVKNEGGECKPEGLFRRLPHLDMWNEFFHVMLNIPDCHHLPSLDLLRQK"
+            "sequence": "VHHLLGEGAFAQVYEATQAKNKQKFVLKVQKPANFYIGTQLMERLKSMQHMFMKFYSAHLFQNGSVLVGELYSYGTLLNAINLYNTPEKVVISFAMRMLYMIEQVHDCEIIHGDIKPDNFILDDELSLALIDLGQSIDMKPKGTIFTKCETSGFQCVEMLSNKPWNYQIDYFGVAATVYCMLFGTYMKVKNEGGECKPEGLFRRLPHLDMWNEFFHVMLNIPDCHHLPSLDLLRQK"
         }
     },
     {
@@ -11630,7 +11630,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "PKLGQELGRGQYGVVYLCDNWGGHFPCALKSVVE---KWNDLALEFHYMRSLKHERLVDLHGSVI-DSSILLIMERLH-RDLYTGLKA-GLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKP-----ESGSIVGTPIHMAPELFT-GKYDNSVDVYAFGILFWYICSGSKAF----ENRV--------FDEECWQLMEACWDGDPLKRPLLGIVQPMLQG"
+            "sequence": "PKLGQELGRGQYGVVYLCDNWGGHFPCALKSVVEKWNDLALEFHYMRSLKHERLVDLHGSVIDSSILLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPESGSIVGTPIHMAPELFTGKYDNSVDVYAFGILFWYICSGSKAFENRVFDEECWQLMEACWDGDPLKRPLLGIVQPMLQG"
         }
     },
     {
@@ -11642,7 +11642,7 @@
                 "alignment_pos": 202,
                 "from": "ARG",
                 "to": "TER",
-                "matched": "QEKNL----",
+                "matched": "WLQLMLMWH",
                 "location": "kinase_domain"
             },
             {
@@ -11650,7 +11650,7 @@
                 "alignment_pos": 165,
                 "from": "VAL",
                 "to": "ILE",
-                "matched": "APELLEQQK",
+                "matched": "YTVTVDYWS",
                 "location": "kinase_domain"
             }
         ],
@@ -11677,7 +11677,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "WEMKERLGTGGFGNVIRWHNQETGEQIAIKQCR---QSRERWCLEIQIMRRLTHPNVVAARDVPE-GDLPLLAMEYCQGGDLRKYLNQCGLREGAILTLLSDIASALRYLHENRIIHRDLKPENIVL--QLIHKIIDLGYAKELD---QCTSFVGTLQYLAPELLEQQKYTVTVDYWSFGTLAFECITGFRPFWR--QEKNL--------AERLEKWLQLMLMWHPRQRGTDPTYGPNGCF"
+            "sequence": "WEMKERLGTGGFGNVIRWHNQETGEQIAIKQCRQSRERWCLEIQIMRRLTHPNVVAARDVPEGDLPLLAMEYCQGGDLRKYLNQCGLREGAILTLLSDIASALRYLHENRIIHRDLKPENIVLQLIHKIIDLGYAKELDQCTSFVGTLQYLAPELLEQQKYTVTVDYWSFGTLAFECITGFRPFWRQEKNLAERLEKWLQLMLMWHPRQRGTDPTYGPNGCF"
         }
     },
     {
@@ -11689,7 +11689,7 @@
                 "alignment_pos": 40,
                 "from": "ASP",
                 "to": "ALA",
-                "matched": "-NFVDVQMR",
+                "matched": "VDVQMREFE",
                 "location": "kinase_domain"
             },
             {
@@ -11705,7 +11705,7 @@
                 "alignment_pos": 133,
                 "from": "GLY",
                 "to": "ALA",
-                "matched": "-VSVYKLTD",
+                "matched": "LTDFGAARE",
                 "location": "kinase_domain"
             },
             {
@@ -11713,7 +11713,7 @@
                 "alignment_pos": 170,
                 "from": "ILE",
                 "to": "VAL",
-                "matched": "EQKKYGATV",
+                "matched": "DLWSIGVTF",
                 "location": "kinase_domain"
             },
             {
@@ -11748,7 +11748,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "WLLSDILGQGATANVFRGRHKKTGDLFAIKVFN---NFVDVQMREFEVLKKLNHKNIVKLFAIEE-ERHKVLIMEFCPCGSLYTVLEEAGLPESEFLIVLRDVVGGMNHLRENGIVHRDIKPGNIMR--VSVYKLTDFGAARELE---DFVSLYGTEEYLHPDMYEQKKYGATVDLWSIGVTFYHAATGSLPFET--GQDSL--------QVLLTPVLANILEADQEKCWGFDQFFAETSD"
+            "sequence": "WLLSDILGQGATANVFRGRHKKTGDLFAIKVFNNFVDVQMREFEVLKKLNHKNIVKLFAIEEERHKVLIMEFCPCGSLYTVLEEAGLPESEFLIVLRDVVGGMNHLRENGIVHRDIKPGNIMRVSVYKLTDFGAARELEDFVSLYGTEEYLHPDMYEQKKYGATVDLWSIGVTFYHAATGSLPFETGQDSLQVLLTPVLANILEADQEKCWGFDQFFAETSD"
         }
     },
     {
@@ -11787,7 +11787,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "WEMRERLGTGGFGNVCLYQHRELDLKIAIKSCR---LSRERWCHEIQIMKKLNHANVVKACDVPE-EDVPLLAMEYCSGGDLRKLLNKCGLKESQILSLLSDIGSGIRYLHENKIIHRDLKPENIVL--QIIHKIIDLGYAKDVD---QCTSFVGTLQYLAPELFENKPYTATVDYWSFGTMVFECIAGYRPFLK--KERSV--------VEPMENWLQLMLNWDPQQRGGPVDLTLKQPR"
+            "sequence": "WEMRERLGTGGFGNVCLYQHRELDLKIAIKSCRLSRERWCHEIQIMKKLNHANVVKACDVPEEDVPLLAMEYCSGGDLRKLLNKCGLKESQILSLLSDIGSGIRYLHENKIIHRDLKPENIVLQIIHKIIDLGYAKDVDQCTSFVGTLQYLAPELFENKPYTATVDYWSFGTMVFECIAGYRPFLKKERSVVEPMENWLQLMLNWDPQQRGGPVDLTLKQPR"
         }
     },
     {
@@ -11799,7 +11799,7 @@
                 "alignment_pos": 95,
                 "from": "ARG",
                 "to": "GLN",
-                "matched": "-HREFARNV",
+                "matched": "SSIFKAVQE",
                 "location": "kinase_domain"
             },
             {
@@ -11842,7 +11842,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "-DEKYKIADTSEGGI-Y-LGFYEKQEVAVKTFCEGS---PRAQREVSCLQSSENSHLVTFYGSESHRGHLFVCVTLCE-QTLEACLDV---HREFARNVLSSIFKAVQELHSCGYTHQDLQPQNILIDA---AHLADFDKSIKW----AGD----------PQEVLED----------LGRLVLYVVKKGISF-EVQLSP----------DEETKDLIHRLFHPGEHVRDCLSDLLGHPFF"
+            "sequence": "DEKYKIADTSEGGIYLGFYEKQEVAVKTFCEGSPRAQREVSCLQSSENSHLVTFYGSESHRGHLFVCVTLCEQTLEACLDVHREFARNVLSSIFKAVQELHSCGYTHQDLQPQNILIDAAHLADFDKSIKWAGDPQEVLEDLGRLVLYVVKKGISFEVQLSPDEETKDLIHRLFHPGEHVRDCLSDLLGHPFF"
         }
     },
     {
@@ -11854,7 +11854,7 @@
                 "alignment_pos": 137,
                 "from": "ALA",
                 "to": "VAL",
-                "matched": "CKISDFGCS",
+                "matched": "KLEDFPLGG",
                 "location": "kinase_domain"
             },
             {
@@ -11862,7 +11862,7 @@
                 "alignment_pos": 151,
                 "from": "ARG",
                 "to": "HIS",
-                "matched": "--DFP-LGG",
+                "matched": "APELLGVTP",
                 "location": "kinase_domain"
             },
             {
@@ -11870,7 +11870,7 @@
                 "alignment_pos": 202,
                 "from": "ARG",
                 "to": "HIS",
-                "matched": "-QAA-----",
+                "matched": "AQRPSARLL",
                 "location": "kinase_domain"
             },
             {
@@ -11878,7 +11878,7 @@
                 "alignment_pos": 35,
                 "from": "ASN",
                 "to": "LYS",
-                "matched": "QVNKS---R",
+                "matched": "NKSRRSFWA",
                 "location": "kinase_domain"
             },
             {
@@ -11886,7 +11886,7 @@
                 "alignment_pos": 202,
                 "from": "CYS",
                 "to": "TER",
-                "matched": "-QAA-----",
+                "matched": "AQRPSARLL",
                 "location": "kinase_domain"
             },
             {
@@ -11894,7 +11894,7 @@
                 "alignment_pos": 107,
                 "from": "HIS",
                 "to": "LEU",
-                "matched": "VVNGLLFLH",
+                "matched": "QSIVHLDLK",
                 "location": "kinase_domain"
             },
             {
@@ -11902,7 +11902,7 @@
                 "alignment_pos": 105,
                 "from": "ILE",
                 "to": "MET",
-                "matched": "LDVVNGLLF",
+                "matched": "HSQSIVHLD",
                 "location": "kinase_domain"
             },
             {
@@ -11910,7 +11910,7 @@
                 "alignment_pos": 67,
                 "from": "MET",
                 "to": "THR",
-                "matched": "ASTN-S--L",
+                "matched": "IIMEFGNVT",
                 "location": "kinase_domain"
             },
             {
@@ -11918,7 +11918,7 @@
                 "alignment_pos": 164,
                 "from": "SER",
                 "to": "CYS",
-                "matched": "RAPELLG--",
+                "matched": "YSFAITLWQ",
                 "location": "kinase_domain"
             }
         ],
@@ -11945,7 +11945,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "VCLLQRLGAGGFGSVYKATYR--GVPVAIKQVNKS---RRSFWAELNVAR-LRHDNIVRVVAASTN-S--LIIMEFGN-VTLHQVIYAEGLSLGKCLKYSLDVVNGLLFLHSQSIVHLDLKPANILISEQDVCKISDFGCSEKLE---DFP-LGGTYTHRAPELLG---VTPKADIYSFAITLWQMTTKQAPYR----QAA--------VGQRLGDVIQRCWRPSAAQRPSARLLLVDLTS"
+            "sequence": "VCLLQRLGAGGFGSVYKATYRGVPVAIKQVNKSRRSFWAELNVARLRHDNIVRVVAASTNSLIIMEFGNVTLHQVIYAEGLSLGKCLKYSLDVVNGLLFLHSQSIVHLDLKPANILISEQDVCKISDFGCSEKLEDFPLGGTYTHRAPELLGVTPKADIYSFAITLWQMTTKQAPYRQAAVGQRLGDVIQRCWRPSAAQRPSARLLLVDLTS"
         }
     },
     {
@@ -11965,7 +11965,7 @@
                 "alignment_pos": 46,
                 "from": "ARG",
                 "to": "TER",
-                "matched": "ILNELALAE",
+                "matched": "AEYSHPNII",
                 "location": "kinase_domain"
             },
             {
@@ -11973,7 +11973,7 @@
                 "alignment_pos": 55,
                 "from": "ARG",
                 "to": "HIS",
-                "matched": "-YSHPNIIR",
+                "matched": "RVLRAFTSG",
                 "location": "kinase_domain"
             },
             {
@@ -11981,7 +11981,7 @@
                 "alignment_pos": 174,
                 "from": "GLN",
                 "to": "TER",
-                "matched": "IYSKADAWA",
+                "matched": "FYGQRLPES",
                 "location": "kinase_domain"
             },
             {
@@ -11989,7 +11989,7 @@
                 "alignment_pos": 68,
                 "from": "GLY",
                 "to": "ASP",
-                "matched": "FTSGRTLFL",
+                "matched": "LVMKNYPCT",
                 "location": "kinase_domain"
             },
             {
@@ -11997,7 +11997,7 @@
                 "alignment_pos": 55,
                 "from": "HIS",
                 "to": "GLN",
-                "matched": "-YSHPNIIR",
+                "matched": "RVLRAFTSG",
                 "location": "kinase_domain"
             },
             {
@@ -12005,7 +12005,7 @@
                 "alignment_pos": 92,
                 "from": "LEU",
                 "to": "PRO",
-                "matched": "VS--P-RLA",
+                "matched": "LLQLLEGVD",
                 "location": "kinase_domain"
             },
             {
@@ -12013,7 +12013,7 @@
                 "alignment_pos": 139,
                 "from": "PRO",
                 "to": "LEU",
-                "matched": "IADFGCCD-",
+                "matched": "GNGCLMAPE",
                 "location": "kinase_domain"
             },
             {
@@ -12021,7 +12021,7 @@
                 "alignment_pos": 68,
                 "from": "THR",
                 "to": "MET",
-                "matched": "FTSGRTLFL",
+                "matched": "LVMKNYPCT",
                 "location": "kinase_domain"
             },
             {
@@ -12029,7 +12029,7 @@
                 "alignment_pos": 163,
                 "from": "TRP",
                 "to": "TER",
-                "matched": "LMAPEVSP-",
+                "matched": "AIAYEIFGL",
                 "location": "kinase_domain"
             },
             {
@@ -12037,7 +12037,7 @@
                 "alignment_pos": 157,
                 "from": "TYR",
                 "to": "HIS",
-                "matched": "-GGNGCLMA",
+                "matched": "DAWAVGAIA",
                 "location": "kinase_domain"
             }
         ],
@@ -12064,7 +12064,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "YLIGQSIGKGCSAAVYEATMPPGAFPLAIKMM-------WNILNELALAE-YSHPNIIRVLRAFTSGRTLFLVMKNYP-CTLRQYLCVS--P-RLAAMMLLQLLEGVDHLVQQGIAHRDLKSDNILVELDW-LVIADFGCCD------ELSR-GGNGCLMAPEVSP--GIYSKADAWAVGAIAYEIF-GLNPFYG---QRLPES-----VPPDVRQLVRALLQREASKRPSARVAANVLHL"
+            "sequence": "YLIGQSIGKGCSAAVYEATMPPGAFPLAIKMMWNILNELALAEYSHPNIIRVLRAFTSGRTLFLVMKNYPCTLRQYLCVSPRLAAMMLLQLLEGVDHLVQQGIAHRDLKSDNILVELDWLVIADFGCCDELSRGGNGCLMAPEVSPGIYSKADAWAVGAIAYEIFGLNPFYGQRLPESVPPDVRQLVRALLQREASKRPSARVAANVLHL"
         }
     },
     {
@@ -12151,7 +12151,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "----------------------------------------------------------------------------------------------------------------------------------VDCRSLVKTLVCGV---------KTAPGEAQFIPNKQLQP-KETQIYIKLVKYAMQALDIYQVQIAGNGQTYIRVANKEEKEVLEHFAGVFTMMNPLTFKEIFQTTVPYMV"
+            "sequence": "VDCRSLVKTLVCGVKTAPGEAQFIPNKQLQPKETQIYIKLVKYAMQALDIYQVQIAGNGQTYIRVANKEEKEVLEHFAGVFTMMNPLTFKEIFQTTVPYMV"
         }
     },
     {
@@ -12206,7 +12206,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "SRLTLSLRGSSYGSLMTAHGKFKGNVVAIKHVNKKRELTRQVLFELKHMRDVQFNHLTRFIGACIDPPNICIVTEYCPRGSLQDILENDNLDWMFRYSLINDLVKGMAFLHNSIISHGSLKSSNCVVDSRFVLKITDYGLASFRSPD-DSHALYAKKLWTAPELLSNTTGMQKADVYSFGIILQEIALRSGPFYLLDLPEIVQKVRNSRTNEELVLLMERCWAQDPAERPDFGQIKGFIRR"
+            "sequence": "SRLTLSLRGSSYGSLMTAHGKFKGNVVAIKHVNKKRELTRQVLFELKHMRDVQFNHLTRFIGACIDPPNICIVTEYCPRGSLQDILENDNLDWMFRYSLINDLVKGMAFLHNSIISHGSLKSSNCVVDSRFVLKITDYGLASFRSPDDSHALYAKKLWTAPELLSNTTGMQKADVYSFGIILQEIALRSGPFYLLDLPEIVQKVRNSRTNEELVLLMERCWAQDPAERPDFGQIKGFIRR"
         }
     },
     {
@@ -12226,7 +12226,7 @@
                 "alignment_pos": 205,
                 "from": "ARG",
                 "to": "TRP",
-                "matched": "VVQRVRSLD",
+                "matched": "VQRVRSLDQ",
                 "location": "kinase_domain"
             },
             {
@@ -12234,7 +12234,7 @@
                 "alignment_pos": 209,
                 "from": "ARG",
                 "to": "TRP",
-                "matched": "VRSLDQPVE",
+                "matched": "RSLDQPVEC",
                 "location": "kinase_domain"
             },
             {
@@ -12349,7 +12349,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "QGSRSSLGARSMSDIRSGPSQYEGDRVWLKKFPGQHAIRPATKTAFSKLQELRHENVALYLGLFLAEGNLAVVSEHCTRGSLQDLLAQRKLDWMFKSSLLLDLIKGIRYLHHRGVAHGRLKSRNCIVDGRFVLKITDHGHGRLLEVL-PEPPRAEDQLWTAPELLRDRRGTLAGDVFSLAIIMQEVVCRSAPYAMLELPEVVQRVRSLDQPVECILLMKQCWAEQPELRPSMDHTFDLFKN"
+            "sequence": "QGSRSSLGARSMSDIRSGPSQYEGDRVWLKKFPGQHAIRPATKTAFSKLQELRHENVALYLGLFLAEGNLAVVSEHCTRGSLQDLLAQRKLDWMFKSSLLLDLIKGIRYLHHRGVAHGRLKSRNCIVDGRFVLKITDHGHGRLLEVLPEPPRAEDQLWTAPELLRDRRGTLAGDVFSLAIIMQEVVCRSAPYAMLELPEVVQRVRSLDQPVECILLMKQCWAEQPELRPSMDHTFDLFKN"
         }
     },
     {
@@ -12396,7 +12396,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "----------SLKIDDDKRRDYDKKRVILKDLKHNDNFTEKQKIELNKLLQIDYYNLTKFYGTVKLDTMIFGVIEYCERGSLREVLNDDFMDWEFKISVLYDIAKGMSYLHSSKTVHGRLKSTNCVVDSRMVVKITDFGCNSIL--------PPKKDLWTAPEHLRQANISQKGDVYSYGIIAQEIILRKETFYTLSCREKIFRVSNDEEELEVYLLVKNCWEEDPEKRPDFKKIETTLAK"
+            "sequence": "SLKIDDDKRRDYDKKRVILKDLKHNDNFTEKQKIELNKLLQIDYYNLTKFYGTVKLDTMIFGVIEYCERGSLREVLNDDFMDWEFKISVLYDIAKGMSYLHSSKTVHGRLKSTNCVVDSRMVVKITDFGCNSILPPKKDLWTAPEHLRQANISQKGDVYSYGIIAQEIILRKETFYTLSCREKIFRVSNDEEELEVYLLVKNCWEEDPEKRPDFKKIETTLAK"
         }
     },
     {
@@ -12408,7 +12408,7 @@
                 "alignment_pos": 82,
                 "from": "ALA",
                 "to": "VAL",
-                "matched": "T-PLGIYLK",
+                "matched": "IYLKGGLKE",
                 "location": "kinase_domain"
             },
             {
@@ -12432,7 +12432,7 @@
                 "alignment_pos": 39,
                 "from": "GLN",
                 "to": "TER",
-                "matched": "--KATQVAK",
+                "matched": "ATQVAKAAF",
                 "location": "kinase_domain"
             },
             {
@@ -12467,7 +12467,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "FELIPEPPEPGPWALHRGRKKATGSPVSIVYDV---KATQVAKAAFKRFKTLRHPNILAYIDGLE-TKCLHVVTEAVT-PLGIYLKGG--LKELEISWGLHQIVKALSFLVNCSLIHNNVCMAAVFVDRAGEWKLGGLDYMYPP-----------ELEYDPPELAR---EKWSADMWRLGCLIWEVFNGPPRA-----AN-PGKI-----PKTLVPHYCELVGANPKVRPNPARFLQNCRA"
+            "sequence": "FELIPEPPEPGPWALHRGRKKATGSPVSIVYDVKATQVAKAAFKRFKTLRHPNILAYIDGLETKCLHVVTEAVTPLGIYLKGGLKELEISWGLHQIVKALSFLVNCSLIHNNVCMAAVFVDRAGEWKLGGLDYMYPPELEYDPPELAREKWSADMWRLGCLIWEVFNGPPRAANPGKIPKTLVPHYCELVGANPKVRPNPARFLQNCRA"
         }
     },
     {
@@ -12506,7 +12506,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "FDVGRHIASGLAWKIFNGTKKSTKQEVAVKY-Q---KKIDSLKRGVQQLTRLRHPRLLTVQHPLEESDCLAFCTEPVF-ASLANVLLPDYLYDVETKYGLLQVSEGLSFLHSVKMVHGNITPENIILNKSGAWKIMGFDFCVPP-----------NPEYLAPEYIS---CETASDMYSLGTVMYAVFNKGPIF-----EFLLTNI-----PEEVREHVKLLLNVTPTVRPDADQMTKIPFF"
+            "sequence": "FDVGRHIASGLAWKIFNGTKKSTKQEVAVKYQKKIDSLKRGVQQLTRLRHPRLLTVQHPLEESDCLAFCTEPVFASLANVLLPDYLYDVETKYGLLQVSEGLSFLHSVKMVHGNITPENIILNKSGAWKIMGFDFCVPPNPEYLAPEYISCETASDMYSLGTVMYAVFNKGPIFEFLLTNIPEEVREHVKLLLNVTPTVRPDADQMTKIPFF"
         }
     },
     {
@@ -12545,7 +12545,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "YQVLYQLNPGALGVNLVVEEMETKVKHVIKQVEDQ------ALEELMPLK-LRHAHISVYQELFIS--SLCLVME-FE-LSFQEVIEDAKIDSEWMQNVLGQVLDALEYLHHLDIIHRNLKPSNIILISSDHCKLQDLSSNVLMT---DWEK-----SWMAPEALNF-SFSQKSDIWSLGCIILDMTSCS--FTREV--------------ETFRNLLPLMLQIDPSDRITIKDVVHITFL"
+            "sequence": "YQVLYQLNPGALGVNLVVEEMETKVKHVIKQVEDQALEELMPLKLRHAHISVYQELFISSLCLVMEFELSFQEVIEDAKIDSEWMQNVLGQVLDALEYLHHLDIIHRNLKPSNIILISSDHCKLQDLSSNVLMTDWEKSWMAPEALNFSFSQKSDIWSLGCIILDMTSCSFTREVETFRNLLPLMLQIDPSDRITIKDVVHITFL"
         }
     },
     {
@@ -12557,7 +12557,7 @@
                 "alignment_pos": 98,
                 "from": "LEU",
                 "to": "ARG",
-                "matched": "EDRFRICLS",
+                "matched": "SLGRLLHHL",
                 "location": "kinase_domain"
             },
             {
@@ -12565,7 +12565,7 @@
                 "alignment_pos": 60,
                 "from": "TYR",
                 "to": "TER",
-                "matched": "NVLQLYGYC",
+                "matched": "QLYGYCYQD",
                 "location": "kinase_domain"
             }
         ],
@@ -12592,7 +12592,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "VSGAQYMGSGYTKAVYRVRL-PGGAAVALKAVSLRG--VHKLLKEMVLLERLRHPNVLQLYGYCY-QDTLTTITELGP-VEMIQLLQT---SWEDRFRICLSLGRLLHHLAHGSVTLLDFRPRQVLV--DGELKVTDLDDARV-E---EAGIE--FPRFTLPC---------SAQGWCEGMFFFTYL---LPHS---------------APPSLRPLLDSIVNATGELAWGVDETLAQLEK"
+            "sequence": "VSGAQYMGSGYTKAVYRVRLPGGAAVALKAVSLRGVHKLLKEMVLLERLRHPNVLQLYGYCYQDTLTTITELGPVEMIQLLQTSWEDRFRICLSLGRLLHHLAHGSVTLLDFRPRQVLVDGELKVTDLDDARVEEAGIEFPRFTLPCSAQGWCEGMFFFTYLLPHSAPPSLRPLLDSIVNATGELAWGVDETLAQLEK"
         }
     },
     {
@@ -12604,7 +12604,7 @@
                 "alignment_pos": 113,
                 "from": "ARG",
                 "to": "TER",
-                "matched": "YMNKHGIVH",
+                "matched": "ILLDRKGHI",
                 "location": "kinase_domain"
             },
             {
@@ -12647,7 +12647,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "LKDAEM---GAFASALP-HDVSNG--LPLTPIK--------ILGRFQILKTITHPRLCQYVDISRGKHE-RVVAEHC-ERSLEDLLRERPVSCSTVLCIAFEVLQGLQYMNKHGIVHRALSPHNILLDRKGHIKLAKFGLYHMTA---HVD-FIGYPSYLAPEVIK--PSGPKSDVWSLGIILFELCVGRKLFQS------LKFVK--ELPETVIDLLNKCLTFHPSKRPTPDQLMKDKVF"
+            "sequence": "LKDAEMGAFASALPHDVSNGLPLTPIKILGRFQILKTITHPRLCQYVDISRGKHERVVAEHCERSLEDLLRERPVSCSTVLCIAFEVLQGLQYMNKHGIVHRALSPHNILLDRKGHIKLAKFGLYHMTAHVDFIGYPSYLAPEVIKPSGPKSDVWSLGIILFELCVGRKLFQSLKFVKELPETVIDLLNKCLTFHPSKRPTPDQLMKDKVF"
         }
     },
     {
@@ -12659,7 +12659,7 @@
                 "alignment_pos": 207,
                 "from": "ARG",
                 "to": "TER",
-                "matched": "QE-NTPVVT",
+                "matched": "NTPVVTPEA",
                 "location": "kinase_domain"
             },
             {
@@ -12702,7 +12702,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "YLLLHLLGRGGFSEVYKAFDLTEQRYVAVKILNKEKKNHKHACREYRIHKELDHPRIVKLYDYFST-DSFCTVLEYCEGNDLDFYLKQHLMSEKEARSIIMQIVNALKYLNEKPIIHYDLKPGNILLVNCGEIKITDFGLSKIMDGMELTSQGAGTYWYLPPECF-VPKISNKVDVWSVGVIFYQCLYGRKPFGHNQSQDILQE-NTPVVTPEAKAFIRRCLAYRKEDRIDVQQLACDPYL"
+            "sequence": "YLLLHLLGRGGFSEVYKAFDLTEQRYVAVKILNKEKKNHKHACREYRIHKELDHPRIVKLYDYFSTDSFCTVLEYCEGNDLDFYLKQHLMSEKEARSIIMQIVNALKYLNEKPIIHYDLKPGNILLVNCGEIKITDFGLSKIMDGMELTSQGAGTYWYLPPECFVPKISNKVDVWSVGVIFYQCLYGRKPFGHNQSQDILQENTPVVTPEAKAFIRRCLAYRKEDRIDVQQLACDPYL"
         }
     },
     {
@@ -12741,7 +12741,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "FEYDKSLGSTRFFKVARAKH-REG-LVVVKVFAPTK---QELEELKIRLNSA--QNCLPFQKASESEKAAMLFRQYVR-DNLYDRI-SF-LNNIEKRWIAFQILTAVDQAHKSGVRHGDIKTENVMVTSWNWVLLTDFASFT------YDNT-SRRRCYIAPERFG-MRLKRAMDIFSAGCVIAELFT-EVPLS----QHIE--------DHSIRELVTQMIHREPDKRLEAEDYLKQQRG"
+            "sequence": "FEYDKSLGSTRFFKVARAKHREGLVVVKVFAPTKQELEELKIRLNSAQNCLPFQKASESEKAAMLFRQYVRDNLYDRISFLNNIEKRWIAFQILTAVDQAHKSGVRHGDIKTENVMVTSWNWVLLTDFASFTYDNTSRRRCYIAPERFGMRLKRAMDIFSAGCVIAELFTEVPLSQHIEDHSIRELVTQMIHREPDKRLEAEDYLKQQRG"
         }
     },
     {
@@ -12761,7 +12761,7 @@
                 "alignment_pos": 157,
                 "from": "ARG",
                 "to": "TRP",
-                "matched": "-EGDSRFLA",
+                "matched": "QHLPKADIF",
                 "location": "kinase_domain"
             },
             {
@@ -12796,7 +12796,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "FLEVEKIGVGEFGTVYKCIKRLDGCVYAIKRS------MNSALHEVYAHAVLHHPHVVRYYSSWAEDDHMIIQNEYCNGGSLQAAISESGFEEPKLKDILLQISLGLNYIHNSSMVHLDIKPSNIFIIEEVMYKIGDLGHATSI------NE-EGDSRFLANEIL---QHLPKADIFALGLTIAVAAGAELP-TKGNFPDVPE------LSESFSSLLKNMIQPDAEQRPSAAALARNTVL"
+            "sequence": "FLEVEKIGVGEFGTVYKCIKRLDGCVYAIKRSMNSALHEVYAHAVLHHPHVVRYYSSWAEDDHMIIQNEYCNGGSLQAAISESGFEEPKLKDILLQISLGLNYIHNSSMVHLDIKPSNIFIIEEVMYKIGDLGHATSINEEGDSRFLANEILQHLPKADIFALGLTIAVAAGAELPTKGNFPDVPELSESFSSLLKNMIQPDAEQRPSAAALARNTVL"
         }
     },
     {
@@ -12816,7 +12816,7 @@
                 "alignment_pos": 143,
                 "from": "LEU",
                 "to": "SER",
-                "matched": "GLATLMR-T",
+                "matched": "GLATLMRTS",
                 "location": "kinase_domain"
             },
             {
@@ -12851,7 +12851,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "LKFDIELGRGAFKTVYKGLDTETWVEVAWCELQDRKAEQQRFKEEAEMLKGLQHPNIVRFYDSWESKGKIVLVTELMTSGTLKTYLKRFVMKPKVLRSWCRQILKGLQFLHTRTIIHRDLKCDNIFITGPGSVKIGDLGLATLMR-TSFAKSVIGTPEFMAPEMYE-EHYDESVDVYAFGMCMLEMATSEYPYSECQNAQIYRKVTSKVTDPEVKEIIEGCI-RNKSERLSIRDLLNHAFF"
+            "sequence": "LKFDIELGRGAFKTVYKGLDTETWVEVAWCELQDRKAEQQRFKEEAEMLKGLQHPNIVRFYDSWESKGKIVLVTELMTSGTLKTYLKRFVMKPKVLRSWCRQILKGLQFLHTRTIIHRDLKCDNIFITGPGSVKIGDLGLATLMRTSFAKSVIGTPEFMAPEMYEEHYDESVDVYAFGMCMLEMATSEYPYSECQNAQIYRKVTSKVTDPEVKEIIEGCIRNKSERLSIRDLLNHAFF"
         }
     },
     {
@@ -12914,7 +12914,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "LKFDIEIGRGSFKTVYRGLDTDTTVEVAWCELQTRKAERQRFSEEVEMLKGLQHPNIVRFYDSWKSRGQIVLVTELMTSGTLKTYLRRFEMKPRVLQRWSRQILRGLHFLHSRVILHRDLKCDNVFITGPGSVKIGDLGLATLKR-ASFAKSVIGTPEFMAPEMYE-EKYDEAVDVYAFGMCMLEMATSEYPYSECQNAQIYRKVTSKVKIPEVKEIIEGCI-RDKNERFTIQDLLAHAFF"
+            "sequence": "LKFDIEIGRGSFKTVYRGLDTDTTVEVAWCELQTRKAERQRFSEEVEMLKGLQHPNIVRFYDSWKSRGQIVLVTELMTSGTLKTYLRRFEMKPRVLQRWSRQILRGLHFLHSRVILHRDLKCDNVFITGPGSVKIGDLGLATLKRASFAKSVIGTPEFMAPEMYEEKYDEAVDVYAFGMCMLEMATSEYPYSECQNAQIYRKVTSKVKIPEVKEIIEGCIRDKNERFTIQDLLAHAFF"
         }
     },
     {
@@ -12985,7 +12985,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "LKFDIEIGRGSFKTVYKGLDTETTVEVAWCELQDRKSERQRFKEEAEMLKGLQHPNIVRFYDSWESKGKIVLVTELMTSGTLKTYLKRFVMKIKVLRSWCRQILKGLQFLHTRTIIHRDLKCDNIFITGPGSVKIGDLGLATLKR-ASFAKSVIGTPEFMAPEMYE-EKYDESVDVYAFGMCMLEMATSEYPYSECQNAQIYRRVTSKVAIPEVKEIIEGCI-RNKDERYSIKDLLNHAFF"
+            "sequence": "LKFDIEIGRGSFKTVYKGLDTETTVEVAWCELQDRKSERQRFKEEAEMLKGLQHPNIVRFYDSWESKGKIVLVTELMTSGTLKTYLKRFVMKIKVLRSWCRQILKGLQFLHTRTIIHRDLKCDNIFITGPGSVKIGDLGLATLKRASFAKSVIGTPEFMAPEMYEEKYDESVDVYAFGMCMLEMATSEYPYSECQNAQIYRRVTSKVAIPEVKEIIEGCIRNKDERYSIKDLLNHAFF"
         }
     },
     {
@@ -12997,7 +12997,7 @@
                 "alignment_pos": 192,
                 "from": "ARG",
                 "to": "LEU",
-                "matched": "LYVLEKAFL",
+                "matched": "LDEVRLRGR",
                 "location": "kinase_domain"
             },
             {
@@ -13005,7 +13005,7 @@
                 "alignment_pos": 7,
                 "from": "GLY",
                 "to": "ASP",
-                "matched": "-LELVKQGA",
+                "matched": "LVKQGAEAR",
                 "location": "kinase_domain"
             },
             {
@@ -13013,7 +13013,7 @@
                 "alignment_pos": 40,
                 "from": "THR",
                 "to": "ARG",
-                "matched": "LEARRRTVQ",
+                "matched": "RTVQEARAL",
                 "location": "kinase_domain"
             }
         ],
@@ -13040,7 +13040,7 @@
             }
         ],
         "kinase_domain_alignment": {
-            "sequence": "---LELVKQGAEARVFRGR--FQGRAAVIKYRHPALEARRRTVQEARALLRCRRAGISAPVVFFVDYASNCLYMEEIEGVTVRDYIQSEEKTPQGLSNLAKTIGQVLARMHDEDLIHGDLTTSNMLLKPQLNIVLIDFGLS----------------------------------FISALPEDKGVDLYVLEKAFLSTHPNTETVFEAFLKSYSTSSKKARPVLKKLDEVRLRGRKRSMVG"
+            "sequence": "LELVKQGAEARVFRGRFQGRAAVIKYRHPALEARRRTVQEARALLRCRRAGISAPVVFFVDYASNCLYMEEIEGVTVRDYIQSEEKTPQGLSNLAKTIGQVLARMHDEDLIHGDLTTSNMLLKPQLNIVLIDFGLSFISALPEDKGVDLYVLEKAFLSTHPNTETVFEAFLKSYSTSSKKARPVLKKLDEVRLRGRKRSMVG"
         }
     }
 ]
