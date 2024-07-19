@@ -1,6 +1,6 @@
 import json
 
-def check_substitution(data, uniprot_id, from_aa, to_aa, fullseq_pos, alignment_pos, results):
+def check_substitution(data, results, uniprot_id, from_aa, to_aa, fullseq_pos, alignment_pos):
     found = False
     for entry in data:
         if entry["uniprot_id"] == uniprot_id:
@@ -26,22 +26,22 @@ def test_output_json(output_file_path):
         data = json.load(json_file)
 
     # Test cases
-    check_substitution(data, "Q96GX5", "GLU", "ASP", 167, 128, results)
-    check_substitution(data, "O14578", "ASP", "VAL", 230, 128, results)
-    check_substitution(data, "P22694", "GLY", "ARG", 235, 187, results)
-    check_substitution(data, "P22694", "HIS", "ASN", 88, 41, results)
-    check_substitution(data, "O14757", "ARG", "GLN", 379, 379, results)
-    check_substitution(data, "P57059", "GLY", "SER", 636, 636, results)
-    check_substitution(data, "Q13555", "THR", "MET", 240, 209, results)
-    check_substitution(data, "O14936", "ARG", "LEU", 28, 17, results)
-    check_substitution(data, "O14936", "ASP", "GLY", 710, 710, results)
-    check_substitution(data, "P48730", "HIS", "ARG", 46, 38, results)
-    check_substitution(data, "P21802", "ALA", "THR", 628, 180, results)
-    check_substitution(data, "P21802", "GLU", "ALA", 565, 74, results)
-    check_substitution(data, "P22607", "ARG", "HIS", 621, 122, results)
-    check_substitution(data, "P22607", "ASN", "SER", 540, 59, results)
-    check_substitution(data, "P22607", "ASP", "ASN", 628, 129, results)
-    check_substitution(data, "P22607", "GLN", "ARG", 485, 14, results)
+    check_substitution(data, results, uniprot_id="Q96GX5", from_aa= "GLU", to_aa= "ASP", fullseq_pos= 167, alignment_pos= 128)
+    check_substitution(data, results, uniprot_id="O14578", from_aa= "ASP", to_aa= "VAL", fullseq_pos= 230, alignment_pos= 128)
+    check_substitution(data, results, uniprot_id="P22694", from_aa= "GLY", to_aa= "ARG", fullseq_pos= 235, alignment_pos= 187)
+    check_substitution(data, results, uniprot_id="P22694", from_aa= "HIS", to_aa= "ASN", fullseq_pos= 88,  alignment_pos=41)
+    check_substitution(data, results, uniprot_id="O14757", from_aa= "ARG", to_aa= "GLN", fullseq_pos= 379, alignment_pos= 379)
+    check_substitution(data, results, uniprot_id="P57059", from_aa= "GLY", to_aa= "SER", fullseq_pos= 636, alignment_pos= 636)
+    check_substitution(data, results, uniprot_id="Q13555", from_aa= "THR", to_aa= "MET", fullseq_pos= 240, alignment_pos= 209)
+    check_substitution(data, results, uniprot_id="O14936", from_aa= "ARG", to_aa= "LEU", fullseq_pos= 28,  alignment_pos=17)
+    check_substitution(data, results, uniprot_id="O14936", from_aa= "ASP", to_aa= "GLY", fullseq_pos= 710, alignment_pos= 710)
+    check_substitution(data, results, uniprot_id="P48730", from_aa= "HIS", to_aa= "ARG", fullseq_pos= 46,  alignment_pos=38)
+    check_substitution(data, results, uniprot_id="P21802", from_aa= "ALA", to_aa= "THR", fullseq_pos= 628, alignment_pos= 180)
+    check_substitution(data, results, uniprot_id="P21802", from_aa= "GLU", to_aa= "ALA", fullseq_pos= 565, alignment_pos= 74)
+    check_substitution(data, results, uniprot_id="P22607", from_aa= "ARG", to_aa= "HIS", fullseq_pos= 621, alignment_pos= 122)
+    check_substitution(data, results, uniprot_id="P22607", from_aa= "ASN", to_aa= "SER", fullseq_pos= 540, alignment_pos= 59)
+    check_substitution(data, results, uniprot_id="P22607", from_aa= "ASP", to_aa= "ASN", fullseq_pos= 628, alignment_pos= 129)
+    check_substitution(data, results, uniprot_id="P22607", from_aa= "GLN", to_aa= "ARG", fullseq_pos= 485, alignment_pos= 14)
 
     return results
 
