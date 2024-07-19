@@ -28,6 +28,20 @@ def test_output_json(output_file_path):
     # Test cases
     check_substitution(data, "Q96GX5", "GLU", "ASP", 167, 128, results)
     check_substitution(data, "O14578", "ASP", "VAL", 230, 128, results)
+    check_substitution(data, "P22694", "GLY", "ARG", 235, 187, results)
+    check_substitution(data, "P22694", "HIS", "ASN", 88, 41, results)
+    check_substitution(data, "O14757", "ARG", "GLN", 379, 379, results)
+    check_substitution(data, "P57059", "GLY", "SER", 636, 636, results)
+    check_substitution(data, "Q13555", "THR", "MET", 240, 209, results)
+    check_substitution(data, "O14936", "ARG", "LEU", 28, 17, results)
+    check_substitution(data, "O14936", "ASP", "GLY", 710, 710, results)
+    check_substitution(data, "P48730", "HIS", "ARG", 46, 38, results)
+    check_substitution(data, "P21802", "ALA", "THR", 628, 180, results)
+    check_substitution(data, "P21802", "GLU", "ALA", 565, 74, results)
+    check_substitution(data, "P22607", "ARG", "HIS", 621, 122, results)
+    check_substitution(data, "P22607", "ASN", "SER", 540, 59, results)
+    check_substitution(data, "P22607", "ASP", "ASN", 628, 129, results)
+    check_substitution(data, "P22607", "GLN", "ARG", 485, 14, results)
 
     return results
 
