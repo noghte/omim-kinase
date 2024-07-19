@@ -32,7 +32,8 @@ def parse_fasta_file(fasta_file_path):
                             flanking_positions.append({"start": start_pos, "end": pos-1})
                             if kinase_start == -1:
                                 kinase_start = pos
-                        elif char != '-':
+                        # elif char != '-':
+                        else:
                             if in_flanking:
                                 pos += 1
                             else:
@@ -95,7 +96,7 @@ def parse_subs_file(subs_file_path, uniprot_info):
 
                         # Calculate alignment_pos
                         sequence = uniprot_info[uniprot_id]["sequence"]
-                        upper_count = sum(1 for c in sequence[:full_sequence_pos] if c.isupper() or c == '(' or c == ')' or c == '-')
+                        upper_count = sum(1 for c in sequence[:full_sequence_pos] if c.isupper() or c == '(' or c == ')')
                         alignment_pos = upper_count - preceding_flanking_length
 
                     # Create the matched property
