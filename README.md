@@ -13,7 +13,9 @@
 
 |    It iterates over rows in `omim_ids.csv` and gets the allelic variants for each of them (e.g., if omim id is 131550, it will download `https://omim.org/allelicVariants/131550?format=tsv`). The output will be saved in `data/allelic_variants`
 
-**C)** Run `merge_tsvs.py` script to merge the allelic variants for each of the omim ids. The output will be in `data/merged_allelic_variants.tsv`   
+**C)** Run `get_uniprot_ids.py` script to add a column `uniprot_id` to the `omim_ids.csv`. 
+
+**D)** Run `merge_tsvs.py` script to merge the allelic variants for each of the omim ids. The output will be in `data/merged_allelic_variants.tsv`   
 
 ## Create JSON for analysis
 
