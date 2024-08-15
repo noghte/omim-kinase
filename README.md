@@ -17,6 +17,18 @@
 
 **D)** Run `merge_tsvs.py` script to merge the allelic variants for each of the omim ids. The output will be in `data/merged_allelic_variants.tsv`   
 
+**E)** With some Unix commands the file `subkinsnps_uid_subs_split.txt` has been created.
+
 ## Create JSON for analysis
 
 Run `kinsnps_allinfo.py` script. Based on the files in `kinsnps` directory, it will produce `kinsnps_allinfo.json`.
+
+---
+
+## Other files
+
+- `extract_sequences_from_uniprot.py`: Extract sequences of different isoforms from Uniprot.
+  - Input:'./kinsnps/subkinsnps_uid_subs_split.txt'
+  - Output: './kinsnps/subkinsnps.fasta' that needs to be aligned and the an `mma` file will be created.
+
+- Then the `mma` file and the `subkinsnps_uid_subs_split.txt` should be used to create the `kinsnps_allinfo.json` file.
