@@ -11,7 +11,7 @@ def parse_fasta_file(fasta_file_path):
             if line.startswith('>'):
                 parts = line.split('|')
                 if len(parts) > 1:
-                    current_id = parts[1]
+                    current_id = parts[0][1:] #parts[1]
                     sequence = next(file).strip()
                     sequence = sequence[sequence.index("{")+1:sequence.index("}")]
                     flanking_positions = []
