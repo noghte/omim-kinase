@@ -83,7 +83,7 @@ def parse_subs_file(subs_file_path, uniprot_info):
                     for flanking_region in uniprot_info[uniprot_id]["flanking_positions"]:
                         if flanking_region["start"] <= full_sequence_pos <= flanking_region["end"]:
                             location = "flanking_region"
-                            alignment_pos = full_sequence_pos
+                            alignment_pos = "Outside of the alignment"# full_sequence_pos
                             break
 
                     if location == "kinase_domain":
@@ -93,31 +93,36 @@ def parse_subs_file(subs_file_path, uniprot_info):
                             for region in uniprot_info[uniprot_id]["flanking_positions"]
                             if region["end"] < full_sequence_pos
                         )
-
-                        # Calculate alignment_pos
                         sequence = uniprot_info[uniprot_id]["sequence"]
-                        upper_count = sum(1 for c in sequence[:full_sequence_pos] if c.isupper() or c == '(' or c == ')' or c == '-')
-                        alignment_pos = upper_count - preceding_flanking_length
+                        deletions_count = sum(1 for c in sequence[:full_sequence_pos] if c == '-')
+                        adjusted_full_sequence_pos = full_sequence_pos + deletions_count + 2
+                        # Calculate alignment_pos
+                        #upper_count = sum(1 for c in sequence[:full_sequence_pos] if c.isupper() or c == '(' or c == ')' or c == '-')
+                        letter_count = sum(1 for c in sequence[:adjusted_full_sequence_pos] if c != '(' and c != ')' and c != '-')
+                        lower_case_count = sum(1 for c in sequence[:adjusted_full_sequence_pos] if c.islower())
+
+                        # count the number of lowercase letters and subtract alignment_pos = upper_count - new_count
+                        alignment_pos = letter_count - preceding_flanking_length - lower_case_count + deletions_count
 
                     # Create the matched property
-                    if location == "flanking_region":
-                        sequence = uniprot_info[uniprot_id]["sequence"]
-                        flanking_sequences = ''.join(c for c in sequence if c.isupper() or c == '(' or c == ')')
-                        matched_start = max(0, alignment_pos - 1 - n)
-                        matched_end = min(len(flanking_sequences), alignment_pos - 1 + n + 1)
-                        matched_seq = flanking_sequences[matched_start:matched_end]
-                    else:
-                        cleaned_kinase_seq = uniprot_info[uniprot_id]["kinase_domain_alignment"]["sequence"]
-                        matched_start = max(0, alignment_pos - 1 - n)
-                        matched_end = min(len(cleaned_kinase_seq), alignment_pos - 1 + n + 1)
-                        matched_seq = cleaned_kinase_seq[matched_start:matched_end]
+                    # if location == "flanking_region":
+                    #     sequence = uniprot_info[uniprot_id]["sequence"]
+                        # flanking_sequences = ''.join(c for c in sequence if c.isupper() or c == '(' or c == ')')
+                        # matched_start = max(0, alignment_pos - 1 - n)
+                        # matched_end = min(len(flanking_sequences), alignment_pos - 1 + n + 1)
+                        # matched_seq = flanking_sequences[matched_start:matched_end]
+                    # else:
+                        # cleaned_kinase_seq = uniprot_info[uniprot_id]["kinase_domain_alignment"]["sequence"]
+                        # matched_start = max(0, alignment_pos - 1 - n)
+                        # matched_end = min(len(cleaned_kinase_seq), alignment_pos - 1 + n + 1)
+                        # matched_seq = cleaned_kinase_seq[matched_start:matched_end]
 
                     uniprot_info[uniprot_id]["substitutions"].append({
                         "full_sequence_pos": full_sequence_pos,
                         "alignment_pos": alignment_pos,
                         "from": from_aa,
                         "to": to_aa,
-                        "matched": matched_seq,
+                        # "matched": matched_seq,
                         "location": location
                     })
     return uniprot_info
