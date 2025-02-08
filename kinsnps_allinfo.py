@@ -78,51 +78,45 @@ def parse_subs_file(subs_file_path, uniprot_info):
                 uniprot_id, from_aa, full_sequence_pos, to_aa = parts
                 full_sequence_pos = int(full_sequence_pos)
                 if uniprot_id in uniprot_info:
-                    # Determine location
+                    sequence = uniprot_info[uniprot_id]["sequence"]
+                    
+                    # Step 1: Find marker position (counting only letters, ignoring '(', ')', '-')
+                    letter_count = 0
+                    marker_pos = -1
+                    for i, c in enumerate(sequence):
+                        if c not in '( ) -':
+                            letter_count += 1
+                        if letter_count == full_sequence_pos:
+                            marker_pos = i  # Save the position where we stop
+                            break
+                    
+                    # Step 2: Count only uppercase letters and dashes to determine alignment_pos
+                    alignment_pos = 0
+                    inside_parentheses = False
+                    for i, c in enumerate(sequence):
+                        if c == '(':
+                            inside_parentheses = True
+                        elif c == ')':
+                            inside_parentheses = False
+                        elif not inside_parentheses and (c.isupper() or c == '-'):
+                            alignment_pos += 1
+                        
+                        if i == marker_pos:
+                            break
+                    
+                    # Determine location (kinase_domain or flanking_region)
                     location = "kinase_domain"
                     for flanking_region in uniprot_info[uniprot_id]["flanking_positions"]:
                         if flanking_region["start"] <= full_sequence_pos <= flanking_region["end"]:
                             location = "flanking_region"
-                            alignment_pos = "Outside of the alignment"# full_sequence_pos
+                            alignment_pos = "Outside of the alignment"
                             break
-
-                    if location == "kinase_domain":
-                        # Calculate the length of all preceding flanking regions
-                        preceding_flanking_length = sum(
-                            (region["end"] - region["start"] + 1) 
-                            for region in uniprot_info[uniprot_id]["flanking_positions"]
-                            if region["end"] < full_sequence_pos
-                        )
-                        sequence = uniprot_info[uniprot_id]["sequence"]
-                        deletions_count = sum(1 for c in sequence[:full_sequence_pos] if c == '-')
-                        adjusted_full_sequence_pos = full_sequence_pos + deletions_count + 2
-                        # Calculate alignment_pos
-                        #upper_count = sum(1 for c in sequence[:full_sequence_pos] if c.isupper() or c == '(' or c == ')' or c == '-')
-                        letter_count = sum(1 for c in sequence[:adjusted_full_sequence_pos] if c != '(' and c != ')' and c != '-')
-                        lower_case_count = sum(1 for c in sequence[:adjusted_full_sequence_pos] if c.islower())
-
-                        # count the number of lowercase letters and subtract alignment_pos = upper_count - new_count
-                        alignment_pos = letter_count - preceding_flanking_length - lower_case_count + deletions_count
-
-                    # Create the matched property
-                    # if location == "flanking_region":
-                    #     sequence = uniprot_info[uniprot_id]["sequence"]
-                        # flanking_sequences = ''.join(c for c in sequence if c.isupper() or c == '(' or c == ')')
-                        # matched_start = max(0, alignment_pos - 1 - n)
-                        # matched_end = min(len(flanking_sequences), alignment_pos - 1 + n + 1)
-                        # matched_seq = flanking_sequences[matched_start:matched_end]
-                    # else:
-                        # cleaned_kinase_seq = uniprot_info[uniprot_id]["kinase_domain_alignment"]["sequence"]
-                        # matched_start = max(0, alignment_pos - 1 - n)
-                        # matched_end = min(len(cleaned_kinase_seq), alignment_pos - 1 + n + 1)
-                        # matched_seq = cleaned_kinase_seq[matched_start:matched_end]
-
+                    
                     uniprot_info[uniprot_id]["substitutions"].append({
                         "full_sequence_pos": full_sequence_pos,
                         "alignment_pos": alignment_pos,
                         "from": from_aa,
                         "to": to_aa,
-                        # "matched": matched_seq,
                         "location": location
                     })
     return uniprot_info
