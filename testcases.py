@@ -26,23 +26,15 @@ def test_output_json(output_file_path):
         data = json.load(json_file)
 
     # Test cases
-    check_substitution(data, results, uniprot_id="Q96GX5", from_aa= "GLU", to_aa= "ASP", fullseq_pos= 167, alignment_pos= 128)
-    check_substitution(data, results, uniprot_id="O14578", from_aa= "ASP", to_aa= "VAL", fullseq_pos= 230, alignment_pos= 128)
-    check_substitution(data, results, uniprot_id="P22694", from_aa= "GLY", to_aa= "ARG", fullseq_pos= 235, alignment_pos= 187)
-    check_substitution(data, results, uniprot_id="P22694", from_aa= "HIS", to_aa= "ASN", fullseq_pos= 88,  alignment_pos=41)
-    check_substitution(data, results, uniprot_id="O14757", from_aa= "ARG", to_aa= "GLN", fullseq_pos= 379, alignment_pos= 379)
-    check_substitution(data, results, uniprot_id="P57059", from_aa= "GLY", to_aa= "SER", fullseq_pos= 636, alignment_pos= 636)
-    check_substitution(data, results, uniprot_id="Q13555", from_aa= "THR", to_aa= "MET", fullseq_pos= 240, alignment_pos= 209)
-    check_substitution(data, results, uniprot_id="O14936", from_aa= "ARG", to_aa= "LEU", fullseq_pos= 28,  alignment_pos=17)
-    check_substitution(data, results, uniprot_id="O14936", from_aa= "ASP", to_aa= "GLY", fullseq_pos= 710, alignment_pos= 710)
-    check_substitution(data, results, uniprot_id="P48730", from_aa= "HIS", to_aa= "ARG", fullseq_pos= 46,  alignment_pos=38)
-    check_substitution(data, results, uniprot_id="P21802", from_aa= "ALA", to_aa= "THR", fullseq_pos= 628, alignment_pos= 180)
-    check_substitution(data, results, uniprot_id="P21802", from_aa= "GLU", to_aa= "ALA", fullseq_pos= 565, alignment_pos= 74)
-    check_substitution(data, results, uniprot_id="P22607", from_aa= "ARG", to_aa= "HIS", fullseq_pos= 621, alignment_pos= 122)
-    check_substitution(data, results, uniprot_id="P22607", from_aa= "ASN", to_aa= "SER", fullseq_pos= 540, alignment_pos= 59)
-    check_substitution(data, results, uniprot_id="P22607", from_aa= "ASP", to_aa= "ASN", fullseq_pos= 628, alignment_pos= 129)
-    check_substitution(data, results, uniprot_id="P22607", from_aa= "GLN", to_aa= "ARG", fullseq_pos= 485, alignment_pos= 14)
-
+    check_substitution(data, results, uniprot_id="Q16644", from_aa= "L", to_aa= "P", fullseq_pos= 173, alignment_pos= 126)
+    check_substitution(data, results, uniprot_id="Q8IW41", from_aa= "G", to_aa= "V", fullseq_pos= 107, alignment_pos= 79)
+    check_substitution(data, results, uniprot_id="P68400", from_aa= "R", to_aa= "Q", fullseq_pos= 47, alignment_pos= 9)
+    check_substitution(data, results, uniprot_id="P68400", from_aa= "D", to_aa= "H", fullseq_pos= 156, alignment_pos= 119)    
+    check_substitution(data, results, uniprot_id="P68400", from_aa= "K", to_aa= "R", fullseq_pos= 198, alignment_pos= 160)    
+    check_substitution(data, results, uniprot_id="P43405", from_aa= "S", to_aa= "Y", fullseq_pos= 550, alignment_pos= 171)
+    check_substitution(data, results, uniprot_id="P10721", from_aa= "R", to_aa= "G", fullseq_pos= 796 , alignment_pos= 123)    
+    check_substitution(data, results, uniprot_id="P10721", from_aa= "E", to_aa= "K", fullseq_pos= 839 , alignment_pos= 163)    
+            
     return results
 
 if __name__ == "__main__":

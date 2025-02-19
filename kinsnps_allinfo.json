@@ -5,7 +5,7 @@
         "substitutions": [
             {
                 "full_sequence_pos": 480,
-                "alignment_pos": 117,
+                "alignment_pos": 119,
                 "from": "D",
                 "to": "Y",
                 "location": "kinase_domain"
@@ -54,7 +54,7 @@
             },
             {
                 "full_sequence_pos": 361,
-                "alignment_pos": 9,
+                "alignment_pos": 11,
                 "from": "S",
                 "to": "G",
                 "location": "kinase_domain"
@@ -99,14 +99,14 @@
             },
             {
                 "full_sequence_pos": 462,
-                "alignment_pos": 106,
+                "alignment_pos": 108,
                 "from": "Q",
                 "to": "*",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 510,
-                "alignment_pos": 153,
+                "alignment_pos": 155,
                 "from": "G",
                 "to": "S",
                 "location": "kinase_domain"
@@ -144,7 +144,7 @@
         "substitutions": [
             {
                 "full_sequence_pos": 374,
-                "alignment_pos": 18,
+                "alignment_pos": 20,
                 "from": "V",
                 "to": "I",
                 "location": "kinase_domain"
@@ -182,7 +182,7 @@
         "substitutions": [
             {
                 "full_sequence_pos": 599,
-                "alignment_pos": 183,
+                "alignment_pos": 185,
                 "from": "E",
                 "to": "K",
                 "location": "kinase_domain"
@@ -220,7 +220,7 @@
         "substitutions": [
             {
                 "full_sequence_pos": 114,
-                "alignment_pos": 38,
+                "alignment_pos": 40,
                 "from": "R",
                 "to": "W",
                 "location": "kinase_domain"
@@ -248,42 +248,42 @@
             },
             {
                 "full_sequence_pos": 75,
-                "alignment_pos": 6,
+                "alignment_pos": 8,
                 "from": "G",
                 "to": "V",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 189,
-                "alignment_pos": 112,
+                "alignment_pos": 115,
                 "from": "I",
                 "to": "K",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 268,
-                "alignment_pos": 190,
+                "alignment_pos": 193,
                 "from": "F",
                 "to": "S",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 227,
-                "alignment_pos": 149,
+                "alignment_pos": 152,
                 "from": "S",
                 "to": "A",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 115,
-                "alignment_pos": 39,
+                "alignment_pos": 42,
                 "from": "T",
                 "to": "S",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 82,
-                "alignment_pos": 13,
+                "alignment_pos": 15,
                 "from": "V",
                 "to": "F",
                 "location": "kinase_domain"
@@ -366,7 +366,7 @@
         "substitutions": [
             {
                 "full_sequence_pos": 274,
-                "alignment_pos": 116,
+                "alignment_pos": 118,
                 "from": "R",
                 "to": "H",
                 "location": "kinase_domain"
@@ -411,7 +411,7 @@
             },
             {
                 "full_sequence_pos": 229,
-                "alignment_pos": 76,
+                "alignment_pos": 78,
                 "from": "N",
                 "to": "S",
                 "location": "kinase_domain"
@@ -456,21 +456,21 @@
         "substitutions": [
             {
                 "full_sequence_pos": 230,
-                "alignment_pos": 126,
+                "alignment_pos": 128,
                 "from": "D",
                 "to": "V",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 106,
-                "alignment_pos": 8,
+                "alignment_pos": 10,
                 "from": "G",
                 "to": "V",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 126,
-                "alignment_pos": 28,
+                "alignment_pos": 30,
                 "from": "K",
                 "to": "Q",
                 "location": "kinase_domain"
@@ -536,14 +536,14 @@
             },
             {
                 "full_sequence_pos": 175,
-                "alignment_pos": 92,
+                "alignment_pos": 94,
                 "from": "D",
                 "to": "Y",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 293,
-                "alignment_pos": 203,
+                "alignment_pos": 205,
                 "from": "I",
                 "to": "M",
                 "location": "kinase_domain"
@@ -581,14 +581,14 @@
         "substitutions": [
             {
                 "full_sequence_pos": 391,
-                "alignment_pos": 190,
+                "alignment_pos": 192,
                 "from": "P",
                 "to": "H",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 380,
-                "alignment_pos": 179,
+                "alignment_pos": 181,
                 "from": "V",
                 "to": "D",
                 "location": "kinase_domain"
@@ -626,7 +626,7 @@
         "substitutions": [
             {
                 "full_sequence_pos": 167,
-                "alignment_pos": 126,
+                "alignment_pos": 130,
                 "from": "E",
                 "to": "D",
                 "location": "kinase_domain"
@@ -671,21 +671,21 @@
             },
             {
                 "full_sequence_pos": 515,
-                "alignment_pos": 142,
+                "alignment_pos": 144,
                 "from": "G",
                 "to": "S",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 516,
-                "alignment_pos": 143,
+                "alignment_pos": 145,
                 "from": "L",
                 "to": "P",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 551,
-                "alignment_pos": 162,
+                "alignment_pos": 164,
                 "from": "V",
                 "to": "L",
                 "location": "kinase_domain"
@@ -723,7 +723,7 @@
         "substitutions": [
             {
                 "full_sequence_pos": 517,
-                "alignment_pos": 137,
+                "alignment_pos": 139,
                 "from": "G",
                 "to": "S",
                 "location": "kinase_domain"
@@ -761,14 +761,14 @@
         "substitutions": [
             {
                 "full_sequence_pos": 137,
-                "alignment_pos": 88,
+                "alignment_pos": 89,
                 "from": "G",
                 "to": "R",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 206,
-                "alignment_pos": 156,
+                "alignment_pos": 160,
                 "from": "L",
                 "to": "R",
                 "location": "kinase_domain"
@@ -806,7 +806,7 @@
         "substitutions": [
             {
                 "full_sequence_pos": 74,
-                "alignment_pos": 29,
+                "alignment_pos": 31,
                 "from": "I",
                 "to": "M",
                 "location": "kinase_domain"
@@ -844,28 +844,28 @@
         "substitutions": [
             {
                 "full_sequence_pos": 235,
-                "alignment_pos": 185,
+                "alignment_pos": 189,
                 "from": "G",
                 "to": "R",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 88,
-                "alignment_pos": 39,
+                "alignment_pos": 41,
                 "from": "H",
                 "to": "R",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 88,
-                "alignment_pos": 39,
+                "alignment_pos": 41,
                 "from": "H",
                 "to": "N",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 54,
-                "alignment_pos": 9,
+                "alignment_pos": 11,
                 "from": "S",
                 "to": "L",
                 "location": "kinase_domain"
@@ -903,7 +903,7 @@
         "substitutions": [
             {
                 "full_sequence_pos": 569,
-                "alignment_pos": 109,
+                "alignment_pos": 112,
                 "from": "R",
                 "to": "*",
                 "location": "kinase_domain"
@@ -1135,7 +1135,7 @@
         "substitutions": [
             {
                 "full_sequence_pos": 173,
-                "alignment_pos": 119,
+                "alignment_pos": 126,
                 "from": "L",
                 "to": "P",
                 "location": "kinase_domain"
@@ -1187,7 +1187,7 @@
             },
             {
                 "full_sequence_pos": 107,
-                "alignment_pos": 73,
+                "alignment_pos": 79,
                 "from": "G",
                 "to": "V",
                 "location": "kinase_domain"
@@ -1232,14 +1232,14 @@
             },
             {
                 "full_sequence_pos": 29,
-                "alignment_pos": 14,
+                "alignment_pos": 16,
                 "from": "R",
                 "to": "*",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 110,
-                "alignment_pos": 91,
+                "alignment_pos": 93,
                 "from": "E",
                 "to": "K",
                 "location": "kinase_domain"
@@ -1260,14 +1260,14 @@
             },
             {
                 "full_sequence_pos": 139,
-                "alignment_pos": 120,
+                "alignment_pos": 122,
                 "from": "P",
                 "to": "L",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 213,
-                "alignment_pos": 190,
+                "alignment_pos": 192,
                 "from": "P",
                 "to": "L",
                 "location": "kinase_domain"
@@ -1312,7 +1312,7 @@
             },
             {
                 "full_sequence_pos": 240,
-                "alignment_pos": 207,
+                "alignment_pos": 209,
                 "from": "T",
                 "to": "M",
                 "location": "kinase_domain"
@@ -1350,14 +1350,14 @@
         "substitutions": [
             {
                 "full_sequence_pos": 109,
-                "alignment_pos": 91,
+                "alignment_pos": 93,
                 "from": "E",
                 "to": "D",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 183,
-                "alignment_pos": 161,
+                "alignment_pos": 163,
                 "from": "E",
                 "to": "V",
                 "location": "kinase_domain"
@@ -1378,14 +1378,14 @@
             },
             {
                 "full_sequence_pos": 98,
-                "alignment_pos": 81,
+                "alignment_pos": 83,
                 "from": "F",
                 "to": "S",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 212,
-                "alignment_pos": 190,
+                "alignment_pos": 192,
                 "from": "P",
                 "to": "Q",
                 "location": "kinase_domain"
@@ -1437,21 +1437,21 @@
         "substitutions": [
             {
                 "full_sequence_pos": 106,
-                "alignment_pos": 87,
+                "alignment_pos": 89,
                 "from": "R",
                 "to": "*",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 27,
-                "alignment_pos": 14,
+                "alignment_pos": 16,
                 "from": "R",
                 "to": "*",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 28,
-                "alignment_pos": 15,
+                "alignment_pos": 17,
                 "from": "R",
                 "to": "L",
                 "location": "kinase_domain"
@@ -1479,7 +1479,7 @@
             },
             {
                 "full_sequence_pos": 209,
-                "alignment_pos": 181,
+                "alignment_pos": 183,
                 "from": "L",
                 "to": "P",
                 "location": "kinase_domain"
@@ -1507,7 +1507,7 @@
             },
             {
                 "full_sequence_pos": 268,
-                "alignment_pos": 230,
+                "alignment_pos": 233,
                 "from": "Y",
                 "to": "H",
                 "location": "kinase_domain"
@@ -1552,49 +1552,49 @@
         "substitutions": [
             {
                 "full_sequence_pos": 194,
-                "alignment_pos": 134,
+                "alignment_pos": 137,
                 "from": "D",
                 "to": "Y",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 170,
-                "alignment_pos": 110,
+                "alignment_pos": 113,
                 "from": "E",
                 "to": "*",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 57,
-                "alignment_pos": 7,
+                "alignment_pos": 9,
                 "from": "E",
                 "to": "*",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 135,
-                "alignment_pos": 78,
+                "alignment_pos": 79,
                 "from": "G",
                 "to": "R",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 163,
-                "alignment_pos": 103,
+                "alignment_pos": 106,
                 "from": "G",
                 "to": "D",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 67,
-                "alignment_pos": 17,
+                "alignment_pos": 19,
                 "from": "L",
                 "to": "P",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 84,
-                "alignment_pos": 34,
+                "alignment_pos": 36,
                 "from": "K",
                 "to": "*",
                 "location": "kinase_domain"
@@ -1608,21 +1608,21 @@
             },
             {
                 "full_sequence_pos": 239,
-                "alignment_pos": 174,
+                "alignment_pos": 177,
                 "from": "W",
                 "to": "C",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 246,
-                "alignment_pos": 181,
+                "alignment_pos": 184,
                 "from": "Y",
                 "to": "*",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 253,
-                "alignment_pos": 188,
+                "alignment_pos": 191,
                 "from": "Y",
                 "to": "*",
                 "location": "kinase_domain"
@@ -1636,7 +1636,7 @@
             },
             {
                 "full_sequence_pos": 49,
-                "alignment_pos": 0,
+                "alignment_pos": 1,
                 "from": "Y",
                 "to": "D",
                 "location": "kinase_domain"
@@ -1674,14 +1674,14 @@
         "substitutions": [
             {
                 "full_sequence_pos": 1491,
-                "alignment_pos": 26,
+                "alignment_pos": 28,
                 "from": "A",
                 "to": "S",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 1480,
-                "alignment_pos": 15,
+                "alignment_pos": 17,
                 "from": "R",
                 "to": "*",
                 "location": "kinase_domain"
@@ -1900,35 +1900,35 @@
             },
             {
                 "full_sequence_pos": 44,
-                "alignment_pos": 19,
+                "alignment_pos": 21,
                 "from": "R",
                 "to": "*",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 189,
-                "alignment_pos": 153,
+                "alignment_pos": 155,
                 "from": "G",
                 "to": "E",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 144,
-                "alignment_pos": 108,
+                "alignment_pos": 110,
                 "from": "H",
                 "to": "Y",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 225,
-                "alignment_pos": 183,
+                "alignment_pos": 185,
                 "from": "L",
                 "to": "R",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 106,
-                "alignment_pos": 71,
+                "alignment_pos": 73,
                 "from": "V",
                 "to": "E",
                 "location": "kinase_domain"
@@ -1966,14 +1966,14 @@
         "substitutions": [
             {
                 "full_sequence_pos": 618,
-                "alignment_pos": 34,
+                "alignment_pos": 36,
                 "from": "R",
                 "to": "*",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 592,
-                "alignment_pos": 8,
+                "alignment_pos": 10,
                 "from": "G",
                 "to": "R",
                 "location": "kinase_domain"
@@ -2053,14 +2053,14 @@
             },
             {
                 "full_sequence_pos": 239,
-                "alignment_pos": 18,
+                "alignment_pos": 20,
                 "from": "E",
                 "to": "K",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 239,
-                "alignment_pos": 18,
+                "alignment_pos": 20,
                 "from": "E",
                 "to": "*",
                 "location": "kinase_domain"
@@ -2081,7 +2081,7 @@
             },
             {
                 "full_sequence_pos": 428,
-                "alignment_pos": 191,
+                "alignment_pos": 194,
                 "from": "S",
                 "to": "F",
                 "location": "kinase_domain"
@@ -2209,14 +2209,14 @@
         "substitutions": [
             {
                 "full_sequence_pos": 46,
-                "alignment_pos": 36,
+                "alignment_pos": 39,
                 "from": "H",
                 "to": "R",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 44,
-                "alignment_pos": 34,
+                "alignment_pos": 37,
                 "from": "T",
                 "to": "A",
                 "location": "kinase_domain"
@@ -2254,7 +2254,7 @@
         "substitutions": [
             {
                 "full_sequence_pos": 230,
-                "alignment_pos": 165,
+                "alignment_pos": 172,
                 "from": "R",
                 "to": "W",
                 "location": "kinase_domain"
@@ -2292,14 +2292,14 @@
         "substitutions": [
             {
                 "full_sequence_pos": 133,
-                "alignment_pos": 70,
+                "alignment_pos": 76,
                 "from": "R",
                 "to": "C",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 219,
-                "alignment_pos": 146,
+                "alignment_pos": 151,
                 "from": "R",
                 "to": "I",
                 "location": "kinase_domain"
@@ -2320,14 +2320,14 @@
             },
             {
                 "full_sequence_pos": 89,
-                "alignment_pos": 45,
+                "alignment_pos": 51,
                 "from": "R",
                 "to": "Q",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 254,
-                "alignment_pos": 176,
+                "alignment_pos": 186,
                 "from": "W",
                 "to": "L",
                 "location": "kinase_domain"
@@ -2341,7 +2341,7 @@
             },
             {
                 "full_sequence_pos": 236,
-                "alignment_pos": 159,
+                "alignment_pos": 167,
                 "from": "V",
                 "to": "M",
                 "location": "kinase_domain"
@@ -2379,14 +2379,14 @@
         "substitutions": [
             {
                 "full_sequence_pos": 24,
-                "alignment_pos": 17,
+                "alignment_pos": 19,
                 "from": "R",
                 "to": "C",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 24,
-                "alignment_pos": 17,
+                "alignment_pos": 19,
                 "from": "R",
                 "to": "H",
                 "location": "kinase_domain"
@@ -2424,7 +2424,7 @@
         "substitutions": [
             {
                 "full_sequence_pos": 197,
-                "alignment_pos": 166,
+                "alignment_pos": 171,
                 "from": "A",
                 "to": "T",
                 "location": "kinase_domain"
@@ -2462,35 +2462,35 @@
         "substitutions": [
             {
                 "full_sequence_pos": 29,
-                "alignment_pos": 6,
+                "alignment_pos": 9,
                 "from": "R",
                 "to": "G",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 30,
-                "alignment_pos": 7,
+                "alignment_pos": 10,
                 "from": "G",
                 "to": "S",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 223,
-                "alignment_pos": 176,
+                "alignment_pos": 182,
                 "from": "I",
                 "to": "M",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 62,
-                "alignment_pos": 37,
+                "alignment_pos": 41,
                 "from": "S",
                 "to": "L",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 193,
-                "alignment_pos": 150,
+                "alignment_pos": 153,
                 "from": "V",
                 "to": "G",
                 "location": "kinase_domain"
@@ -2528,28 +2528,28 @@
         "substitutions": [
             {
                 "full_sequence_pos": 28,
-                "alignment_pos": 5,
+                "alignment_pos": 8,
                 "from": "G",
                 "to": "R",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 196,
-                "alignment_pos": 150,
+                "alignment_pos": 156,
                 "from": "T",
                 "to": "A",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 31,
-                "alignment_pos": 8,
+                "alignment_pos": 11,
                 "from": "T",
                 "to": "N",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 32,
-                "alignment_pos": 9,
+                "alignment_pos": 12,
                 "from": "Y",
                 "to": "H",
                 "location": "kinase_domain"
@@ -2587,42 +2587,42 @@
         "substitutions": [
             {
                 "full_sequence_pos": 751,
-                "alignment_pos": 42,
+                "alignment_pos": 44,
                 "from": "R",
                 "to": "Q",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 842,
-                "alignment_pos": 121,
+                "alignment_pos": 124,
                 "from": "N",
                 "to": "D",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 842,
-                "alignment_pos": 121,
+                "alignment_pos": 124,
                 "from": "N",
                 "to": "S",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 714,
-                "alignment_pos": 8,
+                "alignment_pos": 10,
                 "from": "G",
                 "to": "R",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 717,
-                "alignment_pos": 11,
+                "alignment_pos": 13,
                 "from": "G",
                 "to": "R",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 874,
-                "alignment_pos": 150,
+                "alignment_pos": 154,
                 "from": "V",
                 "to": "L",
                 "location": "kinase_domain"
@@ -2705,7 +2705,7 @@
         "substitutions": [
             {
                 "full_sequence_pos": 174,
-                "alignment_pos": 141,
+                "alignment_pos": 144,
                 "from": "A",
                 "to": "V",
                 "location": "kinase_domain"
@@ -2726,7 +2726,7 @@
             },
             {
                 "full_sequence_pos": 74,
-                "alignment_pos": 46,
+                "alignment_pos": 48,
                 "from": "I",
                 "to": "N",
                 "location": "kinase_domain"
@@ -2764,35 +2764,35 @@
         "substitutions": [
             {
                 "full_sequence_pos": 40,
-                "alignment_pos": 26,
+                "alignment_pos": 28,
                 "from": "A",
                 "to": "V",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 175,
-                "alignment_pos": 153,
+                "alignment_pos": 157,
                 "from": "R",
                 "to": "S",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 178,
-                "alignment_pos": 156,
+                "alignment_pos": 160,
                 "from": "R",
                 "to": "P",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 152,
-                "alignment_pos": 133,
+                "alignment_pos": 136,
                 "from": "C",
                 "to": "F",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 291,
-                "alignment_pos": 231,
+                "alignment_pos": 235,
                 "from": "C",
                 "to": "Y",
                 "location": "kinase_domain"
@@ -2806,14 +2806,14 @@
             },
             {
                 "full_sequence_pos": 72,
-                "alignment_pos": 55,
+                "alignment_pos": 57,
                 "from": "I",
                 "to": "T",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 288,
-                "alignment_pos": 228,
+                "alignment_pos": 232,
                 "from": "T",
                 "to": "I",
                 "location": "kinase_domain"
@@ -2851,28 +2851,28 @@
         "substitutions": [
             {
                 "full_sequence_pos": 47,
-                "alignment_pos": 7,
+                "alignment_pos": 9,
                 "from": "R",
                 "to": "Q",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 156,
-                "alignment_pos": 112,
+                "alignment_pos": 119,
                 "from": "D",
                 "to": "H",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 175,
-                "alignment_pos": 130,
+                "alignment_pos": 137,
                 "from": "D",
                 "to": "G",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 198,
-                "alignment_pos": 152,
+                "alignment_pos": 160,
                 "from": "K",
                 "to": "R",
                 "location": "kinase_domain"
@@ -2886,7 +2886,7 @@
             },
             {
                 "full_sequence_pos": 50,
-                "alignment_pos": 10,
+                "alignment_pos": 12,
                 "from": "Y",
                 "to": "S",
                 "location": "kinase_domain"
@@ -2924,21 +2924,21 @@
         "substitutions": [
             {
                 "full_sequence_pos": 166,
-                "alignment_pos": 156,
+                "alignment_pos": 160,
                 "from": "R",
                 "to": "H",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 130,
-                "alignment_pos": 120,
+                "alignment_pos": 124,
                 "from": "N",
                 "to": "H",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 13,
-                "alignment_pos": 8,
+                "alignment_pos": 10,
                 "from": "G",
                 "to": "S",
                 "location": "kinase_domain"
@@ -2990,7 +2990,7 @@
             },
             {
                 "full_sequence_pos": 272,
-                "alignment_pos": 225,
+                "alignment_pos": 229,
                 "from": "R",
                 "to": "Q",
                 "location": "kinase_domain"
@@ -3004,7 +3004,7 @@
             },
             {
                 "full_sequence_pos": 120,
-                "alignment_pos": 110,
+                "alignment_pos": 114,
                 "from": "G",
                 "to": "C",
                 "location": "kinase_domain"
@@ -3056,7 +3056,7 @@
         "substitutions": [
             {
                 "full_sequence_pos": 773,
-                "alignment_pos": 226,
+                "alignment_pos": 229,
                 "from": "R",
                 "to": "C",
                 "location": "kinase_domain"
@@ -3101,7 +3101,7 @@
         "substitutions": [
             {
                 "full_sequence_pos": 127,
-                "alignment_pos": 116,
+                "alignment_pos": 118,
                 "from": "R",
                 "to": "*",
                 "location": "kinase_domain"
@@ -3136,14 +3136,14 @@
             },
             {
                 "full_sequence_pos": 145,
-                "alignment_pos": 134,
+                "alignment_pos": 136,
                 "from": "G",
                 "to": "R",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 172,
-                "alignment_pos": 160,
+                "alignment_pos": 162,
                 "from": "P",
                 "to": "S",
                 "location": "kinase_domain"
@@ -3230,7 +3230,7 @@
             },
             {
                 "full_sequence_pos": 87,
-                "alignment_pos": 79,
+                "alignment_pos": 81,
                 "from": "T",
                 "to": "A",
                 "location": "kinase_domain"
@@ -3296,7 +3296,7 @@
             },
             {
                 "full_sequence_pos": 167,
-                "alignment_pos": 108,
+                "alignment_pos": 110,
                 "from": "I",
                 "to": "T",
                 "location": "kinase_domain"
@@ -3414,7 +3414,7 @@
         "substitutions": [
             {
                 "full_sequence_pos": 448,
-                "alignment_pos": 119,
+                "alignment_pos": 125,
                 "from": "I",
                 "to": "V",
                 "location": "kinase_domain"
@@ -3487,7 +3487,7 @@
             },
             {
                 "full_sequence_pos": 461,
-                "alignment_pos": 161,
+                "alignment_pos": 166,
                 "from": "S",
                 "to": "C",
                 "location": "kinase_domain"
@@ -3532,7 +3532,7 @@
         "substitutions": [
             {
                 "full_sequence_pos": 565,
-                "alignment_pos": 152,
+                "alignment_pos": 162,
                 "from": "P",
                 "to": "R",
                 "location": "kinase_domain"
@@ -3577,7 +3577,7 @@
         "substitutions": [
             {
                 "full_sequence_pos": 180,
-                "alignment_pos": 142,
+                "alignment_pos": 145,
                 "from": "R",
                 "to": "*",
                 "location": "kinase_domain"
@@ -3615,7 +3615,7 @@
         "substitutions": [
             {
                 "full_sequence_pos": 239,
-                "alignment_pos": 197,
+                "alignment_pos": 201,
                 "from": "L",
                 "to": "P",
                 "location": "kinase_domain"
@@ -3667,14 +3667,14 @@
         "substitutions": [
             {
                 "full_sequence_pos": 365,
-                "alignment_pos": 78,
+                "alignment_pos": 82,
                 "from": "A",
                 "to": "E",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 419,
-                "alignment_pos": 132,
+                "alignment_pos": 136,
                 "from": "R",
                 "to": "*",
                 "location": "kinase_domain"
@@ -3688,7 +3688,7 @@
             },
             {
                 "full_sequence_pos": 446,
-                "alignment_pos": 158,
+                "alignment_pos": 162,
                 "from": "W",
                 "to": "S",
                 "location": "kinase_domain"
@@ -3733,7 +3733,7 @@
             },
             {
                 "full_sequence_pos": 429,
-                "alignment_pos": 154,
+                "alignment_pos": 158,
                 "from": "Y",
                 "to": "C",
                 "location": "kinase_domain"
@@ -3771,7 +3771,7 @@
         "substitutions": [
             {
                 "full_sequence_pos": 435,
-                "alignment_pos": 181,
+                "alignment_pos": 185,
                 "from": "E",
                 "to": "K",
                 "location": "kinase_domain"
@@ -3809,14 +3809,14 @@
         "substitutions": [
             {
                 "full_sequence_pos": 117,
-                "alignment_pos": 86,
+                "alignment_pos": 89,
                 "from": "R",
                 "to": "*",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 250,
-                "alignment_pos": 209,
+                "alignment_pos": 210,
                 "from": "W",
                 "to": "*",
                 "location": "kinase_domain"
@@ -3854,7 +3854,7 @@
         "substitutions": [
             {
                 "full_sequence_pos": 264,
-                "alignment_pos": 176,
+                "alignment_pos": 178,
                 "from": "S",
                 "to": "R",
                 "location": "kinase_domain"
@@ -3892,7 +3892,7 @@
         "substitutions": [
             {
                 "full_sequence_pos": 150,
-                "alignment_pos": 115,
+                "alignment_pos": 118,
                 "from": "R",
                 "to": "I",
                 "location": "kinase_domain"
@@ -3937,7 +3937,7 @@
         "substitutions": [
             {
                 "full_sequence_pos": 132,
-                "alignment_pos": 56,
+                "alignment_pos": 59,
                 "from": "G",
                 "to": "D",
                 "location": "kinase_domain"
@@ -3958,14 +3958,14 @@
             },
             {
                 "full_sequence_pos": 128,
-                "alignment_pos": 52,
+                "alignment_pos": 55,
                 "from": "P",
                 "to": "Q",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 134,
-                "alignment_pos": 58,
+                "alignment_pos": 61,
                 "from": "Y",
                 "to": "H",
                 "location": "kinase_domain"
@@ -4010,7 +4010,7 @@
             },
             {
                 "full_sequence_pos": 128,
-                "alignment_pos": 56,
+                "alignment_pos": 59,
                 "from": "G",
                 "to": "V",
                 "location": "kinase_domain"
@@ -4038,14 +4038,14 @@
             },
             {
                 "full_sequence_pos": 124,
-                "alignment_pos": 52,
+                "alignment_pos": 55,
                 "from": "P",
                 "to": "Q",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 130,
-                "alignment_pos": 58,
+                "alignment_pos": 61,
                 "from": "Y",
                 "to": "C",
                 "location": "kinase_domain"
@@ -4104,14 +4104,14 @@
             },
             {
                 "full_sequence_pos": 609,
-                "alignment_pos": 102,
+                "alignment_pos": 105,
                 "from": "R",
                 "to": "*",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 622,
-                "alignment_pos": 115,
+                "alignment_pos": 118,
                 "from": "R",
                 "to": "*",
                 "location": "kinase_domain"
@@ -4125,21 +4125,21 @@
             },
             {
                 "full_sequence_pos": 546,
-                "alignment_pos": 57,
+                "alignment_pos": 59,
                 "from": "N",
                 "to": "K",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 724,
-                "alignment_pos": 207,
+                "alignment_pos": 209,
                 "from": "N",
                 "to": "K",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 623,
-                "alignment_pos": 116,
+                "alignment_pos": 119,
                 "from": "D",
                 "to": "Y",
                 "location": "kinase_domain"
@@ -4167,14 +4167,14 @@
             },
             {
                 "full_sequence_pos": 725,
-                "alignment_pos": 207,
+                "alignment_pos": 210,
                 "from": "C",
                 "to": "Y",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 680,
-                "alignment_pos": 169,
+                "alignment_pos": 173,
                 "from": "Q",
                 "to": "*",
                 "location": "kinase_domain"
@@ -4188,14 +4188,14 @@
             },
             {
                 "full_sequence_pos": 670,
-                "alignment_pos": 159,
+                "alignment_pos": 163,
                 "from": "E",
                 "to": "K",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 692,
-                "alignment_pos": 181,
+                "alignment_pos": 185,
                 "from": "E",
                 "to": "G",
                 "location": "kinase_domain"
@@ -4244,7 +4244,7 @@
             },
             {
                 "full_sequence_pos": 656,
-                "alignment_pos": 147,
+                "alignment_pos": 149,
                 "from": "K",
                 "to": "E",
                 "location": "kinase_domain"
@@ -4265,7 +4265,7 @@
             },
             {
                 "full_sequence_pos": 483,
-                "alignment_pos": 4,
+                "alignment_pos": 6,
                 "from": "P",
                 "to": "T",
                 "location": "kinase_domain"
@@ -4286,7 +4286,7 @@
             },
             {
                 "full_sequence_pos": 666,
-                "alignment_pos": 156,
+                "alignment_pos": 159,
                 "from": "W",
                 "to": "R",
                 "location": "kinase_domain"
@@ -4300,7 +4300,7 @@
             },
             {
                 "full_sequence_pos": 607,
-                "alignment_pos": 100,
+                "alignment_pos": 103,
                 "from": "V",
                 "to": "M",
                 "location": "kinase_domain"
@@ -4373,14 +4373,14 @@
             },
             {
                 "full_sequence_pos": 628,
-                "alignment_pos": 118,
+                "alignment_pos": 121,
                 "from": "A",
                 "to": "T",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 648,
-                "alignment_pos": 138,
+                "alignment_pos": 141,
                 "from": "A",
                 "to": "T",
                 "location": "kinase_domain"
@@ -4429,7 +4429,7 @@
             },
             {
                 "full_sequence_pos": 565,
-                "alignment_pos": 72,
+                "alignment_pos": 75,
                 "from": "E",
                 "to": "A",
                 "location": "kinase_domain"
@@ -4443,7 +4443,7 @@
             },
             {
                 "full_sequence_pos": 526,
-                "alignment_pos": 36,
+                "alignment_pos": 37,
                 "from": "K",
                 "to": "E",
                 "location": "kinase_domain"
@@ -4666,49 +4666,49 @@
             },
             {
                 "full_sequence_pos": 621,
-                "alignment_pos": 120,
+                "alignment_pos": 123,
                 "from": "R",
                 "to": "H",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 540,
-                "alignment_pos": 57,
+                "alignment_pos": 59,
                 "from": "N",
                 "to": "K",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 540,
-                "alignment_pos": 57,
+                "alignment_pos": 59,
                 "from": "N",
                 "to": "S",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 540,
-                "alignment_pos": 57,
+                "alignment_pos": 59,
                 "from": "N",
                 "to": "T",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 513,
-                "alignment_pos": 33,
+                "alignment_pos": 35,
                 "from": "D",
                 "to": "N",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 628,
-                "alignment_pos": 127,
+                "alignment_pos": 130,
                 "from": "D",
                 "to": "N",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 485,
-                "alignment_pos": 12,
+                "alignment_pos": 14,
                 "from": "Q",
                 "to": "R",
                 "location": "kinase_domain"
@@ -4750,7 +4750,7 @@
             },
             {
                 "full_sequence_pos": 538,
-                "alignment_pos": 55,
+                "alignment_pos": 57,
                 "from": "I",
                 "to": "V",
                 "location": "kinase_domain"
@@ -4764,28 +4764,28 @@
             },
             {
                 "full_sequence_pos": 650,
-                "alignment_pos": 147,
+                "alignment_pos": 149,
                 "from": "K",
                 "to": "N",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 650,
-                "alignment_pos": 147,
+                "alignment_pos": 149,
                 "from": "K",
                 "to": "Q",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 650,
-                "alignment_pos": 147,
+                "alignment_pos": 149,
                 "from": "K",
                 "to": "E",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 650,
-                "alignment_pos": 147,
+                "alignment_pos": 149,
                 "from": "K",
                 "to": "M",
                 "location": "kinase_domain"
@@ -4848,7 +4848,7 @@
             },
             {
                 "full_sequence_pos": 546,
-                "alignment_pos": 63,
+                "alignment_pos": 65,
                 "from": "T",
                 "to": "K",
                 "location": "kinase_domain"
@@ -4914,14 +4914,14 @@
             },
             {
                 "full_sequence_pos": 666,
-                "alignment_pos": 57,
+                "alignment_pos": 59,
                 "from": "N",
                 "to": "S",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 658,
-                "alignment_pos": 50,
+                "alignment_pos": 51,
                 "from": "L",
                 "to": "P",
                 "location": "kinase_domain"
@@ -4935,7 +4935,7 @@
             },
             {
                 "full_sequence_pos": 660,
-                "alignment_pos": 51,
+                "alignment_pos": 53,
                 "from": "P",
                 "to": "T",
                 "location": "kinase_domain"
@@ -4949,7 +4949,7 @@
             },
             {
                 "full_sequence_pos": 665,
-                "alignment_pos": 56,
+                "alignment_pos": 58,
                 "from": "V",
                 "to": "A",
                 "location": "kinase_domain"
@@ -4994,42 +4994,42 @@
             },
             {
                 "full_sequence_pos": 796,
-                "alignment_pos": 120,
+                "alignment_pos": 123,
                 "from": "R",
                 "to": "G",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 822,
-                "alignment_pos": 145,
+                "alignment_pos": 147,
                 "from": "N",
                 "to": "I",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 816,
-                "alignment_pos": 140,
+                "alignment_pos": 143,
                 "from": "D",
                 "to": "H",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 816,
-                "alignment_pos": 140,
+                "alignment_pos": 143,
                 "from": "D",
                 "to": "Y",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 816,
-                "alignment_pos": 140,
+                "alignment_pos": 143,
                 "from": "D",
                 "to": "V",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 820,
-                "alignment_pos": 144,
+                "alignment_pos": 145,
                 "from": "D",
                 "to": "G",
                 "location": "kinase_domain"
@@ -5043,21 +5043,21 @@
             },
             {
                 "full_sequence_pos": 839,
-                "alignment_pos": 159,
+                "alignment_pos": 163,
                 "from": "E",
                 "to": "K",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 664,
-                "alignment_pos": 66,
+                "alignment_pos": 68,
                 "from": "G",
                 "to": "R",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 642,
-                "alignment_pos": 45,
+                "alignment_pos": 47,
                 "from": "K",
                 "to": "E",
                 "location": "kinase_domain"
@@ -5078,7 +5078,7 @@
             },
             {
                 "full_sequence_pos": 847,
-                "alignment_pos": 167,
+                "alignment_pos": 171,
                 "from": "T",
                 "to": "P",
                 "location": "kinase_domain"
@@ -5099,7 +5099,7 @@
             },
             {
                 "full_sequence_pos": 620,
-                "alignment_pos": 25,
+                "alignment_pos": 27,
                 "from": "V",
                 "to": "A",
                 "location": "kinase_domain"
@@ -5144,28 +5144,28 @@
             },
             {
                 "full_sequence_pos": 842,
-                "alignment_pos": 140,
+                "alignment_pos": 143,
                 "from": "D",
                 "to": "V",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 846,
-                "alignment_pos": 144,
+                "alignment_pos": 145,
                 "from": "D",
                 "to": "Y",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 846,
-                "alignment_pos": 144,
+                "alignment_pos": 145,
                 "from": "D",
                 "to": "V",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 653,
-                "alignment_pos": 51,
+                "alignment_pos": 53,
                 "from": "P",
                 "to": "L",
                 "location": "kinase_domain"
@@ -5179,7 +5179,7 @@
             },
             {
                 "full_sequence_pos": 674,
-                "alignment_pos": 71,
+                "alignment_pos": 74,
                 "from": "T",
                 "to": "I",
                 "location": "kinase_domain"
@@ -5238,35 +5238,35 @@
         "substitutions": [
             {
                 "full_sequence_pos": 835,
-                "alignment_pos": 140,
+                "alignment_pos": 143,
                 "from": "D",
                 "to": "N",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 835,
-                "alignment_pos": 140,
+                "alignment_pos": 143,
                 "from": "D",
                 "to": "E",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 835,
-                "alignment_pos": 140,
+                "alignment_pos": 143,
                 "from": "D",
                 "to": "H",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 835,
-                "alignment_pos": 140,
+                "alignment_pos": 143,
                 "from": "D",
                 "to": "Y",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 835,
-                "alignment_pos": 140,
+                "alignment_pos": 143,
                 "from": "D",
                 "to": "V",
                 "location": "kinase_domain"
@@ -5304,21 +5304,21 @@
         "substitutions": [
             {
                 "full_sequence_pos": 781,
-                "alignment_pos": 119,
+                "alignment_pos": 122,
                 "from": "A",
                 "to": "E",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 782,
-                "alignment_pos": 120,
+                "alignment_pos": 123,
                 "from": "R",
                 "to": "H",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 837,
-                "alignment_pos": 171,
+                "alignment_pos": 175,
                 "from": "D",
                 "to": "Y",
                 "location": "kinase_domain"
@@ -5332,21 +5332,21 @@
             },
             {
                 "full_sequence_pos": 633,
-                "alignment_pos": 43,
+                "alignment_pos": 45,
                 "from": "E",
                 "to": "K",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 643,
-                "alignment_pos": 52,
+                "alignment_pos": 54,
                 "from": "H",
                 "to": "Q",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 794,
-                "alignment_pos": 132,
+                "alignment_pos": 135,
                 "from": "I",
                 "to": "T",
                 "location": "kinase_domain"
@@ -5398,14 +5398,14 @@
         "substitutions": [
             {
                 "full_sequence_pos": 855,
-                "alignment_pos": 9,
+                "alignment_pos": 11,
                 "from": "A",
                 "to": "T",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 1041,
-                "alignment_pos": 120,
+                "alignment_pos": 123,
                 "from": "R",
                 "to": "P",
                 "location": "kinase_domain"
@@ -5419,42 +5419,42 @@
             },
             {
                 "full_sequence_pos": 1106,
-                "alignment_pos": 181,
+                "alignment_pos": 185,
                 "from": "E",
                 "to": "K",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 857,
-                "alignment_pos": 11,
+                "alignment_pos": 13,
                 "from": "G",
                 "to": "R",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 1035,
-                "alignment_pos": 114,
+                "alignment_pos": 117,
                 "from": "H",
                 "to": "R",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 1086,
-                "alignment_pos": 161,
+                "alignment_pos": 165,
                 "from": "I",
                 "to": "T",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 1044,
-                "alignment_pos": 123,
+                "alignment_pos": 126,
                 "from": "L",
                 "to": "P",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 1114,
-                "alignment_pos": 188,
+                "alignment_pos": 192,
                 "from": "P",
                 "to": "L",
                 "location": "kinase_domain"
@@ -5475,7 +5475,7 @@
             },
             {
                 "full_sequence_pos": 878,
-                "alignment_pos": 27,
+                "alignment_pos": 29,
                 "from": "V",
                 "to": "M",
                 "location": "kinase_domain"
@@ -5520,7 +5520,7 @@
             },
             {
                 "full_sequence_pos": 1147,
-                "alignment_pos": 222,
+                "alignment_pos": 226,
                 "from": "P",
                 "to": "S",
                 "location": "kinase_domain"
@@ -5648,21 +5648,21 @@
         "substitutions": [
             {
                 "full_sequence_pos": 465,
-                "alignment_pos": 207,
+                "alignment_pos": 210,
                 "from": "C",
                 "to": "R",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 341,
-                "alignment_pos": 92,
+                "alignment_pos": 96,
                 "from": "L",
                 "to": "P",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 440,
-                "alignment_pos": 188,
+                "alignment_pos": 192,
                 "from": "P",
                 "to": "S",
                 "location": "kinase_domain"
@@ -5759,7 +5759,7 @@
         "substitutions": [
             {
                 "full_sequence_pos": 515,
-                "alignment_pos": 238,
+                "alignment_pos": 241,
                 "from": "Y",
                 "to": "*",
                 "location": "kinase_domain"
@@ -5842,28 +5842,28 @@
         "substitutions": [
             {
                 "full_sequence_pos": 1192,
-                "alignment_pos": 68,
+                "alignment_pos": 70,
                 "from": "R",
                 "to": "P",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 1275,
-                "alignment_pos": 140,
+                "alignment_pos": 142,
                 "from": "R",
                 "to": "Q",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 1128,
-                "alignment_pos": 11,
+                "alignment_pos": 13,
                 "from": "G",
                 "to": "A",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 1151,
-                "alignment_pos": 29,
+                "alignment_pos": 31,
                 "from": "T",
                 "to": "M",
                 "location": "kinase_domain"
@@ -5901,21 +5901,21 @@
         "substitutions": [
             {
                 "full_sequence_pos": 356,
-                "alignment_pos": 110,
+                "alignment_pos": 112,
                 "from": "A",
                 "to": "T",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 255,
-                "alignment_pos": 12,
+                "alignment_pos": 14,
                 "from": "E",
                 "to": "K",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 255,
-                "alignment_pos": 12,
+                "alignment_pos": 14,
                 "from": "E",
                 "to": "V",
                 "location": "kinase_domain"
@@ -5929,21 +5929,21 @@
             },
             {
                 "full_sequence_pos": 351,
-                "alignment_pos": 105,
+                "alignment_pos": 107,
                 "from": "M",
                 "to": "T",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 311,
-                "alignment_pos": 68,
+                "alignment_pos": 70,
                 "from": "F",
                 "to": "L",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 249,
-                "alignment_pos": 6,
+                "alignment_pos": 8,
                 "from": "P",
                 "to": "L",
                 "location": "kinase_domain"
@@ -5957,21 +5957,21 @@
             },
             {
                 "full_sequence_pos": 315,
-                "alignment_pos": 72,
+                "alignment_pos": 74,
                 "from": "T",
                 "to": "I",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 245,
-                "alignment_pos": 2,
+                "alignment_pos": 4,
                 "from": "Y",
                 "to": "C",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 253,
-                "alignment_pos": 10,
+                "alignment_pos": 12,
                 "from": "Y",
                 "to": "H",
                 "location": "kinase_domain"
@@ -6016,14 +6016,14 @@
         "substitutions": [
             {
                 "full_sequence_pos": 651,
-                "alignment_pos": 57,
+                "alignment_pos": 59,
                 "from": "R",
                 "to": "*",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 775,
-                "alignment_pos": 165,
+                "alignment_pos": 168,
                 "from": "R",
                 "to": "*",
                 "location": "kinase_domain"
@@ -6061,7 +6061,7 @@
         "substitutions": [
             {
                 "full_sequence_pos": 752,
-                "alignment_pos": 156,
+                "alignment_pos": 158,
                 "from": "R",
                 "to": "C",
                 "location": "kinase_domain"
@@ -6075,28 +6075,28 @@
             },
             {
                 "full_sequence_pos": 726,
-                "alignment_pos": 133,
+                "alignment_pos": 135,
                 "from": "I",
                 "to": "R",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 610,
-                "alignment_pos": 30,
+                "alignment_pos": 32,
                 "from": "L",
                 "to": "P",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 713,
-                "alignment_pos": 120,
+                "alignment_pos": 122,
                 "from": "T",
                 "to": "I",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 740,
-                "alignment_pos": 145,
+                "alignment_pos": 147,
                 "from": "Y",
                 "to": "C",
                 "location": "kinase_domain"
@@ -6141,28 +6141,28 @@
             },
             {
                 "full_sequence_pos": 719,
-                "alignment_pos": 5,
+                "alignment_pos": 8,
                 "from": "G",
                 "to": "C",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 719,
-                "alignment_pos": 5,
+                "alignment_pos": 8,
                 "from": "G",
                 "to": "S",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 858,
-                "alignment_pos": 136,
+                "alignment_pos": 140,
                 "from": "L",
                 "to": "R",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 790,
-                "alignment_pos": 70,
+                "alignment_pos": 74,
                 "from": "T",
                 "to": "M",
                 "location": "kinase_domain"
@@ -6207,28 +6207,28 @@
             },
             {
                 "full_sequence_pos": 857,
-                "alignment_pos": 128,
+                "alignment_pos": 131,
                 "from": "N",
                 "to": "S",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 914,
-                "alignment_pos": 180,
+                "alignment_pos": 185,
                 "from": "E",
                 "to": "K",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 776,
-                "alignment_pos": 49,
+                "alignment_pos": 51,
                 "from": "G",
                 "to": "S",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 755,
-                "alignment_pos": 30,
+                "alignment_pos": 32,
                 "from": "L",
                 "to": "P",
                 "location": "kinase_domain"
@@ -6287,14 +6287,14 @@
             },
             {
                 "full_sequence_pos": 787,
-                "alignment_pos": 71,
+                "alignment_pos": 74,
                 "from": "T",
                 "to": "P",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 899,
-                "alignment_pos": 176,
+                "alignment_pos": 181,
                 "from": "V",
                 "to": "M",
                 "location": "kinase_domain"
@@ -6339,7 +6339,7 @@
             },
             {
                 "full_sequence_pos": 927,
-                "alignment_pos": 194,
+                "alignment_pos": 199,
                 "from": "R",
                 "to": "Q",
                 "location": "kinase_domain"
@@ -6377,7 +6377,7 @@
         "substitutions": [
             {
                 "full_sequence_pos": 721,
-                "alignment_pos": 99,
+                "alignment_pos": 101,
                 "from": "R",
                 "to": "Q",
                 "location": "kinase_domain"
@@ -6436,21 +6436,21 @@
             },
             {
                 "full_sequence_pos": 745,
-                "alignment_pos": 116,
+                "alignment_pos": 118,
                 "from": "R",
                 "to": "C",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 679,
-                "alignment_pos": 52,
+                "alignment_pos": 54,
                 "from": "D",
                 "to": "N",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 723,
-                "alignment_pos": 94,
+                "alignment_pos": 96,
                 "from": "Q",
                 "to": "*",
                 "location": "kinase_domain"
@@ -6495,14 +6495,14 @@
         "substitutions": [
             {
                 "full_sequence_pos": 739,
-                "alignment_pos": 116,
+                "alignment_pos": 118,
                 "from": "R",
                 "to": "E",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 802,
-                "alignment_pos": 171,
+                "alignment_pos": 175,
                 "from": "D",
                 "to": "G",
                 "location": "kinase_domain"
@@ -6523,14 +6523,14 @@
             },
             {
                 "full_sequence_pos": 664,
-                "alignment_pos": 43,
+                "alignment_pos": 45,
                 "from": "E",
                 "to": "K",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 782,
-                "alignment_pos": 152,
+                "alignment_pos": 156,
                 "from": "I",
                 "to": "S",
                 "location": "kinase_domain"
@@ -6568,14 +6568,14 @@
         "substitutions": [
             {
                 "full_sequence_pos": 1161,
-                "alignment_pos": 119,
+                "alignment_pos": 121,
                 "from": "A",
                 "to": "T",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 1162,
-                "alignment_pos": 120,
+                "alignment_pos": 122,
                 "from": "A",
                 "to": "E",
                 "location": "kinase_domain"
@@ -6589,7 +6589,7 @@
             },
             {
                 "full_sequence_pos": 1027,
-                "alignment_pos": 3,
+                "alignment_pos": 5,
                 "from": "R",
                 "to": "*",
                 "location": "kinase_domain"
@@ -6603,14 +6603,14 @@
             },
             {
                 "full_sequence_pos": 1191,
-                "alignment_pos": 147,
+                "alignment_pos": 148,
                 "from": "R",
                 "to": "Q",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 1201,
-                "alignment_pos": 156,
+                "alignment_pos": 158,
                 "from": "R",
                 "to": "Q",
                 "location": "kinase_domain"
@@ -6666,7 +6666,7 @@
             },
             {
                 "full_sequence_pos": 1035,
-                "alignment_pos": 11,
+                "alignment_pos": 13,
                 "from": "G",
                 "to": "V",
                 "location": "kinase_domain"
@@ -6722,7 +6722,7 @@
             },
             {
                 "full_sequence_pos": 1180,
-                "alignment_pos": 138,
+                "alignment_pos": 140,
                 "from": "M",
                 "to": "I",
                 "location": "kinase_domain"
@@ -6736,7 +6736,7 @@
             },
             {
                 "full_sequence_pos": 1227,
-                "alignment_pos": 181,
+                "alignment_pos": 184,
                 "from": "W",
                 "to": "S",
                 "location": "kinase_domain"
@@ -6896,21 +6896,21 @@
             },
             {
                 "full_sequence_pos": 607,
-                "alignment_pos": 52,
+                "alignment_pos": 55,
                 "from": "K",
                 "to": "N",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 617,
-                "alignment_pos": 62,
+                "alignment_pos": 65,
                 "from": "V",
                 "to": "I",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 617,
-                "alignment_pos": 62,
+                "alignment_pos": 65,
                 "from": "V",
                 "to": "F",
                 "location": "kinase_domain"
@@ -7035,7 +7035,7 @@
             },
             {
                 "full_sequence_pos": 1014,
-                "alignment_pos": 107,
+                "alignment_pos": 110,
                 "from": "L",
                 "to": "P",
                 "location": "kinase_domain"
@@ -7049,7 +7049,7 @@
             },
             {
                 "full_sequence_pos": 1104,
-                "alignment_pos": 188,
+                "alignment_pos": 192,
                 "from": "P",
                 "to": "A",
                 "location": "kinase_domain"
@@ -7108,7 +7108,7 @@
             },
             {
                 "full_sequence_pos": 565,
-                "alignment_pos": 36,
+                "alignment_pos": 38,
                 "from": "C",
                 "to": "*",
                 "location": "kinase_domain"
@@ -7153,42 +7153,42 @@
         "substitutions": [
             {
                 "full_sequence_pos": 1246,
-                "alignment_pos": 155,
+                "alignment_pos": 157,
                 "from": "D",
                 "to": "N",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 1112,
-                "alignment_pos": 30,
+                "alignment_pos": 32,
                 "from": "H",
                 "to": "R",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 1213,
-                "alignment_pos": 126,
+                "alignment_pos": 128,
                 "from": "L",
                 "to": "V",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 1262,
-                "alignment_pos": 170,
+                "alignment_pos": 172,
                 "from": "K",
                 "to": "R",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 1149,
-                "alignment_pos": 65,
+                "alignment_pos": 67,
                 "from": "M",
                 "to": "T",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 1268,
-                "alignment_pos": 176,
+                "alignment_pos": 178,
                 "from": "M",
                 "to": "I",
                 "location": "kinase_domain"
@@ -7202,35 +7202,35 @@
             },
             {
                 "full_sequence_pos": 1191,
-                "alignment_pos": 104,
+                "alignment_pos": 106,
                 "from": "T",
                 "to": "I",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 1234,
-                "alignment_pos": 145,
+                "alignment_pos": 147,
                 "from": "Y",
                 "to": "C",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 1248,
-                "alignment_pos": 157,
+                "alignment_pos": 158,
                 "from": "Y",
                 "to": "C",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 1206,
-                "alignment_pos": 119,
+                "alignment_pos": 121,
                 "from": "V",
                 "to": "L",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 1238,
-                "alignment_pos": 148,
+                "alignment_pos": 150,
                 "from": "V",
                 "to": "I",
                 "location": "kinase_domain"
@@ -7306,21 +7306,21 @@
         "substitutions": [
             {
                 "full_sequence_pos": 727,
-                "alignment_pos": 119,
+                "alignment_pos": 121,
                 "from": "A",
                 "to": "V",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 575,
-                "alignment_pos": 0,
+                "alignment_pos": 1,
                 "from": "I",
                 "to": "T",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 605,
-                "alignment_pos": 24,
+                "alignment_pos": 26,
                 "from": "M",
                 "to": "I",
                 "location": "kinase_domain"
@@ -7334,7 +7334,7 @@
             },
             {
                 "full_sequence_pos": 790,
-                "alignment_pos": 178,
+                "alignment_pos": 181,
                 "from": "V",
                 "to": "M",
                 "location": "kinase_domain"
@@ -7414,14 +7414,14 @@
             },
             {
                 "full_sequence_pos": 897,
-                "alignment_pos": 139,
+                "alignment_pos": 142,
                 "from": "R",
                 "to": "Q",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 912,
-                "alignment_pos": 151,
+                "alignment_pos": 155,
                 "from": "R",
                 "to": "P",
                 "location": "kinase_domain"
@@ -7435,7 +7435,7 @@
             },
             {
                 "full_sequence_pos": 982,
-                "alignment_pos": 212,
+                "alignment_pos": 216,
                 "from": "R",
                 "to": "C",
                 "location": "kinase_domain"
@@ -7582,7 +7582,7 @@
             },
             {
                 "full_sequence_pos": 768,
-                "alignment_pos": 36,
+                "alignment_pos": 38,
                 "from": "E",
                 "to": "D",
                 "location": "kinase_domain"
@@ -7610,14 +7610,14 @@
             },
             {
                 "full_sequence_pos": 790,
-                "alignment_pos": 58,
+                "alignment_pos": 60,
                 "from": "L",
                 "to": "F",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 918,
-                "alignment_pos": 157,
+                "alignment_pos": 160,
                 "from": "M",
                 "to": "T",
                 "location": "kinase_domain"
@@ -7659,28 +7659,28 @@
             },
             {
                 "full_sequence_pos": 765,
-                "alignment_pos": 35,
+                "alignment_pos": 36,
                 "from": "S",
                 "to": "P",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 891,
-                "alignment_pos": 133,
+                "alignment_pos": 136,
                 "from": "S",
                 "to": "A",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 904,
-                "alignment_pos": 145,
+                "alignment_pos": 147,
                 "from": "S",
                 "to": "C",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 791,
-                "alignment_pos": 59,
+                "alignment_pos": 61,
                 "from": "Y",
                 "to": "F",
                 "location": "kinase_domain"
@@ -7694,21 +7694,21 @@
             },
             {
                 "full_sequence_pos": 778,
-                "alignment_pos": 46,
+                "alignment_pos": 48,
                 "from": "V",
                 "to": "I",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 804,
-                "alignment_pos": 71,
+                "alignment_pos": 74,
                 "from": "V",
                 "to": "L",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 804,
-                "alignment_pos": 71,
+                "alignment_pos": 74,
                 "from": "V",
                 "to": "M",
                 "location": "kinase_domain"
@@ -7746,7 +7746,7 @@
         "substitutions": [
             {
                 "full_sequence_pos": 736,
-                "alignment_pos": 226,
+                "alignment_pos": 229,
                 "from": "R",
                 "to": "T",
                 "location": "kinase_domain"
@@ -7812,21 +7812,21 @@
             },
             {
                 "full_sequence_pos": 502,
-                "alignment_pos": 23,
+                "alignment_pos": 25,
                 "from": "Q",
                 "to": "*",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 720,
-                "alignment_pos": 210,
+                "alignment_pos": 213,
                 "from": "W",
                 "to": "*",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 749,
-                "alignment_pos": 239,
+                "alignment_pos": 241,
                 "from": "W",
                 "to": "*",
                 "location": "kinase_domain"
@@ -7885,14 +7885,14 @@
             },
             {
                 "full_sequence_pos": 465,
-                "alignment_pos": 120,
+                "alignment_pos": 123,
                 "from": "R",
                 "to": "H",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 518,
-                "alignment_pos": 168,
+                "alignment_pos": 172,
                 "from": "S",
                 "to": "R",
                 "location": "kinase_domain"
@@ -7937,14 +7937,14 @@
             },
             {
                 "full_sequence_pos": 550,
-                "alignment_pos": 165,
+                "alignment_pos": 171,
                 "from": "S",
                 "to": "F",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 550,
-                "alignment_pos": 165,
+                "alignment_pos": 171,
                 "from": "S",
                 "to": "Y",
                 "location": "kinase_domain"
@@ -7982,7 +7982,7 @@
         "substitutions": [
             {
                 "full_sequence_pos": 607,
-                "alignment_pos": 198,
+                "alignment_pos": 202,
                 "from": "A",
                 "to": "D",
                 "location": "kinase_domain"
@@ -8024,49 +8024,49 @@
             },
             {
                 "full_sequence_pos": 520,
-                "alignment_pos": 115,
+                "alignment_pos": 118,
                 "from": "R",
                 "to": "Q",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 520,
-                "alignment_pos": 115,
+                "alignment_pos": 118,
                 "from": "R",
                 "to": "*",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 525,
-                "alignment_pos": 120,
+                "alignment_pos": 123,
                 "from": "R",
                 "to": "Q",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 562,
-                "alignment_pos": 155,
+                "alignment_pos": 158,
                 "from": "R",
                 "to": "P",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 562,
-                "alignment_pos": 155,
+                "alignment_pos": 158,
                 "from": "R",
                 "to": "W",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 502,
-                "alignment_pos": 97,
+                "alignment_pos": 100,
                 "from": "C",
                 "to": "*",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 506,
-                "alignment_pos": 101,
+                "alignment_pos": 104,
                 "from": "C",
                 "to": "R",
                 "location": "kinase_domain"
@@ -8087,49 +8087,49 @@
             },
             {
                 "full_sequence_pos": 589,
-                "alignment_pos": 181,
+                "alignment_pos": 185,
                 "from": "E",
                 "to": "G",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 636,
-                "alignment_pos": 220,
+                "alignment_pos": 224,
                 "from": "E",
                 "to": "*",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 613,
-                "alignment_pos": 204,
+                "alignment_pos": 207,
                 "from": "G",
                 "to": "D",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 408,
-                "alignment_pos": 5,
+                "alignment_pos": 7,
                 "from": "L",
                 "to": "P",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 542,
-                "alignment_pos": 137,
+                "alignment_pos": 140,
                 "from": "L",
                 "to": "P",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 652,
-                "alignment_pos": 236,
+                "alignment_pos": 240,
                 "from": "L",
                 "to": "P",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 430,
-                "alignment_pos": 27,
+                "alignment_pos": 30,
                 "from": "K",
                 "to": "E",
                 "location": "kinase_domain"
@@ -8143,7 +8143,7 @@
             },
             {
                 "full_sequence_pos": 630,
-                "alignment_pos": 214,
+                "alignment_pos": 218,
                 "from": "M",
                 "to": "K",
                 "location": "kinase_domain"
@@ -8185,21 +8185,21 @@
             },
             {
                 "full_sequence_pos": 425,
-                "alignment_pos": 22,
+                "alignment_pos": 25,
                 "from": "Y",
                 "to": "*",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 581,
-                "alignment_pos": 173,
+                "alignment_pos": 177,
                 "from": "Y",
                 "to": "R",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 591,
-                "alignment_pos": 183,
+                "alignment_pos": 187,
                 "from": "Y",
                 "to": "*",
                 "location": "kinase_domain"
@@ -8258,7 +8258,7 @@
             },
             {
                 "full_sequence_pos": 588,
-                "alignment_pos": 211,
+                "alignment_pos": 215,
                 "from": "Y",
                 "to": "*",
                 "location": "kinase_domain"
@@ -8296,14 +8296,14 @@
         "substitutions": [
             {
                 "full_sequence_pos": 849,
-                "alignment_pos": 22,
+                "alignment_pos": 24,
                 "from": "R",
                 "to": "W",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 915,
-                "alignment_pos": 85,
+                "alignment_pos": 87,
                 "from": "R",
                 "to": "H",
                 "location": "kinase_domain"
@@ -8324,14 +8324,14 @@
             },
             {
                 "full_sequence_pos": 897,
-                "alignment_pos": 67,
+                "alignment_pos": 69,
                 "from": "Y",
                 "to": "C",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 897,
-                "alignment_pos": 67,
+                "alignment_pos": 69,
                 "from": "Y",
                 "to": "S",
                 "location": "kinase_domain"
@@ -8369,7 +8369,7 @@
         "substitutions": [
             {
                 "full_sequence_pos": 774,
-                "alignment_pos": 228,
+                "alignment_pos": 232,
                 "from": "R",
                 "to": "P",
                 "location": "kinase_domain"
@@ -8383,14 +8383,14 @@
             },
             {
                 "full_sequence_pos": 517,
-                "alignment_pos": 6,
+                "alignment_pos": 8,
                 "from": "G",
                 "to": "E",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 571,
-                "alignment_pos": 53,
+                "alignment_pos": 56,
                 "from": "G",
                 "to": "R",
                 "location": "kinase_domain"
@@ -8404,21 +8404,21 @@
             },
             {
                 "full_sequence_pos": 598,
-                "alignment_pos": 80,
+                "alignment_pos": 83,
                 "from": "H",
                 "to": "Y",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 581,
-                "alignment_pos": 63,
+                "alignment_pos": 66,
                 "from": "M",
                 "to": "V",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 689,
-                "alignment_pos": 152,
+                "alignment_pos": 156,
                 "from": "P",
                 "to": "L",
                 "location": "kinase_domain"
@@ -8432,7 +8432,7 @@
             },
             {
                 "full_sequence_pos": 604,
-                "alignment_pos": 86,
+                "alignment_pos": 89,
                 "from": "Y",
                 "to": "H",
                 "location": "kinase_domain"
@@ -8484,7 +8484,7 @@
             },
             {
                 "full_sequence_pos": 720,
-                "alignment_pos": 157,
+                "alignment_pos": 160,
                 "from": "T",
                 "to": "I",
                 "location": "kinase_domain"
@@ -8498,7 +8498,7 @@
             },
             {
                 "full_sequence_pos": 722,
-                "alignment_pos": 158,
+                "alignment_pos": 162,
                 "from": "Y",
                 "to": "C",
                 "location": "kinase_domain"
@@ -8543,7 +8543,7 @@
             },
             {
                 "full_sequence_pos": 293,
-                "alignment_pos": 94,
+                "alignment_pos": 101,
                 "from": "Q",
                 "to": "*",
                 "location": "kinase_domain"
@@ -8626,14 +8626,14 @@
             },
             {
                 "full_sequence_pos": 526,
-                "alignment_pos": 57,
+                "alignment_pos": 62,
                 "from": "G",
                 "to": "D",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 539,
-                "alignment_pos": 70,
+                "alignment_pos": 74,
                 "from": "T",
                 "to": "A",
                 "location": "kinase_domain"
@@ -8671,7 +8671,7 @@
         "substitutions": [
             {
                 "full_sequence_pos": 262,
-                "alignment_pos": 65,
+                "alignment_pos": 68,
                 "from": "A",
                 "to": "V",
                 "location": "kinase_domain"
@@ -8716,7 +8716,7 @@
             },
             {
                 "full_sequence_pos": 172,
-                "alignment_pos": 147,
+                "alignment_pos": 159,
                 "from": "W",
                 "to": "*",
                 "location": "kinase_domain"
@@ -8813,7 +8813,7 @@
             },
             {
                 "full_sequence_pos": 2019,
-                "alignment_pos": 129,
+                "alignment_pos": 139,
                 "from": "G",
                 "to": "S",
                 "location": "kinase_domain"
@@ -8834,7 +8834,7 @@
             },
             {
                 "full_sequence_pos": 2020,
-                "alignment_pos": 130,
+                "alignment_pos": 140,
                 "from": "I",
                 "to": "T",
                 "location": "kinase_domain"
@@ -8886,7 +8886,7 @@
             },
             {
                 "full_sequence_pos": 603,
-                "alignment_pos": 230,
+                "alignment_pos": 236,
                 "from": "L",
                 "to": "P",
                 "location": "kinase_domain"
@@ -8914,7 +8914,7 @@
             },
             {
                 "full_sequence_pos": 491,
-                "alignment_pos": 136,
+                "alignment_pos": 142,
                 "from": "T",
                 "to": "R",
                 "location": "kinase_domain"
@@ -8966,28 +8966,28 @@
             },
             {
                 "full_sequence_pos": 462,
-                "alignment_pos": 4,
+                "alignment_pos": 6,
                 "from": "R",
                 "to": "I",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 581,
-                "alignment_pos": 118,
+                "alignment_pos": 124,
                 "from": "N",
                 "to": "D",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 594,
-                "alignment_pos": 131,
+                "alignment_pos": 137,
                 "from": "D",
                 "to": "G",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 638,
-                "alignment_pos": 169,
+                "alignment_pos": 175,
                 "from": "D",
                 "to": "E",
                 "location": "kinase_domain"
@@ -9001,63 +9001,63 @@
             },
             {
                 "full_sequence_pos": 501,
-                "alignment_pos": 40,
+                "alignment_pos": 45,
                 "from": "E",
                 "to": "G",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 501,
-                "alignment_pos": 40,
+                "alignment_pos": 45,
                 "from": "E",
                 "to": "K",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 464,
-                "alignment_pos": 6,
+                "alignment_pos": 8,
                 "from": "G",
                 "to": "E",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 466,
-                "alignment_pos": 8,
+                "alignment_pos": 10,
                 "from": "G",
                 "to": "V",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 469,
-                "alignment_pos": 11,
+                "alignment_pos": 13,
                 "from": "G",
                 "to": "A",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 469,
-                "alignment_pos": 11,
+                "alignment_pos": 13,
                 "from": "G",
                 "to": "R",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 469,
-                "alignment_pos": 11,
+                "alignment_pos": 13,
                 "from": "G",
                 "to": "E",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 534,
-                "alignment_pos": 73,
+                "alignment_pos": 79,
                 "from": "G",
                 "to": "R",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 463,
-                "alignment_pos": 5,
+                "alignment_pos": 7,
                 "from": "I",
                 "to": "S",
                 "location": "kinase_domain"
@@ -9071,35 +9071,35 @@
             },
             {
                 "full_sequence_pos": 485,
-                "alignment_pos": 27,
+                "alignment_pos": 32,
                 "from": "L",
                 "to": "F",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 597,
-                "alignment_pos": 134,
+                "alignment_pos": 140,
                 "from": "L",
                 "to": "R",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 597,
-                "alignment_pos": 134,
+                "alignment_pos": 140,
                 "from": "L",
                 "to": "V",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 499,
-                "alignment_pos": 38,
+                "alignment_pos": 43,
                 "from": "K",
                 "to": "E",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 601,
-                "alignment_pos": 138,
+                "alignment_pos": 144,
                 "from": "K",
                 "to": "E",
                 "location": "kinase_domain"
@@ -9127,14 +9127,14 @@
             },
             {
                 "full_sequence_pos": 531,
-                "alignment_pos": 70,
+                "alignment_pos": 76,
                 "from": "W",
                 "to": "C",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 600,
-                "alignment_pos": 137,
+                "alignment_pos": 143,
                 "from": "V",
                 "to": "E",
                 "location": "kinase_domain"
@@ -9172,21 +9172,21 @@
         "substitutions": [
             {
                 "full_sequence_pos": 284,
-                "alignment_pos": 235,
+                "alignment_pos": 240,
                 "from": "E",
                 "to": "K",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 121,
-                "alignment_pos": 95,
+                "alignment_pos": 99,
                 "from": "I",
                 "to": "N",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 81,
-                "alignment_pos": 55,
+                "alignment_pos": 57,
                 "from": "I",
                 "to": "N",
                 "location": "kinase_domain"
@@ -9335,14 +9335,14 @@
             },
             {
                 "full_sequence_pos": 486,
-                "alignment_pos": 224,
+                "alignment_pos": 234,
                 "from": "R",
                 "to": "Q",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 486,
-                "alignment_pos": 224,
+                "alignment_pos": 234,
                 "from": "R",
                 "to": "W",
                 "location": "kinase_domain"
@@ -9370,7 +9370,7 @@
             },
             {
                 "full_sequence_pos": 219,
-                "alignment_pos": 14,
+                "alignment_pos": 16,
                 "from": "W",
                 "to": "*",
                 "location": "kinase_domain"
@@ -9408,7 +9408,7 @@
         "substitutions": [
             {
                 "full_sequence_pos": 338,
-                "alignment_pos": 97,
+                "alignment_pos": 103,
                 "from": "A",
                 "to": "D",
                 "location": "kinase_domain"
@@ -9422,28 +9422,28 @@
             },
             {
                 "full_sequence_pos": 376,
-                "alignment_pos": 126,
+                "alignment_pos": 133,
                 "from": "C",
                 "to": "Y",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 239,
-                "alignment_pos": 4,
+                "alignment_pos": 6,
                 "from": "Q",
                 "to": "*",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 470,
-                "alignment_pos": 197,
+                "alignment_pos": 201,
                 "from": "M",
                 "to": "T",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 271,
-                "alignment_pos": 36,
+                "alignment_pos": 42,
                 "from": "W",
                 "to": "*",
                 "location": "kinase_domain"
@@ -9481,28 +9481,28 @@
         "substitutions": [
             {
                 "full_sequence_pos": 414,
-                "alignment_pos": 182,
+                "alignment_pos": 189,
                 "from": "R",
                 "to": "*",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 487,
-                "alignment_pos": 224,
+                "alignment_pos": 234,
                 "from": "R",
                 "to": "Q",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 487,
-                "alignment_pos": 224,
+                "alignment_pos": 234,
                 "from": "R",
                 "to": "P",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 487,
-                "alignment_pos": 224,
+                "alignment_pos": 234,
                 "from": "R",
                 "to": "W",
                 "location": "kinase_domain"
@@ -9516,7 +9516,7 @@
             },
             {
                 "full_sequence_pos": 400,
-                "alignment_pos": 171,
+                "alignment_pos": 175,
                 "from": "D",
                 "to": "G",
                 "location": "kinase_domain"
@@ -9537,14 +9537,14 @@
             },
             {
                 "full_sequence_pos": 318,
-                "alignment_pos": 106,
+                "alignment_pos": 111,
                 "from": "M",
                 "to": "R",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 241,
-                "alignment_pos": 35,
+                "alignment_pos": 41,
                 "from": "S",
                 "to": "L",
                 "location": "kinase_domain"
@@ -9596,49 +9596,49 @@
             },
             {
                 "full_sequence_pos": 374,
-                "alignment_pos": 151,
+                "alignment_pos": 158,
                 "from": "R",
                 "to": "W",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 411,
-                "alignment_pos": 182,
+                "alignment_pos": 189,
                 "from": "R",
                 "to": "Q",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 411,
-                "alignment_pos": 182,
+                "alignment_pos": 189,
                 "from": "R",
                 "to": "P",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 411,
-                "alignment_pos": 182,
+                "alignment_pos": 189,
                 "from": "R",
                 "to": "W",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 484,
-                "alignment_pos": 224,
+                "alignment_pos": 234,
                 "from": "R",
                 "to": "W",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 344,
-                "alignment_pos": 126,
+                "alignment_pos": 133,
                 "from": "C",
                 "to": "Y",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 211,
-                "alignment_pos": 8,
+                "alignment_pos": 10,
                 "from": "G",
                 "to": "D",
                 "location": "kinase_domain"
@@ -9652,14 +9652,14 @@
             },
             {
                 "full_sequence_pos": 398,
-                "alignment_pos": 171,
+                "alignment_pos": 176,
                 "from": "I",
                 "to": "N",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 376,
-                "alignment_pos": 153,
+                "alignment_pos": 160,
                 "from": "M",
                 "to": "R",
                 "location": "kinase_domain"
@@ -9673,7 +9673,7 @@
             },
             {
                 "full_sequence_pos": 399,
-                "alignment_pos": 171,
+                "alignment_pos": 177,
                 "from": "W",
                 "to": "S",
                 "location": "kinase_domain"
@@ -9725,14 +9725,14 @@
             },
             {
                 "full_sequence_pos": 258,
-                "alignment_pos": 49,
+                "alignment_pos": 53,
                 "from": "R",
                 "to": "S",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 375,
-                "alignment_pos": 147,
+                "alignment_pos": 153,
                 "from": "R",
                 "to": "P",
                 "location": "kinase_domain"
@@ -9760,7 +9760,7 @@
             },
             {
                 "full_sequence_pos": 356,
-                "alignment_pos": 132,
+                "alignment_pos": 139,
                 "from": "G",
                 "to": "D",
                 "location": "kinase_domain"
@@ -9805,112 +9805,112 @@
         "substitutions": [
             {
                 "full_sequence_pos": 355,
-                "alignment_pos": 97,
+                "alignment_pos": 104,
                 "from": "A",
                 "to": "P",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 460,
-                "alignment_pos": 181,
+                "alignment_pos": 189,
                 "from": "R",
                 "to": "C",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 460,
-                "alignment_pos": 181,
+                "alignment_pos": 189,
                 "from": "R",
                 "to": "H",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 495,
-                "alignment_pos": 199,
+                "alignment_pos": 206,
                 "from": "R",
                 "to": "*",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 528,
-                "alignment_pos": 219,
+                "alignment_pos": 229,
                 "from": "R",
                 "to": "C",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 528,
-                "alignment_pos": 219,
+                "alignment_pos": 229,
                 "from": "R",
                 "to": "H",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 537,
-                "alignment_pos": 228,
+                "alignment_pos": 238,
                 "from": "R",
                 "to": "C",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 508,
-                "alignment_pos": 207,
+                "alignment_pos": 209,
                 "from": "Q",
                 "to": "Q",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 526,
-                "alignment_pos": 217,
+                "alignment_pos": 227,
                 "from": "E",
                 "to": "Q",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 357,
-                "alignment_pos": 99,
+                "alignment_pos": 106,
                 "from": "G",
                 "to": "W",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 308,
-                "alignment_pos": 55,
+                "alignment_pos": 61,
                 "from": "L",
                 "to": "P",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 425,
-                "alignment_pos": 152,
+                "alignment_pos": 160,
                 "from": "M",
                 "to": "V",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 427,
-                "alignment_pos": 154,
+                "alignment_pos": 162,
                 "from": "P",
                 "to": "L",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 449,
-                "alignment_pos": 171,
+                "alignment_pos": 178,
                 "from": "S",
                 "to": "F",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 315,
-                "alignment_pos": 62,
+                "alignment_pos": 67,
                 "from": "T",
                 "to": "M",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 336,
-                "alignment_pos": 79,
+                "alignment_pos": 85,
                 "from": "Y",
                 "to": "N",
                 "location": "kinase_domain"
@@ -9993,28 +9993,28 @@
         "substitutions": [
             {
                 "full_sequence_pos": 211,
-                "alignment_pos": 7,
+                "alignment_pos": 9,
                 "from": "R",
                 "to": "*",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 332,
-                "alignment_pos": 111,
+                "alignment_pos": 118,
                 "from": "R",
                 "to": "*",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 491,
-                "alignment_pos": 219,
+                "alignment_pos": 229,
                 "from": "R",
                 "to": "Q",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 491,
-                "alignment_pos": 219,
+                "alignment_pos": 229,
                 "from": "R",
                 "to": "W",
                 "location": "kinase_domain"
@@ -10049,7 +10049,7 @@
             },
             {
                 "full_sequence_pos": 485,
-                "alignment_pos": 213,
+                "alignment_pos": 223,
                 "from": "D",
                 "to": "G",
                 "location": "kinase_domain"
@@ -10084,14 +10084,14 @@
             },
             {
                 "full_sequence_pos": 347,
-                "alignment_pos": 125,
+                "alignment_pos": 133,
                 "from": "C",
                 "to": "Y",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 433,
-                "alignment_pos": 189,
+                "alignment_pos": 190,
                 "from": "Q",
                 "to": "*",
                 "location": "kinase_domain"
@@ -10157,7 +10157,7 @@
         "substitutions": [
             {
                 "full_sequence_pos": 406,
-                "alignment_pos": 170,
+                "alignment_pos": 172,
                 "from": "R",
                 "to": "Q",
                 "location": "kinase_domain"
@@ -10233,28 +10233,28 @@
         "substitutions": [
             {
                 "full_sequence_pos": 109,
-                "alignment_pos": 24,
+                "alignment_pos": 31,
                 "from": "Q",
                 "to": "*",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 258,
-                "alignment_pos": 154,
+                "alignment_pos": 164,
                 "from": "Q",
                 "to": "R",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 137,
-                "alignment_pos": 51,
+                "alignment_pos": 60,
                 "from": "L",
                 "to": "R",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 302,
-                "alignment_pos": 183,
+                "alignment_pos": 210,
                 "from": "V",
                 "to": "D",
                 "location": "kinase_domain"
@@ -10330,7 +10330,7 @@
         "substitutions": [
             {
                 "full_sequence_pos": 229,
-                "alignment_pos": 180,
+                "alignment_pos": 183,
                 "from": "C",
                 "to": "Y",
                 "location": "kinase_domain"
@@ -10427,21 +10427,21 @@
             },
             {
                 "full_sequence_pos": 921,
-                "alignment_pos": 94,
+                "alignment_pos": 147,
                 "from": "Q",
                 "to": "H",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 1012,
-                "alignment_pos": 170,
+                "alignment_pos": 233,
                 "from": "L",
                 "to": "P",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 844,
-                "alignment_pos": 18,
+                "alignment_pos": 82,
                 "from": "L",
                 "to": "F",
                 "location": "kinase_domain"
@@ -10531,14 +10531,14 @@
         "substitutions": [
             {
                 "full_sequence_pos": 272,
-                "alignment_pos": 200,
+                "alignment_pos": 213,
                 "from": "R",
                 "to": "*",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 203,
-                "alignment_pos": 163,
+                "alignment_pos": 174,
                 "from": "V",
                 "to": "I",
                 "location": "kinase_domain"
@@ -10614,7 +10614,7 @@
         "substitutions": [
             {
                 "full_sequence_pos": 50,
-                "alignment_pos": 38,
+                "alignment_pos": 40,
                 "from": "D",
                 "to": "A",
                 "location": "kinase_domain"
@@ -10628,14 +10628,14 @@
             },
             {
                 "full_sequence_pos": 159,
-                "alignment_pos": 131,
+                "alignment_pos": 139,
                 "from": "G",
                 "to": "A",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 207,
-                "alignment_pos": 168,
+                "alignment_pos": 179,
                 "from": "I",
                 "to": "V",
                 "location": "kinase_domain"
@@ -10680,7 +10680,7 @@
         "substitutions": [
             {
                 "full_sequence_pos": 462,
-                "alignment_pos": 93,
+                "alignment_pos": 97,
                 "from": "R",
                 "to": "Q",
                 "location": "kinase_domain"
@@ -10732,63 +10732,63 @@
         "substitutions": [
             {
                 "full_sequence_pos": 229,
-                "alignment_pos": 135,
+                "alignment_pos": 149,
                 "from": "A",
                 "to": "V",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 246,
-                "alignment_pos": 149,
+                "alignment_pos": 160,
                 "from": "R",
                 "to": "H",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 319,
-                "alignment_pos": 200,
+                "alignment_pos": 220,
                 "from": "R",
                 "to": "H",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 95,
-                "alignment_pos": 33,
+                "alignment_pos": 34,
                 "from": "N",
                 "to": "K",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 320,
-                "alignment_pos": 200,
+                "alignment_pos": 221,
                 "from": "C",
                 "to": "*",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 199,
-                "alignment_pos": 105,
+                "alignment_pos": 117,
                 "from": "H",
                 "to": "L",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 197,
-                "alignment_pos": 103,
+                "alignment_pos": 115,
                 "from": "I",
                 "to": "M",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 139,
-                "alignment_pos": 65,
+                "alignment_pos": 74,
                 "from": "M",
                 "to": "T",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 264,
-                "alignment_pos": 162,
+                "alignment_pos": 178,
                 "from": "S",
                 "to": "C",
                 "location": "kinase_domain"
@@ -10826,28 +10826,28 @@
         "substitutions": [
             {
                 "full_sequence_pos": 217,
-                "alignment_pos": 26,
+                "alignment_pos": 28,
                 "from": "A",
                 "to": "D",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 246,
-                "alignment_pos": 44,
+                "alignment_pos": 46,
                 "from": "R",
                 "to": "*",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 279,
-                "alignment_pos": 53,
+                "alignment_pos": 62,
                 "from": "R",
                 "to": "H",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 456,
-                "alignment_pos": 172,
+                "alignment_pos": 199,
                 "from": "Q",
                 "to": "*",
                 "location": "kinase_domain"
@@ -10861,42 +10861,42 @@
             },
             {
                 "full_sequence_pos": 271,
-                "alignment_pos": 53,
+                "alignment_pos": 54,
                 "from": "H",
                 "to": "Q",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 347,
-                "alignment_pos": 90,
+                "alignment_pos": 104,
                 "from": "L",
                 "to": "P",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 399,
-                "alignment_pos": 137,
+                "alignment_pos": 150,
                 "from": "P",
                 "to": "L",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 313,
-                "alignment_pos": 66,
+                "alignment_pos": 69,
                 "from": "T",
                 "to": "M",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 437,
-                "alignment_pos": 161,
+                "alignment_pos": 177,
                 "from": "W",
                 "to": "*",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 431,
-                "alignment_pos": 155,
+                "alignment_pos": 171,
                 "from": "Y",
                 "to": "H",
                 "location": "kinase_domain"
@@ -11066,7 +11066,7 @@
             },
             {
                 "full_sequence_pos": 761,
-                "alignment_pos": 203,
+                "alignment_pos": 206,
                 "from": "R",
                 "to": "W",
                 "location": "kinase_domain"
@@ -11108,7 +11108,7 @@
             },
             {
                 "full_sequence_pos": 545,
-                "alignment_pos": 19,
+                "alignment_pos": 21,
                 "from": "Q",
                 "to": "*",
                 "location": "kinase_domain"
@@ -11136,7 +11136,7 @@
             },
             {
                 "full_sequence_pos": 565,
-                "alignment_pos": 30,
+                "alignment_pos": 32,
                 "from": "F",
                 "to": "S",
                 "location": "kinase_domain"
@@ -11188,7 +11188,7 @@
         "substitutions": [
             {
                 "full_sequence_pos": 36,
-                "alignment_pos": 3,
+                "alignment_pos": 5,
                 "from": "R",
                 "to": "*",
                 "location": "kinase_domain"
@@ -11226,7 +11226,7 @@
         "substitutions": [
             {
                 "full_sequence_pos": 105,
-                "alignment_pos": 80,
+                "alignment_pos": 86,
                 "from": "A",
                 "to": "V",
                 "location": "kinase_domain"
@@ -11247,7 +11247,7 @@
             },
             {
                 "full_sequence_pos": 57,
-                "alignment_pos": 37,
+                "alignment_pos": 38,
                 "from": "Q",
                 "to": "*",
                 "location": "kinase_domain"
@@ -11292,7 +11292,7 @@
         "substitutions": [
             {
                 "full_sequence_pos": 28,
-                "alignment_pos": 0,
+                "alignment_pos": 1,
                 "from": "Y",
                 "to": "*",
                 "location": "kinase_domain"
@@ -11330,14 +11330,14 @@
         "substitutions": [
             {
                 "full_sequence_pos": 262,
-                "alignment_pos": 96,
+                "alignment_pos": 106,
                 "from": "L",
                 "to": "R",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 217,
-                "alignment_pos": 58,
+                "alignment_pos": 63,
                 "from": "Y",
                 "to": "*",
                 "location": "kinase_domain"
@@ -11375,7 +11375,7 @@
         "substitutions": [
             {
                 "full_sequence_pos": 126,
-                "alignment_pos": 111,
+                "alignment_pos": 129,
                 "from": "R",
                 "to": "*",
                 "location": "kinase_domain"
@@ -11427,7 +11427,7 @@
         "substitutions": [
             {
                 "full_sequence_pos": 698,
-                "alignment_pos": 205,
+                "alignment_pos": 207,
                 "from": "R",
                 "to": "*",
                 "location": "kinase_domain"
@@ -11524,14 +11524,14 @@
             },
             {
                 "full_sequence_pos": 410,
-                "alignment_pos": 155,
+                "alignment_pos": 169,
                 "from": "R",
                 "to": "W",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 234,
-                "alignment_pos": 21,
+                "alignment_pos": 23,
                 "from": "D",
                 "to": "H",
                 "location": "kinase_domain"
@@ -11628,21 +11628,21 @@
         "substitutions": [
             {
                 "full_sequence_pos": 241,
-                "alignment_pos": 86,
+                "alignment_pos": 88,
                 "from": "R",
                 "to": "*",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 300,
-                "alignment_pos": 141,
+                "alignment_pos": 143,
                 "from": "L",
                 "to": "S",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 204,
-                "alignment_pos": 53,
+                "alignment_pos": 55,
                 "from": "P",
                 "to": "R",
                 "location": "kinase_domain"
@@ -11680,14 +11680,14 @@
         "substitutions": [
             {
                 "full_sequence_pos": 290,
-                "alignment_pos": 65,
+                "alignment_pos": 66,
                 "from": "R",
                 "to": "*",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 315,
-                "alignment_pos": 86,
+                "alignment_pos": 88,
                 "from": "Q",
                 "to": "*",
                 "location": "kinase_domain"
@@ -11746,21 +11746,21 @@
         "substitutions": [
             {
                 "full_sequence_pos": 243,
-                "alignment_pos": 190,
+                "alignment_pos": 231,
                 "from": "R",
                 "to": "L",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 42,
-                "alignment_pos": 5,
+                "alignment_pos": 10,
                 "from": "G",
                 "to": "D",
                 "location": "kinase_domain"
             },
             {
                 "full_sequence_pos": 81,
-                "alignment_pos": 38,
+                "alignment_pos": 42,
                 "from": "T",
                 "to": "R",
                 "location": "kinase_domain"
