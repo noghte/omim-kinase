@@ -45,7 +45,7 @@ def get_clinvar_data(mim_number, driver):
         WebDriverWait(driver, 20).until(
             EC.element_to_be_clickable((By.XPATH, "//button[text()='Create File']"))
         ).click()
-        
+        time.sleep(20)
         # Wait for download to complete (check for 60 seconds)
         start_time = time.time()
         max_wait = 60
@@ -97,6 +97,13 @@ def main():
     
     finally:
         driver.quit()
-
+    print("Finished")
 if __name__ == "__main__":
     main()
+
+# Omim Ids not found:
+# 613762
+# 400008
+# 300283
+# 119530
+# 301002

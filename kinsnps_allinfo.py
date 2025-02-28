@@ -117,7 +117,8 @@ def parse_subs_file(subs_file_path, uniprot_info):
                         "alignment_pos": alignment_pos,
                         "from": from_aa,
                         "to": to_aa,
-                        "location": location
+                        "location": location,
+                        "database": "OMIM"
                     })
     return uniprot_info
 
