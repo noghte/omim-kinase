@@ -128,11 +128,12 @@ def write_json(output_file_path, uniprot_info):
 def main():
     fasta_file_path = './kinsnps/subkinsnps.mma'
     # subs_file_path = './kinsnps/kinsnps_uid_subs_split.txt'
-    subs_file_path = './kinsnps/subkinsnps_uid_subs_split.txt'
+    subs_file_path_omim = './kinsnps/subkinsnps_uid_subs_split.txt'
+    # subs_file_path_clinvar = './'
     output_file_path = 'kinsnps_allinfo.json'
 
     uniprot_info = parse_fasta_file(fasta_file_path)
-    uniprot_info = parse_subs_file(subs_file_path, uniprot_info)
+    uniprot_info = parse_subs_file(subs_file_path_omim, uniprot_info)
     write_json(output_file_path, uniprot_info)
 
 if __name__ == "__main__":

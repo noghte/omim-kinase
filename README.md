@@ -1,23 +1,64 @@
-
 ## Preequistes
 
 1. Register at [https://omim.org/api](https://omim.org/api) to get your API key
 2. Rename the `.env.example` file to `.env` and set your API key in it
 
-## Workflow to get omim data
-**A)** Run `get_omim_ids.py` script to get omim ids
+## Workflow to get OMIM data
 
-| It will iteate over the list of kinases that are in `data/kinase_list.csv` and get the omim ids. The output will be in `data/omim_ids.csv`
+### Prerequisites
+1. Register at [https://omim.org/api](https://omim.org/api) to get your API key
+2. Rename the `.env.example` file to `.env` and set your API key in it
 
-**B)** Run `save_allelic_variants_tsv_files.py` script to download allelic variants. 
+### Step 1: Get OMIM IDs
+Run `get_omim_ids.py` to fetch OMIM IDs for your kinases:
+- **Input**: `data/kinase_list.csv` (list of kinase genes)
+- **Output**: `data/omim_ids.csv` with columns:
+  - `gene`: Kinase gene name
+  - `mimNumber`: OMIM ID
+  - `preferredTitle`: OMIM entry title
+- **Reference**: 
 
-|    It iterates over rows in `omim_ids.csv` and gets the allelic variants for each of them (e.g., if omim id is 131550, it will download `https://omim.org/allelicVariants/131550?format=tsv`). The output will be saved in `data/allelic_variants`
+### Step 2: Download Allelic Variants
+Run `save_allelic_variants_tsv_files.py` to fetch variant data:
+- **Input**: `data/omim_ids.csv`
+- **Output**: TSV files in `data/allelic_variants/` directory (one file per OMIM ID)
+- **Format**: Each TSV contains:
+  - Header information
+  - Variant table with columns: Number, Phenotype, Mutation, SNP, gnomAD_SNP, ClinVar
+- **Note**: Includes rate limiting (1-3 second delay between requests)
+- **Reference**:
 
-**C)** Run `get_uniprot_ids.py` script to add a column `uniprot_id` to the `omim_ids.csv`. 
+### Step 3: Add UniProt IDs
+Run `get_uniprot_ids.py` to add UniProt mappings:
+- **Input**: `data/omim_ids.csv`
+- **Output**: Updated CSV with new `uniprot_id` column
+- **Process**: Scrapes UniProt IDs from OMIM entry pages
+- **Reference**:
 
-**D)** Run `merge_tsvs.py` script to merge the allelic variants for each of the omim ids. The output will be in `data/merged_allelic_variants.tsv`   
+### Step 4: Merge Variant Data
+Run `merge_tsvs.py` to combine all variant information:
+- **Input**: 
+  - `data/allelic_variants/*.tsv` files
+  - `data/omim_ids.csv`
+  - `data/kinase_list.csv`
+- **Output**: `data/merged_allelic_variants.tsv`
+- **Columns**: OMIM_ID, Kinase_Description, Uniprot_ID, Gene, Number, Phenotype, Mutation, SNP, gnomAD_SNP, ClinVar
+- **Reference**:
 
-**E)** With some Unix commands the file `subkinsnps_uid_subs_split.txt` has been created.
+### Step 5: Generate Final Output
+Use Unix commands to process `data/merged_allelic_variants.tsv` and create `subkinsnps_uid_subs_split.txt`
+
+### Optional: Generate Statistics
+Run `stats.py` to check data completeness:
+- **Output**: 
+  - `data/omim_ids_found.csv`: Successfully processed entries
+  - `data/omim_ids_notfound.csv`: Failed/missing entries
+- **Reference**:
+
+## Workflow to get ClinVar data
+
+**A)** Run `get_clinvar.py`. It iterates over `omim_ids.csv` and calls https://www.ncbi.nlm.nih.gov/clinvar?term={mimNumber}[MIM] to get the ClinVar data. It clicks on the "Create File" button and downloads the text file and saves it to `./data/clinvar/{mimNumber}.txt`.
+
 
 ## Create JSON for analysis
 
