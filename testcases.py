@@ -8,49 +8,52 @@ def check_substitution(data, results, uniprot_id, from_aa, to_aa, fullseq_pos, a
                 if sub["from"] == from_aa and sub["to"] == to_aa:
                     if sub["full_sequence_pos"] == fullseq_pos and sub["alignment_pos"] == alignment_pos:
                         results["passed"].append(f"{uniprot_id}: Passed for {from_aa} to {to_aa} at fullseq_pos {fullseq_pos} and alignment_pos {alignment_pos}")
-                    else:
+                        found = True
+                        return  # Found exact match
+                    elif not found:  # Only record failure if no match found yet
                         if sub["full_sequence_pos"] != fullseq_pos:
                             results["failed"].append(f"{uniprot_id}: Expected full_sequence_pos {fullseq_pos}, got {sub['full_sequence_pos']}")
                         if sub["alignment_pos"] != alignment_pos:
                             results["failed"].append(f"{uniprot_id}: Expected alignment_pos {alignment_pos}, got {sub['alignment_pos']}")
-                    found = True
-                    break
-            break
+                        found = True  # Mark as found even if positions don't match
+    
     if not found:
         results["failed"].append(f"{uniprot_id}: Entry with specified substitutions not found for {from_aa} to {to_aa}")
 
-def test_output_json(output_file_path):
+def test_output_json(json_file_path):
     results = {"passed": [], "failed": []}
+    
+    try:
+        with open(json_file_path, 'r') as f:
+            data = json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError) as e:
+        results["failed"].append(f"Error reading JSON file: {str(e)}")
+        return results
 
-    with open(output_file_path, 'r') as json_file:
-        data = json.load(json_file)
+    check_substitution(data, results, "Q16644", "L", "P", 173, 126)
+    check_substitution(data, results, "Q8IW41", "G", "V", 107, 79)
+    check_substitution(data, results, "P68400", "R", "Q", 47, 9)
+    check_substitution(data, results, "P68400", "D", "H", 156, 119)
+    check_substitution(data, results, "P68400", "K", "R", 198, 160)
+    check_substitution(data, results, "P43405", "S", "Y", 550, 171)
+    check_substitution(data, results, "P10721", "R", "G", 796, 123)
+    check_substitution(data, results, "P10721", "E", "K", 839, 163)
 
-    # Test cases
-    check_substitution(data, results, uniprot_id="Q16644", from_aa= "L", to_aa= "P", fullseq_pos= 173, alignment_pos= 126)
-    check_substitution(data, results, uniprot_id="Q8IW41", from_aa= "G", to_aa= "V", fullseq_pos= 107, alignment_pos= 79)
-    check_substitution(data, results, uniprot_id="P68400", from_aa= "R", to_aa= "Q", fullseq_pos= 47, alignment_pos= 9)
-    check_substitution(data, results, uniprot_id="P68400", from_aa= "D", to_aa= "H", fullseq_pos= 156, alignment_pos= 119)    
-    check_substitution(data, results, uniprot_id="P68400", from_aa= "K", to_aa= "R", fullseq_pos= 198, alignment_pos= 160)    
-    check_substitution(data, results, uniprot_id="P43405", from_aa= "S", to_aa= "Y", fullseq_pos= 550, alignment_pos= 171)
-    check_substitution(data, results, uniprot_id="P10721", from_aa= "R", to_aa= "G", fullseq_pos= 796 , alignment_pos= 123)    
-    check_substitution(data, results, uniprot_id="P10721", from_aa= "E", to_aa= "K", fullseq_pos= 839 , alignment_pos= 163)    
-            
     return results
 
 if __name__ == "__main__":
-    output_file_path = 'kinsnps_allinfo.json'
-    results = test_output_json(output_file_path)
+    results = test_output_json('kinsnps_allinfo.json')
     
+    print("\nTest Results:")
     if results["passed"]:
-        print("Passed tests:")
+        print("\nPassed tests:")
         for test in results["passed"]:
-            print(f"  - {test}")
-    else:
-        print("No tests passed.")
-
+            print(f"  ✓ {test}")
+            
     if results["failed"]:
-        print("Failed tests:")
+        print("\nFailed tests:")
         for test in results["failed"]:
-            print(f"  - {test}")
-    else:
-        print("No tests failed.")
+            print(f"  ✗ {test}")
+            
+    if not results["passed"] and not results["failed"]:
+        print("No tests were executed")
