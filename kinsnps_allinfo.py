@@ -256,7 +256,7 @@ def add_clinvar_substitutions(uniprot_info: Dict) -> Dict:
 if __name__ == "__main__":
     fasta_file_path = './kinsnps/subkinsnps.mma'
     subs_file_path_omim = './kinsnps/subkinsnps_uid_subs_split.txt'
-    output_file_path = 'kinsnps_allinfo_twodbs.json'
+    output_file_path = './data/kinsnps_allinfo_twodbs.json'
 
     uniprot_info = parse_fasta_file(fasta_file_path)
     uniprot_info = parse_subs_file(subs_file_path_omim, uniprot_info)
