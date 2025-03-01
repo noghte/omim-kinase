@@ -173,7 +173,6 @@ def parse_clinvar_file(clinvar_file_path: str, uniprot_id: str, uniprot_info: Di
     print(f"Processing: Uniprot ID: {uniprot_id}, OMIM ID: {omim_id}")
     
     unmatched_file = './data/unmatched_protein_changes.csv'
-    # Create/open the CSV file for unmatched patterns
     if not os.path.exists(unmatched_file):
         with open(unmatched_file, 'w', newline='') as f:
             writer = csv.writer(f)
@@ -183,53 +182,59 @@ def parse_clinvar_file(clinvar_file_path: str, uniprot_id: str, uniprot_info: Di
         with open(clinvar_file_path, 'r') as file:
             reader = csv.DictReader(file, delimiter='\t')
             for row in reader:
-                protein_change = row['Protein change']
-                if not protein_change:  # Skip empty protein changes
+                protein_changes_str = row['Protein change']
+                if not protein_changes_str:  # Skip empty protein changes
                     continue
-                if not protein_change_pattern.match(protein_change):
-                    # Log only non-empty unmatched protein changes
-                    with open(unmatched_file, 'a', newline='') as f:
-                        writer = csv.writer(f)
-                        writer.writerow([uniprot_id, omim_id, protein_change])
-                    continue
-                try:
-                    full_sequence_pos = int(''.join(c for c in protein_change if c.isdigit()))
-                    from_aa = protein_change[0]  # First letter
-                    to_aa = protein_change[-1]   # Last letter
+                
+                # Split the protein changes and process each one
+                protein_changes = [change.strip() for change in protein_changes_str.split(',')]
+                
+                for protein_change in protein_changes:
+                    if not protein_change_pattern.match(protein_change):
+                        # Log only non-empty unmatched protein changes
+                        with open(unmatched_file, 'a', newline='') as f:
+                            writer = csv.writer(f)
+                            writer.writerow([uniprot_id, omim_id, protein_change])
+                        continue
                     
-                    sequence = uniprot_info[uniprot_id]["sequence"]
-                    # Calculate marker position
-                    current_count = 0
-                    for i, c in enumerate(sequence):
-                        if c not in '() -':
-                            current_count += 1
-                            if current_count == full_sequence_pos:
-                                marker_pos = i
+                    try:
+                        full_sequence_pos = int(''.join(c for c in protein_change if c.isdigit()))
+                        from_aa = protein_change[0]  # First letter
+                        to_aa = protein_change[-1]   # Last letter
+                        
+                        sequence = uniprot_info[uniprot_id]["sequence"]
+                        # Calculate marker position
+                        current_count = 0
+                        for i, c in enumerate(sequence):
+                            if c not in '() -':
+                                current_count += 1
+                                if current_count == full_sequence_pos:
+                                    marker_pos = i
+                                    break
+                        else:
+                            marker_pos = -1
+                        
+                        alignment_pos = get_alignment_position(sequence, marker_pos)
+                        
+                        # Determine location
+                        location = "kinase_domain"
+                        for region in uniprot_info[uniprot_id]["flanking_positions"]:
+                            if region["start"] <= full_sequence_pos <= region["end"]:
+                                location = "flanking_region"
+                                alignment_pos = "Outside of the alignment"
                                 break
-                    else:
-                        marker_pos = -1
-                    
-                    alignment_pos = get_alignment_position(sequence, marker_pos)
-                    
-                    # Determine location
-                    location = "kinase_domain"
-                    for region in uniprot_info[uniprot_id]["flanking_positions"]:
-                        if region["start"] <= full_sequence_pos <= region["end"]:
-                            location = "flanking_region"
-                            alignment_pos = "Outside of the alignment"
-                            break
-                    
-                    uniprot_info[uniprot_id]["substitutions"].append({
-                        "full_sequence_pos": full_sequence_pos,
-                        "alignment_pos": alignment_pos,
-                        "from": from_aa,
-                        "to": to_aa,
-                        "location": location,
-                        "database": "ClinVar"
-                    })
-                except (ValueError, KeyError) as e:
-                    print(f"Error processing row in {clinvar_file_path}: {e}")
-                    continue
+                        
+                        uniprot_info[uniprot_id]["substitutions"].append({
+                            "full_sequence_pos": full_sequence_pos,
+                            "alignment_pos": alignment_pos,
+                            "from": from_aa,
+                            "to": to_aa,
+                            "location": location,
+                            "database": "ClinVar"
+                        })
+                    except (ValueError, KeyError) as e:
+                        print(f"Error processing protein change {protein_change} in {clinvar_file_path}: {e}")
+                        continue
     except FileNotFoundError:
         print(f"Warning: Could not find ClinVar file {clinvar_file_path}")
 
