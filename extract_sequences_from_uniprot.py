@@ -2,6 +2,7 @@ import requests
 import csv
 import time
 import os
+from typing import Dict
 
 def get_protein_data(uniprot_id):
     time.sleep(0.1)
@@ -40,63 +41,71 @@ def get_isoform_sequences(uniprot_id):
     else:
         return None
 
-def sequence_matches_position(sequence, position, wt_amino_acid):
-    try:
-        return sequence[int(position) - 1] == wt_amino_acid
-    except IndexError:
-        return False
-
-def read_tsv_and_generate_fasta(input_tsv, output_fasta, mode):
-    processed_uniprot_ids = set()  # To track processed UniProt IDs
+# def sequence_matches_position(sequence, position, wt_amino_acid):
+#     try:
+#         return sequence[int(position) - 1] == wt_amino_acid
+#     except IndexError:
+#         return False
+def create_omim_uniprot_mapping() -> Dict[str, str]:
+    """Create mapping between OMIM IDs and Uniprot IDs."""
+    mapping = {}
     
-    with open(input_tsv, 'r') as tsvfile:
-        reader = csv.DictReader(tsvfile, delimiter='\t')
-        
-        tsv_data = {}
+    # Process found mappings
+    with open('./data/omim_ids_found_with_uniprot.csv', 'r') as file:
+        reader = csv.DictReader(file)
         for row in reader:
-            uniprot_id = row['Uniprot ID']
-            if uniprot_id not in tsv_data:
-                tsv_data[uniprot_id] = []
-            tsv_data[uniprot_id].append(row)
+            mapping[row['mimNumber']] = row['uniprot_id']
+    
+    # Process not found mappings
+    with open('./data/omim_ids_notfound_with_uniprot.csv', 'r') as file:
+        reader = csv.DictReader(file)
+        for row in reader:
+            if 'uniprot_id' in row and row['uniprot_id']:  # Only if uniprot_id exists
+                mapping[row['mimNumber']] = row['uniprot_id']
+    
+    return mapping
+
+def generate_fasta(input_tsv, output_fasta, mode):
+    processed_uniprot_ids = set()  # To track processed UniProt IDs
         
-        with open(output_fasta, mode) as fasta_file:
-            for uniprot_id, positions in tsv_data.items():
-                if uniprot_id in processed_uniprot_ids:
-                    continue  # Skip if this UniProt ID has already been processed
+    with open(output_fasta, mode) as fasta_file:
+        for mim_number, uniprot_id in uniprot_data.items():
+            if uniprot_id in processed_uniprot_ids:
+                continue  # Skip if this UniProt ID has already been processed
 
-                print(f"Processing Uniprot ID: {uniprot_id}")
-                protein_data = get_protein_data(uniprot_id)
-                
-                if protein_data:
-                    # Check the main protein sequence first
-                    sequence = protein_data.get('sequence', {}).get('sequence', '')
-                    for pos in positions:
-                        if sequence_matches_position(sequence, pos['Position'], pos['WT Amino Acid']):
-                            # Write the main protein sequence to the FASTA file
-                            fasta_header = (
-                                f">{protein_data['accession']}|{protein_data['id']}|{protein_data['protein']['recommendedName']['fullName']['value']}|"
-                                f"GN={protein_data['gene'][0]['name']['value']}|OS={next((n['value'] for n in protein_data['organism']['names'] if n['type'] == 'scientific'), 'N/A')}|OX={protein_data['organism']['taxonomy']}"
-                            )
-                            fasta_file.write(f"{fasta_header}\n{sequence}\n\n")
-                            processed_uniprot_ids.add(uniprot_id)
-                            break  # Skip isoform checking if main sequence matches any position
+            print(f"Processing Uniprot ID: {uniprot_id}")
+            protein_data = get_protein_data(uniprot_id)
+            
+            if protein_data:
+                # Check the main protein sequence first
+                sequence = protein_data.get('sequence', {}).get('sequence', '')
+                # for pos in positions:
+                #     if sequence_matches_position(sequence, pos['Position'], pos['WT Amino Acid']):
+                        # Write the main protein sequence to the FASTA file
+                fasta_header = (
+                    f">{protein_data['accession']}|{protein_data['id']}|{protein_data['protein']['recommendedName']['fullName']['value']}|"
+                    f"GN={protein_data['gene'][0]['name']['value']}|OS={next((n['value'] for n in protein_data['organism']['names'] if n['type'] == 'scientific'), 'N/A')}|OX={protein_data['organism']['taxonomy']}"
+                )
+                fasta_file.write(f"{fasta_header}\n{sequence}\n\n")
+                processed_uniprot_ids.add(uniprot_id)
+                # break  # Skip isoform checking if main sequence matches any position
 
-                    # If the main sequence does not match any position, check isoforms
-                    if uniprot_id not in processed_uniprot_ids:
-                        isoforms = get_isoform_sequences(uniprot_id)
-                        if isoforms:
-                            for isoform in isoforms:
-                                sequence = isoform.get('sequence', {}).get('sequence', '')
-                                for pos in positions:
-                                    if sequence_matches_position(sequence, pos['Position'], pos['WT Amino Acid']):
-                                        # Write the isoform sequence to the FASTA file
-                                        fasta_header = (
-                                            f">{isoform['accession']}|{isoform['id']}|{isoform['protein']['recommendedName']['fullName']['value']}|"
-                                            f"GN={isoform['gene'][0]['name']['value']}|OS={next((n['value'] for n in isoform['organism']['names'] if n['type'] == 'scientific'), 'N/A')}|OX={isoform['organism']['taxonomy']}"
-                                        )
-                                        fasta_file.write(f"{fasta_header}\n{sequence}\n\n")
-                                        processed_uniprot_ids.add(uniprot_id)
-                                        break  # Stop after the first matching isoform
+                # If the main sequence does not match any position, check isoforms
+                # if uniprot_id not in processed_uniprot_ids:
+                #     isoforms = get_isoform_sequences(uniprot_id)
+                #     if isoforms:
+                #         for isoform in isoforms:
+                #             sequence = isoform.get('sequence', {}).get('sequence', '')
+                #             for pos in positions:
+                #                 if sequence_matches_position(sequence, pos['Position'], pos['WT Amino Acid']):
+                #                     # Write the isoform sequence to the FASTA file
+                #                     fasta_header = (
+                #                         f">{isoform['accession']}|{isoform['id']}|{isoform['protein']['recommendedName']['fullName']['value']}|"
+                #                         f"GN={isoform['gene'][0]['name']['value']}|OS={next((n['value'] for n in isoform['organism']['names'] if n['type'] == 'scientific'), 'N/A')}|OX={isoform['organism']['taxonomy']}"
+                #                     )
+                #                     fasta_file.write(f"{fasta_header}\n{sequence}\n\n")
+                #                     processed_uniprot_ids.add(uniprot_id)
+                #                     break  # Stop after the first matching isoform
 
 def report_missings(tsv_file, fasta_file):
     tsv_uniprot_ids = set()
@@ -130,8 +139,9 @@ def report_missings(tsv_file, fasta_file):
         print("All UniProt IDs in the TSV file are present in the FASTA file.")
 
 if __name__ == '__main__':
-    input_tsv = './kinsnps/subkinsnps_uid_subs_split.txt'
-    output_fasta = './kinsnps/subkinsnps.fasta'
+    # input_tsv = './kinsnps/subkinsnps_uid_subs_split.txt'
+    uniprot_data = create_omim_uniprot_mapping()
+    output_fasta = './kinsnps/human_kinases.fasta'
 
     if os.path.exists(output_fasta):
         user_input = input(f"File {output_fasta} exists. Do you want to re-create it or append to it? (r/a): ").strip().lower()
@@ -145,5 +155,5 @@ if __name__ == '__main__':
     else:
         mode = 'w'
 
-    read_tsv_and_generate_fasta(input_tsv, output_fasta, mode)
-    report_missings(input_tsv, output_fasta)
+    generate_fasta(uniprot_data, output_fasta, mode)
+    # report_missings(uniprot_data, output_fasta)

@@ -70,6 +70,6 @@ Run `kinsnps_allinfo.py` script. Based on the files in `kinsnps` directory, it w
 
 - `extract_sequences_from_uniprot.py`: Extract sequences of different isoforms from Uniprot.
   - Input:'./kinsnps/subkinsnps_uid_subs_split.txt'
-  - Output: './kinsnps/subkinsnps.fasta' that needs to be aligned and the an `mma` file will be created.
+  - Output: './kinsnps/human_kinases.fasta' that needs to be aligned and the an `mma` file will be created.
 
 - Then the `mma` file and the `subkinsnps_uid_subs_split.txt` should be used to create the `kinsnps_allinfo.json` file.
