@@ -4,6 +4,7 @@ import requests
 from bs4 import BeautifulSoup
 from time import sleep
 import random
+import os
 
 def get_all_omim_ids() -> set:
     """Extract all OMIM IDs from the TSV files."""
@@ -42,7 +43,38 @@ def get_uniprot_ids_from_fasta(fasta_file: str) -> set:
 if __name__ == '__main__':
     omim_ids = get_all_omim_ids()
     omim_uniprot_mapping = {}
-    for omim_id in list(omim_ids):
+    
+    # Before the loop, check if CSV file exists and load existing mappings
+    existing_mappings = {}
+    csv_file_path = './data/omim_uniprot_mapping.csv'
+
+    # Try to read existing mappings if the file exists
+    if os.path.exists(csv_file_path):
+        with open(csv_file_path, 'r', newline='') as csvfile:
+            csv_reader = csv.reader(csvfile)
+            next(csv_reader)  # Skip header row
+            for row in csv_reader:
+                if len(row) >= 2:
+                    omim_id, uniprot_id = row[0], row[1]
+                    existing_mappings[omim_id] = uniprot_id
+                    omim_uniprot_mapping[omim_id] = uniprot_id  # Also update the main mapping
+        print(f"Loaded {len(existing_mappings)} existing mappings from CSV file")
+
+    # Now open the file in append mode if it exists, or write mode if it doesn't
+    file_mode = 'a' if os.path.exists(csv_file_path) else 'w'
+    with open(csv_file_path, file_mode, newline='') as csvfile:
+        csv_writer = csv.writer(csvfile)
+        
+        # Write header row only if we're creating a new file
+        if file_mode == 'w':
+            csv_writer.writerow(['OMIM_ID', 'UniProt_ID'])
+        
+        for omim_id in list(omim_ids):
+            # Skip if we already have this mapping
+            if omim_id in existing_mappings:
+                print(f"Skipping OMIM ID: {omim_id}, already mapped to UniProt ID: {existing_mappings[omim_id]}")
+                continue
+                
             url = f'https://omim.org/entry/{omim_id}'
             headers = {
                 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
@@ -62,31 +94,31 @@ if __name__ == '__main__':
                 uniprot_id = uniprot_link['href'].split('/')[-1]
                 omim_uniprot_mapping[omim_id] = uniprot_id
                 print(f"OMIM ID: {omim_id}, UniProt ID: {uniprot_id}")
+                
+                # Write to CSV
+                csv_writer.writerow([omim_id, uniprot_id])
+                
             except requests.RequestException as e:
                 print(f"Failed to fetch data for omim id {omim_id}: {e}")
                 uniprot_id = None
-    #save
-    with open('./data/omim_uniprot_mapping.csv', 'w') as file:
-        writer = csv.writer(file)
-        writer.writerow(['omim_id', 'uniprot_id'])
-        for omim_id, uniprot_id in omim_uniprot_mapping.items():
-            writer.writerow([omim_id, uniprot_id])
+                
+
     
     # check fasta file
-    uniprot_data = create_omim_uniprot_mapping()
+    # uniprot_data = create_omim_uniprot_mapping()
 
-    input_fasta = './kinsnps/human_kinases.fasta'
+    # input_fasta = './kinsnps/human_kinases.fasta'
 
-    # Get UniProt IDs from FASTA file
-    fasta_uniprot_ids = get_uniprot_ids_from_fasta(input_fasta)
+    # # Get UniProt IDs from FASTA file
+    # fasta_uniprot_ids = get_uniprot_ids_from_fasta(input_fasta)
     
-    # Find missing IDs
-    missing_ids = set(uniprot_data.values()) - fasta_uniprot_ids
+    # # Find missing IDs
+    # missing_ids = set(uniprot_data.values()) - fasta_uniprot_ids
     
-    # Print results
-    print(f"Total UniProt IDs in mapping: {len(uniprot_data)}")
-    print(f"Total UniProt IDs in FASTA: {len(fasta_uniprot_ids)}")
-    print(f"Number of missing IDs: {len(missing_ids)}")
-    print("\nMissing UniProt IDs:")
-    for missing_id in sorted(missing_ids):
-        print(missing_id)
+    # # Print results
+    # print(f"Total UniProt IDs in mapping: {len(uniprot_data)}")
+    # print(f"Total UniProt IDs in FASTA: {len(fasta_uniprot_ids)}")
+    # print(f"Number of missing IDs: {len(missing_ids)}")
+    # print("\nMissing UniProt IDs:")
+    # for missing_id in sorted(missing_ids):
+    #     print(missing_id)

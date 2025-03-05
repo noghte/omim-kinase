@@ -1,5 +1,6 @@
 kinsnps_allinfo_twodbs.json
 *.log
+.vscode
 .env
 .vercel_build_output
 .svelte-kit
