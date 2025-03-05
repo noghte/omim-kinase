@@ -112,7 +112,7 @@ if __name__ == '__main__':
             headers = get_headers()
             try:
                 response = requests.get(url, headers=headers)
-                # sleep(random.uniform(10.5, 18.5))
+                sleep(random.uniform(0.5, 2.5))
                 response.raise_for_status()
                 html_content = response.text
                 soup = BeautifulSoup(html_content, 'html.parser')
