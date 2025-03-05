@@ -1,8 +1,7 @@
 import json
-from typing import Dict, List
 import csv
 import os
-from typing import Dict, List, Optional
+from typing import Dict
 import re
 protein_change_pattern = re.compile(r'^[A-Z]\d+[A-Z]$')
 
