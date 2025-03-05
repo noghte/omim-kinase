@@ -5,7 +5,40 @@ from bs4 import BeautifulSoup
 from time import sleep
 import random
 import os
+from collections import OrderedDict
 
+user_agents = [
+    # Chrome (Windows/Mac/Linux)
+    'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36',
+    'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36',
+    
+    # Firefox
+    'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0',
+    
+    # Safari
+    'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1 Safari/605.1.15',
+    
+    # Edge
+    'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0',
+    
+    # Mobile (iOS/Android)
+    'Mozilla/5.0 (iPhone; CPU iPhone OS 17_1_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1 Mobile/15E148 Safari/604.1'
+]
+def get_headers():
+    return OrderedDict([
+        ('User-Agent', random.choice(user_agents)),
+        ('Accept', 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'),
+        ('Accept-Language', random.choice(['en-US,en;q=0.5', 'en-GB,en;q=0.7', 'en-CA,en;q=0.3'])),
+        ('Accept-Encoding', 'gzip, deflate, br'),
+        # ('Referer', random.choice(referers)),
+        ('Connection', 'keep-alive'),
+        ('Upgrade-Insecure-Requests', '1'),
+        ('Sec-Fetch-Dest', 'document'),
+        ('Sec-Fetch-Mode', 'navigate'),
+        ('Sec-Fetch-Site', 'same-origin'),
+        ('Sec-Fetch-User', '?1'),
+        ('DNT', random.choice(['1', '0']))
+    ])
 def get_all_omim_ids() -> set:
     """Extract all OMIM IDs from the TSV files."""
     omim_ids = set()
@@ -76,17 +109,10 @@ if __name__ == '__main__':
                 continue
                 
             url = f'https://omim.org/entry/{omim_id}'
-            headers = {
-                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
-                'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-                'Accept-Language': 'en-US,en;q=0.5',
-                'Accept-Encoding': 'gzip, deflate, br',
-                'Connection': 'keep-alive',
-                'Upgrade-Insecure-Requests': '1'
-            }
+            headers = get_headers()
             try:
                 response = requests.get(url, headers=headers)
-                sleep(random.uniform(0.5, 3.5))
+                # sleep(random.uniform(10.5, 18.5))
                 response.raise_for_status()
                 html_content = response.text
                 soup = BeautifulSoup(html_content, 'html.parser')
@@ -102,7 +128,7 @@ if __name__ == '__main__':
                 print(f"Failed to fetch data for omim id {omim_id}: {e}")
                 uniprot_id = None
                 
-
+    print("Done!")
     
     # check fasta file
     # uniprot_data = create_omim_uniprot_mapping()
