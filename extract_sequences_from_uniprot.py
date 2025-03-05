@@ -50,18 +50,12 @@ def create_omim_uniprot_mapping() -> Dict[str, str]:
     """Create mapping between OMIM IDs and Uniprot IDs."""
     mapping = {}
     
-    # Process found mappings
-    with open('./data/omim_ids_found_with_uniprot.csv', 'r') as file:
-        reader = csv.DictReader(file)
-        for row in reader:
-            mapping[row['mimNumber']] = row['uniprot_id']
-    
-    # Process not found mappings
-    with open('./data/omim_ids_notfound_with_uniprot.csv', 'r') as file:
-        reader = csv.DictReader(file)
-        for row in reader:
-            if 'uniprot_id' in row and row['uniprot_id']:  # Only if uniprot_id exists
-                mapping[row['mimNumber']] = row['uniprot_id']
+    csv_file_path = './data/omim_uniprot_mapping.csv'
+    if os.path.exists(csv_file_path):
+        with open(csv_file_path, 'r') as csvfile:
+            reader = csv.DictReader(csvfile)
+            for row in reader:
+                mapping[row['omim_id']] = row['uniprot_id']
     
     return mapping
 
@@ -141,7 +135,7 @@ def report_missings(tsv_file, fasta_file):
 if __name__ == '__main__':
     # input_tsv = './kinsnps/subkinsnps_uid_subs_split.txt'
     uniprot_data = create_omim_uniprot_mapping()
-    output_fasta = './kinsnps/human_kinases.fasta'
+    output_fasta = './data/human_kinases.fasta'
 
     if os.path.exists(output_fasta):
         user_input = input(f"File {output_fasta} exists. Do you want to re-create it or append to it? (r/a): ").strip().lower()
