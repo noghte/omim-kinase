@@ -88,7 +88,10 @@ if __name__ == '__main__':
 
     omim_ids = get_all_omim_ids()
     omim_uniprot_mapping = {}
-    
+    # 119530
+    # 613762
+    # 616731
+    # 617104
     # Before the loop, check if CSV file exists and load existing mappings
     existing_mappings = {}
     csv_file_path = './data/omim_uniprot_mapping.csv'
