@@ -50,17 +50,6 @@ def get_all_omim_ids() -> set:
                 omim_ids.add(row['mimNumber'])
     return omim_ids
 
-def create_omim_uniprot_mapping() -> Dict[str, str]:
-    """Create mapping between OMIM IDs and Uniprot IDs."""
-    mapping = {}
-    
-    # Process found mappings
-    with open('./data/omim_uniprot_mapping.csv', 'r') as file:
-        reader = csv.DictReader(file)
-        for row in reader:
-            mapping[row['mimNumber']] = row['uniprot_id']
-    
-    return mapping
 
 def get_uniprot_ids_from_fasta(fasta_file: str) -> set:
     """Extract UniProt IDs from FASTA file headers."""
@@ -73,7 +62,30 @@ def get_uniprot_ids_from_fasta(fasta_file: str) -> set:
                 uniprot_ids.add(uniprot_id)
     return uniprot_ids
 
+def get_notmapped_omim_ids() -> set:
+    """Get OMIM IDs that don't have UniProt mappings in the CSV file."""
+    mapped_ids = set()
+    all_omim_ids = get_all_omim_ids()
+    
+    # Read mapped IDs from CSV if it exists
+    csv_file_path = './data/omim_uniprot_mapping.csv'
+    if os.path.exists(csv_file_path):
+        with open(csv_file_path, 'r') as csvfile:
+            reader = csv.DictReader(csvfile)
+            for row in reader:
+                mapped_ids.add(row['omim_id'])
+    
+    # Return the difference between all OMIM IDs and mapped IDs
+    return all_omim_ids - mapped_ids
+    
 if __name__ == '__main__':
+    # Check for unmapped OMIM IDs first
+    unmapped_ids = get_notmapped_omim_ids()
+    print(f"Found {len(unmapped_ids)} unmapped OMIM IDs:")
+    for omim_id in sorted(unmapped_ids):
+        print(omim_id)
+    print("-" * 50)
+
     omim_ids = get_all_omim_ids()
     omim_uniprot_mapping = {}
     
@@ -129,7 +141,8 @@ if __name__ == '__main__':
                 uniprot_id = None
                 
     print("Done!")
-    
+
+
     # check fasta file
     # uniprot_data = create_omim_uniprot_mapping()
 
