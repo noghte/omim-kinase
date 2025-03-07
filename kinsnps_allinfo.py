@@ -54,6 +54,8 @@ def parse_fasta_file(fasta_file_path: str) -> Dict:
                     parts = line.split('|')
                     if len(parts) > 1:
                         current_id = parts[0][1:]
+                        if current_id in uniprot_info:
+                            continue
                         sequence = next(file).strip()
                         sequence = sequence[sequence.index("{")+1:sequence.index("}")]
                         
@@ -116,19 +118,18 @@ def parse_subs_file(subs_file_path: str, uniprot_info: Dict) -> Dict:
                         continue
 
                     sequence = uniprot_info[uniprot_id]["sequence"]
+                    
                     # Calculate letter_count first
                     current_count = 0
+                    marker_pos = -1
                     for i, c in enumerate(sequence):
                         if c not in '() -':
                             current_count += 1
-                            if current_count == full_sequence_pos:
-                                marker_pos = i
-                                break
-                    else:
-                        marker_pos = -1
+                        if current_count == full_sequence_pos:
+                            marker_pos = i  # Save the position where we stop
+                            break
                     
                     alignment_pos = get_alignment_position(sequence, marker_pos)
-                    
                     location = "kinase_domain"
                     for region in uniprot_info[uniprot_id]["flanking_positions"]:
                         if region["start"] <= full_sequence_pos <= region["end"]:
@@ -202,16 +203,15 @@ def parse_clinvar_file(clinvar_file_path: str, uniprot_id: str, uniprot_info: Di
                         to_aa = protein_change[-1]   # Last letter
                         
                         sequence = uniprot_info[uniprot_id]["sequence"]
-                        # Calculate marker position
+                        # Calculate marker position - make consistent with parse_subs_file
                         current_count = 0
+                        marker_pos = -1
                         for i, c in enumerate(sequence):
                             if c not in '() -':
                                 current_count += 1
-                                if current_count == full_sequence_pos:
-                                    marker_pos = i
-                                    break
-                        else:
-                            marker_pos = -1
+                            if current_count == full_sequence_pos:
+                                marker_pos = i
+                                break
                         
                         alignment_pos = get_alignment_position(sequence, marker_pos)
                         
@@ -253,7 +253,7 @@ def add_clinvar_substitutions(uniprot_info: Dict) -> Dict:
     return uniprot_info
 
 if __name__ == "__main__":
-    fasta_file_path = './kinsnps/subkinsnps.mma'
+    fasta_file_path = './kinsnps/human_kinases.mma'
     subs_file_path_omim = './kinsnps/subkinsnps_uid_subs_split.txt'
     output_file_path = './data/kinsnps_allinfo_twodbs.json'
 
