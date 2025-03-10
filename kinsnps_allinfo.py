@@ -98,6 +98,10 @@ def get_alignment_position(sequence: str, marker_pos: int) -> int:
             alignment_pos += 1
         if i == marker_pos:
             break
+            
+    # Check if we're inside flanking regions (denoted by parentheses)
+    if inside_parentheses:
+        return "Outside of the alignment"
     return alignment_pos
 
 def parse_subs_file(subs_file_path: str, uniprot_info: Dict) -> Dict:
@@ -131,8 +135,8 @@ def parse_subs_file(subs_file_path: str, uniprot_info: Dict) -> Dict:
                     
                     alignment_pos = get_alignment_position(sequence, marker_pos)
                     location = "kinase_domain"
-                    for region in uniprot_info[uniprot_id]["flanking_positions"]:
-                        if region["start"] <= full_sequence_pos <= region["end"]:
+                    for flanking_region in uniprot_info[uniprot_id]["flanking_positions"]:
+                        if flanking_region["start"] <= full_sequence_pos <= flanking_region["end"]:
                             location = "flanking_region"
                             alignment_pos = "Outside of the alignment"
                             break
@@ -217,8 +221,8 @@ def parse_clinvar_file(clinvar_file_path: str, uniprot_id: str, uniprot_info: Di
                         
                         # Determine location
                         location = "kinase_domain"
-                        for region in uniprot_info[uniprot_id]["flanking_positions"]:
-                            if region["start"] <= full_sequence_pos <= region["end"]:
+                        for flanking_region in uniprot_info[uniprot_id]["flanking_positions"]:
+                            if flanking_region["start"] <= full_sequence_pos <= flanking_region["end"]:
                                 location = "flanking_region"
                                 alignment_pos = "Outside of the alignment"
                                 break
