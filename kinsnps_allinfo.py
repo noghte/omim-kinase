@@ -270,7 +270,7 @@ def parse_clinvar_file(clinvar_file_path: str, uniprot_id: str, uniprot_info: Di
     return False
 
 def add_clinvar_substitutions(uniprot_info: Dict) -> Dict:
-    """Add ClinVar substitutions to uniprot_info."""
+    """Add ClinVar substitutions to uniprot_info, without affecting OMIM data."""
     omim_uniprot_mapping = create_omim_uniprot_mapping()
     
     # Create reverse mapping (Uniprot -> OMIM)
@@ -285,8 +285,6 @@ def add_clinvar_substitutions(uniprot_info: Dict) -> Dict:
         writer = csv.writer(f)
         writer.writerow(['uniprot_id', 'omim_id'])
     
-    error_uniprot_ids = set()
-    
     for uniprot_id in list(uniprot_info.keys()):
         if uniprot_id in uniprot_omim_mapping:
             omim_id = uniprot_omim_mapping[uniprot_id]
@@ -295,15 +293,10 @@ def add_clinvar_substitutions(uniprot_info: Dict) -> Dict:
             is_valid = parse_clinvar_file(clinvar_file_path, uniprot_id, uniprot_info, omim_id)
             
             if not is_valid:
-                error_uniprot_ids.add(uniprot_id)
+                # Only log the error but keep the uniprot_id with its OMIM data
                 with open(clinvar_errors_file, 'a', newline='') as f:
                     writer = csv.writer(f)
                     writer.writerow([uniprot_id, omim_id])
-    
-    # Remove entries with errors from uniprot_info
-    for uniprot_id in error_uniprot_ids:
-        if uniprot_id in uniprot_info:
-            del uniprot_info[uniprot_id]
     
     return uniprot_info
 
