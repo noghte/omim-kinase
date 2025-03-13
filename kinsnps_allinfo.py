@@ -45,6 +45,17 @@ def extract_sequence_info(sequence: str) -> tuple:
 def parse_fasta_file(fasta_file_path: str) -> Dict:
     """Parse FASTA file and extract protein information."""
     uniprot_info = {}
+    
+    # Load the gene names mapping
+    uniprot_gene_mapping = {}
+    try:
+        with open('./data/kinase_list.csv', 'r') as file:
+            reader = csv.DictReader(file)
+            for row in reader:
+                uniprot_gene_mapping[row['uniprot_id']] = row['gene']
+    except FileNotFoundError:
+        print("Warning: Could not find file ./data/kinase_list.csv")
+    
     try:
         with open(fasta_file_path, 'r') as file:
             current_id = None
@@ -62,8 +73,12 @@ def parse_fasta_file(fasta_file_path: str) -> Dict:
                         flanking_positions, kinase_domain, kinase_start, kinase_end = extract_sequence_info(sequence)
                         kinase_domain_alignment = ''.join(c for c in kinase_domain if c.isupper() or c == '-')
                         
+                        # Get gene name from mapping, or empty string if not found
+                        gene_name = uniprot_gene_mapping.get(current_id, "")
+                        
                         uniprot_info[current_id] = {
                             "uniprot_id": current_id,
+                            "gene": gene_name,
                             "sequence": sequence,
                             "substitutions": [],
                             "flanking_positions": flanking_positions,
