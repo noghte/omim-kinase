@@ -45,17 +45,6 @@ def extract_sequence_info(sequence: str) -> tuple:
 def parse_fasta_file(fasta_file_path: str) -> Dict:
     """Parse FASTA file and extract protein information."""
     uniprot_info = {}
-    
-    # Load the gene names mapping
-    uniprot_gene_mapping = {}
-    try:
-        with open('./data/kinase_list.csv', 'r') as file:
-            reader = csv.DictReader(file)
-            for row in reader:
-                uniprot_gene_mapping[row['uniprot_id']] = row['gene']
-    except FileNotFoundError:
-        print("Warning: Could not find file ./data/kinase_list.csv")
-    
     try:
         with open(fasta_file_path, 'r') as file:
             current_id = None
@@ -65,20 +54,14 @@ def parse_fasta_file(fasta_file_path: str) -> Dict:
                     parts = line.split('|')
                     if len(parts) > 1:
                         current_id = parts[0][1:]
-                        if current_id in uniprot_info:
-                            continue
                         sequence = next(file).strip()
                         sequence = sequence[sequence.index("{")+1:sequence.index("}")]
                         
                         flanking_positions, kinase_domain, kinase_start, kinase_end = extract_sequence_info(sequence)
                         kinase_domain_alignment = ''.join(c for c in kinase_domain if c.isupper() or c == '-')
                         
-                        # Get gene name from mapping, or empty string if not found
-                        gene_name = uniprot_gene_mapping.get(current_id, "")
-                        
                         uniprot_info[current_id] = {
                             "uniprot_id": current_id,
-                            "gene": gene_name,
                             "sequence": sequence,
                             "substitutions": [],
                             "flanking_positions": flanking_positions,
@@ -113,10 +96,6 @@ def get_alignment_position(sequence: str, marker_pos: int) -> int:
             alignment_pos += 1
         if i == marker_pos:
             break
-            
-    # Check if we're inside flanking regions (denoted by parentheses)
-    if inside_parentheses:
-        return "Outside of the alignment"
     return alignment_pos
 
 def parse_subs_file(subs_file_path: str, uniprot_info: Dict) -> Dict:
@@ -137,21 +116,22 @@ def parse_subs_file(subs_file_path: str, uniprot_info: Dict) -> Dict:
                         continue
 
                     sequence = uniprot_info[uniprot_id]["sequence"]
-                    
                     # Calculate letter_count first
                     current_count = 0
-                    marker_pos = -1
                     for i, c in enumerate(sequence):
                         if c not in '() -':
                             current_count += 1
-                        if current_count == full_sequence_pos:
-                            marker_pos = i  # Save the position where we stop
-                            break
+                            if current_count == full_sequence_pos:
+                                marker_pos = i
+                                break
+                    else:
+                        marker_pos = -1
                     
                     alignment_pos = get_alignment_position(sequence, marker_pos)
+                    
                     location = "kinase_domain"
-                    for flanking_region in uniprot_info[uniprot_id]["flanking_positions"]:
-                        if flanking_region["start"] <= full_sequence_pos <= flanking_region["end"]:
+                    for region in uniprot_info[uniprot_id]["flanking_positions"]:
+                        if region["start"] <= full_sequence_pos <= region["end"]:
                             location = "flanking_region"
                             alignment_pos = "Outside of the alignment"
                             break
@@ -187,18 +167,8 @@ def create_omim_uniprot_mapping() -> Dict[str, str]:
     
     return mapping
 
-def get_amino_acid_at_position(sequence: str, full_sequence_pos: int) -> str:
-    """Get the amino acid at a specific position in the sequence."""
-    current_count = 0
-    for c in sequence:
-        if c not in '() -':
-            current_count += 1
-            if current_count == full_sequence_pos:
-                return c
-    return None  # Position not found
-
-def parse_clinvar_file(clinvar_file_path: str, uniprot_id: str, uniprot_info: Dict, omim_id: str) -> bool:
-    """Parse ClinVar file and add substitutions to uniprot_info. Returns True if valid, False if errors found."""
+def parse_clinvar_file(clinvar_file_path: str, uniprot_id: str, uniprot_info: Dict, omim_id: str) -> None:
+    """Parse ClinVar file and add substitutions to uniprot_info."""
     print(f"Processing: Uniprot ID: {uniprot_id}, OMIM ID: {omim_id}")
     
     unmatched_file = './data/unmatched_protein_changes.csv'
@@ -207,9 +177,6 @@ def parse_clinvar_file(clinvar_file_path: str, uniprot_id: str, uniprot_info: Di
             writer = csv.writer(f)
             writer.writerow(['uniprot_id', 'omim_id', 'protein_change'])
 
-    sequence_mismatch_found = False
-    temp_substitutions = []
-    
     try:
         with open(clinvar_file_path, 'r') as file:
             reader = csv.DictReader(file, delimiter='\t')
@@ -235,36 +202,28 @@ def parse_clinvar_file(clinvar_file_path: str, uniprot_id: str, uniprot_info: Di
                         to_aa = protein_change[-1]   # Last letter
                         
                         sequence = uniprot_info[uniprot_id]["sequence"]
-                        
-                        # Check if from_aa matches the amino acid at the position in the sequence
-                        actual_aa = get_amino_acid_at_position(sequence, full_sequence_pos)
-                        if actual_aa != from_aa:
-                            # print(f"Mismatch for {uniprot_id}: position {full_sequence_pos}, expected {from_aa}, found {actual_aa}")
-                            sequence_mismatch_found = True
-                            continue
-                        
-                        # Calculate marker position - make consistent with parse_subs_file
+                        # Calculate marker position
                         current_count = 0
-                        marker_pos = -1
                         for i, c in enumerate(sequence):
                             if c not in '() -':
                                 current_count += 1
-                            if current_count == full_sequence_pos:
-                                marker_pos = i
-                                break
+                                if current_count == full_sequence_pos:
+                                    marker_pos = i
+                                    break
+                        else:
+                            marker_pos = -1
                         
                         alignment_pos = get_alignment_position(sequence, marker_pos)
                         
                         # Determine location
                         location = "kinase_domain"
-                        for flanking_region in uniprot_info[uniprot_id]["flanking_positions"]:
-                            if flanking_region["start"] <= full_sequence_pos <= flanking_region["end"]:
+                        for region in uniprot_info[uniprot_id]["flanking_positions"]:
+                            if region["start"] <= full_sequence_pos <= region["end"]:
                                 location = "flanking_region"
                                 alignment_pos = "Outside of the alignment"
                                 break
                         
-                        # Store the substitution temporarily
-                        temp_substitutions.append({
+                        uniprot_info[uniprot_id]["substitutions"].append({
                             "full_sequence_pos": full_sequence_pos,
                             "alignment_pos": alignment_pos,
                             "from": from_aa,
@@ -277,181 +236,32 @@ def parse_clinvar_file(clinvar_file_path: str, uniprot_id: str, uniprot_info: Di
                         continue
     except FileNotFoundError:
         print(f"Warning: Could not find ClinVar file {clinvar_file_path}")
-    
-    # Only add substitutions if no sequence mismatches were found
-    if not sequence_mismatch_found:
-        uniprot_info[uniprot_id]["substitutions"].extend(temp_substitutions)
-        return True
-    return False
 
 def add_clinvar_substitutions(uniprot_info: Dict) -> Dict:
-    """Add ClinVar substitutions to uniprot_info, without affecting OMIM data."""
+    """Add ClinVar substitutions to uniprot_info."""
     omim_uniprot_mapping = create_omim_uniprot_mapping()
     
     # Create reverse mapping (Uniprot -> OMIM)
     uniprot_omim_mapping = {v: k for k, v in omim_uniprot_mapping.items()}
     
-    # Ensure data directory exists
-    os.makedirs('./data', exist_ok=True)
-    
-    # Create clinvar_errors.csv file
-    clinvar_errors_file = './data/clinvar_errors.csv'
-    with open(clinvar_errors_file, 'w', newline='') as f:
-        writer = csv.writer(f)
-        writer.writerow(['uniprot_id', 'omim_id'])
-    
-    for uniprot_id in list(uniprot_info.keys()):
+    for uniprot_id in uniprot_info:
         if uniprot_id in uniprot_omim_mapping:
             omim_id = uniprot_omim_mapping[uniprot_id]
             clinvar_file_path = f'./data/clinvar/{omim_id}.txt'
-            
-            is_valid = parse_clinvar_file(clinvar_file_path, uniprot_id, uniprot_info, omim_id)
-            
-            if not is_valid:
-                # Only log the error but keep the uniprot_id with its OMIM data
-                with open(clinvar_errors_file, 'a', newline='') as f:
-                    writer = csv.writer(f)
-                    writer.writerow([uniprot_id, omim_id])
+            parse_clinvar_file(clinvar_file_path, uniprot_id, uniprot_info, omim_id)
     
     return uniprot_info
 
-def parse_clinvar_file_valid_mutations(clinvar_file_path: str, uniprot_id: str, uniprot_info: Dict, omim_id: str, errors_file):
-    """Parse ClinVar file and add only valid substitutions to uniprot_info."""
-    print(f"Processing valid mutations: Uniprot ID: {uniprot_id}, OMIM ID: {omim_id}")
-    
-    valid_substitutions = []
-    
-    try:
-        with open(clinvar_file_path, 'r') as file:
-            reader = csv.DictReader(file, delimiter='\t')
-            for row in reader:
-                protein_changes_str = row['Protein change']
-                if not protein_changes_str:  # Skip empty protein changes
-                    continue
-                
-                # Split the protein changes and process each one
-                protein_changes = [change.strip() for change in protein_changes_str.split(',')]
-                
-                for protein_change in protein_changes:
-                    if not protein_change_pattern.match(protein_change):
-                        continue
-                    
-                    try:
-                        full_sequence_pos = int(''.join(c for c in protein_change if c.isdigit()))
-                        from_aa = protein_change[0]  # First letter
-                        to_aa = protein_change[-1]   # Last letter
-                        
-                        sequence = uniprot_info[uniprot_id]["sequence"]
-                        
-                        # Check if from_aa matches the amino acid at the position in the sequence
-                        actual_aa = get_amino_acid_at_position(sequence, full_sequence_pos)
-                        if actual_aa != from_aa:
-                            # Log mismatched mutations to the new error file
-                            with open(errors_file, 'a', newline='') as f:
-                                writer = csv.writer(f)
-                                writer.writerow([uniprot_id, omim_id, protein_change, from_aa, actual_aa, full_sequence_pos])
-                            continue
-                        
-                        # Calculate marker position - make consistent with parse_subs_file
-                        current_count = 0
-                        marker_pos = -1
-                        for i, c in enumerate(sequence):
-                            if c not in '() -':
-                                current_count += 1
-                            if current_count == full_sequence_pos:
-                                marker_pos = i
-                                break
-                        
-                        alignment_pos = get_alignment_position(sequence, marker_pos)
-                        
-                        # Determine location
-                        location = "kinase_domain"
-                        for flanking_region in uniprot_info[uniprot_id]["flanking_positions"]:
-                            if flanking_region["start"] <= full_sequence_pos <= flanking_region["end"]:
-                                location = "flanking_region"
-                                alignment_pos = "Outside of the alignment"
-                                break
-                        
-                        # Add valid substitutions
-                        valid_substitutions.append({
-                            "full_sequence_pos": full_sequence_pos,
-                            "alignment_pos": alignment_pos,
-                            "from": from_aa,
-                            "to": to_aa,
-                            "location": location,
-                            "database": "ClinVar"
-                        })
-                    except (ValueError, KeyError) as e:
-                        print(f"Error processing protein change {protein_change} in {clinvar_file_path}: {e}")
-                        continue
-    except FileNotFoundError:
-        print(f"Warning: Could not find ClinVar file {clinvar_file_path}")
-    
-    return valid_substitutions
-
-def add_valid_clinvar_mutations(uniprot_info: Dict) -> Dict:
-    """Add only valid ClinVar mutations to uniprot_info, track errors separately."""
-    omim_uniprot_mapping = create_omim_uniprot_mapping()
-    
-    # Create reverse mapping (Uniprot -> OMIM)
-    uniprot_omim_mapping = {v: k for k, v in omim_uniprot_mapping.items()}
-    
-    # Ensure data directory exists
-    os.makedirs('./data', exist_ok=True)
-    
-    # Create a copy of uniprot_info for the new output
-    uniprot_info_valid_mutations = {k: v.copy() for k, v in uniprot_info.items()}
-    
-    # For each uniprot_id, make a deep copy of the substitutions array
-    for k, v in uniprot_info_valid_mutations.items():
-        v["substitutions"] = v["substitutions"].copy()  # Copy OMIM substitutions
-    
-    # Create clinvar_errors_mutations.csv file
-    clinvar_errors_mutations_file = './data/clinvar_errors_mutations.csv'
-    with open(clinvar_errors_mutations_file, 'w', newline='') as f:
-        writer = csv.writer(f)
-        writer.writerow(['uniprot_id', 'omim_id', 'protein_change', 'expected_aa', 'actual_aa', 'position'])
-    
-    for uniprot_id in list(uniprot_info_valid_mutations.keys()):
-        if uniprot_id in uniprot_omim_mapping:
-            omim_id = uniprot_omim_mapping[uniprot_id]
-            clinvar_file_path = f'./data/clinvar/{omim_id}.txt'
-            
-            valid_substitutions = parse_clinvar_file_valid_mutations(
-                clinvar_file_path, 
-                uniprot_id, 
-                uniprot_info_valid_mutations, 
-                omim_id,
-                clinvar_errors_mutations_file
-            )
-            
-            # Add valid mutations to the protein
-            uniprot_info_valid_mutations[uniprot_id]["substitutions"].extend(valid_substitutions)
-    
-    return uniprot_info_valid_mutations
-
 if __name__ == "__main__":
-    fasta_file_path = './kinsnps/human_kinases.mma'
+    fasta_file_path = './kinsnps/subkinsnps.mma'
     subs_file_path_omim = './kinsnps/subkinsnps_uid_subs_split.txt'
-    output_file_path = './data/kinsnps_allinfo_validonly.json'
-    output_file_path_valid_mutations = './data/kinsnps_allinfo_validmutations.json'
+    output_file_path = './data/kinsnps_allinfo_twodbs.json'
 
-    # Parse FASTA file and OMIM substitutions
     uniprot_info = parse_fasta_file(fasta_file_path)
     uniprot_info = parse_subs_file(subs_file_path_omim, uniprot_info)
+    uniprot_info = add_clinvar_substitutions(uniprot_info)  # Add this line
     
-    # Add ClinVar substitutions (original approach - all or nothing)
-    uniprot_info = add_clinvar_substitutions(uniprot_info)
-    
-    # Add valid ClinVar mutations (new approach - include valid mutations)
-    uniprot_info_valid_mutations = add_valid_clinvar_mutations(uniprot_info)
-    
-    # Write original output (unchanged)
     with open(output_file_path, 'w') as json_file:
         json.dump(list(uniprot_info.values()), json_file, indent=4)
-    
-    # Write new output with valid mutations
-    with open(output_file_path_valid_mutations, 'w') as json_file:
-        json.dump(list(uniprot_info_valid_mutations.values()), json_file, indent=4)
 
     print("Done!")
